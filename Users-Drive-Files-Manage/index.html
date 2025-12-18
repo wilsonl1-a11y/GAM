@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Users - Drive Files Manage - GAM Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">GAM Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../00scratch/" class="nav-link">Scratch Me Wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Addresses/" class="nav-link">Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Administrators/" class="nav-link">Administrators</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Alert-Center/" class="nav-link">Alert Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Aliases/" class="nav-link">Aliases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Authorization/" class="nav-link">Authorization</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../BNF-Syntax/" class="nav-link">Syntax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Basic-Items/" class="nav-link">Basic Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Bulk-Processing/" class="nav-link">Bulk Processing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Business-Account-Management/" class="nav-link">Users - Business Account Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Input-Filtering/" class="nav-link">CSV Input Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Output-Filtering/" class="nav-link">CSV Output Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Special-Characters/" class="nav-link">CSV Special Characters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Access/" class="nav-link">Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Events/" class="nav-link">Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars/" class="nav-link">Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chat-Bot-Setup-Use/" class="nav-link">Chat Bot Setup and Use</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-AUE-Counts/" class="nav-link">Chrome Auto Update Expiration Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Browser-Cloud-Management/" class="nav-link">Chrome Browser Cloud Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Device-Counts/" class="nav-link">Chrome Device Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Installed-Apps/" class="nav-link">Chrome Installed Apps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Needs-Attention-Counts/" class="nav-link">Chrome Device Needs Attention Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Policies/" class="nav-link">Chrome Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Printers/" class="nav-link">Chrome Printers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Profile-Management/" class="nav-link">Chrome Profile Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-Counts/" class="nav-link">Chrome Version Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-History/" class="nav-link">Chrome Version History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../ChromeOS-Devices/" class="nav-link">ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Courses/" class="nav-link">Classroom - Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Guardians/" class="nav-link">Classroom - Guardians</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Invitations/" class="nav-link">Classroom - Invitations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Membership/" class="nav-link">Classroom - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-StudentGroups/" class="nav-link">Classroom - Student Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Channel/" class="nav-link">Cloud Channel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Devices/" class="nav-link">Cloud Identity Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups-Membership/" class="nav-link">Cloud Identity Groups - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups/" class="nav-link">Cloud Identity Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Policies/" class="nav-link">Cloud Identity Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Storage/" class="nav-link">Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-ChromeOS-Devices/" class="nav-link">Collections of ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Items/" class="nav-link">Collections of Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Users/" class="nav-link">Collections of Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Data-From-Google-Docs-Sheets-Storage/" class="nav-link">Command data from Google Docs, Sheets and Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Line-Parsing/" class="nav-link">Command Line Parsing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Logging-Progress/" class="nav-link">Command Logging and Progress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Context-Aware-Access-Levels/" class="nav-link">Context-Aware Access Levels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Customer/" class="nav-link">Customer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-People-Contacts-Profiles/" class="nav-link">Domain People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-SharedContacts/" class="nav-link">Domain Shared Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains-Verification/" class="nav-link">Domains - Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains/" class="nav-link">Domains</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Downloads-Installs/" class="nav-link">Downloads-Installs-GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-File-Selection/" class="nav-link">Drive File Selection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-Items/" class="nav-link">Drive Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-REST-API-v3/" class="nav-link">Drive REST API v3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Email-Audit-Monitor/" class="nav-link">Email Audit Monitor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Find-File-Owner/" class="nav-link">Find File Owner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Public-Chat-Room/" class="nav-link">GAM Public Chat Room</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Release-Process/" class="nav-link">Steps to release a new GAM version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Return-Codes/" class="nav-link">GAM Return Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-with-minimal-GCP-rights/" class="nav-link">GAM setup with minimal GCP permissions.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-FAQ/" class="nav-link">What is GAM7?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Android-Devices/" class="nav-link">GAM7 on Android Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Chrome-OS-Devices/" class="nav-link">GAM7 on Chrome OS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GamUpdates/" class="nav-link">Update GAM7 to latest version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Global-Address-List/" class="nav-link">Global Address List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Data-Transfers/" class="nav-link">Google Data Transfers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Network-Addresses/" class="nav-link">Google Network Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups-Membership/" class="nav-link">Groups Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups/" class="nav-link">Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../HTTPS-Proxy/" class="nav-link">HTTPS Proxy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Home/" class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Install-GAM7/" class="nav-link">Installing GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Uninstall-GAM7/" class="nav-link">Uninstalling GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Update-GAM7/" class="nav-link">Updating GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-GAMADV-XTD3-to-GAM7/" class="nav-link">Installation - Upgrade GAMADV-XTD3 to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-Legacy-GAM-to-GAM7/" class="nav-link">Installation - Upgrade Legacy GAM to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Inbound-SSO/" class="nav-link">Inbound SSO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Install-GAM-as-Python-Library/" class="nav-link">Install GAM as Python Library</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Licenses/" class="nav-link">Licenses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List-Items/" class="nav-link">List Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List/" class="nav-link">List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Meta-Commands-and-File-Redirection/" class="nav-link">Meta Commands and File Redirection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Mobile-Devices/" class="nav-link">Mobile Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Organizational-Units/" class="nav-link">Organizational Units</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Other-Resources/" class="nav-link">Other Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Permission-Matches/" class="nav-link">Permission Matches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Python-Regular-Expressions/" class="nav-link">Python Regular Expressions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Rclone/" class="nav-link">Rclone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reports/" class="nav-link">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reseller/" class="nav-link">Reseller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Resources/" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Running-GAM7-securely-on-a-Google-Compute-Engine/" class="nav-link">Running GAM7 securely on a Google Compute Engine</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../SSL-Root-CA-Certificates/" class="nav-link">SSL Root CA Certificates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Schemas/" class="nav-link">Schemas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Scripts/" class="nav-link">Scripts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Send-Email/" class="nav-link">Send Email</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Shared-Drives/" class="nav-link">Domain Administrators - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Sites/" class="nav-link">Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Tag-Replace/" class="nav-link">Tag Replace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Todrive/" class="nav-link">Todrive</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Unmanaged-Accounts/" class="nav-link">Unmanaged Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Upgrade-Benefits/" class="nav-link">Upgrade Benefits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Analytics-Admin/" class="nav-link">Users - Analytics Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Application-Specific-Passwords/" class="nav-link">Users - Application Specific Passwords</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Backup-Verification-Codes/" class="nav-link">Users - Backup Verification Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Access/" class="nav-link">Users - Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Events/" class="nav-link">Users - Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars/" class="nav-link">Users - Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Chat/" class="nav-link">Users - Chat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classification-Labels/" class="nav-link">Users - Classification Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classroom-Profile/" class="nav-link">Users - Classroom - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts-Delegates/" class="nav-link">Users - Contacts - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts/" class="nav-link">User Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Deprovision/" class="nav-link">Users - Deprovision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Activity-Settings/" class="nav-link">Users - Drive - Activity/Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Cleanup/" class="nav-link">Users - Drive - Cleanup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Comments/" class="nav-link">Users - Drive - Comments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Copy-Move/" class="nav-link">Users - Drive Files Copy/Move</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Display/" class="nav-link">Users - Drive Files Display</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Users - Drive Files Manage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Orphans/" class="nav-link">Users - Drive - Orphans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Ownership/" class="nav-link">Users - Drive - Ownership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Permissions/" class="nav-link">Users - Drive - Permissions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Query/" class="nav-link">Users - Drive - Query</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Revisions/" class="nav-link">Users - Drive - Revisions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Shortcuts/" class="nav-link">Users - Drive Shortcuts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Transfer/" class="nav-link">Users - Drive - Transfer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Forms/" class="nav-link">Users - Forms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-CSE/" class="nav-link">Users - Gmail - Client Side Encryption</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Delegates/" class="nav-link">Users - Gmail - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Filters/" class="nav-link">Users - Gmail - Filters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Forwarding/" class="nav-link">Users - Gmail - Forwarding</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Labels/" class="nav-link">Users - Gmail - Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Messages-Threads/" class="nav-link">Users - Gmail - Messages/Threads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Profile/" class="nav-link">Users - Gmail - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-S-MIME/" class="nav-link">Users - Gmail - S/MIME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Send-As-Signature-Vacation/" class="nav-link">Users - Gmail - Send As/Signature/Vacation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Settings/" class="nav-link">Users - Gmail - Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Group-Membership/" class="nav-link">Users - Group Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Keep-Notes/" class="nav-link">Users - Keep - Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Looker-Studio/" class="nav-link">Users - Looker Studio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Meet/" class="nav-link">Users - Meet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-People-Contacts-Profiles/" class="nav-link">Users - People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Photo/" class="nav-link">Users - Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Photo/" class="nav-link">Users - Profile Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Sharing/" class="nav-link">Users - Profile Sharing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Shared-Drives/" class="nav-link">Users - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Signout-Turnoff2SV/" class="nav-link">Users - Signout and Turn off 2-Step Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Spreadsheets/" class="nav-link">Users - Spreadsheets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tag-Manager/" class="nav-link">Users - Tag Manager</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tasks/" class="nav-link">Users - Tasks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tokens/" class="nav-link">Users - Tokens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Web-Resources-and-Sites/" class="nav-link">Users - Web Resources and Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-YouTube/" class="nav-link">Users - YouTube</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users/" class="nav-link">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-YubiKey/" class="nav-link">Using GAM7 with a YubiKey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-delegated-admin-service-account/" class="nav-link">Using GAM7 with a delegated admin service account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-keyless-authentication-Workload-Identity-Federation/" class="nav-link">Using GAM7 with Keyless Authentication - Workload Identity Federation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Vault-Takeout/" class="nav-link">Vault - Takeout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Verifying-a-GAM7-Build-is-Legitimate-and-Official/" class="nav-link">Verifying a GAM7 Build is Legitimate and Official</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Version-and-Help/" class="nav-link">Version and Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../_Sidebar/" class="nav-link"> Sidebar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../gam.cfg/" class="nav-link">GAM Configuration</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Legacy</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../legacy/l-AdminSettingsExamples/" class="dropdown-item">l AdminSettingsExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Android-Installation/" class="dropdown-item">l Android Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-BulkOperations/" class="dropdown-item">l BulkOperations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CalendarExamples/" class="dropdown-item">l CalendarExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chat-Bot/" class="dropdown-item">l Chat Bot</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Browser-Management/" class="dropdown-item">l Chrome Browser Management</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-OS-Installation/" class="dropdown-item">l Chrome OS Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Policy-Settings/" class="dropdown-item">l Chrome Policy Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Cloud-Identity-Groups/" class="dropdown-item">l Cloud Identity Groups</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendar-Resources/" class="dropdown-item">GAM Calendar Resources Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendars/" class="dropdown-item">GAM Calendar Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Definitions/" class="dropdown-item">l Command Reference Definitions</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Drive/" class="dropdown-item">GAM Drive Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Email/" class="dropdown-item">GAM Email Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Group-Attributes/" class="dropdown-item">GAM Group Attributes Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Groups/" class="dropdown-item">GAM Group Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Users/" class="dropdown-item">GAM Users Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Context-Aware-Access-Levels/" class="dropdown-item">l Context Aware Access Levels</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Creating-client_secrets.json-and-oauth2service.json/" class="dropdown-item">l Creating client secrets.json and oauth2service.json</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CreatingClientSecretsFile/" class="dropdown-item">l CreatingClientSecretsFile</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Custom-Schemas/" class="dropdown-item">l Custom Schemas</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Data-Transfers/" class="dropdown-item">l Data Transfers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-DomainVerification/" class="dropdown-item">l DomainVerification</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesAccountAuditing/" class="dropdown-item">l ExamplesAccountAuditing</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesCSV/" class="dropdown-item">l ExamplesCSV</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesEmailSettings/" class="dropdown-item">l ExamplesEmailSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesOrganizations/" class="dropdown-item">l ExamplesOrganizations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-Discussion-Group/" class="dropdown-item">GAM Discussion Group</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-on-Android-and-Chrome-OS/" class="dropdown-item">l GAM on Android and Chrome OS</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-options-files/" class="dropdown-item">l GAM options files</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-with--minimal-GCP-rights/" class="dropdown-item">l GAM with  minimal GCP rights</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3CSVListings/" class="dropdown-item">l GAM3CSVListings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3DirectoryCommands/" class="dropdown-item">l GAM3DirectoryCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3GroupSettings/" class="dropdown-item">l GAM3GroupSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Google-Vault---Takeout-Commands/" class="dropdown-item">l Google Vault   Takeout Commands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GoogleDriveManagement/" class="dropdown-item">l GoogleDriveManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Grouping-18-or-Older-Users/" class="dropdown-item">Using GAM to group 18+ users</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Home/" class="dropdown-item">l Home</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-How-to-upgrade-from-Standard-GAM/" class="dropdown-item">Installation - Upgrading from Standard GAM</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Inbound-SSO-Settings/" class="dropdown-item">l Inbound SSO Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-LicenseExamples/" class="dropdown-item">l LicenseExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Admins/" class="dropdown-item">l Managing Admins</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-CloudPrint-Printers/" class="dropdown-item">l Managing CloudPrint Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Devices/" class="dropdown-item">l Managing Devices</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Google-Classroom/" class="dropdown-item">l Managing Google Classroom</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-OAuthKeyManagement/" class="dropdown-item">l OAuthKeyManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Printers/" class="dropdown-item">l Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ResellerCommands/" class="dropdown-item">l ResellerCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-SecurityExamples/" class="dropdown-item">l SecurityExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-UnmanagedUsersExamples/" class="dropdown-item">l UnmanagedUsersExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Using-GAM-with-a-delegated-admin-service-account-%28DASA%29/" class="dropdown-item">Background</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-_Footer/" class="dropdown-item">l  Footer</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Users-Drive-Files-Display/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Users-Drive-Orphans/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#users-drive-files-manage" class="nav-link">Users - Drive Files Manage</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#api-documentation" class="nav-link">API documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#definitions" class="nav-link">Definitions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#create-files" class="nav-link">Create files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#create-folders" class="nav-link">Create folders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#bulk-create-files-and-folders" class="nav-link">Bulk Create Files and Folders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#bulk-create-student-folders-on-a-shared-drive" class="nav-link">Bulk Create Student Folders on a Shared Drive</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#create-folder-hierarchy" class="nav-link">Create folder hierarchy</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#bulk-create-folder-hierarchies" class="nav-link">Bulk Create folder hierarchies</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#update-files" class="nav-link">Update files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#download-files" class="nav-link">Download files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#trash-files" class="nav-link">Trash files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#untrash-files" class="nav-link">Untrash files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#purge-files" class="nav-link">Purge files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#download-google-documents-as-json" class="nav-link">Download Google Documents as JSON</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#upload-changes-to-google-documents" class="nav-link">Upload changes to Google Documents</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#download-and-upload-google-apps-scripts" class="nav-link">Download and Upload Google Apps Scripts</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="users-drive-files-manage">Users - Drive Files Manage</h1>
+<ul>
+<li><a href="#api-documentation">API documentation</a></li>
+<li><a href="Users-Drive-Query">Query documentation</a></li>
+<li><a href="Python-Regular-Expressions">Python Regular Expressions</a> Sub function</li>
+<li><a href="Permission-Matches">Permission Matches</a></li>
+<li><a href="#definitions">Definitions</a></li>
+<li><a href="#create-files">Create files</a></li>
+<li><a href="#create-folders">Create folders</a></li>
+<li><a href="#bulk-create-files-and-folders">Bulk Create Files and Folders</a></li>
+<li><a href="#bulk-create-student-folders-on-a-shared-drive">Bulk Create Student Folders on a Shared Drive</a></li>
+<li><a href="#create-folder-hierarchy">Create folder hierarchy</a></li>
+<li><a href="#bulk-create-folder-hierarchies">Bulk Create folder hierarchies</a></li>
+<li><a href="#update-files">Update files</a></li>
+<li><a href="#download-files">Download files</a></li>
+<li><a href="#trash-files">Trash files</a></li>
+<li><a href="#untrash-files">Untrash files</a></li>
+<li><a href="#purge-files">Purge files</a></li>
+<li><a href="Users-Drive-Copy-Move">Copy/Move Files</a></li>
+<li><a href="Users-Drive-Shortcuts">Shortcuts</a></li>
+<li><a href="Users-Classification-Labels">Classification Labels</a></li>
+<li><a href="#download-google-documents-as-json">Download Google Documents as JSON</a></li>
+<li><a href="#upload-changes-to-google-documents">Upload changes to Google Documents</a></li>
+<li><a href="#download-and-upload-google-apps-scripts">Download and Upload Google Apps Scripts</a></li>
+</ul>
+<h2 id="api-documentation">API documentation</h2>
+<ul>
+<li><a href="https://developers.google.com/drive/api/v3/reference/files">Drive API - Files</a></li>
+<li><a href="https://developers.google.com/drive/api/guides/shortcuts">Shortcuts</a></li>
+<li><a href="https://support.google.com/a/answer/6105699">Third-party Apps</a></li>
+<li><a href="https://support.google.com/a/answer/7374057">Move content to Shared Drives</a></li>
+<li><a href="https://support.google.com/a/users/answer/7338880">Shared Drive Limits</a></li>
+<li><a href="https://developers.google.com/drive/api/v3/shared-drives-diffs">My Drive Shared Drive API differences</a></li>
+<li><a href="https://developers.google.com/docs/api/reference/rest">Google Docs API</a></li>
+<li><a href="https://developers.google.com/workspace/drive/api/guides/limited-expansive-access">Limited and Expansive Access</a></li>
+</ul>
+<h2 id="definitions">Definitions</h2>
+<ul>
+<li><a href="Drive-File-Selection"><code>&lt;DriveFileEntity&gt;</code></a></li>
+<li><a href="Collections-of-Users"><code>&lt;UserTypeEntity&gt;</code></a></li>
+</ul>
+<pre><code>&lt;ColorHex&gt; ::= &quot;#&lt;Hex&gt;&lt;Hex&gt;&lt;Hex&gt;&lt;Hex&gt;&lt;Hex&gt;&lt;Hex&gt;&quot;
+&lt;ColorNameGoogle&gt; ::=
+        asparagus|bluevelvet|bubblegum|cardinal|chocolateicecream|denim|desertsand|
+        earthworm|macaroni|marsorange|mountaingray|mountaingrey|mouse|oldbrickred|
+        pool|purpledino|purplerain|rainysky|seafoam|slimegreen|spearmint|
+        toyeggplant|vernfern|wildstrawberries|yellowcab
+&lt;ColorNameWeb&gt; ::=
+        aliceblue|antiquewhite|aqua|aquamarine|azure|beige|bisque|black|blanchedalmond|
+        blue|blueviolet|brown|burlywood|cadetblue|chartreuse|chocolate|coral|
+        cornflowerblue|cornsilk|crimson|cyan|darkblue|darkcyan|darkgoldenrod|darkgray|
+        darkgrey|darkgreen|darkkhaki|darkmagenta|darkolivegreen|darkorange|darkorchid|
+        darkred|darksalmon|darkseagreen|darkslateblue|darkslategray|darkslategrey|
+        darkturquoise|darkviolet|deeppink|deepskyblue|dimgray|dimgrey|dodgerblue|
+        firebrick|floralwhite|forestgreen|fuchsia|gainsboro|ghostwhite|gold|goldenrod|
+        gray|grey|green|greenyellow|honeydew|hotpink|indianred|indigo|ivory|khaki|
+        lavender|lavenderblush|lawngreen|lemonchiffon|lightblue|lightcoral|lightcyan|
+        lightgoldenrodyellow|lightgray|lightgrey|lightgreen|lightpink|lightsalmon|
+        lightseagreen|lightskyblue|lightslategray|lightslategrey|lightsteelblue|
+        lightyellow|lime|limegreen|linen|magenta|maroon|mediumaquamarine|mediumblue|
+        mediumorchid|mediumpurple|mediumseagreen|mediumslateblue|mediumspringgreen|
+        mediumturquoise|mediumvioletred|midnightblue|mintcream|mistyrose|moccasin|
+        navajowhite|navy|oldlace|olive|olivedrab|orange|orangered|orchid|
+        palegoldenrod|palegreen|paleturquoise|palevioletred|papayawhip|peachpuff|
+        peru|pink|plum|powderblue|purple|red|rosybrown|royalblue|saddlebrown|salmon|
+        sandybrown|seagreen|seashell|sienna|silver|skyblue|slateblue|slategray|
+        slategrey|snow|springgreen|steelblue|tan|teal|thistle|tomato|turquoise|violet|
+        wheat|white|whitesmoke|yellow|yellowgreen
+&lt;ColorName&gt; ::= &lt;ColorNameGoogle&gt;|&lt;ColorNameWeb&gt;
+&lt;ColorValue&gt; ::= &lt;ColorName&gt;|&lt;ColorHex&gt;
+</code></pre>
+<pre><code>&lt;DateTimeFormat&gt; ::= &lt;String&gt;
+        See: https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes
+&lt;DomainName&gt; ::= &lt;String&gt;(.&lt;String&gt;)+
+&lt;EmailAddress&gt; ::= &lt;String&gt;@&lt;DomainName&gt;
+&lt;DriveFileRevisionID&gt; ::= &lt;String&gt;
+&lt;DriveFolderID&gt; ::= &lt;String&gt;
+&lt;DriveFolderName&gt; ::= &lt;String&gt;
+&lt;DriveFolderNameList&gt; ::= &quot;&lt;DriveFolderName&gt;(,&lt;DriveFolderName&gt;)*&quot;
+&lt;DriveFolderPath&gt; ::= &lt;String&gt;(/&lt;String&gt;)*
+&lt;SharedDriveID&gt; ::= &lt;String&gt;
+&lt;SharedDriveName&gt; ::= &lt;String&gt;
+&lt;SheetEntity&gt; ::= &lt;String&gt;|id:&lt;Number&gt;
+&lt;Time&gt; ::=
+        &lt;Year&gt;-&lt;Month&gt;-&lt;Day&gt;(&lt;Space&gt;|T)&lt;Hour&gt;:&lt;Minute&gt;:&lt;Second&gt;[.&lt;MilliSeconds&gt;](Z|(+|-(&lt;Hour&gt;:&lt;Minute&gt;))) |
+        (+|-)&lt;Number&gt;(m|h|d|w|y) |
+        never|
+        now|today
+
+&lt;RegularExpression&gt; ::= &lt;String&gt;
+        See: https://docs.python.org/3/library/re.html
+&lt;REMatchPattern&gt; ::= &lt;RegularExpression&gt;
+&lt;RESearchPattern&gt; ::= &lt;RegularExpression&gt;
+&lt;RESubstitution&gt; ::= &lt;String&gt;&gt;
+
+&lt;FileFormat&gt; ::=
+        csv|doc|dot|docx|dotx|epub|html|jpeg|jpg|json|mht|odp|ods|odt|
+        pdf|png|ppt|pot|potx|pptx|rtf|svg|tsv|txt|xls|xlt|xlsx|xltx|zip|
+        ms|microsoft|openoffice|
+&lt;FileFormatList&gt; ::= &quot;&lt;FileFormat&gt;(,&lt;FileFormat)*&quot;
+
+&lt;MimeTypeShortcut&gt; ::=
+        gdoc|gdocument|
+        gdrawing|
+        gfile|
+        gfolder|gdirectory|
+        gform|
+        gfusion|
+        gjam|
+        gmap|
+        gpresentation|
+        gscript|
+        gsheet|gspreadsheet|
+        gshortcut|
+        g3pshortcut|
+        gsite|
+
+
+&lt;MimeTypeName&gt; ::= application|audio|font|image|message|model|multipart|text|video
+
+&lt;MimeType&gt; ::= &lt;MimeTypeShortcut&gt;|(&lt;MimeTypeName&gt;/&lt;String&gt;)
+</code></pre>
+<pre><code>&lt;DriveFileAttribute&gt; ::=
+        (contentrestrictions (readonly false)|(readonly true [reason &lt;String&gt;]) [ownerrestricted [&lt;Boolean&gt;]])|
+        (copyrequireswriterpermission [&lt;Boolean&gt;])|
+        (description &lt;String&gt;)|
+        (folderColorRgb &lt;ColorValue&gt;)|
+        (indexabletext &lt;String&gt;)|
+        (inheritedpermissionsdisabled [&lt;Boolean&gt;])|
+        (itemdownloadrestriction restrictedforreaders|restrictedforwriters [&lt;Boolean&gt;])|
+        (keeprevisionforever|pinned)|
+        (lastviewedbyme &lt;Time&gt;)|
+        (mimetype &lt;MimeType&gt;)|
+        (ocrlanguage &lt;Language&gt;)|
+        (preservefiletimes [&lt;Boolean&gt;])|
+        (privateproperty &lt;PropertyKey&gt; &lt;PropertyValue&gt;)|
+        (publicproperty &lt;PropertyKey&gt; &lt;PropertyValue&gt;)|
+        (property &lt;PropertyKey&gt; &lt;PropertyValue&gt; [private|public])|
+        (restricted|restrict [&lt;Boolean&gt;])|
+        (securityupdate [&lt;Boolean&gt;])|
+        (shortcut &lt;DriveFileID&gt;)|
+        (starred|star [&lt;Boolean&gt;])|
+        (trashed|trash [&lt;Boolean&gt;])|
+        (viewed|view [&lt;Boolean&gt;])|
+        (viewerscancopycontent [&lt;Boolean&gt;])|
+        (writerscanshare|writerscantshare [&lt;Boolean&gt;])
+
+&lt;DriveFileParentAttribute&gt; ::=
+        (parentid &lt;DriveFolderID&gt;)|
+        (parentname &lt;DriveFolderName&gt;)|
+        (anyownerparentname &lt;DriveFolderName&gt;)|
+        (teamdriveparentid &lt;DriveFolderID&gt;)|
+        (teamdriveparent &lt;SharedDriveName&gt;)|
+        (teamdriveparentid &lt;SharedDriveID&gt; teamdriveparentname &lt;DriveFolderName&gt;)|
+        (teamdriveparent &lt;SharedDriveName&gt; teamdriveparentname &lt;DriveFolderName&gt;)
+
+&lt;DriveFileCreateAttribute&gt; ::=
+        &lt;DriveFileAttribute&gt;|
+        &lt;DriveFileParentAttribute&gt;|
+        (createddate|createdtime &lt;Time&gt;)|
+        (modifieddate|modifiedtime &lt;Time&gt;)|
+        ignoredefaultvisibility|
+        usecontentasindexabletext
+
+&lt;DriveFileUpdateAttribute&gt; ::=
+        &lt;DriveFileAttribute&gt;|
+        &lt;DriveFileParentAttribute&gt;|
+        (modifieddate|modifiedtime &lt;Time&gt;)|
+        usecontentasindexabletext|
+        ((addparents &lt;DriveFolderIDList&gt;)|
+         (addparentname &lt;DriveFolderName&gt;)|
+         (addanyownerparentname &lt;DriveFolderName&gt;))|
+        ((removeparents &lt;DriveFolderIDList&gt;)|
+         (removeparentname &lt;DriveFolderName&gt;)|
+         (removeanyownerparentname &lt;DriveFolderName&gt;))
+</code></pre>
+<h2 id="create-files">Create files</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; create|add drivefile
+        [(localfile &lt;FileName&gt;|-)|(url &lt;URL&gt;)]
+        [(drivefilename|newfilename &lt;DriveFileName&gt;) | (replacefilename &lt;REMatchPattern&gt; &lt;RESubstitution&gt;)*]
+        [stripnameprefix &lt;String&gt;] [noduplicate]
+        [timestamp [&lt;Boolean&gt;]] [timeformat &lt;DateTimeFormat&gt;]
+        &lt;DriveFileCreateAttribute&gt;*
+        [(csv [todrive &lt;ToDriveAttribute&gt;*] (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*) |
+         (returnidonly|returnlinkonly|returneditlinkonly|showdetails)]
+</code></pre>
+<p>By default, an empty file is created.</p>
+<p>To upload content to the file use:
+* <code>localfile &lt;FileName&gt;</code> - Upload content from <code>&lt;FileName&gt;</code>
+* <code>localfile -</code> - Upload content from stdin
+* <code>url &lt;URL&gt;</code> - Upload content downloaded from <code>&lt;URL&gt;</code></p>
+<p>You can specify where the new file is to be located:
+* <code>parentid &lt;DriveFolderID&gt;</code> - Folder ID.
+* <code>parentname &lt;DriveFolderName&gt;</code> - Folder name; the folder must be owned by <code>&lt;UserTypeEntity&gt;</code>.
+* <code>anyownerparentname &lt;DriveFolderName&gt;</code> - Folder name; the folder can be owned by any user, <code>&lt;UserTypeEntity&gt;</code> must be able to write to the folder.
+* <code>teamdriveparentid &lt;DriveFolderID&gt;</code> - Shared Drive folder ID; when used alone, this indicates a specfic Shared Drive folder.
+* <code>teamdriveparent &lt;SharedDriveName&gt;</code> - Shared Drive name; when used alone, this indicates the root level of the Shared Drive.
+* <code>teamdriveparentid &lt;SharedDriveID&gt; teamdriveparentname &lt;DriveFolderName&gt;</code> - A Shared Drive ID and a folder name  on that Shared Drive.
+* <code>teamdriveparent &lt;SharedDriveName&gt; teamdriveparentname &lt;DriveFolderName&gt;</code> - A Shared Drive name and a folder name on that Shared Drive.
+* If none of the parent options are specified, the parent folder is the root folder.</p>
+<p>By default, Google assigns the current time to the attributes <code>createdTime</code> and <code>modifiedTime</code>; you can assign your own values
+with <code>createdtime &lt;Time&gt;</code> and <code>modifiedtime &lt;Time&gt;</code>.</p>
+<p>The option <code>preservefiletimes</code>, when used with <code>localfile &lt;FileName&gt;</code>, will set the <code>createdTime</code> and <code>modifiedTime</code> attributes from the local file.</p>
+<p>On some Linux systems getting the createdtime is problematic.
+* See: https://stackoverflow.com/questions/237079/how-to-get-file-creation-modification-date-times-in-python/39501288#39501288</p>
+<p>These are the naming rules:
+* <code>create drivefile localfile "LocalFile.csv"</code> - Google Drive file is named "LocalFile.csv"
+* <code>create drivefile drivefilename "GoogleFile.csv" localfile "LocalFile.csv"</code> - Google Drive file is named "GoogleFile.csv"</p>
+<p>If <code>stripnameprefix &lt;String&gt;</code> is specified, <code>&lt;String&gt;</code> will be stripped from the front of the Google Drive file name if present.</p>
+<p>You can add a timestamp to the FileName.
+* <code>tdtimestamp</code> - Should a timestamp (of the time the file is uploaded to Google) be added to the title of the uploaded file.
+* <code>tdtimeformat</code> - Format of the timestamp added to the title of the uploaded file; if not specified, an ISO format timestamp is added.
+  * See: https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior</p>
+<p>If <code>noduplicate</code> is specfied, GAM will issue a warning and not perform the create if a non-trashed item with the same name (regardless of MIME type)
+exists in the parent folder.</p>
+<p>By default, when files are uploaded from local content, they are created with <code>binary</code> format, i.e., the data is uploaded
+without any conversion; use the <code>mimetype</code> argument to cause conversions.
+* <code>mimetype gdoc</code> - Convert the uploaded content to a Google Doc; e.g., convert a Word (.docx) or text (.txt) file to a Google Doc
+* <code>mimetype gsheet</code> - Convert the uploaded content to a Google Sheet; e.g., convert an Excel (.xlsx) or CSV (.csv) file to a Google Sheet
+* <code>mimetype gpresentation</code> - Convert the uploaded content to a Google Slides; e.g., convert a PowerPoint (.pptx) file to a Google Slides</p>
+<p>By default, the user, file name and id values are displayed on stdout.
+* <code>returnidonly</code> - Display just the file ID of the created file on stdout
+* <code>returnlinkonly</code> - Display just the file webViewLink of the created file on stdout
+* <code>returneditlinkonly</code> - Display just the file editLink of the created file on stdout
+* <code>showdetails</code> - Add the parent folder ID and MIME type to the output</p>
+<p>Alternatively, you can direct the output to a CSV file:
+* <code>csv [todrive &lt;ToDriveAttribute&gt;*]</code> - Write user, file name and id values to a CSV file.
+  * <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code> - Add additional columns of data from the command line to the output</p>
+<p>To retrieve the file ID with <code>returnidonly</code>:</p>
+<pre><code>Linux/MacOS
+fileId=$(gam user user@domain.com create drivefile ... returnidonly)
+Windows PowerShell
+$fileId = &amp; gam user user@domain.com create drivefile ... returnidonly
+Windows Command Prompt
+for /f &quot;delims=&quot; %a in ('gam user user@domain.com create drivefile ... returnidonly') do set fileId=%a
+</code></pre>
+<p>The file ID will only be valid when the return code of the command is 0; program accordingly.</p>
+<h2 id="create-folders">Create folders</h2>
+<p>Google Drive folders to GAM are just like files, with the MimeType for a folder. To create a folder <code>FooFolder</code> in the root of the Drive for user <code>Fred</code>:</p>
+<pre><code>gam user Fred@yourdomain.com create drivefile drivefilename FooFolder mimetype gfolder
+</code></pre>
+<p>The same, but created in the existing folder <code>BarFolder</code>:</p>
+<pre><code>gam user Fred@yourdomain.com create drivefile drivefilename FooFolder mimetype gfolder parentname BarFolder
+</code></pre>
+<p>This only works if the folder name for the parent is unique. An alternative is to use the folder ID:</p>
+<pre><code>gam user Fred@yourdomain.com create drivefile drivefilename FooFolder mimetype gfolder parentid &lt;FolderID&gt;
+</code></pre>
+<h2 id="bulk-create-files-and-folders">Bulk Create Files and Folders</h2>
+<p>Make a CSV file FileNames.csv with at least two columns, primaryEmail and Name.</p>
+<pre><code>Files
+gam redirect csv ./FileNamesIDs.csv multiprocess [todrive &lt;ToDriveAttribute&gt;*] csv FileNames.csv gam user &quot;~primaryEmail&quot; create drivefile drivefilename &quot;~Name&quot; csv [other options as desired]
+
+Folders
+gam redirect csv ./FileNamesIDs.csv multiprocess [todrive &lt;ToDriveAttribute&gt;*] csv FileNames.csv gam user &quot;~primaryEmail&quot; create drivefile drivefilename &quot;~Name&quot; csv mimetype gfolder [other options as desired]
+
+Add a column mimetype to create files and folders
+gam redirect csv ./FileNamesIDs.csv multiprocess [todrive &lt;ToDriveAttribute&gt;*] csv FileNames.csv gam user &quot;~primaryEmail&quot; create drivefile drivefilename &quot;~Name&quot; csv mimetype &quot;~mimetype&quot; [other options as desired]
+</code></pre>
+<p>This will create a three column CSV file SharedDriveNamesIDs.csv with columns: User,name,id
+* There will be a row for each file/folder.</p>
+<h2 id="bulk-create-student-folders-on-a-shared-drive">Bulk Create Student Folders on a Shared Drive</h2>
+<p>You are building student folders on a Shared Drive as an admin and want to add ACLs to the folders
+allowing the student write access and you want a shortcut on the student's My Drive pointing to the folder.
+By adding the student's primary email address to the CSV output, it can be used in subsequent commands.
+Sustitute for admin@domain.com and <code>&lt;TeamDriveID&gt;</code>.</p>
+<pre><code>Students.csv
+primaryEmail,Name
+bob@domain.com,Bob Jones
+mary@domain.com, Mary Smith
+...
+
+# Create the student folders on the Shared Drive
+gam redirect csv ./StudentFolders.csv multiprocess csv Students.csv gam user admin@domain.com create drivefile mimetype gfolder drivefilename &quot;~~Name~~ Digital Portfolio&quot; parentid &lt;TeamDriveID&gt; csv addcsvdata primaryEmail &quot;~primaryEmail&quot;
+# Add ACLs granting the students write access to their folders; &quot;~User&quot; refers to admin@domain.com
+gam csv StudentFolders.csv gam user &quot;~User&quot; add drivefileacl &quot;~id&quot; user &quot;~primaryEmail&quot; role fileorganizer
+# Add a shortcut to the folder on the student's My Drive
+gam csv StudentFolders.csv gam user &quot;~primaryEmail&quot; create drivefileshortcut &quot;~id&quot; parentid root
+</code></pre>
+<h2 id="create-folder-hierarchy">Create folder hierarchy</h2>
+<p>Starting at the specified parent folder, GAM steps through the hierarchy of folder names;
+if a folder with that name already exists within the parent folder, is owned by the user and is not in the trash, it is used,
+otherwise a new folder is created within the parent folder.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; create|add drivefolderpath
+        [pathdelimiter &lt;Character&gt;]
+        ((fullpath &lt;DriveFolderPath) |
+         (path &lt;DriveFolderPath&gt; [&lt;DriveFileParentAttribute&gt;]) |
+         (list &lt;DriveFolderNameList&gt; [&lt;DriveFileParentAttribute&gt;]))
+        [(csv [todrive &lt;ToDriveAttribute&gt;*] (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*) |
+         returnidonly]
+</code></pre>
+<p><code>pathdelimiter</code> defaults to <code>/</code>; if some folder name in <code>fullpath</code> or <code>path</code> contains a <code>/</code>, you can use
+<code>pathdelimiter &lt;Character&gt;</code> to specify a character that does not appear in the folder names to delimit
+components of the path.</p>
+<p>You must specify the folder hiearchy with one of the following options:
+* <code>fullpath "My Drive/&lt;DriveFolderPath&gt;"</code> - Build path in root of My Drive
+* <code>fullpath "SharedDrives/&lt;SharedDriveName&gt;/&lt;DriveFolderPath&gt;"</code> - Build path in root of Shared Drive <code>&lt;SharedDriveName&gt;</code>
+* <code>path "&lt;DriveFolderPath&gt;" [&lt;DriveFileParentAttribute&gt;]</code> - Build path in location specified by <code>&lt;DriveFileParentAttribute&gt;</code>; if omitted, <code>My Drive</code> is used
+* <code>list "&lt;DriveFolderNameList&gt;" [&lt;DriveFileParentAttribute&gt;]</code> - Use if a folder name contains a <code>/</code>. Build path in location specified by <code>&lt;DriveFileParentAttribute&gt;</code>; if omitted, <code>My Drive</code> is used</p>
+<p>By default, the user, folder names and id values are displayed on stdout.
+* <code>returnidonly</code> - Display just the folder ID of the last folder on stdout</p>
+<p>Alternatively, you can direct the output to a CSV file:
+* <code>csv [todrive &lt;ToDriveAttribute&gt;*]</code> - Write user, folder name and id values to a CSV file.
+  * <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code> - Add additional columns of data from the command line to the output</p>
+<h3 id="examples">Examples</h3>
+<p>Specify path, parent is My Drive</p>
+<pre><code>gam user user@domain.com create drivefolderpath path &quot;Top Folder/Middle Folder/Bottom Folder&quot; 
+User: user@domain.com, Drive Folder Path:, Create
+  User: user@domain.com, Drive Folder Name: Top Folder(1-4Nr7oF0wAdOw2tjbDMV1bZ003h5Poqq), Created (1/3)
+  User: user@domain.com, Drive Folder Name: Middle Folder(1z3oOPd44XdEJgUnwCi7d60zBh8J_BkVk), Created (2/3)
+  User: user@domain.com, Drive Folder Name: Bottom Folder(1C6vwyIaq8sSG9-NSFXCPSBJyY6TccQKS), Created (3/3)
+</code></pre>
+<p>Add an additional folder to the path</p>
+<pre><code>gam user user@domain.com create drivefolderpath path &quot;Top Folder/Middle Folder/Bottom Folder/Sub Folder&quot;
+User: user@domain.com, Drive Folder Path:, Create
+  User: user@domain.com, Drive Folder Name: Top Folder(1-4Nr7oF0wAdOw2tjbDMV1bZ003h5Poqq), Exists (1/4)
+  User: user@domain.com, Drive Folder Name: Middle Folder(1z3oOPd44XdEJgUnwCi7d60zBh8J_BkVk), Exists (2/4)
+  User: user@domain.com, Drive Folder Name: Bottom Folder(1C6vwyIaq8sSG9-NSFXCPSBJyY6TccQKS), Exists (3/4)
+  User: user@domain.com, Drive Folder Name: Sub Folder(1xo6ZOe1Gk4IYKway4aeuznBQUhrixMqO), Created (4/4)
+</code></pre>
+<p>Specify path, parent is folder named "Folder Tree"</p>
+<pre><code>gam user user@domain.com create drivefolderpath path &quot;Top Folder/Middle Folder/Bottom Folder&quot; parentname &quot;Folder Tree&quot;
+Getting all Drive Files/Folders that match query ('me' in owners and mimeType = 'application/vnd.google-apps.folder' and name = 'Folder Tree' and trashed = false) for user@domain.com
+Got 1 Drive File/Folder that matched query ('me' in owners and mimeType = 'application/vnd.google-apps.folder' and name = 'Folder Tree' and trashed = false) for user@domain.com...
+User: user@domain.com, Drive Folder Path:, Create
+  User: user@domain.com, Drive Folder Name: Top Folder(1YS6pDXupOTN5TzvOprgSbXj9Gp10z4vK), Created (1/3)
+  User: user@domain.com, Drive Folder Name: Middle Folder(1m6A3a9w0DCkwtjqF0heIwLyQTHI1TIk1), Created (2/3)
+  User: user@domain.com, Drive Folder Name: Bottom Folder(1sfC-QPtMg_W1ZpOKL5URylugd0x_nxRt), Created (3/3)
+
+gam user user@domain.com show filetree select drivefilename &quot;Folder Tree&quot; fields id
+Getting all Drive Files/Folders that match query ('me' in owners and name = 'Folder Tree') for user@domain.com
+Got 1 Drive File/Folder that matched query ('me' in owners and name = 'Folder Tree') for user@domain.com...
+User: user@domain.com, Show 1 Drive File/Folder
+  Folder Tree: (id: 19-0hkpwj-FKaeQ1B7prozNVQU0PD588b)
+    Top Folder: (id: 1YS6pDXupOTN5TzvOprgSbXj9Gp10z4vK)
+      Middle Folder: (id: 1m6A3a9w0DCkwtjqF0heIwLyQTHI1TIk1)
+        Bottom Folder: (id: 1sfC-QPtMg_W1ZpOKL5URylugd0x_nxRt
+</code></pre>
+<p>Build in root of a Shared Drive</p>
+<pre><code>gam user user@domain.com create drivefolderpath fullpath &quot;SharedDrives/TS Shared Drive/Top Folder/Middle Folder/Bottom Folder/Sub Folder&quot;
+Getting all Drive Files/Folders that match query (mimeType = 'application/vnd.google-apps.folder' and name = 'TS SD6 Folder' and trashed = false) for user@domain.com
+Got 1 Drive File/Folder that matched query (mimeType = 'application/vnd.google-apps.folder' and name = 'TS SD6 Folder' and trashed = false) for user@domain.com...
+User: user@domain.com, Drive Folder Path:, Create
+  User: user@domain.com, Drive Folder Name: Top Folder(1QSJY0CZCz_M8veZPaEqi_zbSjQFfSXDl), Created (1/4)
+  User: user@domain.com, Drive Folder Name: Middle Folder(1JdTD6_5vAEiB1Rnn-fpc12zmjIOu81Aa), Created (2/4)
+  User: user@domain.com, Drive Folder Name: Bottom Folder(1lBLgr9umxZ9JM-vZ7QeuPU2b0tR1o8AL), Created (3/4)
+  User: user@domain.com, Drive Folder Name: Sub Folder(1-F733sDRWG_lktQr7dyppKdjAw6fAcf7), Created (4/4)
+</code></pre>
+<p>Build in a Shared Drive Folder</p>
+<pre><code>gam user user@domain.com create drivefolderpath path &quot;Top Folder/Middle Folder/Bottom Folder/Sub Folder&quot; teamdriveparent &quot;TS Shared Drive&quot; teamdriveparentname &quot;TS SD6 Folder&quot;
+Getting all Drive Files/Folders that match query (mimeType = 'application/vnd.google-apps.folder' and name = 'TS SD6 Folder' and trashed = false) for user@domain.com
+Got 1 Drive File/Folder that matched query (mimeType = 'application/vnd.google-apps.folder' and name = 'TS SD6 Folder' and trashed = false) for user@domain.com...
+User: user@domain.com, Drive Folder Path:, Create
+  User: user@domain.com, Drive Folder Name: Top Folder(1QSJY0CZCz_M8veZPaEqi_zbSjQFfSXDl), Created (1/4)
+  User: user@domain.com, Drive Folder Name: Middle Folder(1JdTD6_5vAEiB1Rnn-fpc12zmjIOu81Aa), Created (2/4)
+  User: user@domain.com, Drive Folder Name: Bottom Folder(1lBLgr9umxZ9JM-vZ7QeuPU2b0tR1o8AL), Created (3/4)
+  User: user@domain.com, Drive Folder Name: Sub Folder(1-F733sDRWG_lktQr7dyppKdjAw6fAcf7), Created (4/4)
+</code></pre>
+<p>Specify list because folder names contain <code>/</code>, parent is folder named "Slash Folders"</p>
+<pre><code>gam user user@domain.com create drivefolderpath list &quot;'Top/Folder','Middle/Folder','Bottom/Folder'&quot; parentname &quot;Slash Folders&quot;
+Getting all Drive Files/Folders that match query ('me' in owners and mimeType = 'application/vnd.google-apps.folder' and name = 'Slash Folders' and trashed = false) for user@domain.com
+Got 1 Drive File/Folder that matched query ('me' in owners and mimeType = 'application/vnd.google-apps.folder' and name = 'Slash Folders' and trashed = false) for user@domain.com...
+User: user@domain.com, Drive Folder Path:, Create
+  User: user@domain.com, Drive Folder Name: Top/Folder(1j9gZX6fwbHEjN0GFAFVzuhbG2G9qUOzZ), Created (1/3)
+  User: user@domain.com, Drive Folder Name: Middle/Folder(1tYGwL1cYE29trboqoT6utfrnG-fbN7-4), Created (2/3)
+  User: user@domain.com, Drive Folder Name: Bottom/Folder(1HpJ4DU178j4KRai3mIRbndGP5t9ptYye), Created (3/3)
+
+gam user user@domain.com show filetree select drivefilename &quot;Slash Folders&quot; fields id
+Getting all Drive Files/Folders that match query ('me' in owners and name = 'Slash Folders') for user@domain.com
+Got 1 Drive File/Folder that matched query ('me' in owners and name = 'Slash Folders') for user@domain.com...
+User: user@domain.com, Show 1 Drive File/Folder
+  Slash Folders: (id: 1kZN9W60ZeRQMTqM4tqnnBniz5AmzmE0x)
+    Top/Folder: (id: 1j9gZX6fwbHEjN0GFAFVzuhbG2G9qUOzZ)
+      Middle/Folder: (id: 1tYGwL1cYE29trboqoT6utfrnG-fbN7-4)
+        Bottom/Folder: (id: 1HpJ4DU178j4KRai3mIRbndGP5t9ptYye)
+</code></pre>
+<p>Specify <code>pathdelimiter "|"</code> because folder names contain <code>/</code>, parent is folder named "Slash Folders"</p>
+<pre><code>gam user user@domain.com create drivefolderpath pathdelimiter &quot;|&quot; path &quot;Top/Folder|Middle/Folder|Bottom/Folder'&quot; parentname &quot;Slash Folders&quot;
+Getting all Drive Files/Folders that match query ('me' in owners and mimeType = 'application/vnd.google-apps.folder' and name = 'Slash Folders' and trashed = false) for user@domain.com
+Got 1 Drive File/Folder that matched query ('me' in owners and mimeType = 'application/vnd.google-apps.folder' and name = 'Slash Folders' and trashed = false) for user@domain.com...
+User: user@domain.com, Drive Folder Path:, Create
+  User: user@domain.com, Drive Folder Name: Top/Folder(1j9gZX6fwbHEjN0GFAFVzuhbG2G9qUOzZ), Created (1/3)
+  User: user@domain.com, Drive Folder Name: Middle/Folder(1tYGwL1cYE29trboqoT6utfrnG-fbN7-4), Created (2/3)
+  User: user@domain.com, Drive Folder Name: Bottom/Folder(1HpJ4DU178j4KRai3mIRbndGP5t9ptYye), Created (3/3)
+
+gam user user@domain.com show filetree select drivefilename &quot;Slash Folders&quot; fields id
+Getting all Drive Files/Folders that match query ('me' in owners and name = 'Slash Folders') for user@domain.com
+Got 1 Drive File/Folder that matched query ('me' in owners and name = 'Slash Folders') for user@domain.com...
+User: user@domain.com, Show 1 Drive File/Folder
+  Slash Folders: (id: 1kZN9W60ZeRQMTqM4tqnnBniz5AmzmE0x)
+    Top/Folder: (id: 1j9gZX6fwbHEjN0GFAFVzuhbG2G9qUOzZ)
+      Middle/Folder: (id: 1tYGwL1cYE29trboqoT6utfrnG-fbN7-4)
+        Bottom/Folder: (id: 1HpJ4DU178j4KRai3mIRbndGP5t9ptYye)
+</code></pre>
+<h2 id="bulk-create-folder-hierarchies">Bulk Create folder hierarchies</h2>
+<p>Make a CSV file FolderPaths.csv containing the folder hierarchies.</p>
+<pre><code>path
+A/B1/C
+A/B2/C
+A/B3/C
+B/A1
+B/A2
+B/A3
+C/D1/A
+C/D1/B
+C/D2/A
+C/D2/B
+</code></pre>
+<p>You can't use <code>gam csv</code> as the parallel processes will interfere with each other; you must use <code>gam loop</code> for serial processing.</p>
+<pre><code>gam loop FolderPaths.csv gam user user@domain.com create drivefolderpath path &quot;~path&quot;
+</code></pre>
+<p>To create the hierarchies for multiple users, make a batch file FolderPaths.bat that contains a line for each user.</p>
+<pre><code>gam loop FolderPaths.csv gam user user1@domain.com create drivefolderpath path &quot;~path&quot;
+gam loop FolderPaths.csv gam user user2@domain.com create drivefolderpath path &quot;~path&quot;
+...
+</code></pre>
+<p>Execute the batch file.</p>
+<pre><code>gam redirect stdout CreateFolderPaths.txt multiprocess redirect stderr stdout batch FolderPaths.bat
+</code></pre>
+<h2 id="update-files">Update files</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; update drivefile &lt;DriveFileEntity&gt; [copy] [returnidonly|returnlinkonly]
+        [(localfile &lt;FileName&gt;|-)|(url &lt;URL&gt;)]
+        [retainname | (newfilename &lt;DriveFileName&gt;) | (replacefilename &lt;REMatchPattern&gt; &lt;RESubstitution&gt;)*]
+        [stripnameprefix &lt;String&gt;]
+        [timestamp [&lt;Boolean&gt;]] [timeformat &lt;DateTimeFormat&gt;]
+        &lt;DriveFileUpdateAttribute&gt;*
+        [(gsheet|csvsheet &lt;SheetEntity&gt; [clearfilter])|(addsheet &lt;String&gt;)]
+        [charset &lt;Charset&gt;] [columndelimiter &lt;Character&gt;]
+</code></pre>
+<p>By default, an existing file's attributes are updated.</p>
+<p>To upload content to the file use:
+* <code>localfile &lt;FileName&gt;</code> - Upload content from <code>&lt;FileName&gt;</code>
+* <code>localfile -</code> - Upload content from stdin
+* <code>url &lt;URL&gt;</code> - Upload content downloaded from <code>&lt;URL&gt;</code></p>
+<p>You can change where the new file is to be located; this removes all other parent folders:
+* <code>parentid &lt;DriveFolderID&gt;</code> - Folder ID.
+* <code>parentname &lt;DriveFolderName&gt;</code> - Folder name; the folder must be owned by <code>&lt;UserTypeEntity&gt;</code>.
+* <code>anyownerparentname &lt;DriveFolderName&gt;</code> - Folder name; the folder can be owned by any user, <code>&lt;UserTypeEntity&gt;</code> must be able to write to the folder.
+* <code>teamdriveparentid &lt;DriveFolderID&gt;</code> - Shared Drive folder ID; when used alone, this indicates a specfic Shared Drive folder.
+* <code>teamdriveparent &lt;SharedDriveName&gt;</code> - Shared Drive name; when used alone, this indicates the root level of the Shared Drive.
+* <code>teamdriveparentid &lt;SharedDriveID&gt; teamdriveparentname &lt;DriveFolderName&gt;</code> - A Shared Drive ID and a folder name  on that Shared Drive.
+* <code>teamdriveparent &lt;SharedDriveName&gt; teamdriveparentname &lt;DriveFolderName&gt;</code> - A Shared Drive name and a folder name on that Shared Drive.</p>
+<p>You can add/remove parent folders without affecting other parent folders.
+* <code>addparents|removeparents &lt;DriveFolderIDList&gt;</code> - Specify the parent folders by ID.
+* <code>addparentname|removeparentname &lt;DriveFolderName&gt;</code> - Perform the query: <code>"'me' in owners and name='&lt;DriveFolderName&gt;'"</code> to convert <code>&lt;DriveFolderName&gt;</code> to its <code>&lt;DriveFolderID&gt;</code>.
+* <code>addanyownerparentname|removeanyownerparentname &lt;DriveFolderName&gt;</code> - Perform the query: <code>"name='&lt;DriveFolderName&gt;'"</code> to convert <code>&lt;DriveFolderName&gt;</code> to its <code>&lt;DriveFolderID&gt;</code>.</p>
+<p>From the Google Drive API documentation.
+  * If the item's owner makes a request to add a single parent, the item is removed from all current folders and placed in the requested folder.
+  * Other requests that increase the number of parents fail, except when the canAddMyDriveParent file capability is true and a single parent is being added. </p>
+<p>By default, Google assigns the current time to the attribute <code>modifiedTime</code>; you can assign your own value
+with <code>modifiedtime &lt;Time&gt;</code>.</p>
+<ul>
+<li><code>preservefiletimes localfile &lt;FileName&gt;</code> - <code>modifiedTime</code> of <code>&lt;DriveFileEntity&gt;</code> is set to that of <code>localfile &lt;FileName&gt;</code></li>
+<li><code>preservefiletimes</code> - <code>modifiedTime</code> of <code>&lt;DriveFileEntity&gt;</code> retains its current value</li>
+</ul>
+<p>These are the naming rules when updating from a local file:
+* <code>update drivefile drivefilename "GoogleFile.csv" localfile "NewLocalFile.csv"</code> - Google Drive file "GoogleFile.csv" is renamed "NewLocalFile.csv"
+* <code>update drivefile drivefilename "GoogleFile.csv" newfilename "NewGoogleFile.csv" localfile "NewLocalFile.csv"</code> - Google Drive file "GoogleFile.csv" is renamed "NewGoogleFile.csv"
+* <code>update drivefile drivefilename "GoogleFile.csv" retainname localfile "NewLocalFile.csv"</code> - Google Drive file "GoogleFile.csv" is not renamed</p>
+<p>To simply rename a file, use <code>newfilename &lt;String&gt;</code>:
+* <code>update drivefile drivefilename "GoogleFile.csv" newfilename "NewGoogleFile.csv"</code> - Google Drive file "GoogleFile.csv" is renamed "NewGoogleFile.csv"</p>
+<p>For more complex renaming, use <code>replacefilename &lt;REMatchPattern&gt; &lt;RESubstitution&gt;</code>:
+* <code>update drivefile drivefilename "GoogleFile.csv" replacefilename "Google" "Boggle"</code> - Google Drive file "GoogleFile.csv" is renamed "BoggleFile.csv"
+* <code>update drivefile drivefilename "GoogleFile.csv" replacefilename "^(.+)$" "New\1"</code> - Google Drive file "GoogleFile.csv" is renamed "NewGoogleFile.csv"</p>
+<p>If <code>retainname</code> is not specified and <code>stripnameprefix &lt;String&gt;</code> is specified, <code>&lt;String&gt;</code> will be stripped from the front of the Google Drive file name if present.</p>
+<p>You can add a timestamp to the FileName.
+* <code>tdtimestamp</code> - Should a timestamp (of the time the file is uploaded to Google) be added to the title of the uploaded file.
+* <code>tdtimeformat</code> - Format of the timestamp added to the title of the uploaded file; if not specified, an ISO format timestamp is added.
+  * See: https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior</p>
+<p>You can update a specific sheet within a Google spreadsheet or add a new sheet to the spreadsheet
+* <code>gsheet|csvsheet &lt;String&gt;</code> - Specify a sheet by name in a Google Sheets file to be updated
+* <code>gsheet|csvsheet id:&lt;Number&gt;</code> - Specify a sheet by ID in a Google Sheets file to be updated
+  * <code>clearfilter</code> - When updating a sheet, this option causes GAM to clear the spreadsheet basic filter so hidden data will be overwritten
+* <code>addsheet &lt;String&gt;</code> - Specify a sheet name to be added to the Google Sheets file
+* <code>charset &lt;Charset&gt;</code> - Specify the character set of the local file; if not specified, the value of <code>charset</code> from <code>gam.cfg</code> will be used
+* <code>columndelimiter &lt;Character&gt;</code> - Columns are separated by <code>&lt;Character&gt;</code>; if not specified, the value of <code>csv_input_column_delimiter</code> from <code>gam.cfg</code> will be used</p>
+<p>If you want the Google spreadsheet to retain its name, specify: <code>retainname localfile LocalFile.csv</code>.</p>
+<p>By default, the user, file name, updated file name and id values are displayed on stdout.
+* <code>returnidonly</code> - Display just the file ID of the updated file on stdout
+* <code>returnlinkonly</code> - Display just the file webViewLink of the updated file on stdout</p>
+<p>To retrieve the file ID with <code>returnidonly</code>:</p>
+<pre><code>Linux/MacOS
+fileId=$(gam user user@domain.com update drivefile &lt;DriveFileEntity&gt; copy ... returnidonly)
+Windows PowerShell
+$fileId = &amp; gam user user@domain.com update drivefile &lt;DriveFileEntity&gt; copy ... returnidonly
+Windows Command Prompt
+for /f &quot;delims=&quot; %a in ('gam user user@domain.com update drivefile &lt;DriveFileEntity&gt; copy ... returnidonly') do set fileId=%a
+</code></pre>
+<p>The file ID will only be valid when the return code of the command is 0; program accordingly.</p>
+<p>By default, a file or folder is updated. Use the <code>copy</code> option to copy a file or folder.</p>
+<h2 id="download-files">Download files</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; get drivefile &lt;DriveFileEntity&gt; [revision &lt;DriveFileRevisionID&gt;]
+        [(format &lt;FileFormatList&gt;)|(gsheet|csvsheet &lt;SheetEntity&gt;)] [exportsheetaspdf &lt;String&gt;]
+        [targetfolder &lt;FilePath&gt;] [targetname &lt;FileName&gt;|-]
+        [donotfollowshortcuts [&lt;Boolean&gt;]] [overwrite [&lt;Boolean&gt;]] [showprogress [&lt;Boolean&gt;]]
+        [acknowledgeabuse [&lt;Boolean&gt;]]
+</code></pre>
+<p>By default, Google Docs/Sheets/Slides are converted to Open Office format when downloaded. If you want a
+different format for these files or are downloading a different type of file, you must specify the format.
+* <code>format &lt;FileFormatList&gt;</code> - Specify a list of formats, the downloaded file will be converted to the first applicable format
+* <code>gsheet|csvsheet &lt;String&gt;</code> - Specify a sheet by name in a Google Sheets file to be downloaded in the specified format from above or CSV by default
+* <code>gsheet|csvsheet id:&lt;Number&gt;</code> - Specify a sheet by ID in a Google Sheets file to be downloaded in the specified format from above or CSV by default</p>
+<p>You can download Google Sheets into PDF files; <code>exportsheetaspdf &lt;String&gt;</code> specifies formatting options.
+* All sheets will be downloaded, use <code>gsheet|csvsheet &lt;String&gt;|id:&lt;Number&gt;</code> to download a specific sheet
+* Page order: &amp;pageorder=1|2
+    * 1 = Down, then over
+    * 2 = Over, then down
+* Paper size: &amp;size=A3|A4|A5|B4|B5|letter|tabloid|legal|statement|executive|folio
+* Scale: &amp;scale=1|2|3|4
+    * 1 = Normal 100%
+    * 2 = Fit to width
+    * 3 = Fit to height
+    * 4 = Fit to Page
+* Orientation: &amp;portrait=true|false
+    * false = landscape
+* Fit to width: &amp;fitw=true|false
+    * false = actual size
+* Horizontal alignment: &amp;horizontal_alignment=LEFT|RIGHT|CENTER
+* Vertical alignment: &amp;vertical_alignment=TOP|MIDDLE|BOTTOM
+* Top margin: &amp;top_margin=0.00
+    * All four margins must be set
+* Bottom margin: &amp;bottom_margin=0.00
+* Left margin: &amp;left_margin=0.00
+* Right margin: &amp;right_margin=0.00
+* Print sheet names: &amp;sheetnames=true|false
+* Print notes: &amp;printnotes=true|false
+* Print title: &amp;printtitle=true|false
+* Print page numbers: &amp;pagenum=CENTER|UNDEFINED
+    * CENTER = include page numbers, but they always seem to be in the bottom right
+    * UNDEFINED = do not include page numbera
+* Print gridlines: &amp;gridlines=true|false
+* Frozen columns: &amp;fzc=true|false
+* Frozen rows: &amp;fzr=true|false
+* Range: &amp;r1=0&amp;c1=0&amp;r2=1&amp;c2=1
+    * Rows and columns are numbered from 0
+    * r1 - top row
+    * c1 - left column
+    * r2 - bottom row + 1
+    * c2 - right column +1
+If you make a mistake in <code>exportsheetaspdf &lt;String&gt;</code>, the download will fail with HTTP error 400 or 500.</p>
+<p>By default, when getting a drivefile, it is downloaded to the directory specified in <code>gam.cfg/drive_dir</code>.
+* <code>targetfolder &lt;FilePath&gt;</code> - Specify an alternate location for the downloaded file.</p>
+<p>By default, when getting a drivefile, the local name is the same as the Google Drive name.
+* <code>targetname &lt;FileName&gt;</code> - Specify an alternate name for the downloaded file.
+* <code>targetname -</code> - The drivefile will be written to stdout</p>
+<p>The strings <code>#email#</code>, <code>#user#</code> and <code>#username#</code> will be replaced by the the user's full emailaddress or just the name portion
+in <code>targetfolder &lt;FilePath&gt;</code> and <code>targetname &lt;FileName&gt;</code>.</p>
+<p>Shortcuts can not be downloaded so, by default, if <code>&lt;DriveFileEntity&gt;</code> is a shortcut, GAM follows the shortcut and downloads the referenced file.
+If you do not want this behavior and want GAM to report an error, use the option <code>donotfollowshortcuts</code>.</p>
+<p>By default, when getting a drivefile, an existing local file will not be overwritten; a numeric prefix is added to the filename.
+* <code>overwrite</code> - Overwite an existing file
+* <code>overwrite true</code> - Overwite an existing file
+* <code>overwrite false</code> - Do not overwite an existing file; add a numeric prefix and create a new file</p>
+<p>When getting a drivefile, you can show download progress information with the <code>showprogress</code> option.
+* <code>showprogress</code> - Show download progress information
+* <code>showprogress true</code> - Show download progress information
+* <code>showprogress false</code> - Do not show download progress information</p>
+<p>You may get the following error from Google when trying to download a file:</p>
+<pre><code>Download Failed: This file has been identified as malware or spam and cannot be downloaded.
+</code></pre>
+<p>Use the <code>acknowledgeabuse</code> option to control downloading the file.
+* <code>acknowledgeabuse</code> - Download the file; <code>the user is acknowledging the risk of downloading known malware or other abusive files</code>
+* <code>acknowledgeabuse true</code> - Download the file; <code>the user is acknowledging the risk of downloading known malware or other abusive files</code>
+* <code>acknowledgeabuse false</code> - Do not download the file; this is the default</p>
+<h3 id="example-download-a-csv-file-and-execute-a-gam-command-on-its-contents">Example: Download a CSV file and execute a Gam command on its contents</h3>
+<p>Suppose you have a Google Sheets file UserSheet with multiple sheets, one of which is named NewUsers; it has a column labelled primaryEmail.</p>
+<p>The following command will download the sheet and show the name for each user in the column.</p>
+<pre><code>gam user user@domain.com get drivefile drivefilename UserSheet csvsheet NewUsers targetname - | gam redirect stdout - multiprocess csv - gam info user &quot;~primaryEmail&quot; name nogroups nolicenses
+</code></pre>
+<ul>
+<li>The <code>redirect stdout - multiprocess</code> option produces clean output from the multiple processes</li>
+</ul>
+<h2 id="trash-files">Trash files</h2>
+<p>Move a file or folder to the trash. If a folder is moved to the trash, all of its child files and folders are moved to the trash.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; trash drivefile &lt;DriveFileEntity&gt; [shortcutandtarget [&lt;Boolean&gt;]]
+gam &lt;UserTypeEntity&gt; delete|del drivefile &lt;DriveFileEntity&gt; trash [shortcutandtarget [&lt;Boolean&gt;]]
+</code></pre>
+<p>The option <code>shortcutandtarget [&lt;Boolean&gt;]</code> that when true and <code>&lt;DriveFileEntity</code> is a shortcut,
+causes GAM to process the shortcut and the target of the shortcut.</p>
+<h2 id="untrash-files">Untrash files</h2>
+<p>Remove a file or folder from the trash. If a folder is removed from the trash, all of its child files and folders are removed from the trash.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; untrash drivefile &lt;DriveFileEntity&gt; [shortcutandtarget [&lt;Boolean&gt;]]
+gam &lt;UserTypeEntity&gt; delete|del drivefile &lt;DriveFileEntity&gt; untrash [shortcutandtarget [&lt;Boolean&gt;]]
+</code></pre>
+<p>The  option <code>shortcutandtarget [&lt;Boolean&gt;]</code> that when true and <code>&lt;DriveFileEntity</code> is a shortcut,
+causes GAM to process the shortcut and the target of the shortcut.</p>
+<h2 id="purge-files">Purge files</h2>
+<p>Purging a file permanently deletes it; it can not be recovered. If a folder is purged, all of its child files and folders are purged.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; purge drivefile &lt;DriveFileEntity&gt; [shortcutandtarget [&lt;Boolean&gt;]]
+gam &lt;UserTypeEntity&gt; delete|del drivefile &lt;DriveFileEntity&gt; purge [shortcutandtarget [&lt;Boolean&gt;]]
+</code></pre>
+<p>The  option <code>shortcutandtarget [&lt;Boolean&gt;]</code> that when true and <code>&lt;DriveFileEntity</code> is a shortcut,
+causes GAM to process the shortcut and the target of the shortcut.</p>
+<h2 id="download-google-documents-as-json">Download Google Documents as JSON</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; get document &lt;DriveFileEntity&gt;
+        [viewmode default|suggestions_inline|preview_suggestions_accepted|preview_without_suggestions]
+        [targetfolder &lt;FilePath&gt;] [targetname &lt;FileName&gt;]
+        [donotfollowshortcuts [&lt;Boolean&gt;]] [overwrite [&lt;Boolean&gt;]]
+</code></pre>
+<p>By default, when getting a document, it is downloaded to the directory specified in <code>gam.cfg/drive_dir</code>.
+* <code>targetfolder &lt;FilePath&gt;</code> - Specify an alternate location for the downloaded document.</p>
+<p>By default, when getting a document, the local name is the same as the Google Document name.
+* <code>targetname &lt;FileName&gt;</code> - Specify an alternate name for the downloaded file.</p>
+<p>The strings <code>#email#</code>, <code>#user#</code> and <code>#username#</code> will be replaced by the the user's full emailaddress or just the name portion
+in <code>targetfolder &lt;FilePath&gt;</code> and <code>targetname &lt;FileName&gt;</code>.</p>
+<p>Shortcuts can not be downloaded so, by default, if <code>&lt;DriveFileEntity&gt;</code> is a shortcut, GAM follows the shortcut and downloads the referenced file.
+If you do not want this behavior and want GAM to report an error, use the option <code>donotfollowshortcuts</code>.</p>
+<p>By default, when getting a document, an existing local file will not be overwritten; a numeric prefix is added to the filename.
+* <code>overwrite</code> - Overwite an existing file
+* <code>overwrite true</code> - Overwite an existing file
+* <code>overwrite false</code> - Do not overwite an existing file; add a numeric prefix and create a new file</p>
+<h2 id="upload-changes-to-google-documents">Upload changes to Google Documents</h2>
+<pre><code>&lt;DocumentJSONUpdateRequest&gt; ::=
+        '{&quot;requests&quot;: [{object (Request)}], &quot;writeControl&quot;: {object (WriteControl) }`
+See: https://developers.google.com/docs/api/reference/rest/v1/documents/request
+
+gam &lt;UserTypeEntity&gt; update document &lt;DriveFileEntity&gt;
+        ((json [charset &lt;Charset&gt;] &lt;DocumentJSONUpdateRequest&gt;) |
+         (json file &lt;FileName&gt; [charset &lt;Charset&gt;]))
+        [formatjson]
+</code></pre>
+<p>The JSON data can be read from a command line argument or a file. On the command line, the
+JSON data is enclosed in single quotes; these should not be present when the JSON data is read from a file.</p>
+<p>The output is formatted for human readability. Use the following option to produce JSON output for program parsing.
+* <code>formatjson</code> - Display output in JSON format.</p>
+<h3 id="examples_1">Examples</h3>
+<p>Replace Foo with Goo in a document.</p>
+<pre><code>File Update.json contains:
+{ &quot;requests&quot;: [{&quot;replaceAllText&quot;: {&quot;replaceText&quot;: &quot;Goo&quot;, &quot;containsText&quot;: {&quot;text&quot;: &quot;Foo&quot;, &quot;matchCase&quot;: &quot;True&quot;}}}]}
+
+
+gam user testuser@domain.com update document &lt;DriveFileItem&gt; json file Update.json
+</code></pre>
+<h2 id="download-and-upload-google-apps-scripts">Download and Upload Google Apps Scripts</h2>
+<pre><code>$ gam user user1@domain.com get drivefile 1ZY-YkS3E0OKipALra_XzfIh9cvxoILSbb8TRdHBFCpyB_mXI_J8FmjHv format json
+User: user1@domain.com, Download 1 Drive File
+  User: user1@domain.com, Drive File: Test Project, Downloaded to: /Users/gamteam/GamWork/Test Project.json, Type: Google Doc
+$ gam user user2@domain.com create drivefile localfile &quot;Test Project.json&quot; mimetype application/vnd.google-apps.script+json drivefilename &quot;Test Project&quot;
+User: user2@domain.com, Drive File: Test Project(1Ok_svw55VTreZ5CzcViJDLfEzVRi-Un8D9eG6I5pIeVyRl2YsmNiy3C_), Created with content from: Test Project.json
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

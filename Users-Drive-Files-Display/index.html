@@ -1,0 +1,2581 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Users - Drive Files Display - GAM Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">GAM Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../00scratch/" class="nav-link">Scratch Me Wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Addresses/" class="nav-link">Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Administrators/" class="nav-link">Administrators</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Alert-Center/" class="nav-link">Alert Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Aliases/" class="nav-link">Aliases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Authorization/" class="nav-link">Authorization</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../BNF-Syntax/" class="nav-link">Syntax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Basic-Items/" class="nav-link">Basic Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Bulk-Processing/" class="nav-link">Bulk Processing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Business-Account-Management/" class="nav-link">Users - Business Account Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Input-Filtering/" class="nav-link">CSV Input Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Output-Filtering/" class="nav-link">CSV Output Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Special-Characters/" class="nav-link">CSV Special Characters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Access/" class="nav-link">Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Events/" class="nav-link">Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars/" class="nav-link">Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chat-Bot-Setup-Use/" class="nav-link">Chat Bot Setup and Use</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-AUE-Counts/" class="nav-link">Chrome Auto Update Expiration Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Browser-Cloud-Management/" class="nav-link">Chrome Browser Cloud Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Device-Counts/" class="nav-link">Chrome Device Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Installed-Apps/" class="nav-link">Chrome Installed Apps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Needs-Attention-Counts/" class="nav-link">Chrome Device Needs Attention Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Policies/" class="nav-link">Chrome Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Printers/" class="nav-link">Chrome Printers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Profile-Management/" class="nav-link">Chrome Profile Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-Counts/" class="nav-link">Chrome Version Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-History/" class="nav-link">Chrome Version History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../ChromeOS-Devices/" class="nav-link">ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Courses/" class="nav-link">Classroom - Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Guardians/" class="nav-link">Classroom - Guardians</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Invitations/" class="nav-link">Classroom - Invitations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Membership/" class="nav-link">Classroom - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-StudentGroups/" class="nav-link">Classroom - Student Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Channel/" class="nav-link">Cloud Channel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Devices/" class="nav-link">Cloud Identity Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups-Membership/" class="nav-link">Cloud Identity Groups - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups/" class="nav-link">Cloud Identity Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Policies/" class="nav-link">Cloud Identity Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Storage/" class="nav-link">Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-ChromeOS-Devices/" class="nav-link">Collections of ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Items/" class="nav-link">Collections of Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Users/" class="nav-link">Collections of Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Data-From-Google-Docs-Sheets-Storage/" class="nav-link">Command data from Google Docs, Sheets and Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Line-Parsing/" class="nav-link">Command Line Parsing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Logging-Progress/" class="nav-link">Command Logging and Progress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Context-Aware-Access-Levels/" class="nav-link">Context-Aware Access Levels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Customer/" class="nav-link">Customer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-People-Contacts-Profiles/" class="nav-link">Domain People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-SharedContacts/" class="nav-link">Domain Shared Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains-Verification/" class="nav-link">Domains - Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains/" class="nav-link">Domains</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Downloads-Installs/" class="nav-link">Downloads-Installs-GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-File-Selection/" class="nav-link">Drive File Selection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-Items/" class="nav-link">Drive Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-REST-API-v3/" class="nav-link">Drive REST API v3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Email-Audit-Monitor/" class="nav-link">Email Audit Monitor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Find-File-Owner/" class="nav-link">Find File Owner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Public-Chat-Room/" class="nav-link">GAM Public Chat Room</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Release-Process/" class="nav-link">Steps to release a new GAM version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Return-Codes/" class="nav-link">GAM Return Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-with-minimal-GCP-rights/" class="nav-link">GAM setup with minimal GCP permissions.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-FAQ/" class="nav-link">What is GAM7?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Android-Devices/" class="nav-link">GAM7 on Android Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Chrome-OS-Devices/" class="nav-link">GAM7 on Chrome OS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GamUpdates/" class="nav-link">Update GAM7 to latest version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Global-Address-List/" class="nav-link">Global Address List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Data-Transfers/" class="nav-link">Google Data Transfers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Network-Addresses/" class="nav-link">Google Network Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups-Membership/" class="nav-link">Groups Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups/" class="nav-link">Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../HTTPS-Proxy/" class="nav-link">HTTPS Proxy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Home/" class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Install-GAM7/" class="nav-link">Installing GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Uninstall-GAM7/" class="nav-link">Uninstalling GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Update-GAM7/" class="nav-link">Updating GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-GAMADV-XTD3-to-GAM7/" class="nav-link">Installation - Upgrade GAMADV-XTD3 to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-Legacy-GAM-to-GAM7/" class="nav-link">Installation - Upgrade Legacy GAM to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Inbound-SSO/" class="nav-link">Inbound SSO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Install-GAM-as-Python-Library/" class="nav-link">Install GAM as Python Library</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Licenses/" class="nav-link">Licenses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List-Items/" class="nav-link">List Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List/" class="nav-link">List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Meta-Commands-and-File-Redirection/" class="nav-link">Meta Commands and File Redirection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Mobile-Devices/" class="nav-link">Mobile Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Organizational-Units/" class="nav-link">Organizational Units</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Other-Resources/" class="nav-link">Other Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Permission-Matches/" class="nav-link">Permission Matches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Python-Regular-Expressions/" class="nav-link">Python Regular Expressions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Rclone/" class="nav-link">Rclone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reports/" class="nav-link">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reseller/" class="nav-link">Reseller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Resources/" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Running-GAM7-securely-on-a-Google-Compute-Engine/" class="nav-link">Running GAM7 securely on a Google Compute Engine</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../SSL-Root-CA-Certificates/" class="nav-link">SSL Root CA Certificates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Schemas/" class="nav-link">Schemas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Scripts/" class="nav-link">Scripts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Send-Email/" class="nav-link">Send Email</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Shared-Drives/" class="nav-link">Domain Administrators - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Sites/" class="nav-link">Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Tag-Replace/" class="nav-link">Tag Replace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Todrive/" class="nav-link">Todrive</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Unmanaged-Accounts/" class="nav-link">Unmanaged Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Upgrade-Benefits/" class="nav-link">Upgrade Benefits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Analytics-Admin/" class="nav-link">Users - Analytics Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Application-Specific-Passwords/" class="nav-link">Users - Application Specific Passwords</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Backup-Verification-Codes/" class="nav-link">Users - Backup Verification Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Access/" class="nav-link">Users - Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Events/" class="nav-link">Users - Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars/" class="nav-link">Users - Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Chat/" class="nav-link">Users - Chat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classification-Labels/" class="nav-link">Users - Classification Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classroom-Profile/" class="nav-link">Users - Classroom - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts-Delegates/" class="nav-link">Users - Contacts - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts/" class="nav-link">User Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Deprovision/" class="nav-link">Users - Deprovision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Activity-Settings/" class="nav-link">Users - Drive - Activity/Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Cleanup/" class="nav-link">Users - Drive - Cleanup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Comments/" class="nav-link">Users - Drive - Comments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Copy-Move/" class="nav-link">Users - Drive Files Copy/Move</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Users - Drive Files Display</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Manage/" class="nav-link">Users - Drive Files Manage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Orphans/" class="nav-link">Users - Drive - Orphans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Ownership/" class="nav-link">Users - Drive - Ownership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Permissions/" class="nav-link">Users - Drive - Permissions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Query/" class="nav-link">Users - Drive - Query</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Revisions/" class="nav-link">Users - Drive - Revisions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Shortcuts/" class="nav-link">Users - Drive Shortcuts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Transfer/" class="nav-link">Users - Drive - Transfer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Forms/" class="nav-link">Users - Forms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-CSE/" class="nav-link">Users - Gmail - Client Side Encryption</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Delegates/" class="nav-link">Users - Gmail - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Filters/" class="nav-link">Users - Gmail - Filters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Forwarding/" class="nav-link">Users - Gmail - Forwarding</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Labels/" class="nav-link">Users - Gmail - Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Messages-Threads/" class="nav-link">Users - Gmail - Messages/Threads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Profile/" class="nav-link">Users - Gmail - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-S-MIME/" class="nav-link">Users - Gmail - S/MIME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Send-As-Signature-Vacation/" class="nav-link">Users - Gmail - Send As/Signature/Vacation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Settings/" class="nav-link">Users - Gmail - Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Group-Membership/" class="nav-link">Users - Group Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Keep-Notes/" class="nav-link">Users - Keep - Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Looker-Studio/" class="nav-link">Users - Looker Studio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Meet/" class="nav-link">Users - Meet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-People-Contacts-Profiles/" class="nav-link">Users - People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Photo/" class="nav-link">Users - Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Photo/" class="nav-link">Users - Profile Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Sharing/" class="nav-link">Users - Profile Sharing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Shared-Drives/" class="nav-link">Users - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Signout-Turnoff2SV/" class="nav-link">Users - Signout and Turn off 2-Step Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Spreadsheets/" class="nav-link">Users - Spreadsheets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tag-Manager/" class="nav-link">Users - Tag Manager</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tasks/" class="nav-link">Users - Tasks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tokens/" class="nav-link">Users - Tokens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Web-Resources-and-Sites/" class="nav-link">Users - Web Resources and Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-YouTube/" class="nav-link">Users - YouTube</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users/" class="nav-link">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-YubiKey/" class="nav-link">Using GAM7 with a YubiKey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-delegated-admin-service-account/" class="nav-link">Using GAM7 with a delegated admin service account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-keyless-authentication-Workload-Identity-Federation/" class="nav-link">Using GAM7 with Keyless Authentication - Workload Identity Federation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Vault-Takeout/" class="nav-link">Vault - Takeout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Verifying-a-GAM7-Build-is-Legitimate-and-Official/" class="nav-link">Verifying a GAM7 Build is Legitimate and Official</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Version-and-Help/" class="nav-link">Version and Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../_Sidebar/" class="nav-link"> Sidebar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../gam.cfg/" class="nav-link">GAM Configuration</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Legacy</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../legacy/l-AdminSettingsExamples/" class="dropdown-item">l AdminSettingsExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Android-Installation/" class="dropdown-item">l Android Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-BulkOperations/" class="dropdown-item">l BulkOperations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CalendarExamples/" class="dropdown-item">l CalendarExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chat-Bot/" class="dropdown-item">l Chat Bot</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Browser-Management/" class="dropdown-item">l Chrome Browser Management</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-OS-Installation/" class="dropdown-item">l Chrome OS Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Policy-Settings/" class="dropdown-item">l Chrome Policy Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Cloud-Identity-Groups/" class="dropdown-item">l Cloud Identity Groups</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendar-Resources/" class="dropdown-item">GAM Calendar Resources Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendars/" class="dropdown-item">GAM Calendar Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Definitions/" class="dropdown-item">l Command Reference Definitions</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Drive/" class="dropdown-item">GAM Drive Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Email/" class="dropdown-item">GAM Email Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Group-Attributes/" class="dropdown-item">GAM Group Attributes Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Groups/" class="dropdown-item">GAM Group Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Users/" class="dropdown-item">GAM Users Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Context-Aware-Access-Levels/" class="dropdown-item">l Context Aware Access Levels</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Creating-client_secrets.json-and-oauth2service.json/" class="dropdown-item">l Creating client secrets.json and oauth2service.json</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CreatingClientSecretsFile/" class="dropdown-item">l CreatingClientSecretsFile</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Custom-Schemas/" class="dropdown-item">l Custom Schemas</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Data-Transfers/" class="dropdown-item">l Data Transfers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-DomainVerification/" class="dropdown-item">l DomainVerification</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesAccountAuditing/" class="dropdown-item">l ExamplesAccountAuditing</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesCSV/" class="dropdown-item">l ExamplesCSV</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesEmailSettings/" class="dropdown-item">l ExamplesEmailSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesOrganizations/" class="dropdown-item">l ExamplesOrganizations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-Discussion-Group/" class="dropdown-item">GAM Discussion Group</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-on-Android-and-Chrome-OS/" class="dropdown-item">l GAM on Android and Chrome OS</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-options-files/" class="dropdown-item">l GAM options files</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-with--minimal-GCP-rights/" class="dropdown-item">l GAM with  minimal GCP rights</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3CSVListings/" class="dropdown-item">l GAM3CSVListings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3DirectoryCommands/" class="dropdown-item">l GAM3DirectoryCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3GroupSettings/" class="dropdown-item">l GAM3GroupSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Google-Vault---Takeout-Commands/" class="dropdown-item">l Google Vault   Takeout Commands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GoogleDriveManagement/" class="dropdown-item">l GoogleDriveManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Grouping-18-or-Older-Users/" class="dropdown-item">Using GAM to group 18+ users</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Home/" class="dropdown-item">l Home</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-How-to-upgrade-from-Standard-GAM/" class="dropdown-item">Installation - Upgrading from Standard GAM</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Inbound-SSO-Settings/" class="dropdown-item">l Inbound SSO Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-LicenseExamples/" class="dropdown-item">l LicenseExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Admins/" class="dropdown-item">l Managing Admins</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-CloudPrint-Printers/" class="dropdown-item">l Managing CloudPrint Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Devices/" class="dropdown-item">l Managing Devices</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Google-Classroom/" class="dropdown-item">l Managing Google Classroom</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-OAuthKeyManagement/" class="dropdown-item">l OAuthKeyManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Printers/" class="dropdown-item">l Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ResellerCommands/" class="dropdown-item">l ResellerCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-SecurityExamples/" class="dropdown-item">l SecurityExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-UnmanagedUsersExamples/" class="dropdown-item">l UnmanagedUsersExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Using-GAM-with-a-delegated-admin-service-account-%28DASA%29/" class="dropdown-item">Background</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-_Footer/" class="dropdown-item">l  Footer</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Users-Drive-Copy-Move/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Users-Drive-Files-Manage/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#users-drive-files-display" class="nav-link">Users - Drive Files Display</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#api-documentation" class="nav-link">API documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#definitions" class="nav-link">Definitions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#return-codes" class="nav-link">Return Codes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-size-fields" class="nav-link">File size fields</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-file-information" class="nav-link">Display file information</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-file-paths" class="nav-link">Display file paths</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#select-files-for-display-file-counts-list-tree" class="nav-link">Select files for Display file counts, list, tree</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-definitions" class="nav-link">File selection definitions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-defaults" class="nav-link">File selection defaults</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-by-query" class="nav-link">File selection by query</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-of-shared-drive" class="nav-link">File selection of Shared Drive</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-by-corpora" class="nav-link">File selection by corpora</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-by-ownership" class="nav-link">File selection by ownership</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-by-mime-type" class="nav-link">File selection by MIME type</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-by-file-size" class="nav-link">File selection by file size</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-by-file-name-pattern-matching" class="nav-link">File selection by file name pattern matching</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-by-permission-matching" class="nav-link">File selection by permission matching</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-to-exclude-items-in-the-trash" class="nav-link">File selection to exclude items in the trash</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-file-counts" class="nav-link">Display file counts</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-file-share-counts" class="nav-link">Display file share counts</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-file-tree" class="nav-link">Display file tree</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-starting-point-for-display-file-tree" class="nav-link">File selection starting point for Display file tree</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#choose-what-fields-to-display" class="nav-link">Choose what fields to display</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-file-parent-tree" class="nav-link">Display file parent tree</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-file-list" class="nav-link">Display file list</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-by-name-and-entity-shortcuts-for-display-file-list" class="nav-link">File selection by name and entity shortcuts for Display file list</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-based-on-permission-matching" class="nav-link">File selection based on permission matching</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-starting-point-for-display-file-list" class="nav-link">File selection starting point for Display file list</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#choose-what-fields-to-display_1" class="nav-link">Choose what fields to display</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#file-selection-with-or-without-a-particular-drive-label" class="nav-link">File selection with or without a particular drive label</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#handle-empty-file-lists" class="nav-link">Handle empty file lists</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-disk-usage" class="nav-link">Display disk usage</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-files-published-to-the-web" class="nav-link">Display files published to the web</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-information-about-last-modified-file-on-a-drive" class="nav-link">Display information about last modified file on a drive</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="users-drive-files-display">Users - Drive Files Display</h1>
+<ul>
+<li><a href="#api-documentation">API documentation</a></li>
+<li><a href="Users-Drive-Query">Query documentation</a></li>
+<li><a href="Python-Regular-Expressions">Python Regular Expressions</a> Match function</li>
+<li><a href="Permission-Matches">Permission Matches</a></li>
+<li><a href="#definitions">Definitions</a></li>
+<li><a href="#return-codes">Return Codes</a></li>
+<li><a href="#file-size-fields">File size fields</a></li>
+<li><a href="#display-file-information">Display file information</a></li>
+<li><a href="#display-file-paths">Display file paths</a></li>
+<li><a href="#select-files-for-display-file-counts-list-tree">Select files for Display file counts, list, tree</a></li>
+<li><a href="#file-selection-definitions">File selection definitions</a></li>
+<li><a href="#file-selection-defaults">File selection defaults</a></li>
+<li><a href="#file-selection-by-query">File selection by query</a></li>
+<li><a href="#file-selection-of-shared-drive">File selection of Shared Drive</a></li>
+<li><a href="#file-selection-by-corpora">File selection by corpora</a></li>
+<li><a href="#file-selection-by-ownership">File selection by ownership</a></li>
+<li><a href="#file-selection-by-mime-type">File selection by MIME type</a></li>
+<li><a href="#file-selection-by-file-size">File selection by file size</a></li>
+<li><a href="#file-selection-by-file-name-pattern-matching">File selection by file name pattern matching</a></li>
+<li><a href="#file-selection-by-permission-matching">File selection by permission matching</a></li>
+<li><a href="#file-selection-to-exclude-items-in-the-trash">File selection to exclude items in the trash</a></li>
+<li><a href="#display-file-counts">Display file counts</a></li>
+<li><a href="#display-file-share-counts">Display file share counts</a></li>
+<li><a href="#display-file-tree">Display file tree</a></li>
+<li><a href="#file-selection-starting-point-for-display-file-tree">File selection starting point for Display file tree</a></li>
+<li><a href="#display-file-parent-tree">Display file parent tree</a></li>
+<li><a href="#display-file-list">Display file list</a></li>
+<li><a href="#file-selection-by-name-and-entity-shortcuts-for-display-file-list">File selection by name and entity shortcuts for Display file list</a></li>
+<li><a href="#file-selection-starting-point-for-display-file-list">File selection starting point for Display file list</a></li>
+<li><a href="#file-selection-with-or-without-a-particular-drive-label">File selection with or without a particular drive label</a></li>
+<li><a href="#handle-empty-file-lists">Handle empty file lists</a></li>
+<li><a href="#display-disk-usage">Display disk usage</a></li>
+<li><a href="#display-files-published-to-the-web">Display files published to the web</a></li>
+<li><a href="#display-information-about-last-modified-file-on-a-drive">Display information about last modified file on a drive</a></li>
+</ul>
+<h2 id="api-documentation">API documentation</h2>
+<ul>
+<li><a href="https://developers.google.com/drive/api/v3/reference/files">Drive API - Files</a></li>
+<li><a href="https://support.google.com/a/answer/6105699">Third-party Apps</a></li>
+</ul>
+<h2 id="definitions">Definitions</h2>
+<ul>
+<li><a href="Drive-File-Selection"><code>&lt;DriveFileEntity&gt;</code></a></li>
+<li><a href="Collections-of-Users"><code>&lt;UserTypeEntity&gt;</code></a></li>
+</ul>
+<pre><code>&lt;RegularExpression&gt; ::= &lt;String&gt;
+        See: https://docs.python.org/3/library/re.html
+&lt;REMatchPattern&gt; ::= &lt;RegularExpression&gt;
+&lt;RESearchPattern&gt; ::= &lt;RegularExpression&gt;
+&lt;RESubstitution&gt; ::= &lt;String&gt;&gt;
+
+&lt;CorporaAttribute&gt; ::=
+        alldrives |
+        domain |
+        onlyteamdrives |
+        user
+&lt;DomainName&gt; ::= &lt;String&gt;(.&lt;String&gt;)+
+&lt;EmailAddress&gt; ::= &lt;String&gt;@&lt;DomainName&gt;
+&lt;UniqueID&gt; ::= id:&lt;String&gt;
+&lt;Time&gt; ::=
+        &lt;Year&gt;-&lt;Month&gt;-&lt;Day&gt;(&lt;Space&gt;|T)&lt;Hour&gt;:&lt;Minute&gt;:&lt;Second&gt;[.&lt;MilliSeconds&gt;](Z|(+|-(&lt;Hour&gt;:&lt;Minute&gt;))) |
+        (+|-)&lt;Number&gt;(m|h|d|w|y) |
+        never|
+        now|today
+
+&lt;SharedDriveID&gt; ::= &lt;String&gt;
+&lt;SharedDriveName&gt; ::= &lt;String&gt;
+&lt;SharedDriveIDEntity&gt; ::= (teamdriveid &lt;SharedDriveID&gt;) | (teamdriveid:&lt;SharedDriveID&gt;)
+&lt;SharedDriveNameEntity&gt; ::= (teamdrive &lt;SharedDriveName&gt;) | (teamdrive:&lt;SharedDriveName&gt;)
+&lt;SharedDriveFileNameEntity&gt; ::= (teamdrivefilename &lt;DriveFileName&gt;) | (teamdrivefilename:&lt;DriveFileName&gt;)
+
+&lt;SharedDriveEntity&gt; ::=
+        &lt;SharedDriveIDEntity&gt; |
+        &lt;SharedDriveNameEntity&gt;
+
+&lt;MimeTypeShortcut&gt; ::=
+        gdoc|gdocument|
+        gdrawing|
+        gfile|
+        gfolder|gdirectory|
+        gform|
+        gfusion|
+        gjam|
+        gmap|
+        gpresentation|
+        gscript|
+        gsheet|gspreadsheet|
+        gshortcut|
+        g3pshortcut|
+        gsite
+&lt;MimeTypeName&gt; ::= application|audio|font|image|message|model|multipart|text|video
+&lt;MimeTypeNameList&gt; ::= &quot;&lt;MimeTypeName&gt;(,&lt;MimeTypeName&gt;)*&quot;
+&lt;MimeType&gt; ::= &lt;MimeTypeShortcut&gt;|(&lt;MimeTypeName&gt;/&lt;String&gt;)
+&lt;MimeTypeList&gt; ::= &quot;&lt;MimeType&gt;(,&lt;MimeType&gt;)*&quot;
+</code></pre>
+<pre><code>&lt;DriveCapabilitiesSubfieldName&gt; ::=
+        capabilities.canacceptownership|
+        capabilities.canaddchildren|
+        capabilities.canaddfolderfromanotherdrive|
+        capabilities.canaddmydriveparent|
+        capabilities.canchangecopyrequireswriterpermission|
+        capabilities.canchangecopyrequireswriterpermissionrestriction|
+        capabilities.canchangedomainusersonlyrestriction|
+        capabilities.canchangedrivebackground|
+        capabilities.canchangedrivemembersonlyrestriction|
+        capabilities.canchangesecurityupdateenabled|
+        capabilities.canchangesharingfoldersrequiresorganizerpermissionrestriction|
+        capabilities.canchangeviewerscancopycontent|
+        capabilities.cancomment|
+        capabilities.cancopy|
+        capabilities.candelete|
+        capabilities.candeletechildren|
+        capabilities.candeletedrive|
+        capabilities.candisableinheritedpermissions|
+        capabilities.candownload|
+        capabilities.canedit|
+        capabilities.canenableinheritedpermissions|
+        capabilities.canlistchildren|
+        capabilities.canmanagemembers|
+        capabilities.canmodifycontent|
+        capabilities.canmodifycontentrestriction|
+        capabilities.canmodifyeditorcontentrestriction|
+        capabilities.canmodifylabels|
+        capabilities.canmodifyownercontentrestriction|
+        capabilities.canmovechildrenoutofdrive|
+        capabilities.canmovechildrenoutofteamdrive|
+        capabilities.canmovechildrenwithindrive|
+        capabilities.canmovechildrenwithinteamdrive|
+        capabilities.canmoveitemintodrive|
+        capabilities.canmoveitemintoteamdrive|
+        capabilities.canmoveitemoutofdrive|
+        capabilities.canmoveitemoutofteamdrive|
+        capabilities.canmoveitemwithindrive|
+        capabilities.canmoveitemwithinteamdrive|
+        capabilities.canmoveteamdriveitem|
+        capabilities.canreaddrive|
+        capabilities.canreadlabels|
+        capabilities.canreadrevisions|
+        capabilities.canreadteamdrive|
+        capabilities.canremovechildren|
+        capabilities.canremovecontentrestriction|
+        capabilities.canremovemydriveparent|
+        capabilities.canrename|
+        capabilities.canrenamedrive|
+        capabilities.canresetdriverestrictions|
+        capabilities.canshare|
+        capabilities.cantrash|
+        capabilities.cantrashchildren|
+        capabilities.canuntrash
+
+&lt;DriveContentRestrictionsSubfieldName&gt; ::=
+        contentrestrictions.ownerrestricted|
+        contentrestrictions.readonly|
+        contentrestrictions.reason|
+        contentrestrictions.restrictinguser|
+        contentrestrictions.restrictiontime|
+        contentrestrictions.type
+
+&lt;DriveDownloadRestrictionsSubfieldName&gt; ::=
+  downloadrestrictions.itemdownloadrestriction|
+  downloadrestrictions.effectivedownloadrestrictionwithcontext
+
+&lt;ClassificationLabelInfoSubfieldName&gt; ::=
+        labels.id|              # modifiedByMe
+        labels.revisionid|      # copyRequiresWriterPermission
+        labels.fields           # viewedByMe
+
+&lt;ClassificationLabelsSubfieldName~&gt; ::=
+        labels.modified|        # modifiedByMe
+        labels.restricted|      # copyRequiresWriterPermission
+        labels.starred|         # starred
+        labels.trashed|         # trashed
+        labels.viewed           # viewedByMe
+
+&lt;DriveOwnersSubfieldName&gt; ::=
+        owners.displayname|
+        owners.emailaddress|
+        owners.isauthenticateduser|
+        owners.me|
+        owners.permissionid|
+        owners.photolink|
+        owners.picture
+
+&lt;DriveParentsSubfieldName&gt; ::=
+        parents.id|
+        parents.isroot
+
+&lt;DrivePermissionsSubfieldName&gt; ::=
+        permissions.additionalroles|
+        permissions.allowfilediscovery|
+        permissions.deleted|
+        permissions.permissiondetails|
+        permissions.displayname|
+        permissions.domain|
+        permissions.emailaddress|
+        permissions.expirationdate|
+        permissions.expirationtime|
+        permissions.id|
+        permissions.name|
+        permissions.photolink|
+        permissions.role|
+        permissions.type|
+        permissions.withlink
+
+&lt;DriveLastModifyingUserSubfieldName&gt; ::=
+        lastmodifyinguser.displayname|
+        lastmodifyinguser.emailaddress|
+        lastmodifyinguser.isauthenticateduser|
+        lastmodifyinguser.me|
+        lastmodifyinguser.name|
+        lastmodifyinguser.permissionid|
+        lastmodifyinguser.photolink|
+        lastmodifyinguser.picture
+
+&lt;DriveSharingUserSubfieldName&gt; ::=
+        sharinguser.displayname|
+        sharinguser.emailaddress|
+        sharinguser.isauthenticateduser|
+        sharinguser.me|
+        sharinguser.name|
+        sharinguser.permissionid|
+        sharinguser.photolink|
+        sharinguser.picture
+
+&lt;DriveTrashingUserSubfieldName&gt; ::=
+        trashinguser.displayname|
+        trashinguser.emailaddress|
+        trashinguser.isauthenticateduser|
+        trashinguser.me|
+        trashinguser.name|
+        trashinguser.permissionid|
+        trashinguser.photolink|
+        trashinguser.picture
+
+&lt;DriveShortcutDetailsSubfieldName&gt; ::=
+        shortcutdetails.targetid|
+        shortcutdetails.targetmimetype
+        shortcutdetails.resourcekey
+</code></pre>
+<pre><code>&lt;DriveFieldName&gt; ::=
+        alternatelink|
+        appdatacontents|
+        appproperties|
+        basicpermissions|
+        cancomment|
+        canreadrevisions|
+        capabilities|
+        &lt;DriveCapabilitiesSubfieldName&gt;|
+        contenthints|
+        contentrestrictions|
+        &lt;DriveContentRestrictionsSubfieldName&gt;|
+        copyable|
+        copyrequireswriterpermission|
+        createddate|createdtime|
+        description|
+        downloadrestictions|
+        &lt;DriveDownloadRestrictionsSubfieldName&gt;|
+        driveid|
+        drivename|
+        editable|
+        explicitlytrashed|
+        exportlinks|
+        fileextension|
+        filesize|
+        foldercolorrgb|
+        fullfileextension|
+        hasaugmentedpermissions|
+        hasthumbnail|
+        headrevisionid|
+        iconlink|
+        id|
+        imagemediametadata|
+        inheritedpermissionsdisabled|
+        isappauthorized|
+        labelinfo|
+        &lt;ClassificationLabelInfoSubfieldName&gt;|
+        labels|
+        &lt;ClassificationLabelsSubfieldName&gt;|
+        lastmodifyinguser|
+        &lt;DriveLastModifyingUserSubfieldName&gt;|
+        lastmodifyingusername|
+        lastviewedbyme|lastviewedbymedate|lastviewedbymetime|lastviewedbyuser|
+        linksharemetadata|
+        md5|md5checksum|md5sum|
+        mime|mimetype|
+        modifiedbyme|modifiedbymedate|modifiedbymetime|modifiedbyuser|
+        modifieddate|modifiedtime|
+        name|
+        originalfilename|
+        ownedbyme|
+        ownernames|
+        owners|
+        &lt;DriveOwnersSubfieldName&gt;|
+        parents|
+        &lt;DriveParentsSubfieldName&gt;|
+        permissionids|
+        permissiondetails|
+        permissions|
+        &lt;DrivePermissionsSubfieldName&gt;|
+        properties|
+        quotabytesused|quotaused|
+        resourcekey|
+        restricted|
+        shareable|
+        shared|
+        sharedwithmedate|sharedwithmetime|
+        sharinguser|
+        &lt;DriveSharingUserSubfieldName&gt;|
+        shortcutdetails|
+        &lt;DriveShortcutDetailsSubfieldName&gt;|
+        sha1checksum|
+        sha256checksum|
+        size|
+        spaces|
+        starred|
+        teamdriveid|
+        teamdrivename|
+        thumbnaillink|
+        thumbnailversion|
+        title|
+        trashed|
+        trasheddate|trashedtime|
+        trashinguser|
+        &lt;DriveTrashingUserSubfieldName&gt;|
+        userpermission|
+        version|
+        videomediametadata|
+        viewed|
+        viewedbymedate|viewedbymetime|
+        viewerscancopycontent|
+        webcontentlink|
+        webviewlink|
+        writerscanshare
+&lt;DriveFieldNameList&gt; ::= &quot;&lt;DriveFieldName&gt;(,&lt;DriveFieldName&gt;)*&quot;
+</code></pre>
+<p><code>basicpermissions</code> is equivalent to:</p>
+<pre><code>permissions.allowFileDiscovery,
+permissions.deleted,
+permissions.domain,
+permissions.emailAddress,
+permissions.expirationTime,
+permissions.id,
+permissions.role,
+permissions.type
+</code></pre>
+<p>In particular, this omits these fields:</p>
+<pre><code>permissions.displayName,
+permissions.permissionDetails,
+permissions.photoLink,
+permissions.teamDrivePermissionDetails
+</code></pre>
+<p>This allows you to select the essential permission fields without enumerating them. Of course,
+you can specify <code>permissions</code> to get all of the fields, enumerate the specific fields you want or
+specify <code>basicpermissions</code> and additional permission fields, e.g., <code>permissions.displayName</code>.</p>
+<pre><code>&lt;DriveOrderByFieldName&gt; ::=
+        createddate|createdtime|
+        folder|
+        modifiedbyme|modifiedbymedate|modifiedbymetime|modifiedbyuser|
+        modifieddate|modifiedtime|
+        name|
+        name_natural|
+        quotabytesused|quotaused|
+        recency|
+        sharedwithmedate|sharedwithmetime|
+        starred|
+        title|
+        title_natural|
+        viewedbymedate|viewedbymetime
+</code></pre>
+<h2 id="return-codes">Return Codes</h2>
+<p>When a command involves a query:
+* If any files match the query, a return code of 0 is returned.
+* If no files match the query, a return code of 60 is returned.</p>
+<h3 id="examples">Examples</h3>
+<p>You want to test for the existance of a Google drive folder:</p>
+<pre><code>$ gam user user1@domain.com show fileinfo query &quot;name = 'Top Folder' and mimeType ='application/vnd.google-apps.folder'&quot; id
+Getting all Drive Files/Folders that match query (name = 'Top Folder' and mimeType ='application/vnd.google-apps.folder') for user1@domain.com
+Got 1 Drive File/Folder that matched query (name = 'Top Folder' and mimeType ='application/vnd.google-apps.folder') for user1@domain.com...
+User: user1@domain.com, Show 1 Drive File/Folder
+  Drive Folder: Top Folder (1kdHaDm2XOmGKVsyBgPBugWqdE3xTwxyz)
+    id: 1kdHaDm2XOmGKVsyBgPBugWqdE3xTwxyz
+$ echo $?
+0
+$ gam user user2@domain.com show fileinfo query &quot;name = 'Top Folder' and mimeType ='application/vnd.google-apps.folder'&quot; id
+Getting all Drive Files/Folders that match query (name = 'Top Folder' and mimeType ='application/vnd.google-apps.folder') for user2@domain.com
+Got 0 Drive Files/Folders that matched query (name = 'Top Folder' and mimeType ='application/vnd.google-apps.folder') for user2@domain.com...
+User: user2@domain.com, Show 0 Drive Files/Folders
+$ echo $?
+60
+</code></pre>
+<h2 id="file-size-fields">File size fields</h2>
+<p>The Drive API defines two fields that relate to file size: <code>quotaBytesUsed</code> and <code>size</code>.</p>
+<pre><code>quotaBytesUsed - The number of storage quota bytes used by the file.
+    This includes the head revision as well as previous revisions with keepForever enabled.
+size - Size in bytes of blobs and first party editor files.
+</code></pre>
+<p>Previously, GAM used the <code>size</code> field when totaling file sizes, it now uses the <code>quotaBytesUsed</code> field.
+The option <code>sizefield quotabytesused|size</code> allows you to select which field to use.</p>
+<p>For most MIME types, the values are the same; for the following MIME types, <code>quotabytesused</code> is larger.</p>
+<pre><code>application/pdf
+application/vnd.ms-powerpoint
+application/vnd.openxmlformats-officedocument.presentationml.presentation
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+application/vnd.openxmlformats-officedocument.wordprocessingml.document
+application/zip
+audio/mpeg
+image/jpeg
+image/png
+</code></pre>
+<h2 id="display-file-information">Display file information</h2>
+<p>Display file details in indented keyword: value format. The two forms are equivalent.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; show fileinfo &lt;DriveFileEntity&gt;
+        [returnidonly]
+        [filepath|fullpath] [folderpathonly [&lt;Boolean&gt;]] [pathdelimiter &lt;Character&gt;]
+        [allfields|&lt;DriveFieldName&gt;*|(fields &lt;DriveFieldNameList&gt;)]
+        (orderby &lt;DriveFileOrderByFieldName&gt; [ascending|descending])*
+        [showdrivename] [showshareddrivepermissions]
+        [(showlabels details|ids)|(includelabels &lt;ClassificationLabelIDList&gt;)]
+        [showparentsidsaslist] [followshortcuts [&lt;Boolean&gt;]]
+        [stripcrsfromname]
+        [formatjson]
+gam &lt;UserTypeEntity&gt; info drivefile &lt;DriveFileEntity&gt;
+        [returnidonly]
+        [filepath|fullpath] [folderpathonly [&lt;Boolean&gt;]] [pathdelimiter &lt;Character&gt;]
+        [allfields|&lt;DriveFieldName&gt;*|(fields &lt;DriveFieldNameList&gt;)]
+        (orderby &lt;DriveFileOrderByFieldName&gt; [ascending|descending])*
+        [showdrivename] [showshareddrivepermissions]
+        [(showlabels details|ids)|(includelabels &lt;ClassificationLabelIDList&gt;)]
+        [showparentsidsaslist] [followshortcuts [&lt;Boolean&gt;]]
+        [stripcrsfromname]
+        [formatjson]
+</code></pre>
+<p>Use <code>returnidonly</code> to display just the file ID of the files in <code>&lt;DriveFileEntity&gt;</code>.</p>
+<p>Use <code>filepath</code> to display the path(s) to the files in <code>&lt;DriveFileEntity&gt;</code>.</p>
+<p>Use <code>fullpath</code> to add additional path information indicating that a file is an Orphan or Shared with me.</p>
+<p>By default, the path to a file includes the file name as the last element of the path.
+Use <code>folderpathonly</code> to display only the folder names when displaying the path to a file. This folder only path
+an be used in  <code>gam &lt;UserTypeEntity&gt; create drivefolderpath</code> to recreate the folder hierarchy.</p>
+<p>By default, file path components are separated by <code>/</code>; use <code>pathdelimiter &lt;Character&gt;</code> to use <code>&lt;Character&gt;</code> as the separator.</p>
+<p>When <code>allfields</code> is specified (or no fields are specified), use <code>showdrivename</code> to display Shared(Team) Drive names.
+An additional API call is required to get each Shared(Team) Drive name; the names are cached so there is only one additional
+API call per Shared(Team) Drive.</p>
+<p>When <code>allfields</code> is specified (or no fields are specified), use <code>showshareddrivepermissions</code> to display permissions
+for <code>&lt;DriveFileEntity&gt;</code> when it is a shared drive file/folder. In this case, the Drive API returns the permission IDs
+but not the permissions themselves so GAM makes an additional API call to get the permissions.</p>
+<p>By default, when file parents are displayed, they are displayed in this form:</p>
+<pre><code>  parents:
+    id: &lt;DriveFileID&gt;
+      isRoot: &lt;Boolean&gt;
+    id: &lt;DriveFileID&gt;
+      isRoot: &lt;Boolean&gt;
+    ...
+</code></pre>
+<p>The <code>showparentsidsaslist</code> option changes the output to this form:</p>
+<pre><code>  parentsIds: &lt;DriveFileID&gt; &lt;DriveFileID&gt; ...
+</code></pre>
+<p>There is no <code>isRoot</code> information displayed.</p>
+<p>By default, no Drive Label information is displayed. Use the following options to display this information;
+an API call per file is required to get the information.
+* <code>showlabels details</code></p>
+<pre><code>  labels:
+    id: &lt;ClassificationLabelID&gt;
+      revisionId: &lt;Number&gt;
+    id: &lt;ClassificationLabelID&gt;
+      revisionId: &lt;Number&gt;
+</code></pre>
+<ul>
+<li><code>showlabels ids</code></li>
+</ul>
+<pre><code>  labelsIds: &lt;ClassificationLabelID&gt; &lt;ClassificationLabelID&gt; ...
+</code></pre>
+<p>You can get Drive label information without an extra API call if you know the <code>&lt;ClassificationLabelID&gt;</code>s.
+Add <code>labelinfo</code> to your <code>fields</code> list and use <code>includelabels &lt;ClassificationLabelIDList&gt;</code> to specify the Drive labels.</p>
+<pre><code>gam user user@domain.com show fileinfo &lt;DriveFileEntity&gt; fields id,name,mimetype,labelinfo includelabels &quot;mRoha85IbwCRl490E00xGLvBsSbkwIiuZ6PRNNEbbFcb&quot;
+</code></pre>
+<p>The <code>stripcrsfromname</code> option strips nulls, carriage returns and linefeeds from drive file names.
+Use this option if you discover filenames containing these special characters; it is not common.</p>
+<p>The option <code>followshortcuts [&lt;Boolean&gt;]</code> that when true and <code>&lt;DriveFileEntity</code> is a shortcut,
+causes GAM to display information about the target of the shortcut rather than the shortcut itself.</p>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<h2 id="display-file-paths">Display file paths</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; show filepath &lt;DriveFileEntity&gt;
+        [returnpathonly]
+        (orderby &lt;DriveFileOrderByFieldName&gt; [ascending|descending])*
+        [stripcrsfromname]
+        [folderpathonly [&lt;Boolean&gt;]] [fullpath] [pathdelimiter &lt;Character&gt;]
+        [followshortcuts [&lt;Boolean&gt;]]
+gam &lt;UserTypeEntity&gt; print filepath &lt;DriveFileEntity&gt; [todrive &lt;ToDriveAttribute&gt;*]
+        (orderby &lt;DriveFileOrderByFieldName&gt; [ascending|descending])*
+        [stripcrsfromname] [oneitemperrow]
+        [fullpath] [folderpathonly [&lt;Boolean&gt;]] [pathdelimiter &lt;Character&gt;]
+        [followshortcuts [&lt;Boolean&gt;]]
+</code></pre>
+<p>Use <code>returnpathonly</code> to display just the file path of the files in <code>&lt;DriveFileEntity&gt;</code>.</p>
+<p>Use <code>fullpath</code> to add additional path information indicating that a file is an Orphan or Shared with me.</p>
+<p>By default, the path to a file includes the file name as the last element of the path.
+Use <code>folderpathonly</code> to display only the folder names when displaying the path to a file. This folder only path
+an be used in  <code>gam &lt;UserTypeEntity&gt; create drivefolderpath</code> to recreate the folder hierarchy.</p>
+<p>By default, file path components are separated by <code>/</code>; use <code>pathdelimiter &lt;Character&gt;</code> to use <code>&lt;Character&gt;</code> as the separator.</p>
+<p>The <code>stripcrsfromname</code> option strips nulls, carriage returns and linefeeds from drive file names.
+Use this option if you discover filenames containing these special characters; it is not common.</p>
+<p>By default, when printing file paths, all paths for a file are displayed on the same row; use <code>oneitemperrow</code> to
+have each file path displayed on a separate row.</p>
+<p>The option <code>followshortcuts [&lt;Boolean&gt;]</code> that when true and <code>&lt;DriveFileEntity</code> is a shortcut,
+causes GAM to display path information for the target of the shortcut rather than the shortcut itself.</p>
+<h2 id="select-files-for-display-file-counts-list-tree">Select files for Display file counts, list, tree</h2>
+<p>Most GAM commands that deal with files require a <code>&lt;DriveFileEntity&gt;</code> to be specified; the command
+then processes those files. The <code>filecounts</code>, <code>filelist</code> and <code>filetree</code> commands don't process files, they just list them.
+They offer more powerful methods to select the files to be displayed.</p>
+<h2 id="file-selection-definitions">File selection definitions</h2>
+<p>See: <a href="Drive-File-Selection">Drive File Selection</a> for details of <code>&lt;DriveFileNameEntity&gt;</code>, <code>&lt;DriveFileQueryShortcut&gt;</code> and <code>&lt;DriveFileEntity&gt;</code>.</p>
+<pre><code>&lt;DriveFileNameEntity&gt; ::=
+        (anyname &lt;DriveFileName&gt;) | (anyname:&lt;DriveFileName&gt;) |
+        (anydrivefilename &lt;DriveFileName&gt;) | (anydrivefilename:&lt;DriveFileName&gt;) |
+        (name &lt;DriveFileName&gt;) | (name:&lt;DriveFileName&gt;) |
+        (drivefilename &lt;DriveFileName&gt;) | (drivefilename:&lt;DriveFileName&gt;) |
+        (othername &lt;DriveFileName&gt;) | (othername:&lt;DriveFileName&gt;) |
+        (otherdrivefilename &lt;DriveFileName&gt;) | (otherdrivefilename:&lt;DriveFileName&gt;)
+
+&lt;DriveFileQueryShortcut&gt; ::=
+        all_files |
+        all_folders |
+        all_forms |
+        all_google_files |
+        all_non_google_files |
+        all_shortcuts |
+        all_3p_shortcuts |
+        all_items |
+        my_docs |
+        my_files |
+        my_folders |
+        my_forms |
+        my_google_files |
+        my_non_google_files |
+        my_presentations |
+        my_publishable_items |
+        my_sheets |
+        my_shortcuts |
+        my_slides |
+        my_3p_shortcuts |
+        my_items |
+        my_top_files |
+        my_top_folders |
+        my_top_items |
+        others_files |
+        others_folders |
+        others_forms |
+        others_google_files |
+        others_non_google_files |
+        others_shortcuts |
+        others_3p_shortcuts |
+        others_items |
+        writable_files
+
+&lt;DriveFileEntity&gt; ::=
+        &lt;DriveFileIDEntity&gt; |
+        &lt;DriveFileNameEntity&gt; |
+        &lt;DriveFileQueryEntity&gt; |
+        &lt;DriveFileQueryShortcut&gt; |
+        root|mydrive |
+        &lt;SharedDriveIDEntity&gt; [&lt;SharedDriveFileQueryShortcut&gt;] |
+        &lt;SharedDriveNameEntity&gt; [&lt;SharedDriveFileQueryShortcut&gt;] |
+        &lt;SharedDriveFileNameEntity&gt; |
+        &lt;SharedDriveFileQueryEntity&gt; |
+        &lt;FileSelector&gt; | &lt;CSVFileSelector&gt; | &lt;CSVkmdSelector&gt; | &lt;CSVSubkeySelector&gt;) | &lt;CSVDataSelector&gt;)
+</code></pre>
+<h2 id="file-selection-defaults">File selection defaults</h2>
+<p>By default, file selection starts with a query of "'me' in owners".
+The sections below detail other methiods for selecting files.</p>
+<h2 id="file-selection-by-query">File selection by query</h2>
+<p>Select a subset of files by query.</p>
+<p>This option is not available for <code>print|show filetree</code>.</p>
+<pre><code>((query &lt;QueryDriveFile&gt;) | (fullquery &lt;QueryDriveFile&gt;) | &lt;DriveFileQueryShortcut&gt;) (querytime&lt;String&gt; &lt;Time&gt;)*
+</code></pre>
+<ul>
+<li><code>query "xxx"</code> - <code>and xxx</code> is appended to the current query; you can repeat the query argument to build up a longer query.</li>
+<li><code>fullquery "xxx"</code> - The query is set to <code>xxx</code> eliminating the initial <code>'me' in owners</code>.</li>
+<li><code>&lt;DriveFileQueryShortcut&gt;</code> - Predefined queries</li>
+</ul>
+<p>Use the <code>querytime&lt;String&gt; &lt;Time&gt;</code> option to allow times, usually relative, to be substituted into the <code>query &lt;QueryDriveFile&gt;</code> option.
+The <code>querytime&lt;String&gt; &lt;Time&gt;</code> value replaces the string <code>#querytime&lt;String&gt;#</code> in any queries.
+The characters following <code>querytime</code> can be any combination of lowercase letters and numbers. This is most useful in scripts
+where you can specify a relative date without having to change the script.</p>
+<p>For example, query for files last modified more than 5 years ago:</p>
+<pre><code>querytime5years -5y query &quot;modifiedTime&lt;'#querytime5years#'&quot;
+</code></pre>
+<h2 id="file-selection-of-shared-drive">File selection of Shared Drive</h2>
+<p>You can limit the selection for files on a specific Shared drive.</p>
+<pre><code>select &lt;SharedDriveEntity&gt;
+</code></pre>
+<p>To apply a query to that Shared Drive.</p>
+<pre><code>select &lt;SharedDriveEntity&gt; shareddrivequery &quot;xxx&quot;
+</code></pre>
+<h2 id="file-selection-by-corpora">File selection by corpora</h2>
+<p>Select files by corpora.</p>
+<p>This option is not available for <code>print|show filetree</code>.</p>
+<pre><code>corpora &lt;CorporaAttribute&gt;
+</code></pre>
+<ul>
+<li><code>corpora alldrives</code> - Selects files on Shared Drives and files owned by or shared to the user.</li>
+<li><code>corpora domain</code> - Selects files shared to the user's domain.</li>
+<li><code>corpora onlyteamdrives</code> - Selects files on Shared Drives.</li>
+<li><code>corpora user</code> - Selects files owned by or shared to the user.</li>
+</ul>
+<h2 id="file-selection-by-ownership">File selection by ownership</h2>
+<p>By default, files owned by the user are selected. These options update the current query with the desired ownership.</p>
+<pre><code>anyowner|(showownedby any|me|others)
+
+</code></pre>
+<ul>
+<li><code>showownedby me</code> - Select files owned by the user; this is the default</li>
+<li><code>showownedby any</code> or <code>anyowner</code> - Select files accessible by the user</li>
+<li><code>showownedby others</code> - Select files not owned by the user</li>
+</ul>
+<h2 id="file-selection-by-mime-type">File selection by MIME type</h2>
+<p>By default, all types of files and folders are selected. You can specify a list of MIME types to display or a list of MIME types to suppress.
+This option updates the current query.</p>
+<pre><code>showmimetype [not] &lt;MimeTypeList&gt;
+showmimetype category &lt;MimeTypeNameList&gt;
+</code></pre>
+<ul>
+<li><code>showmimetype &lt;MimeTypeList&gt;</code> - Select files and folders with the specified MIME types</li>
+<li><code>showmimetype not &lt;MimeTypeList&gt;</code> - Select files and folders with MIME types other than those specified</li>
+<li><code>showmimetype category &lt;MimeTypeNameList&gt;</code> - Select files and folders with the specified MIME type categories</li>
+</ul>
+<h2 id="file-selection-by-file-size">File selection by file size</h2>
+<p>These options would typically be used with <code>showmimetype</code> to select files of a particular type. This
+selection is performed by GAM, not the API.</p>
+<ul>
+<li><code>minimumfilesize &lt;Integer&gt;</code> - Limit the selection to files with content of size &gt;= <code>&lt;Integer&gt;</code></li>
+<li><code>maximumfilesize &lt;Integer&gt;</code> - Limit the selection to files with content of size &lt;= <code>&lt;Integer&gt;</code></li>
+</ul>
+<h2 id="file-selection-by-file-name-pattern-matching">File selection by file name pattern matching</h2>
+<p>This option allows you to limit the display to files whose name matches <code>&lt;REMatchPattern&gt;</code>.
+The Drive API supports basic file name selection via query; this selection by pattern matching
+is performed by GAM. You could use a query to do broad file name matching and then fine tune it with
+<code>filenamematchpattern</code>.</p>
+<pre><code>filenamematchpattern &lt;REMatchPattern&gt;
+</code></pre>
+<h2 id="file-selection-by-permission-matching">File selection by permission matching</h2>
+<p>See: <a href="Permission-Matches">Permission Matches</a></p>
+<h2 id="file-selection-to-exclude-items-in-the-trash">File selection to exclude items in the trash</h2>
+<p>This option excludes items in the trash from being selected.</p>
+<pre><code>excludetrashed
+</code></pre>
+<h2 id="display-file-counts">Display file counts</h2>
+<p>Print or show file counts by MIME type and/or file name.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print filecounts [todrive &lt;ToDriveAttribute&gt;*]
+        [((query &lt;QueryDriveFile&gt;) | (fullquery &lt;QueryDriveFile&gt;) | &lt;DriveFileQueryShortcut&gt;)
+            (querytime&lt;String&gt; &lt;Time&gt;)*]
+        [continueoninvalidquery [&lt;Boolean&gt;]]
+        [corpora &lt;CorporaAttribute&gt;]
+        [select &lt;SharedDriveEntity&gt;]
+        [anyowner|(showownedby any|me|others)]
+        [showmimetype [not] &lt;MimeTypeList&gt;] [showmimetype category &lt;MimeTypeNameList&gt;]
+        [sizefield quotabytesused|size] [minimumfilesize &lt;Integer&gt;] [maximumfilesize &lt;Integer&gt;]
+        [filenamematchpattern &lt;REMatchPattern&gt;]
+        &lt;PermissionMatch&gt;* [&lt;PermissionMatchMode&gt;] [&lt;PermissionMatchAction&gt;]
+        [excludetrashed]
+        [showsize] [showmimetypesize]
+        [showlastmodification] [pathdelimiter &lt;Character&gt;]
+        (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*
+        [summary none|only|plus] [summaryuser &lt;String&gt;]
+gam &lt;UserTypeEntity&gt; show filecounts
+        [((query &lt;QueryDriveFile&gt;) | (fullquery &lt;QueryDriveFile&gt;) | &lt;DriveFileQueryShortcut&gt;)
+            (querytime&lt;String&gt; &lt;Time&gt;)*]
+        [continueoninvalidquery [&lt;Boolean&gt;]]
+        [corpora &lt;CorporaAttribute&gt;]
+        [select &lt;SharedDriveEntity&gt;]
+        [anyowner|(showownedby any|me|others)]
+        [showmimetype [not] &lt;MimeTypeList&gt;] [showmimetype category &lt;MimeTypeNameList&gt;]
+        [sizefield quotabytesused|size] [minimumfilesize &lt;Integer&gt;] [maximumfilesize &lt;Integer&gt;]
+        [filenamematchpattern &lt;REMatchPattern&gt;]
+        &lt;PermissionMatch&gt;* [&lt;PermissionMatchMode&gt;] [&lt;PermissionMatchAction&gt;]
+        [excludetrashed]
+        [showsize] [showmimetypesize]
+        [showlastmodification] [pathdelimiter &lt;Character&gt;]
+        [summary none|only|plus] [summaryuser &lt;String&gt;]
+</code></pre>
+<p>By default, print filecounts displays counts of all files owned by the specified <a href="Collections-of-Users"><code>&lt;UserTypeEntity&gt;</code></a>.</p>
+<p>The option <code>continueoninvalidquery [&lt;Boolean&gt;] can be used in special cases where a query of the form</code>query "'labels/mRoha85IbwCRl490E00xGLvBsSbkwIiuZ6PRNNEbwxyz' in labels" causes Google to issue an error
+saying that the query is invalid when, in fact, it is but the user does not have a license that suppprts drive file labels.
+When <code>continueoninvalidquery</code> is true, GAM prints an error message and proceeds to the next user rather that terminating
+as it does now. Of course, if the query really is invalid, you will get the message for every user.</p>
+<p>The <code>showsize</code> option displays the total size (in bytes) of the files counted.</p>
+<p>The <code>showmimetypesize</code> option displays the total size (in bytes) of each MIME type counted.</p>
+<p>The option <code>showlastmodification</code> displays the following fields:
+<code>lastModifiedFileId,lastModifiedFileName,lastModifiedFileMimeType,lastModifiedFilePath,lastModifyingUser,lastModifiedTime</code>;
+these are for the most recently modified file.</p>
+<p>For print filecouts, add additional columns of data from the command line to the output:
+* <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code> - Add additional columns of data from the command line to the output</p>
+<p>See <a href="#select-files-for-display-file-counts-list-tree">Select files for Display file counts, list, tree</a></p>
+<p>Use the <code>excludetrashed</code> option to suppress counting files in the trash.</p>
+<p>By default, file counts for individual users are displayed; the <code>summary</code> option offers alternatives
+that can display a summarization of file counts across all users specified in the command.
+* <code>none</code> - No summary is displayed; this is the default
+* <code>only</code> - Only the summary is displayed, no individual user file counts are displayed
+* <code>plus</code> - The summary is displayed in addition to the individual user file counts</p>
+<p>The <code>summaryuser &lt;String&gt;</code> option  replaces the default summary user <code>Summary</code> with <code>&lt;String&gt;</code>.</p>
+<h3 id="examples_1">Examples</h3>
+<p>Show file counts for a user.</p>
+<pre><code>$ gam user testuser@domain.com show filecounts showsize
+Getting all Drive Files/Folders that match query ('me' in owners) for testuser@domain.com
+Got 261 Drive Files/Folders that matched query ('me' in owners) for testuser@domain.com...
+User: testuser@domain.com, Drive Files/Folders: 261, Size: 13822521
+  application/octet-stream: 8
+  application/pdf: 1
+  application/vnd.google-apps.document: 98
+  application/vnd.google-apps.drawing: 2
+  application/vnd.google-apps.drive-sdk.423565144751: 1
+  application/vnd.google-apps.folder: 68
+  application/vnd.google-apps.form: 3
+  application/vnd.google-apps.jam: 1
+  application/vnd.google-apps.presentation: 1
+  application/vnd.google-apps.shortcut: 14
+  application/vnd.google-apps.site: 1
+  application/vnd.google-apps.spreadsheet: 24
+  application/vnd.openxmlformats-officedocument.spreadsheetml.sheet: 1
+  application/vnd.openxmlformats-officedocument.wordprocessingml.document: 3
+  application/vnd.openxmlformats-officedocument.wordprocessingml.template: 1
+  application/x-gzip: 4
+  application/zip: 2
+  image/jpeg: 8
+  image/vnd.adobe.photoshop: 1
+  text/csv: 2
+  text/plain: 13
+  text/rtf: 3
+  text/x-sh: 1
+</code></pre>
+<p>Show file counts for a user including sizes for each MIME type.</p>
+<pre><code>$ gam user testuser@domain.com show filecounts showmimetypesize
+Getting all Drive Files/Folders that match query ('me' in owners) for testuser@domain.com
+Got 261 Drive Files/Folders that matched query ('me' in owners) for testuser@domain.com...
+User: testuser@domain.com, Drive Files/Folders: 261, Size: 13822521
+  application/octet-stream: 8, 17
+  application/pdf: 1, 9879
+  application/vnd.google-apps.document: 98, 52858
+  application/vnd.google-apps.drawing: 2, 2048
+  application/vnd.google-apps.drive-sdk.423565144751: 1, 0
+  application/vnd.google-apps.folder: 68, 0
+  application/vnd.google-apps.form: 3, 0
+  application/vnd.google-apps.jam: 1, 1024
+  application/vnd.google-apps.presentation: 1, 0
+  application/vnd.google-apps.shortcut: 14, 0
+  application/vnd.google-apps.site: 1, 0
+  application/vnd.google-apps.spreadsheet: 24, 11264
+  application/vnd.openxmlformats-officedocument.spreadsheetml.sheet: 1, 8157
+  application/vnd.openxmlformats-officedocument.wordprocessingml.document: 3, 34407
+  application/vnd.openxmlformats-officedocument.wordprocessingml.template: 1, 25906
+  application/x-gzip: 4, 2768
+  application/zip: 2, 765
+  image/jpeg: 8, 16498
+  image/vnd.adobe.photoshop: 1, 13613198
+  text/csv: 2, 397
+  text/plain: 13, 41461
+  text/rtf: 3, 1738
+  text/x-sh: 1, 136
+</code></pre>
+<p>Print file counts for a user.</p>
+<pre><code>$ gam user testuser@domain.com print filecounts showsize
+Getting all Drive Files/Folders that match query ('me' in owners) for testuser@domain.com
+Got 261 Drive Files/Folders that matched query ('me' in owners) for testuser@domain.com...
+User,Total,Size,application/octet-stream,application/pdf,application/vnd.google-apps.document,application/vnd.google-apps.drawing,application/vnd.google-apps.drive-sdk.423565144751,application/vnd.google-apps.folder,application/vnd.google-apps.form,application/vnd.google-apps.jam,application/vnd.google-apps.presentation,application/vnd.google-apps.shortcut,application/vnd.google-apps.site,application/vnd.google-apps.spreadsheet,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.wordprocessingml.template,application/x-gzip,application/zip,image/jpeg,image/vnd.adobe.photoshop,text/csv,text/plain,text/rtf,text/x-sh
+testuser@domain.com,261,13822521,8,1,98,2,1,68,3,1,1,14,1,24,1,3,1,4,2,8,1,2,13,3,1
+</code></pre>
+<p>Print file counts for a user including sizes for each MIME type.</p>
+<pre><code>$ gam user testuser@domain.com print filecounts showmimetypesize
+Getting all Drive Files/Folders that match query ('me' in owners) for testuser@domain.com
+Got 261 Drive Files/Folders that matched query ('me' in owners) for testuser@domain.com...
+User,Total,Size,application/octet-stream,application/octet-stream-size,application/pdf,application/pdf-size,application/vnd.google-apps.document,application/vnd.google-apps.document-size,application/vnd.google-apps.drawing,application/vnd.google-apps.drawing-size,application/vnd.google-apps.drive-sdk.423565144751,application/vnd.google-apps.drive-sdk.423565144751-size,application/vnd.google-apps.folder,application/vnd.google-apps.folder-size,application/vnd.google-apps.form,application/vnd.google-apps.form-size,application/vnd.google-apps.jam,application/vnd.google-apps.jam-size,application/vnd.google-apps.presentation,application/vnd.google-apps.presentation-size,application/vnd.google-apps.shortcut,application/vnd.google-apps.shortcut-size,application/vnd.google-apps.site,application/vnd.google-apps.site-size,application/vnd.google-apps.spreadsheet,application/vnd.google-apps.spreadsheet-size,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet-size,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.wordprocessingml.document-size,application/vnd.openxmlformats-officedocument.wordprocessingml.template,application/vnd.openxmlformats-officedocument.wordprocessingml.template-size,application/x-gzip,application/x-gzip-size,application/zip,application/zip-size,image/jpeg,image/jpeg-size,image/vnd.adobe.photoshop,image/vnd.adobe.photoshop-size,text/csv,text/csv-size,text/plain,text/plain-size,text/rtf,text/rtf-size,text/x-sh,text/x-sh-size
+testuser@domain.com,261,13822521,8,17,1,9879,98,52858,2,2048,1,0,68,0,3,0,1,1024,1,0,14,0,1,0,24,11264,1,8157,3,34407,1,25906,4,2768,2,765,8,16498,1,13613198,2,397,13,41461,3,1738,1,136
+</code></pre>
+<p>Print file counts for a Shared Drive</p>
+<pre><code>$ gam user testuser@domain.com print filecounts select &lt;SharedDriveID&gt; showsize
+Getting all Drive Files/Folders for testuser@domain.com
+Got 261 Drive Files/Folders for testuser@domain.com...
+User,id,name,Total,Size,Item cap,application/octet-stream,application/pdf,application/vnd.google-apps.document,application/vnd.google-apps.drawing,application/vnd.google-apps.drive-sdk.423565144751,application/vnd.google-apps.folder,application/vnd.google-apps.form,application/vnd.google-apps.jam,application/vnd.google-apps.presentation,application/vnd.google-apps.shortcut,application/vnd.google-apps.site,application/vnd.google-apps.spreadsheet,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.wordprocessingml.template,application/x-gzip,application/zip,image/jpeg,image/vnd.adobe.photoshop,text/csv,text/plain,text/rtf,text/x-sh
+testuser@domain.com,0AMzwfhFBpwLHUkWXYZ,Shared Drive Name,261,13822521,3.45%,8,1,98,2,1,68,3,1,1,14,1,24,1,3,1,4,2,8,1,2,13,3,1
+</code></pre>
+<p>Get file count summaries by OU; top level selector is ou, sub level selectors are ou_and_children</p>
+<pre><code>gam redirect csv ./TopLevelOUs.csv print ous showparent toplevelonly parentselector ou childselector ou_and_children fields orgunitpath
+gam redirect csv ./FileCounts.csv multiprocess csv ./TopLevelOUs.csv gam &quot;~orgUnitSelector&quot; &quot;~orgUnitPath&quot; print filecounts excludetrashed summary only summaryuser &quot;~orgUnitPath&quot;
+</code></pre>
+<h2 id="display-file-share-counts">Display file share counts</h2>
+<p>Print or show the share type counts of a user's files. These fields are displayed:
+* Owner - The file owner
+* Total - Total number of files
+* Shared - Number of files shared
+* Shared External - Number of files shared externally
+* Shared Internal - Number of files shared internally
+* anyone - Number of ACLs of type anyone, allowFileDiscovery = True
+* anyoneWithLink - Number of ACLs of type anyone, allowFileDiscovery = False
+* externalDomain - Number of ACLs of type domain, external domains, allowFileDiscovery = True
+* externalDomainWithLink - Number of ACLs of type domain, external domains,  allowFileDiscovery = False
+* internalDomain - Number of ACLs of type domain, internal domains, allowFileDiscovery = True
+* internalDomainWithLink - Number of ACLs of type domain, internal domains, allowFileDiscovery = False
+* externalGroup - Number of ACLs of type group, external domains
+* internalGroup - Number of ACLs of type group, internal domains
+* externalUser - Number of ACLs of type user, external domains
+* internalUser - Number of ACLs of type user, internal domains
+* deletedGroup - Number of ACLs to a deleted group
+* deletedUser - Number of ACLs to a deleted user</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print filesharecounts [todrive &lt;ToDriveAttribute&gt;*]
+        [excludetrashed]
+        [internaldomains &lt;DomainNameList&gt;]
+        [summary none|only|plus] [summaryuser &lt;String&gt;]
+gam &lt;UserTypeEntity&gt; show filesharecounts
+        [excludetrashed]
+        [internaldomains &lt;DomainNameList&gt;]
+        [summary none|only|plus] [summaryuser &lt;String&gt;]
+</code></pre>
+<p>By default, print|show filesharecounts displays share type counts of all files owned by the specified <code>&lt;UserTypeEntity&gt;</code>.</p>
+<p>Use the <code>excludetrashed</code> option to suppress counting files in the trash.</p>
+<p>By default, <code>internaldomains &lt;DomainNameList&gt;</code> defaults to your primary domain; if you have other domains that
+you consider internal, list all of them in <code>&lt;DomainNameList&gt;</code>.</p>
+<p>By default, share type counts for individual users are displayed; the <code>summary</code> option offers alternatives
+that can display a summarization of share type counts across all users specified in the command.
+* <code>none</code> - No summary is displayed; this is the default
+* <code>only</code> - Only the summary is displayed, no individual user share type counts are displayed
+* <code>plus</code> - The summary is displayed in addition to the individual user share type counts</p>
+<p>The <code>summaryuser &lt;String&gt;</code> option  replaces the default summary user <code>Summary</code> with <code>&lt;String&gt;</code>.</p>
+<h3 id="example">Example</h3>
+<pre><code>$ gam users testuser0,testuser1 show filesharecounts
+Getting all Drive Files/Folders that match query ('me' in owners) for testuser0@domain.com (1/2)
+Got 100 Drive Files/Folders that matched query ('me' in owners) for testuser0@domain.com...
+Got 200 Drive Files/Folders that matched query ('me' in owners) for testuser0@domain.com...
+Got 251 Drive Files/Folders that matched query ('me' in owners) for testuser0@domain.com...
+User: testuser0@domain.com, Drive File/Folder: 251 (1/2)
+  Total: 251
+  Shared: 124
+  Shared External: 27
+  Shared Internal: 114
+  anyone: 2
+  anyoneWithLink: 7
+  externalDomain: 1
+  externalDomainWithLink: 2
+  internalDomain: 1
+  internalDomainWithLink: 8
+  externalGroup: 1
+  internalGroup: 5
+  externalUser: 17
+  internalUser: 167
+  deletedGroup: 0
+  deletedUser: 0
+Getting all Drive Files/Folders that match query ('me' in owners) for testuser1@domain.com (2/2)
+Got 100 Drive Files/Folders that matched query ('me' in owners) for testuser1@domain.com...
+Got 186 Drive Files/Folders that matched query ('me' in owners) for testuser1@domain.com...
+User: testuser1@domain.com, Drive File/Folder: 186 (2/2)
+  Total: 186
+  Shared: 85
+  Shared External: 27
+  Shared Internal: 72
+  anyone: 2
+  anyoneWithLink: 5
+  externalDomain: 0
+  externalDomainWithLink: 1
+  internalDomain: 4
+  internalDomainWithLink: 37
+  externalGroup: 0
+  internalGroup: 14
+  externalUser: 20
+  internalUser: 44
+  deletedGroup: 0
+  deletedUser: 0
+
+$ gam users testuser0,testuser1 print filesharecounts summary plus
+Getting all Drive Files/Folders that match query ('me' in owners) for testuser0@domain.com (1/2)
+Got 100 Drive Files/Folders that matched query ('me' in owners) for testuser0@domain.com...
+Got 200 Drive Files/Folders that matched query ('me' in owners) for testuser0@domain.com...
+Got 251 Drive Files/Folders that matched query ('me' in owners) for testuser0@domain.com...
+Getting all Drive Files/Folders that match query ('me' in owners) for testuser1@domain.com (2/2)
+Got 100 Drive Files/Folders that matched query ('me' in owners) for testuser1@domain.com...
+Got 186 Drive Files/Folders that matched query ('me' in owners) for testuser1@domain.com...
+Owner,Total,Shared,Shared External,Shared Internal,anyone,anyoneWithLink,externalDomain,externalDomainWithLink,internalDomain,internalDomainWithLink,externalGroup,internalGroup,externalUser,internalUser,deletedGroup,deletedUser
+testuser0@domain.com,251,124,27,114,2,7,1,2,1,8,1,5,17,167,0,0
+testuser1@domain.com,186,85,27,72,2,5,0,1,4,37,0,14,20,44,0,0
+Summary,437,209,54,186,4,12,1,3,5,45,1,19,37,211,0,0
+</code></pre>
+<h2 id="display-file-tree">Display file tree</h2>
+<p>Display a list of file/folder names indented to show structure.</p>
+<pre><code>&lt;FileTreeFieldName&gt; ::=
+        explicitlytrashed|
+        filesize|
+        id|
+        mimetype|
+        owners|
+        parents|
+        size|
+        trashed|
+        webviewlink
+&lt;FileTreeFieldNameList&gt; ::= &quot;&lt;FileTreeFieldName&gt;(,&lt;FileTreeFieldName&gt;)*&quot;
+
+gam &lt;UserTypeEntity&gt; print filetree [todrive &lt;ToDriveAttribute&gt;*]
+        [select &lt;DriveFileEntity&gt; [selectsubquery &lt;QueryDriveFile&gt;]
+            [depth &lt;Number&gt;]]
+        [anyowner|(showownedby any|me|others)]
+        [showmimetype [not] &lt;MimeTypeList&gt;] [showmimetype category &lt;MimeTypeNameList&gt;]
+        [sizefield quotabytesused|size] [minimumfilesize &lt;Integer&gt;] [maximumfilesize &lt;Integer&gt;]
+        [filenamematchpattern &lt;REMatchPattern&gt;]
+        &lt;PermissionMatch&gt;* [&lt;PermissionMatchMode&gt;] [&lt;PermissionMatchAction&gt;]
+        [excludetrashed]
+        [fields &lt;FileTreeFieldNameList&gt;]
+        (orderby &lt;DriveFileOrderByFieldName&gt; [ascending|descending])* [delimiter &lt;Character&gt;]
+        [noindent] [stripcrsfromname]
+gam &lt;UserTypeEntity&gt; show filetree
+        [select &lt;DriveFileEntity&gt; [selectsubquery &lt;QueryDriveFile&gt;]
+            [depth &lt;Number&gt;]]
+        [anyowner|(showownedby any|me|others)]
+        [showmimetype [not] &lt;MimeTypeList&gt;] [showmimetype category &lt;MimeTypeNameList&gt;]
+        [sizefield quotabytesused|size] [minimumfilesize &lt;Integer&gt;] [maximumfilesize &lt;Integer&gt;]
+        [filenamematchpattern &lt;REMatchPattern&gt;]
+        &lt;PermissionMatch&gt;* [&lt;PermissionMatchMode&gt;] [&lt;PermissionMatchAction&gt;]
+        [excludetrashed]
+        [fields &lt;FileTreeFieldNameList&gt;]
+        (orderby &lt;DriveFileOrderByFieldName&gt; [ascending|descending])* [delimiter &lt;Character&gt;]
+        [stripcrsfromname]
+</code></pre>
+<p>By default, the file tree starting at the root and all orphans are shown.</p>
+<p>See <a href="#select-files-for-display-file-counts-list-tree">Select files for Display file counts, list, tree</a></p>
+<h2 id="file-selection-starting-point-for-display-file-tree">File selection starting point for Display file tree</h2>
+<p>You can specify a specific folder from which to select files.</p>
+<pre><code>        [select &lt;DriveFileEntity&gt; [selectsubquery &lt;QueryDriveFile&gt;]
+            [depth &lt;Number&gt;]]
+</code></pre>
+<ul>
+<li><code>select &lt;DriveFileEntity&gt;</code> - All files in the selected folder and below are shown.</li>
+<li><code>selectsubquery &lt;QueryDriveFile&gt;</code> - Only the files in the selected folder that match the query are shown.</li>
+</ul>
+<p>The <code>depth &lt;Number&gt;</code> argument controls which files or folders within a selected folder are listed.
+* <code>depth -1</code> - all files and folders in the selected folder and below are listed; this is the default.
+* <code>depth 0</code> - the files or folders within a selected folder are listed, no descendants are listed.
+* <code>depth N</code> - the files and folders within the selected folder and those files and folders N levels below the selected folder are listed.</p>
+<h2 id="choose-what-fields-to-display">Choose what fields to display</h2>
+<p>By default, only the file/folder name is displayed; use the following options to display additional fields.
+* <code>fields &lt;FileTreeFieldNameList&gt;</code> - Display the selected fields.
+* <code>delimiter &lt;Character&gt;</code> - If any field has multiple values, separate them with <code>&lt;Character&gt;</code>; the default value is <code>csv_output_field_delimiter</code> from <code>gam.cfg</code>.</p>
+<p>For fields <code>explicitlytrashed</code> and <code>trashed</code>, only True values are shown with <code>show filetree</code>; True and False values are shown with <code>print filetree</code>.</p>
+<p>For <code>print filetree</code>, use the <code>noindent</code> option to eliminate the indentation in front of the file name.</p>
+<p>The <code>stripcrsfromname</code> option strips nulls, carriage returns and linefeeds from drive file names.
+This option is special purpose and will not generally be used.</p>
+<h3 id="examples_2">Examples</h3>
+<p>Show full file tree including the file id and MIME type:</p>
+<pre><code>gam user testuser show filetree fields id,mimetype
+</code></pre>
+<p>Show file tree starting at the folder named "Middle Folder" and 2 levels deeper</p>
+<pre><code>gam user testuser show filetree select drivefilename &quot;Middle Folder&quot; depth 2
+</code></pre>
+<h2 id="display-file-parent-tree">Display file parent tree</h2>
+<p>Print the parent tree of file/folder.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print fileparenttree &lt;DriveFileEntity&gt; [todrive &lt;ToDriveAttribute&gt;*]
+        [stripcrsfromname]
+</code></pre>
+<h3 id="examples_3">Examples</h3>
+<pre><code># My Drive file
+$ gam user user@domain.com print fileparenttree 1tDGtnaBXc1qx_9NjBSZOUUNZ7FoRc2u6
+User: user@domain.com, Print 1 File Parent Tree
+Owner,id,name,parentId,depth,isRoot
+user@domain.com,1tDGtnaBXc1qx_9NjBSZOUUNZ7FoRc2u6,Bottom Folder,1HvAJtmQ2KZrKJhzY8aeZVScHhZ3HBJLp,4,False
+user@domain.com,1HvAJtmQ2KZrKJhzY8aeZVScHhZ3HBJLp,Middle Folder,1CVqOJJLNQtxX4QEPdpDfbkjiq1oUsxne,3,False
+user@domain.com,1CVqOJJLNQtxX4QEPdpDfbkjiq1oUsxne,TopCopy,0AHYenC8f12ALUk9PVA,2,False
+user@domain.com,0AHYenC8f12ALUk9PVA,My Drive,,1,True
+
+# Shared Drive file
+$ gam user user@domain.com print fileparenttree 1kAHa7Q801KXRF1DfoofNlW05UWDzddhVP_u_L2xGfFQ
+User: user@domain.com, Print 1 File Parent Tree
+Owner,id,name,parentId,depth,isRoot
+user@domain.com,1kAHa7Q801KXRF1DfoofNlW05UWDzddhVP_u_L2xGfFQ,Middle Doc,1DShPJ6iG1TnNsgiBn-Oy1OVE2BahYlPr,4,False
+user@domain.com,1DShPJ6iG1TnNsgiBn-Oy1OVE2BahYlPr,Middle Folder,1s3g64uWfuQrpXRPf82B-bWCB5VuyrOmQ,3,False
+user@domain.com,1s3g64uWfuQrpXRPf82B-bWCB5VuyrOmQ,Top Folder,0AL5LiIe4dqxZUk9PVA,2,False
+user@domain.com,0AL5LiIe4dqxZUk9PVA,TS Shared Drive 1,,1,True
+
+# Shared with Me file
+$ gam user user@domain.com print fileparenttree 1S2D97pyG1vAil4hgNnGGLD2ldCwTOzXUM9D7XbeUv0s
+User: user@domain.com, Print 1 File Parent Tree
+Owner,id,name,parentId,depth,isRoot
+user@domain.com,1S2D97pyG1vAil4hgNnGGLD2ldCwTOzXUM9D7XbeUv0s,GooGoo,0B0NlVEBUkz-hfjVudlF4VHlYYWlmOEdCUUxDaHdLdXhJTF84YWQwbmpRWmZ3Qm0wZnpHSGs,2,False
+user@domain.com,0B0NlVEBUkz-hfjVudlF4VHlYYWlmOEdCUUxDaHdLdXhJTF84YWQwbmpRWmZ3Qm0wZnpHSGs,FooBar,,1,False
+</code></pre>
+<h2 id="display-file-list">Display file list</h2>
+<p>Display a list of file/folder details in CSV format.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print|show filelist [todrive &lt;ToDriveAttribute&gt;*]
+        [((query &lt;QueryDriveFile&gt;) | (fullquery &lt;QueryDriveFile&gt;) | &lt;DriveFileQueryShortcut&gt;)
+            (querytime&lt;String&gt; &lt;Time&gt;)*]
+        [continueoninvalidquery [&lt;Boolean&gt;]]
+        [choose &lt;DriveFileNameEntity&gt;|&lt;DriveFileEntityShortcut&gt;]
+        [corpora &lt;CorporaAttribute&gt;]
+        [select &lt;DriveFileEntity&gt; [selectsubquery &lt;QueryDriveFile&gt;]
+            [(norecursion [&lt;Boolean&gt;])|(depth &lt;Number&gt;)] [showparent]]
+        [anyowner|(showownedby any|me|others)]
+        [showmimetype [not] &lt;MimeTypeList&gt;] [showmimetype category &lt;MimeTypeNameList&gt;] [mimetypeinquery [&lt;Boolean&gt;]]
+        [sizefield quotabytesused|size] [minimumfilesize &lt;Integer&gt;] [maximumfilesize &lt;Integer&gt;]
+        [filenamematchpattern &lt;REMatchPattern&gt;]
+        &lt;PermissionMatch&gt;* [&lt;PermissionMatchMode&gt;] [&lt;PermissionMatchAction&gt;] [pmfilter] [oneitemperrow]
+        [excludetrashed]
+        [maxfiles &lt;Integer&gt;] [nodataheaders &lt;String&gt;]
+        [countsonly [summary none|only|plus] [summaryuser &lt;String&gt;]
+                    [showsource] [showsize] [showmimetypesize]]
+        [countsrowfilter]
+        [filepath|fullpath [folderpathonly [&lt;Boolean&gt;]] [pathdelimiter &lt;Character&gt;] [addpathstojson] [showdepth]] [buildtree]
+        [allfields|&lt;DriveFieldName&gt;*|(fields &lt;DriveFieldNameList&gt;)]
+        [showdrivename] [showshareddrivepermissions]
+        [(showlabels details|ids)|(includelabels &lt;ClassificationLabelIDList&gt;)]
+        [showparentsidsaslist] [showpermissionslast]
+        (orderby &lt;DriveFileOrderByFieldName&gt; [ascending|descending])* [delimiter &lt;Character&gt;]
+        [stripcrsfromname]
+        (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>By default, <code>print filelist</code> displays all files owned by the specified <a href="https://github.com/GAM-team/GAM/wiki/Collections-of-Users"><code>&lt;UserTypeEntity&gt;</code></a></p>
+<p>The option <code>continueoninvalidquery [&lt;Boolean&gt;] can be used in special cases where a query  of the form</code>query "'labels/mRoha85IbwCRl490E00xGLvBsSbkwIiuZ6PRNNEbwxyz' in labels" causes Google to issue an error
+saying that the query is invalid when, in fact, it is but the user does not have a license that suppprts drive file labels.
+When <code>continueoninvalidquery</code> is true, GAM prints an error message and proceeds to the next user rather that terminating
+as it does now. Of course, if the query really is invalid, you will get the message for every user.</p>
+<p>When <code>allfields</code> is specified (or no fields are specified), use <code>showshareddrivepermissions</code> to display permissions
+when shared drives are queried/selected. In this case, the Drive API returns the permission IDs
+but not the permissions themselves so GAM makes an additional API call per file to get the permissions.</p>
+<p>By default, when <code>showimimetype</code> and <code>filepath|fullpath</code>are both specified, GAM locally filters files by MimeType;
+this may be slow if the user has a large number of files. Adding the option <code>mimetypeinquery</code> or <code>mimetypeinquery true</code>
+causes GAM to have Google filter files by MimeType; this will increase performance.</p>
+<p>See <a href="#select-files-for-display-file-counts-list-tree">Select files for Display file counts, list, tree</a></p>
+<h2 id="file-selection-by-name-and-entity-shortcuts-for-display-file-list">File selection by name and entity shortcuts for Display file list</h2>
+<p>Select a subset of files by pre-defined queries.</p>
+<p>These options define a complete query, eliminating the initial "<code>me</code> in owners".</p>
+<pre><code>&lt;DriveFileNameEntity&gt; ::=
+        (anyname &lt;DriveFileName&gt;) | (anyname:&lt;DriveFileName&gt;) |
+        (anydrivefilename &lt;DriveFileName&gt;) | (anydrivefilename:&lt;DriveFileName&gt;) |
+        (name &lt;DriveFileName&gt;) | (name:&lt;DriveFileName&gt;) |
+        (drivefilename &lt;DriveFileName&gt;) | (drivefilename:&lt;DriveFileName&gt;) |
+        (othername &lt;DriveFileName&gt;) | (othername:&lt;DriveFileName&gt;) |
+        (otherdrivefilename &lt;DriveFileName&gt;) | (otherdrivefilename:&lt;DriveFileName&gt;)
+
+&lt;DriveFileEntityShortcut&gt; ::=
+        alldrives |
+        mydrive |
+        mydrive_any |
+        mydrive_me |
+        mydrive_others |
+        mydrive_with_orphans |
+        onlyteamdrives|onlyshareddrives |
+        orphans |
+        ownedby_any |
+        ownedby_me |
+        ownedby_others |
+        root |
+        root_with_orphans |
+        sharedwithme |
+        sharedwithme_mydrive |
+        sharedwithme_notmydrive
+
+choose &lt;DriveFileNameEntity&gt;|&lt;DriveFileEntityShortcut&gt;
+</code></pre>
+<p>Definition of <code>&lt;DriveFileEntityShortcut&gt;</code>:
+* <code>alldrives</code> - All files accessible by the user; <code>My Drive</code> including orphans, <code>Shared with me</code>, <code>Shared drives</code>
+* <code>mydrive</code> - All files in <code>My Drive</code> excluding orphans; ownership controlled by <code>showownedby</code>
+* <code>mydrive_any</code> - All files in <code>My Drive</code> including orphans owned by anyone
+* <code>mydrive_me</code> - All files in <code>My Drive</code> including orphans owned by the user; <code>'me' in owners</code>
+* <code>mydrive_others</code> - All files in <code>My Drive</code> excluding orphans owned by others; <code>not 'me' in owners</code>
+* <code>mydrive_with_orphans</code> - All files in <code>My Drive</code> including orphans; ownership controlled by <code>showownedby</code>
+* <code>onlyshareddrives</code> - All files in <code>Shared drives</code> accessible by the user
+* <code>onlyteamdrives</code> - All files in <code>Shared drives</code> accessible by the user
+* <code>orphans</code> - All files in <code>My Drive</code> whose parentage doesn't lead to <code>My Drive</code>; <code>'me' in owners</code>
+* <code>ownedby_any</code> - All files in <code>My Drive</code> including orphans and <code>Shared with me</code> owned by anyone
+* <code>ownedby_me</code> - All files in <code>My Drive</code> including orphans owned by the user; <code>'me' in owners</code>
+* <code>ownedby_others</code> - All files in <code>My Drive</code> excluding orphans and <code>Shared with me</code> owned by others; <code>not 'me' in owners</code>
+* <code>root</code> - All files in <code>My Drive</code> excluding orphans; ownership controlled by <code>showownedby</code>
+* <code>root_with_orphans</code> - All files in <code>My Drive</code> including orphans; ownership controlled by <code>showownedby</code>
+* <code>sharedwithme</code> - All files in <code>My Drive</code> and <code>Shared with me</code> owned by others; <code>not 'me' in owners</code>
+* <code>sharedwithme_mydrive</code> - All files in <code>My Drive</code> owned by others; <code>not 'me' in owners</code>
+* <code>sharedwithme_notmydrive</code> - All files in <code>Shared with me</code> but not in <code>My Drive</code>; <code>not 'me' in owners</code></p>
+<h2 id="file-selection-based-on-permission-matching">File selection based on permission matching</h2>
+<p>Use the following option to select a subset of files based on their permissions.
+* <code>&lt;PermissionMatch&gt;* [&lt;PermissionMatchAction&gt;]</code> - Use permission matching to select files</p>
+<h2 id="file-selection-starting-point-for-display-file-list">File selection starting point for Display file list</h2>
+<p>You can limit the selection for files on a specific Shared drive.
+Any query will be applied to the Shared drive.</p>
+<pre><code>select &lt;SharedDriveEntity&gt;
+</code></pre>
+<p>You can specify a specific folder from which to select files.</p>
+<pre><code>select &lt;DriveFileEntity&gt; [selectsubquery &lt;QueryDriveFile&gt;]
+    [norecursion|(depth &lt;Number&gt;)] [showparent]
+</code></pre>
+<p>These options can be used instead of the query options to select a specific folder to display.
+* <code>select &lt;DriveFileEntity&gt;</code> - All files in the selected folder and below are shown.
+  * To select the root folder of My Drive, use its <code>&lt;DriveFolderID&gt;</code> obtained by <code>gam user &lt;UserItem&gt; show fileinfo root id</code>
+    * <code>select &lt;IDfrom Above&gt;</code>
+  * You can select the root folder of My Drive with <code>rootid</code>.
+    * <code>select rootid</code>
+* <code>selectsubquery &lt;QueryDriveFile&gt;</code> - Only the files in the selected folder that match the query are shown.</p>
+<p>The <code>norecursion</code> and <code>depth &lt;Number&gt;</code> arguments control which files or folders within a selected folder are listed.
+* <code>norecursion</code> or <code>norecursion true</code> - no files and folders in the selected folder and below are listed
+* <code>depth -1</code> - all files and folders in the selected folder and below are listed; this is the default.
+* <code>depth 0</code> - the files or folders within the selected folder are listed, no descendants are listed.
+* <code>depth N</code> - the files and folders within the selected folder and those files and folders N levels below the selected folder are listed.</p>
+<p>By default, when a folder is selected, only its contents are displayed.
+* <code>showparent</code> - The selected folder is also displayed.</p>
+<h2 id="choose-what-fields-to-display_1">Choose what fields to display</h2>
+<p>If no query or select is performed, use these options to get file path information:
+* <code>filepath|fullpath</code> - For files and folders, display the full path(s) to them starting at the root (My Drive)
+* <code>addpathstojson</code> - When this option and <code>formatjson</code> are specified, the path information will be included in the
+JSON data rather than as additional columns
+* <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code> - Add additional columns of data from the command line to the output</p>
+<p>When used with <code>filepath</code> or <code>fullpath</code>, <code>showdepth</code> will display a <code>depth</code> column.
+Files/folders directly in <code>My Drive</code> are at depth 0, the depth increases by 1
+for each containing folder.</p>
+<p>If a query or select is performed, use these options to get file path information:
+* <code>filepath</code> - For files, no path information is shown; for folders, the paths of all of its children are shown starting at the selected folder
+* <code>fullpath</code> - For files and folders, display the full path(s) to them starting at the root (My Drive or Shared Drive)
+* <code>addpathstojson</code> - When this option and <code>formatjson</code> are specified, the path information will be included in the
+JSON data rather than as additional columns</p>
+<p>By default, the path to a file includes the file name as the last element of the path.
+Use <code>folderpathonly</code> to display only the folder names when displaying the path to a file. This folder only path
+an be used in  <code>gam &lt;UserTypeEntity&gt; create drivefolderpath</code> to recreate the folder hierarchy.</p>
+<p>By default, file path components are separated by <code>/</code>; use <code>pathdelimiter &lt;Character&gt;</code> to use <code>&lt;Character&gt;</code> as the separator.</p>
+<p>By default, only the fields <code>id</code> and <code>webViewLink</code> are displayed.
+* <code>allfields</code> - Display all file fields
+* <code>&lt;DriveFieldName&gt;*</code> - Select individual fields for display
+* <code>fields &lt;DriveFieldNameList&gt;</code> - Select a list of fields for display
+* <code>orderby &lt;DriveFileOrderByFieldName&gt; [ascending|descending])*</code> - Select the order in which the files are displayed
+* <code>delimiter &lt;Character&gt;</code> - Specifiy the <code>&lt;Character&gt;</code> to separate items in the fields: <code>parentsIds, permissionIds, spaces</code>; the default value is <code>csv_output_field_delimiter</code> from <code>gam.cfg</code>.</p>
+<p>When <code>allfields</code> is specified, use <code>showdrivename</code> to display Shared(Team) Drive names.
+An additional API call is required to get each Shared(Team) Drive name; the names are cached so there is only one additional
+API call per Shared(Team) Drive.</p>
+<p>By default, when file parents are displayed, the columns displayed are:</p>
+<pre><code>...,parents,parents.0.id`,parents.0.isRoot,parents.1.id,parents.1.isRoot,...
+</code></pre>
+<p>The <code>parents</code> column indicates the number of parents a file has and there are discrete entries for each parent.</p>
+<p>The <code>showparentsidsaslist</code> option changes the output to be only two columns:</p>
+<pre><code>...,parents,parentsIds,...
+</code></pre>
+<p>The <code>parents</code> column indicates the number of parents a file has and the <code>parentsIds</code> column is a list of the parent IDs
+separated by <code>delimiter &lt;Character&gt;</code>; the default value is <code>csv_output_field_delimiter</code> from <code>gam.cfg</code>.
+There is no <code>isRoot</code> information displayed. This option allows you to reference all of a files parents with
+<code>addparents &lt;DriveFolderIDList&gt;</code> or <code>removeparents &lt;DriveFolderIDList&gt;</code> wn updating a file.</p>
+<p>By default, no Drive Label information is displayed. Use the following options to display this information;
+an API call per file is required to get the information.
+* <code>showlabels details</code>
+The columns displayed are:</p>
+<pre><code>...labels,labels.0.id,labels.0.revisionId,labels.1.id,labels.1.revisionId,...
+</code></pre>
+<p>The <code>labels</code> column indicates the number of drive labels a file has and there are discrete entries for each label.</p>
+<ul>
+<li><code>showlabels ids</code></li>
+</ul>
+<pre><code>...labels,labelsIds,...
+</code></pre>
+<p>The <code>labels</code> column indicates the number of drive labels a file has and the <code>labelsIds</code> column is a list of the drive label IDs
+separated by <code>delimiter &lt;Character&gt;</code>; the default value is <code>csv_output_field_delimiter</code> from <code>gam.cfg</code>.</p>
+<p>By default, all ACLS are displayed; use the following option in conjunction with <code>&lt;PermissionMatch&gt;* [&lt;PermissionMatchAction&gt;]</code>
+to select a subset of files based on their permissions and to display only those permissions.
+* <code>pmfilter</code> - Use permission matching to display a subset of the ACLs for each file</p>
+<p>By default, all ACLs are displayed sorted with the other fields, the <code>showpermissionslast</code> option
+causes GAM to display all <code>permissions</code> fields as the right-most columns in the CSV file. This option does not apply
+when <code>formatjson</code> is specified.</p>
+<p>By default, all ACLs are displayed with the other file fields on a single row.
+* <code>oneitemperrow</code> - Display each of a files ACls on a separate row with all of the other file fields.
+This produces a CSV file that can be used in subsequent commands without further script processing.</p>
+<p>The <code>countsonly</code> option doesn't display any indididual file data, it lists the total number of files that the user can access
+and the mumber of files by MIME type.</p>
+<p>The <code>countsonly</code> suboption <code>summary none|only|plus</code> specifies display of a summarization of file counts across all users specified in the command.
+* <code>none</code> - No summary is displayed; this is the default
+* <code>only</code> - Only the summary is displayed, no individual user file counts are displayed
+* <code>plus</code> - The summary is displayed in addition to the individual user file counts</p>
+<p>The <code>summaryuser &lt;String&gt;</code> option  replaces the default summary user <code>Summary</code> with <code>&lt;String&gt;</code>.</p>
+<p>The <code>countsonly</code> suboption <code>showsource</code> adds additional columns <code>Source</code> and <code>Name</code> that identify the top level folder ID and Name from which the counts are derived.</p>
+<p>The <code>countsonly</code> suboption <code>showsize</code> adds an additional column <code>Size</code> that indicates the total size (in bytes) of the files represented on the row.</p>
+<p>The <code>countsonly</code> suboption <code>showmimetypesize</code> adds additional columns <code>&lt;MimeType&gt;:Size</code> that indicate the total size (in bytes) of each MIME type.</p>
+<p>By default, when <code>countsonly</code> is specified, GAM applies <code>config csv_output_row_filter</code> to the file details to select which files are counted.
+Use the <code>countsrowfilter</code> option to have GAM to apply <code>config csv_output_row_filter</code> to the file counts rather than the file details.</p>
+<p>The <code>stripcrsfromname</code> option strips nulls, carriage returns and linefeeds from drive file names.
+This option is special purpose and will not generally be used.</p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h3 id="examples_4">Examples</h3>
+<p>List all files/folders owned by the user:</p>
+<pre><code>gam user testuser print filelist
+</code></pre>
+<p>List all files/folders owned by the user that begin with the word 'Test':</p>
+<pre><code>gam user testuser print filelist query &quot;title contains 'Test'&quot;
+</code></pre>
+<p>List all files/folders owned by any user that are starred and have been modified in the last year:</p>
+<pre><code>gam user testuser print filelist fullquery &quot;starred = true and modifiedTime &gt;= '#querytimelastyear#'&quot; querytimelastyear -1y
+</code></pre>
+<p>List the file with the most recent modification date:</p>
+<pre><code>gam user testuser print filelist orderby modifiedtime descending maxfiles 1
+</code></pre>
+<p>List the file with the oldest modification date:</p>
+<pre><code>gam user testuser print filelist orderby modifiedtime ascending maxfiles 1
+</code></pre>
+<p>List all files/folders without a parent, owned by anyone, do not show their descendants:</p>
+<pre><code>gam user testuser print filelist select orphans showownedby any depth 0
+</code></pre>
+<p>List all files/folders and their descendents, owned by the user, in the folder 'Top Folder':</p>
+<pre><code>gam user testuser print filelist select drivefilename 'Top Folder' showownedby me
+</code></pre>
+<p>List all files whose name ends in ".exe" that are in the folder named "Folder Name" and its sub-folders:</p>
+<pre><code>gam user testuser print filelist select drivefilename &quot;Folder Name&quot; filenamematchpattern &quot;.*\.exe&quot;
+</code></pre>
+<p>If you only want files whose name ends in ".exe" that are directly in the folder named "Folder Name":</p>
+<pre><code>gam user testuser print filelist select drivefilename &quot;Folder Name&quot; depth 0 filenamematchpattern &quot;.*\.exe&quot;
+</code></pre>
+<p>List all Meet recordings older than 30 days.</p>
+<pre><code>gam user testuser print filelist select drivefilename &quot;Meet Recordings&quot; querytime30d -30d selectsubquery &quot;modifiedTime&lt;'#querytime30d#'&quot;
+</code></pre>
+<p>List all files owned by the user and shared with others; i.e., files with ACLs with a role other than owner.</p>
+<pre><code>gam user testuser print filelist fields id,name,basicpermissions pm not role owner em
+</code></pre>
+<p>List all files owned by the user and shared with others; i.e., files with ACLs with a role other than owner.
+Display a separate row for each ACL.</p>
+<pre><code>gam user testuser print filelist fields id,name,basicpermissions pm not role owner em onitemperrow
+</code></pre>
+<p>List all files owned by the user and shared with others; i.e., files with ACLs with a role other than owner.
+Display a separate row for each ACL; only display the matching ACLS.</p>
+<pre><code>gam user testuser print filelist fields id,name,basicpermissions pm not role owner em onitemperrow pmfilter
+</code></pre>
+<p>List a user's shortcuts and information about the target files.</p>
+<pre><code>gam redirect csv ./TSShortcuts.csv user user@domain.com print filelist fields id,name,parents,shortcutdetails showmimetype gshortcut
+Headers
+Owner,id,name,parents,parents.0.id,parents.0.isRoot,shortcutDetails.targetId,shortcutDetails.targetMimeType
+
+For each shortcut, get the target file information; add the shortcut id, name and parent to the output
+gam redirect csv ./TSShortcutFiles.csv multiprocess csv ./TSShortcuts.csv gam user user@domain.com print filelist select &quot;~shortcutDetails.targetId&quot; norecursion showownedby any
+    fields id,name,mimetype,parents,owners.emailaddress addcsvdata shortcut.id &quot;~id&quot; addcsvdata shortcut.name &quot;~name&quot; addcsvdata shortcut.parents &quot;~parents.0.id&quot;
+Headers
+Owner,id,name,mimeType,owners,owners.0.emailAddress,parents,parents.0.id,parents.0.isRoot,shortcut.id,shortcut.name,shortcut.parents
+</code></pre>
+<h3 id="examples-using-csv_output_row_filter">Examples using csv_output_row_filter</h3>
+<p>Display file counts for users with files of size greater that 100MB, <code>csv_output_row_filter</code>
+is applied to the file details.</p>
+<pre><code>gam config csv_output_row_filter &quot;size:count&gt;100000000&quot; all users print filelist countsonly fields size
+</code></pre>
+<p>Display file counts for users with more than 100 <code>video/mp4</code> files, <code>csv_output_row_filter</code>
+is applied to the file counts.</p>
+<pre><code>gam config csv_output_row_filter &quot;video/mp4:count&gt;100&quot; csv_output_header_filter &quot;Owner,video/mp4&quot; all users print filelist countsonly countsrowfilter
+</code></pre>
+<h3 id="examples-showing-file-paths">Examples showing file paths</h3>
+<p>All files, no file path</p>
+<pre><code>$ gam user testuser print filelist title
+Getting all Drive Files/Folders that match query ('me' in owners) for testuser@domain.com
+Got 11 Drive Files/Folders for testuser@domain.com...
+Owner,title
+testuser@domain.com,Bottom Sheet 12
+testuser@domain.com,Bottom Sheet 11
+testuser@domain.com,Bottom Doc 22
+testuser@domain.com,Bottom Doc 21
+testuser@domain.com,Bottom Folder 22
+testuser@domain.com,Bottom Folder 21
+testuser@domain.com,Bottom Folder 12
+testuser@domain.com,Bottom Folder 11
+testuser@domain.com,Middle Folder 2
+testuser@domain.com,Middle Folder 1
+testuser@domain.com,Top Folder
+</code></pre>
+<p>No <code>select</code> or <code>query</code>, <code>filepath</code> and <code>fullpath</code> give same result</p>
+<pre><code>$ gam user testuser print filelist title filepath
+Getting all Drive Files/Folders that match query ('me' in owners) for testuser@domain.com
+Got 11 Drive Files/Folders for testuser@domain.com...
+Owner,title,paths,path.0
+testuser@domain.com,Bottom Sheet 12,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 12/Bottom Sheet 12
+testuser@domain.com,Bottom Sheet 11,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 11/Bottom Sheet 11
+testuser@domain.com,Bottom Doc 22,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 22/Bottom Doc 22
+testuser@domain.com,Bottom Doc 21,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 21/Bottom Doc 21
+testuser@domain.com,Bottom Folder 22,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 22
+testuser@domain.com,Bottom Folder 21,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 21
+testuser@domain.com,Bottom Folder 12,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 12
+testuser@domain.com,Bottom Folder 11,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 11
+testuser@domain.com,Middle Folder 2,1,My Drive/Top Folder/Middle Folder 2
+testuser@domain.com,Middle Folder 1,1,My Drive/Top Folder/Middle Folder 1
+testuser@domain.com,Top Folder,1,My Drive/Top Folder
+
+$ gam user testuser print filelist title fullpath
+Getting all Drive Files/Folders that match query ('me' in owners) for testuser@domain.com
+Got 11 Drive Files/Folders for testuser@domain.com...
+Owner,title,paths,path.0
+testuser@domain.com,Bottom Sheet 12,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 12/Bottom Sheet 12
+testuser@domain.com,Bottom Sheet 11,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 11/Bottom Sheet 11
+testuser@domain.com,Bottom Doc 22,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 22/Bottom Doc 22
+testuser@domain.com,Bottom Doc 21,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 21/Bottom Doc 21
+testuser@domain.com,Bottom Folder 22,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 22
+testuser@domain.com,Bottom Folder 21,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 21
+testuser@domain.com,Bottom Folder 12,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 12
+testuser@domain.com,Bottom Folder 11,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 11
+testuser@domain.com,Middle Folder 2,1,My Drive/Top Folder/Middle Folder 2
+testuser@domain.com,Middle Folder 1,1,My Drive/Top Folder/Middle Folder 1
+testuser@domain.com,Top Folder,1,My Drive/Top Folder
+</code></pre>
+<p>Select a folder, no file path</p>
+<pre><code>$ gam user testuser print filelist title select drivefilename &quot;Top Folder&quot;
+Getting all Drive Files/Folders that match query ('me' in owners and title = 'Top Folder') for testuser@domain.com
+Got 1 Drive File/Folder for testuser@domain.com...
+Owner,title
+testuser@domain.com,Middle Folder 2
+testuser@domain.com,Bottom Folder 22
+testuser@domain.com,Bottom Doc 22
+testuser@domain.com,Bottom Folder 21
+testuser@domain.com,Bottom Doc 21
+testuser@domain.com,Middle Folder 1
+testuser@domain.com,Bottom Folder 12
+testuser@domain.com,Bottom Sheet 12
+testuser@domain.com,Bottom Folder 11
+testuser@domain.com,Bottom Sheet 11
+</code></pre>
+<p>Select a folder, no file path, show parent (selected) folder</p>
+<pre><code>$ gam user testuser print filelist title select drivefilename &quot;Top Folder&quot; showparent
+Getting all Drive Files/Folders that match query ('me' in owners and title = 'Top Folder') for testuser@domain.com
+Got 1 Drive File/Folder for testuser@domain.com...
+Owner,title
+testuser@domain.com,Top Folder
+testuser@domain.com,Middle Folder 2
+testuser@domain.com,Bottom Folder 22
+testuser@domain.com,Bottom Doc 22
+testuser@domain.com,Bottom Folder 21
+testuser@domain.com,Bottom Doc 21
+testuser@domain.com,Middle Folder 1
+testuser@domain.com,Bottom Folder 12
+testuser@domain.com,Bottom Sheet 12
+testuser@domain.com,Bottom Folder 11
+testuser@domain.com,Bottom Sheet 11
+</code></pre>
+<p>Select a folder, partial file path</p>
+<pre><code>$ gam user testuser print filelist title select drivefilename &quot;Top Folder&quot; filepath
+Getting all Drive Files/Folders that match query ('me' in owners and title = 'Top Folder') for testuser@domain.com
+Got 1 Drive File/Folder for testuser@domain.com...
+Owner,title,paths,path.0
+testuser@domain.com,Middle Folder 2,1,Top Folder/Middle Folder 2
+testuser@domain.com,Bottom Folder 22,1,Top Folder/Middle Folder 2/Bottom Folder 22
+testuser@domain.com,Bottom Doc 22,1,Top Folder/Middle Folder 2/Bottom Folder 22/Bottom Doc 22
+testuser@domain.com,Bottom Folder 21,1,Top Folder/Middle Folder 2/Bottom Folder 21
+testuser@domain.com,Bottom Doc 21,1,Top Folder/Middle Folder 2/Bottom Folder 21/Bottom Doc 21
+testuser@domain.com,Middle Folder 1,1,Top Folder/Middle Folder 1
+testuser@domain.com,Bottom Folder 12,1,Top Folder/Middle Folder 1/Bottom Folder 12
+testuser@domain.com,Bottom Sheet 12,1,Top Folder/Middle Folder 1/Bottom Folder 12/Bottom Sheet 12
+testuser@domain.com,Bottom Folder 11,1,Top Folder/Middle Folder 1/Bottom Folder 11
+testuser@domain.com,Bottom Sheet 11,1,Top Folder/Middle Folder 1/Bottom Folder 11/Bottom Sheet 11
+</code></pre>
+<p>Select a folder, partial file path, show parent (selected) folder</p>
+<pre><code>$ gam user testuser print filelist title select drivefilename &quot;Top Folder&quot; filepath showparent
+Getting all Drive Files/Folders that match query ('me' in owners and title = 'Top Folder') for testuser@domain.com
+Got 1 Drive File/Folder for testuser@domain.com...
+Owner,title,paths,path.0
+testuser@domain.com,Top Folder,1,Top Folder
+testuser@domain.com,Middle Folder 2,1,Top Folder/Middle Folder 2
+testuser@domain.com,Bottom Folder 22,1,Top Folder/Middle Folder 2/Bottom Folder 22
+testuser@domain.com,Bottom Doc 22,1,Top Folder/Middle Folder 2/Bottom Folder 22/Bottom Doc 22
+testuser@domain.com,Bottom Folder 21,1,Top Folder/Middle Folder 2/Bottom Folder 21
+testuser@domain.com,Bottom Doc 21,1,Top Folder/Middle Folder 2/Bottom Folder 21/Bottom Doc 21
+testuser@domain.com,Middle Folder 1,1,Top Folder/Middle Folder 1
+testuser@domain.com,Bottom Folder 12,1,Top Folder/Middle Folder 1/Bottom Folder 12
+testuser@domain.com,Bottom Sheet 12,1,Top Folder/Middle Folder 1/Bottom Folder 12/Bottom Sheet 12
+testuser@domain.com,Bottom Folder 11,1,Top Folder/Middle Folder 1/Bottom Folder 11
+testuser@domain.com,Bottom Sheet 11,1,Top Folder/Middle Folder 1/Bottom Folder 11/Bottom Sheet 11
+</code></pre>
+<p>Select a folder, full file path</p>
+<pre><code>$ gam user testuser print filelist title select drivefilename &quot;Top Folder&quot; fullpath
+Getting all Drive Files/Folders that match query ('me' in owners and title = 'Top Folder') for testuser@domain.com
+Got 1 Drive File/Folder for testuser@domain.com...
+Owner,title,paths,path.0
+testuser@domain.com,Middle Folder 2,1,My Drive/Top Folder/Middle Folder 2
+testuser@domain.com,Bottom Folder 22,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 22
+testuser@domain.com,Bottom Doc 22,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 22/Bottom Doc 22
+testuser@domain.com,Bottom Folder 21,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 21
+testuser@domain.com,Bottom Doc 21,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 21/Bottom Doc 21
+testuser@domain.com,Middle Folder 1,1,My Drive/Top Folder/Middle Folder 1
+testuser@domain.com,Bottom Folder 12,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 12
+testuser@domain.com,Bottom Sheet 12,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 12/Bottom Sheet 12
+testuser@domain.com,Bottom Folder 11,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 11
+testuser@domain.com,Bottom Sheet 11,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 11/Bottom Sheet 11
+</code></pre>
+<p>Select a folder, full file path, show parent (selected) folder</p>
+<pre><code>$ gam user testuser print filelist title select drivefilename &quot;Top Folder&quot; fullpath showparent
+Getting all Drive Files/Folders that match query ('me' in owners and title = 'Top Folder') for testuser@domain.com
+Got 1 Drive File/Folder for testuser@domain.com...
+Owner,title,paths,path.0
+testuser@domain.com,Top Folder,1,My Drive/Top Folder
+testuser@domain.com,Middle Folder 2,1,My Drive/Top Folder/Middle Folder 2
+testuser@domain.com,Bottom Folder 22,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 22
+testuser@domain.com,Bottom Doc 22,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 22/Bottom Doc 22
+testuser@domain.com,Bottom Folder 21,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 21
+testuser@domain.com,Bottom Doc 21,1,My Drive/Top Folder/Middle Folder 2/Bottom Folder 21/Bottom Doc 21
+testuser@domain.com,Middle Folder 1,1,My Drive/Top Folder/Middle Folder 1
+testuser@domain.com,Bottom Folder 12,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 12
+testuser@domain.com,Bottom Sheet 12,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 12/Bottom Sheet 12
+testuser@domain.com,Bottom Folder 11,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 11
+testuser@domain.com,Bottom Sheet 11,1,My Drive/Top Folder/Middle Folder 1/Bottom Folder 11/Bottom Sheet 11
+</code></pre>
+<h2 id="file-selection-with-or-without-a-particular-drive-label">File selection with or without a particular drive label</h2>
+<p>The Drive API doesn't support querying for a drive label, so GAM must do the filtering.</p>
+<p>Get the label id.</p>
+<pre><code>gam show drivelabels
+</code></pre>
+<p>Find the label with properties:title: XXX where XXX is the desired label title, then get its id: value</p>
+<p>List the files with the label</p>
+<pre><code>gam config csv_output_row_filter &quot;labels:count&gt;0&quot; user user@domain.com print filelist fields id,name,mimetype showlabels ids includelabels PutLabelIdHere
+</code></pre>
+<p>List the files without the label</p>
+<pre><code>gam config csv_output_row_filter &quot;labels:count=0&quot; user user@domain.com print filelist fields id,name,mimetype showlabels ids includelabels PutLabelIdHere
+</code></pre>
+<p>Adjust the <code>fields</code> list as desired.</p>
+<h2 id="handle-empty-file-lists">Handle empty file lists</h2>
+<p>When you execute a <code>gam print filelist</code> command with a query or permission match, there may be no files output;
+in this case, there is only a header row: <code>Owner</code>. Subsequent gam commands to process the file will fail.</p>
+<pre><code>$ gam redirect csv ./Files.csv user user@domain.com print filelist query &quot;name contains 'abcd'&quot; fields id,name
+Getting all Drive Files/Folders that match query ('me' in owners and name contains 'abcd') for user@domain.com
+Got 0 Drive Files/Folders that matched query ('me' in owners and name contains 'abcd') for user@domain.com...
+$ more Files.csv
+Owner
+$ gam csv Files.csv gam user &quot;~Owner&quot; show fileinfo &quot;~id&quot; permissions
+Command: /Users/admin/bin/gam csv Files.csv gam user &quot;~Owner&quot; show fileinfo &gt;&gt;&gt;~id&lt;&lt;&lt; permissions
+
+ERROR: Header &quot;id&quot; not found in CSV headers of &quot;Owner&quot;.
+Help: Syntax in file /Users/admin/bin/gam/GamCommands.txt
+Help: Documentation is at https://github.com/GAM-team/GAM/wiki
+</code></pre>
+<p>Now, the fields you select will be output on the header row and the subsequent command will not fail.</p>
+<pre><code>$ gam redirect csv ./Files.csv user user@domain.com print filelist query &quot;name contains 'abcd'&quot; fields id,name
+Getting all Drive Files/Folders that match query ('me' in owners and name contains 'abcd') for user@domain.com
+Got 0 Drive Files/Folders that matched query ('me' in owners and name contains 'abcd') for user@domain.com...
+$ more Files.csv
+Owner,id,name
+$ gam csv Files.csv gam user &quot;~Owner&quot; show fileinfo &quot;~id&quot; permissions
+$
+</code></pre>
+<p>If you specify <code>allfields</code>, a predefined set of headers are output.</p>
+<pre><code>$ gam redirect csv ./Files.csv user user@domain.com print filelist query &quot;name contains 'abcd'&quot; allfields
+Getting all Drive Files/Folders that match query ('me' in owners and name contains 'abcd') for user@domain.com
+Got 0 Drive Files/Folders that matched query ('me' in owners and name contains 'abcd') for user@domain.com...
+$ more Files.csv
+Owner,id,name,owners.0.emailAddress,permissions,permissions.0.allowFileDiscovery,permissions.0.deleted,permissions.0.displayName,permissions.0.domain,permissions.0.emailAddress,permissions.0.expirationTime,permissions.0.id,permissions.0.permissionDetails,permissions.0.photoLink,permissions.0.role,permissions.0.teamDrivePermissionDetails,permissions.0.type
+</code></pre>
+<p>You can also specify the headers you want in the case that there are no files selected; your script could test for this value.</p>
+<pre><code>$ gam redirect csv ./Files.csv user user@domain.com print filelist query &quot;name contains 'abcd'&quot; allfields nodataheaders &quot;BadNews-NoData&quot;
+Getting all Drive Files/Folders that match query ('me' in owners and name contains 'abcd') for user@domain.com
+Got 0 Drive Files/Folders that matched query ('me' in owners and name contains 'abcd') for user@domain.com...
+$ more Files.csv
+BadNews-NoData
+</code></pre>
+<h2 id="display-disk-usage">Display disk usage</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; print diskusage &lt;DriveFileEntity&gt; [todrive &lt;ToDriveAttribute&gt;*]
+        [anyowner|(showownedby any|me|others)]
+        [sizefield quotabytesused|size]
+        [pathdelimiter &lt;Character&gt;] [excludetrashed] [stripcrsfromname]
+        (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*
+        [noprogress] [show all|summary|summaryandtrash]
+</code></pre>
+<p>For each folder in <code>&lt;DriveFileEntity&gt;</code>, the following items are displayed:
+* <code>User</code> - The email address of the user in <code>&lt;UserTypeEntity&gt;</code>
+* <code>Owner</code> - The email address of the owner of the folder; omitted when displaying disk usage on Shared Drives
+* <code>ownedByMe</code> - True if the folder is owned by <code>User</code>, False otherwise; omitted when displaying disk usage on Shared Drives
+* <code>id</code> - The folder ID
+* <code>name</code> - The Folder name
+* <code>trashed</code> - True if the folder has been trashed, either explicitly or from a trashed parent folder, False otherwise
+* <code>explicitlyTrashed</code> - True if the folder has been explicitly trashed, as opposed to recursively trashed from a parent folder, False otherwise
+* <code>directFileCount</code> - The number of files directly in the folder
+* <code>directFileSize</code> - The sum of the sizes of the files directly in the folder
+* <code>directFolderCount</code> - The number of folders directly in the folder
+* <code>totalFileCount</code> - The number of files directly in the folder and all of its subfolders
+* <code>totalFileSize</code> - The sum of the sizes of the files directly in the folder and all of its subfolders
+* <code>totalFolderCount</code> - The number of folders directly in the folder and all of its subfolders
+* <code>depth</code> - The depth of the folder
+  * <code>-1</code> - The top level folder
+  * <code>0</code> - Immediate children of the top level folder
+  * <code>1</code> - Immediate children of level 0 folders
+* <code>path</code> - The path of the folder</p>
+<p>There is a final row detailing files and folders in the trash; it is omitted if <code>excludetrashed</code> or <code>show summary</code> are specified.
+* <code>User</code> - The email address of the user in <code>&lt;UserTypeEntity&gt;</code>
+* <code>Owner</code> - The email address of the user in <code>&lt;UserTypeEntity&gt;</code>
+* <code>ownedByMe</code> - True
+* <code>id</code> - Trash
+* <code>name</code> - Trash
+* <code>trashed</code> - True if there are any items in the trash
+* <code>explicitlyTrashed</code> - True if any items have been explicitly trashed
+* <code>directFileCount</code> - The number of explicitly trashed files
+* <code>directFileSize</code> - The sum of the sizes of the explicitly trashed files 
+* <code>directFolderCount</code> - The number of explicitly trashed folders
+* <code>totalFileCount</code> - The number of files in the trash
+* <code>totalFileSize</code> - The sum of the sizes of the files in the trash
+* <code>totalFolderCount</code> - The number of folders in the trash
+* <code>depth</code> - Always -1
+* <code>path</code> - Trash</p>
+<p>The <code>depth</code> column that can be used to filter the depth of the folders displayed.
+Depth <code>-1</code> is the top level folder, depth <code>0</code> are its immediate children, depth <code>2</code> are the children of depth <code>1</code> and so forth.
+For example to limit the display to the top folder and its immediate children, use <code>config csv_output_row_filter depth:count&lt;1</code>.</p>
+<p>By default, files owned by the user are counted. These options update the current query with the desired ownership.
+* <code>showownedby me</code> - Count files owned by the user; this is the default
+* <code>showownedby any</code> or <code>anyowner</code> - Count files accessible by the user
+* <code>showownedby others</code> - Count files not owned by the user</p>
+<p>All folders are counted, regardless of ownership.</p>
+<p>By default, file path components are separated by <code>/</code>; use <code>pathdelimiter &lt;Character&gt;</code> to use <code>&lt;Character&gt;</code> as the separator.</p>
+<p>Use the <code>excludetrashed</code> option to suppress counting files and folders in the trash.</p>
+<p>The <code>stripcrsfromname</code> option strips nulls, carriage returns and linefeeds from drive file names.
+Use this option if you discover filenames containing these special characters; it is not common.</p>
+<p>Add additional columns of data from the command line to the output:
+* <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code></p>
+<p>By default, progress messages are displayed for each folder, use <code>noprogress</code> to suppress these messages.</p>
+<p>Use the <code>show</code> option to control the display of data:
+* <code>show all</code> - Display a row for every folder in <code>&lt;DriveFileEntity&gt;</code> and a row detailing items in the trash when <code>excludetrashed</code> is omitted. This is the default.
+* <code>show summary</code> - Display a single row for the first folder in <code>&lt;DriveFileEntity&gt;</code>
+* <code>show summaryandtrash</code> - Display a single row for the first folder in <code>&lt;DriveFileEntity&gt;</code> and a row detailing items in the trash when <code>excludetrashed</code> is omitted.</p>
+<h3 id="examples_5">Examples</h3>
+<pre><code>$ gam redirect csv ./MyDriveUsage.csv user user@domain.com print diskusage mydrive 
+User: user@domain.com, Print 1 Drive Disk Usage
+$ more MyDriveUsage.csv
+User,Owner,id,name,ownedByMe,trashed,explicitlyTrashed,directFileCount,directFileSize,directFolderCount,totalFileCount,totalFileSize,totalFolderCount,depth,path
+user@domain.com,user@domain.com,012YenC8f12ALUk9PVA,My Drive,,False,False,100,138212,24,167,189598,79,-1,My Drive
+user@domain.com,user@domain.com,456YenC8f12ALfndaQ1NHc0RtUG92Y1BIUUl4bjVBRmNkWG5oakNqVVFDcXJWOHNmdFlwZmc,Classroom,True,False,False,0,0,15,9,6840,17,0,My Drive/Classroom
+user@domain.com,user@domain.com,0B3YenC8f12ALfmRuX3I4WFlqaTRnMGhXNkVvWV9UUG1zRDQwY1BwVkJhUGx5WHVIcjJKZUU,TestUpdate,True,False,False,2,3420,0,2,3420,0,1,My Drive/Classroom/TestUpdate
+user@domain.com,user@domain.com,1MT5xJ897oYa0Q2OuzBDfLHvig6k_b0EKaovVA2imGYcnrmqZu5hjlJkEPMH-rHKj4qDyy9_j,TS Course,True,False,False,0,0,0,0,0,0,1,My Drive/Classroom/TS Course
+user@domain.com,user@domain.com,1gsbqsbhhwBx9hCF0sqtE213tpUn6Ebj2klLFhHb4xkzBKIdEFkvvwCVtZpYWPgOA796fIPEN,TS Course 2,True,False,False,0,0,0,0,0,0,1,My Drive/Classroom/TS Course 2
+...
+user@domain.com,user@domain.com,1bHS_Tp77W3KSGRNSs_jP1RhAJhIGRCaI,XferFolder,True,False,False,1,1024,0,1,1024,0,0,My Drive/XferFolder
+user@domain.com,user@domain.com,Trash,Trash,,True,True,0,0,1,3,3072,9,-1,Trash
+
+$ gam config csv_output_row_filter &quot;depth:count&lt;1&quot; redirect csv ./MyDriveUsage.csv user user@domain.com print diskusage mydrive 
+User: user@domain.com, Print 1 Drive Disk Usage
+$ more MyDriveUsage.csv
+User,Owner,id,name,ownedByMe,trashed,explicitlyTrashed,directFileCount,directFileSize,directFolderCount,totalFileCount,totalFileSize,totalFolderCount,depth,path
+user@domain.com,user@domain.com,012YenC8f12ALUk9PVA,My Drive,,False,False,100,138212,24,167,189598,79,-1,My Drive
+user@domain.com,user@domain.com,456YenC8f12ALfndaQ1NHc0RtUG92Y1BIUUl4bjVBRmNkWG5oakNqVVFDcXJWOHNmdFlwZmc,Classroom,True,False,False,0,0,15,9,6840,17,0,My Drive/Classroom
+...
+user@domain.com,user@domain.com,1bHS_Tp77W3KSGRNSs_jP1RhAJhIGRCaI,XferFolder,True,False,False,1,1024,0,1,1024,0,0,My Drive/XferFolder
+user@domain.com,user@domain.com,Trash,Trash,,True,True,0,0,1,3,3072,9,-1,Trash
+
+$ gam redirect csv ./MyDriveUsage.csv user user@domain.com print diskusage mydrive show summaryandtrash
+User: user@domain.com, Print 1 Drive Disk Usage
+$ more MyDriveUsage.csv 
+User,Owner,id,name,ownedByMe,trashed,explicitlyTrashed,directFileCount,directFileSize,directFolderCount,totalFileCount,totalFileSize,totalFolderCount,depth,path
+user@domain.com,user@domain.com,012YenC8f12ALUk9PVA,My Drive,,False,False,100,138212,24,167,189598,79,-1,My Drive
+user@domain.com,user@domain.com,Trash,Trash,,True,True,0,0,1,3,3072,9,-1,Trash
+
+$ gam redirect csv ./SharedDriveUsage.csv user user@domain.com print diskusage shareddriveid 0AL5LiIe4dqxZUk9PVA show summaryandtrash
+User: user@domain.com, Print 1 Drive Disk Usage
+$ more SharedDriveUsage.csv 
+User,id,name,trashed,explicitlyTrashed,directFileCount,directFileSize,directFolderCount,totalFileCount,totalFileSize,totalFolderCount,depth,path
+user@domain.com,0125LiIe4dqxZUk9PVA,TS Shared Drive 1,False,False,16,6144,7,42,73799,25,-1,SharedDrives/TS Shared Drive 1
+user@domain.com,Trash,Trash,True,True,1,1024,0,1,1024,0,-1,Trash
+</code></pre>
+<h2 id="display-files-published-to-the-web">Display files published to the web</h2>
+<p>You can display files published to the web.</p>
+<pre><code># Get the published files
+gam config csv_output_header_filter &quot;Owner,id,revisions.0.published,revisions.0.publishedOutsideDomain&quot; csv_output_row_filter &quot;revisions.0.published:boolean:true&quot; auto_batch_min 1 num_threads 20 redirect csv ./PublishedDocs.csv multiprocess redirect stderr - multiprocess &lt;UserTypeEntity&gt; print filerevisions my_publishable_items select last 1
+# Get the files name, MIMEtype and path
+gam redirect csv ./PublishedDocsWithName.csv multiprocess redirect stderr - multiprocess csv ./PublishedDocs.csv gam user &quot;~Owner&quot; print filelist select &quot;~id&quot; fields id,name,mimetype fullpath addcsvdata published &quot;~revisions.0.published&quot; addcsvdata publishedOutsideDomain &quot;~revisions.0.publishedOutsideDomain&quot; 
+</code></pre>
+<p>You can display files published to the web internally for your domain only.</p>
+<pre><code># Get the internally only published files
+gam config csv_output_header_filter &quot;Owner,id,revisions.0.published,revisions.0.publishedOutsideDomain&quot; csv_output_row_filter &quot;revisions.0.published:boolean:true,revisions.0.publishedOutsideDomain:boolean:false&quot; auto_batch_min 1 num_threads 20 redirect csv ./PublishedDocs.csv multiprocess redirect stderr - multiprocess &lt;UserTypeEntity&gt; print filerevisions my_publishable_items select last 1
+# Get the files name, MIMEtype and path
+gam redirect csv ./PublishedDocsWithName.csv multiprocess redirect stderr - multiprocess csv ./PublishedDocs.csv gam user &quot;~Owner&quot; print filelist select &quot;~id&quot; fields id,name,mimetype fullpath addcsvdata published &quot;~revisions.0.published&quot; addcsvdata publishedOutsideDomain &quot;~revisions.0.publishedOutsideDomain&quot; 
+</code></pre>
+<p>You can display files published to the web externally outside of your domain.</p>
+<pre><code># Get the externally published files
+gam config csv_output_header_filter &quot;Owner,id,revisions.0.published,revisions.0.publishedOutsideDomain&quot; csv_output_row_filter &quot;revisions.0.published:boolean:true,revisions.0.publishedOutsideDomain:boolean:true&quot; auto_batch_min 1 num_threads 20 redirect csv ./PublishedDocs.csv multiprocess redirect stderr - multiprocess &lt;UserTypeEntity&gt; print filerevisions my_publishable_items select last 1
+# Get the files name, MIMEtype and path
+gam redirect csv ./PublishedDocsWithName.csv multiprocess redirect stderr - multiprocess csv ./PublishedDocs.csv gam user &quot;~Owner&quot; print filelist select &quot;~id&quot; fields id,name,mimetype fullpath addcsvdata published &quot;~revisions.0.published&quot; addcsvdata publishedOutsideDomain &quot;~revisions.0.publishedOutsideDomain&quot; 
+</code></pre>
+<h2 id="display-information-about-last-modified-file-on-a-drive">Display information about last modified file on a drive</h2>
+<p>Use these commands to display information about the most recently modified file on a drive.</p>
+<p>By default, a user's My Drive is processed; optionally, a Shared Drive can be processed.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print drivelastmodification [todrive &lt;ToDriveAttribute&gt;*]
+        [select &lt;SharedDriveEntity&gt;]
+        [pathdelimiter &lt;Character&gt;]
+        (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*
+gam &lt;UserTypeEntity&gt; show drivelastmodification
+        [select &lt;SharedDriveEntity&gt;]
+        [pathdelimiter &lt;Character&gt;]
+</code></pre>
+<p>In addition to the user and optional Shared Drive information, The following fields are displayed
+<code>lastModifiedFileId,lastModifiedFileName,lastModifiedFileMimeType,lastModifiedFilePath,lastModifyingUser,lastModifiedTime</code></p>
+<p>By default, file path components are separated by <code>/</code>; use <code>pathdelimiter &lt;Character&gt;</code> to use <code>&lt;Character&gt;</code> as the separator.</p>
+<p>For print drivelastmodification, add additional columns of data from the command line to the output:
+* <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code> - Add additional columns of data from the command line to the output</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

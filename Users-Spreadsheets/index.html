@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Users - Spreadsheets - GAM Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">GAM Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../00scratch/" class="nav-link">Scratch Me Wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Addresses/" class="nav-link">Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Administrators/" class="nav-link">Administrators</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Alert-Center/" class="nav-link">Alert Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Aliases/" class="nav-link">Aliases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Authorization/" class="nav-link">Authorization</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../BNF-Syntax/" class="nav-link">Syntax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Basic-Items/" class="nav-link">Basic Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Bulk-Processing/" class="nav-link">Bulk Processing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Business-Account-Management/" class="nav-link">Users - Business Account Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Input-Filtering/" class="nav-link">CSV Input Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Output-Filtering/" class="nav-link">CSV Output Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Special-Characters/" class="nav-link">CSV Special Characters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Access/" class="nav-link">Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Events/" class="nav-link">Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars/" class="nav-link">Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chat-Bot-Setup-Use/" class="nav-link">Chat Bot Setup and Use</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-AUE-Counts/" class="nav-link">Chrome Auto Update Expiration Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Browser-Cloud-Management/" class="nav-link">Chrome Browser Cloud Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Device-Counts/" class="nav-link">Chrome Device Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Installed-Apps/" class="nav-link">Chrome Installed Apps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Needs-Attention-Counts/" class="nav-link">Chrome Device Needs Attention Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Policies/" class="nav-link">Chrome Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Printers/" class="nav-link">Chrome Printers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Profile-Management/" class="nav-link">Chrome Profile Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-Counts/" class="nav-link">Chrome Version Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-History/" class="nav-link">Chrome Version History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../ChromeOS-Devices/" class="nav-link">ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Courses/" class="nav-link">Classroom - Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Guardians/" class="nav-link">Classroom - Guardians</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Invitations/" class="nav-link">Classroom - Invitations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Membership/" class="nav-link">Classroom - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-StudentGroups/" class="nav-link">Classroom - Student Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Channel/" class="nav-link">Cloud Channel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Devices/" class="nav-link">Cloud Identity Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups-Membership/" class="nav-link">Cloud Identity Groups - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups/" class="nav-link">Cloud Identity Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Policies/" class="nav-link">Cloud Identity Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Storage/" class="nav-link">Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-ChromeOS-Devices/" class="nav-link">Collections of ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Items/" class="nav-link">Collections of Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Users/" class="nav-link">Collections of Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Data-From-Google-Docs-Sheets-Storage/" class="nav-link">Command data from Google Docs, Sheets and Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Line-Parsing/" class="nav-link">Command Line Parsing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Logging-Progress/" class="nav-link">Command Logging and Progress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Context-Aware-Access-Levels/" class="nav-link">Context-Aware Access Levels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Customer/" class="nav-link">Customer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-People-Contacts-Profiles/" class="nav-link">Domain People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-SharedContacts/" class="nav-link">Domain Shared Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains-Verification/" class="nav-link">Domains - Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains/" class="nav-link">Domains</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Downloads-Installs/" class="nav-link">Downloads-Installs-GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-File-Selection/" class="nav-link">Drive File Selection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-Items/" class="nav-link">Drive Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-REST-API-v3/" class="nav-link">Drive REST API v3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Email-Audit-Monitor/" class="nav-link">Email Audit Monitor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Find-File-Owner/" class="nav-link">Find File Owner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Public-Chat-Room/" class="nav-link">GAM Public Chat Room</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Release-Process/" class="nav-link">Steps to release a new GAM version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Return-Codes/" class="nav-link">GAM Return Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-with-minimal-GCP-rights/" class="nav-link">GAM setup with minimal GCP permissions.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-FAQ/" class="nav-link">What is GAM7?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Android-Devices/" class="nav-link">GAM7 on Android Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Chrome-OS-Devices/" class="nav-link">GAM7 on Chrome OS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GamUpdates/" class="nav-link">Update GAM7 to latest version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Global-Address-List/" class="nav-link">Global Address List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Data-Transfers/" class="nav-link">Google Data Transfers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Network-Addresses/" class="nav-link">Google Network Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups-Membership/" class="nav-link">Groups Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups/" class="nav-link">Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../HTTPS-Proxy/" class="nav-link">HTTPS Proxy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Home/" class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Install-GAM7/" class="nav-link">Installing GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Uninstall-GAM7/" class="nav-link">Uninstalling GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Update-GAM7/" class="nav-link">Updating GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-GAMADV-XTD3-to-GAM7/" class="nav-link">Installation - Upgrade GAMADV-XTD3 to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-Legacy-GAM-to-GAM7/" class="nav-link">Installation - Upgrade Legacy GAM to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Inbound-SSO/" class="nav-link">Inbound SSO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Install-GAM-as-Python-Library/" class="nav-link">Install GAM as Python Library</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Licenses/" class="nav-link">Licenses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List-Items/" class="nav-link">List Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List/" class="nav-link">List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Meta-Commands-and-File-Redirection/" class="nav-link">Meta Commands and File Redirection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Mobile-Devices/" class="nav-link">Mobile Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Organizational-Units/" class="nav-link">Organizational Units</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Other-Resources/" class="nav-link">Other Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Permission-Matches/" class="nav-link">Permission Matches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Python-Regular-Expressions/" class="nav-link">Python Regular Expressions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Rclone/" class="nav-link">Rclone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reports/" class="nav-link">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reseller/" class="nav-link">Reseller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Resources/" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Running-GAM7-securely-on-a-Google-Compute-Engine/" class="nav-link">Running GAM7 securely on a Google Compute Engine</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../SSL-Root-CA-Certificates/" class="nav-link">SSL Root CA Certificates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Schemas/" class="nav-link">Schemas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Scripts/" class="nav-link">Scripts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Send-Email/" class="nav-link">Send Email</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Shared-Drives/" class="nav-link">Domain Administrators - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Sites/" class="nav-link">Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Tag-Replace/" class="nav-link">Tag Replace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Todrive/" class="nav-link">Todrive</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Unmanaged-Accounts/" class="nav-link">Unmanaged Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Upgrade-Benefits/" class="nav-link">Upgrade Benefits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Analytics-Admin/" class="nav-link">Users - Analytics Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Application-Specific-Passwords/" class="nav-link">Users - Application Specific Passwords</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Backup-Verification-Codes/" class="nav-link">Users - Backup Verification Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Access/" class="nav-link">Users - Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Events/" class="nav-link">Users - Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars/" class="nav-link">Users - Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Chat/" class="nav-link">Users - Chat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classification-Labels/" class="nav-link">Users - Classification Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classroom-Profile/" class="nav-link">Users - Classroom - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts-Delegates/" class="nav-link">Users - Contacts - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts/" class="nav-link">User Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Deprovision/" class="nav-link">Users - Deprovision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Activity-Settings/" class="nav-link">Users - Drive - Activity/Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Cleanup/" class="nav-link">Users - Drive - Cleanup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Comments/" class="nav-link">Users - Drive - Comments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Copy-Move/" class="nav-link">Users - Drive Files Copy/Move</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Display/" class="nav-link">Users - Drive Files Display</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Manage/" class="nav-link">Users - Drive Files Manage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Orphans/" class="nav-link">Users - Drive - Orphans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Ownership/" class="nav-link">Users - Drive - Ownership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Permissions/" class="nav-link">Users - Drive - Permissions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Query/" class="nav-link">Users - Drive - Query</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Revisions/" class="nav-link">Users - Drive - Revisions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Shortcuts/" class="nav-link">Users - Drive Shortcuts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Transfer/" class="nav-link">Users - Drive - Transfer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Forms/" class="nav-link">Users - Forms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-CSE/" class="nav-link">Users - Gmail - Client Side Encryption</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Delegates/" class="nav-link">Users - Gmail - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Filters/" class="nav-link">Users - Gmail - Filters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Forwarding/" class="nav-link">Users - Gmail - Forwarding</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Labels/" class="nav-link">Users - Gmail - Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Messages-Threads/" class="nav-link">Users - Gmail - Messages/Threads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Profile/" class="nav-link">Users - Gmail - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-S-MIME/" class="nav-link">Users - Gmail - S/MIME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Send-As-Signature-Vacation/" class="nav-link">Users - Gmail - Send As/Signature/Vacation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Settings/" class="nav-link">Users - Gmail - Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Group-Membership/" class="nav-link">Users - Group Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Keep-Notes/" class="nav-link">Users - Keep - Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Looker-Studio/" class="nav-link">Users - Looker Studio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Meet/" class="nav-link">Users - Meet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-People-Contacts-Profiles/" class="nav-link">Users - People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Photo/" class="nav-link">Users - Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Photo/" class="nav-link">Users - Profile Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Sharing/" class="nav-link">Users - Profile Sharing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Shared-Drives/" class="nav-link">Users - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Signout-Turnoff2SV/" class="nav-link">Users - Signout and Turn off 2-Step Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Users - Spreadsheets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tag-Manager/" class="nav-link">Users - Tag Manager</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tasks/" class="nav-link">Users - Tasks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tokens/" class="nav-link">Users - Tokens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Web-Resources-and-Sites/" class="nav-link">Users - Web Resources and Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-YouTube/" class="nav-link">Users - YouTube</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users/" class="nav-link">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-YubiKey/" class="nav-link">Using GAM7 with a YubiKey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-delegated-admin-service-account/" class="nav-link">Using GAM7 with a delegated admin service account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-keyless-authentication-Workload-Identity-Federation/" class="nav-link">Using GAM7 with Keyless Authentication - Workload Identity Federation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Vault-Takeout/" class="nav-link">Vault - Takeout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Verifying-a-GAM7-Build-is-Legitimate-and-Official/" class="nav-link">Verifying a GAM7 Build is Legitimate and Official</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Version-and-Help/" class="nav-link">Version and Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../_Sidebar/" class="nav-link"> Sidebar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../gam.cfg/" class="nav-link">GAM Configuration</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Legacy</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../legacy/l-AdminSettingsExamples/" class="dropdown-item">l AdminSettingsExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Android-Installation/" class="dropdown-item">l Android Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-BulkOperations/" class="dropdown-item">l BulkOperations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CalendarExamples/" class="dropdown-item">l CalendarExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chat-Bot/" class="dropdown-item">l Chat Bot</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Browser-Management/" class="dropdown-item">l Chrome Browser Management</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-OS-Installation/" class="dropdown-item">l Chrome OS Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Policy-Settings/" class="dropdown-item">l Chrome Policy Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Cloud-Identity-Groups/" class="dropdown-item">l Cloud Identity Groups</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendar-Resources/" class="dropdown-item">GAM Calendar Resources Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendars/" class="dropdown-item">GAM Calendar Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Definitions/" class="dropdown-item">l Command Reference Definitions</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Drive/" class="dropdown-item">GAM Drive Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Email/" class="dropdown-item">GAM Email Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Group-Attributes/" class="dropdown-item">GAM Group Attributes Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Groups/" class="dropdown-item">GAM Group Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Users/" class="dropdown-item">GAM Users Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Context-Aware-Access-Levels/" class="dropdown-item">l Context Aware Access Levels</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Creating-client_secrets.json-and-oauth2service.json/" class="dropdown-item">l Creating client secrets.json and oauth2service.json</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CreatingClientSecretsFile/" class="dropdown-item">l CreatingClientSecretsFile</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Custom-Schemas/" class="dropdown-item">l Custom Schemas</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Data-Transfers/" class="dropdown-item">l Data Transfers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-DomainVerification/" class="dropdown-item">l DomainVerification</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesAccountAuditing/" class="dropdown-item">l ExamplesAccountAuditing</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesCSV/" class="dropdown-item">l ExamplesCSV</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesEmailSettings/" class="dropdown-item">l ExamplesEmailSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesOrganizations/" class="dropdown-item">l ExamplesOrganizations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-Discussion-Group/" class="dropdown-item">GAM Discussion Group</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-on-Android-and-Chrome-OS/" class="dropdown-item">l GAM on Android and Chrome OS</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-options-files/" class="dropdown-item">l GAM options files</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-with--minimal-GCP-rights/" class="dropdown-item">l GAM with  minimal GCP rights</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3CSVListings/" class="dropdown-item">l GAM3CSVListings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3DirectoryCommands/" class="dropdown-item">l GAM3DirectoryCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3GroupSettings/" class="dropdown-item">l GAM3GroupSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Google-Vault---Takeout-Commands/" class="dropdown-item">l Google Vault   Takeout Commands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GoogleDriveManagement/" class="dropdown-item">l GoogleDriveManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Grouping-18-or-Older-Users/" class="dropdown-item">Using GAM to group 18+ users</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Home/" class="dropdown-item">l Home</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-How-to-upgrade-from-Standard-GAM/" class="dropdown-item">Installation - Upgrading from Standard GAM</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Inbound-SSO-Settings/" class="dropdown-item">l Inbound SSO Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-LicenseExamples/" class="dropdown-item">l LicenseExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Admins/" class="dropdown-item">l Managing Admins</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-CloudPrint-Printers/" class="dropdown-item">l Managing CloudPrint Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Devices/" class="dropdown-item">l Managing Devices</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Google-Classroom/" class="dropdown-item">l Managing Google Classroom</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-OAuthKeyManagement/" class="dropdown-item">l OAuthKeyManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Printers/" class="dropdown-item">l Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ResellerCommands/" class="dropdown-item">l ResellerCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-SecurityExamples/" class="dropdown-item">l SecurityExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-UnmanagedUsersExamples/" class="dropdown-item">l UnmanagedUsersExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Using-GAM-with-a-delegated-admin-service-account-%28DASA%29/" class="dropdown-item">Background</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-_Footer/" class="dropdown-item">l  Footer</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Users-Signout-Turnoff2SV/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Users-Tag-Manager/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#users-spreadsheets" class="nav-link">Users - Spreadsheets</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#api-documentation" class="nav-link">API documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#query-documentation" class="nav-link">Query documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#definitions" class="nav-link">Definitions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#json-data-quoting" class="nav-link">JSON data quoting</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#create-spreadsheets" class="nav-link">Create spreadsheets</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#update-spreadsheets" class="nav-link">Update spreadsheets</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-information-about-spreadsheets" class="nav-link">Display information about spreadsheets</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#clear-values-in-a-spreadsheet" class="nav-link">Clear values in a spreadsheet</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-values-in-a-spreadsheet" class="nav-link">Display values in a spreadsheet</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#appendupdate-values-in-a-spreadsheet" class="nav-link">Append/update values in a spreadsheet</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#extended-examples-with-show-sheetrange" class="nav-link">Extended Examples with show sheetrange</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#extended-examples-with-print-sheetrange" class="nav-link">Extended Examples with print sheetrange</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#repair-an-uneditable-sheet-within-a-spreadsheet" class="nav-link">Repair an uneditable sheet within a spreadsheet</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="users-spreadsheets">Users - Spreadsheets</h1>
+<ul>
+<li><a href="#api-documentation">API documentation</a></li>
+<li><a href="#query-documentation">Query documentation</a></li>
+<li><a href="#definitions">Definitions</a></li>
+<li><a href="#json-data-quoting">JSON data quoting</a></li>
+<li><a href="#create-spreadsheets">Create spreadsheets</a></li>
+<li><a href="#update-spreadsheets">Update spreadsheets</a></li>
+<li><a href="#display-information-about-spreadsheets">Display information about spreadsheets</a></li>
+<li><a href="#clear-values-in-a-spreadsheet">Clear values in a spreadsheet</a></li>
+<li><a href="#display-values-in-a-spreadsheet">Display values in a spreadsheet</a></li>
+<li><a href="#appendupdate-values-in-a-spreadsheet">Append/update values in a spreadsheet</a></li>
+<li><a href="#extended-examples-with-show-sheetrange">Extended Examples with show sheetrange</a></li>
+<li><a href="#extended-examples-with-print-sheetrange">Extended Examples with print sheetrange</a></li>
+<li><a href="#repair-an-uneditable-sheet-within-a-spreadsheet">Repair an uneditable sheet within a spreadsheet</a></li>
+</ul>
+<h2 id="api-documentation">API documentation</h2>
+<ul>
+<li><a href="https://developers.google.com/sheets/api/reference/rest">Sheets API</a></li>
+<li><a href="https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/create">Sheets API - Create</a></li>
+<li><a href="https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/batchUpdate">Sheets API - Batch Update</a></li>
+<li><a href="https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values#ValueRange">Sheets API - Values</a></li>
+<li><a href="https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/append">Sheets API - Values Append</a></li>
+<li><a href="https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/append#InsertDataOption">Sheets API - Insert Data</a></li>
+<li><a href="https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/batchUpdate">Sheets API - Values Batch Update</a></li>
+<li><a href="https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/batchClear">Sheets API - Values Batch Clear</a></li>
+<li><a href="https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/batchGet">Sheets API - Values Batch Get</a></li>
+<li><a href="https://developers.google.com/sheets/api/reference/rest/v4/Dimension">Sheets API - Dimension</a></li>
+<li><a href="https://developers.google.com/sheets/api/reference/rest/v4/ValueRenderOption">Sheets API - Value Render</a></li>
+<li><a href="https://developers.google.com/sheets/api/reference/rest/v4/DateTimeRenderOption">Sheets API - DateTime Render</a></li>
+</ul>
+<h2 id="query-documentation">Query documentation</h2>
+<ul>
+<li><a href="https://developers.google.com/drive/api/v3/search-files">Search Files</a></li>
+<li><a href="https://developers.google.com/drive/api/v3/ref-search-terms">Search Terms</a></li>
+</ul>
+<h2 id="definitions">Definitions</h2>
+<ul>
+<li><a href="Drive-File-Selection"><code>&lt;DriveFileEntity&gt;</code></a></li>
+<li><a href="Collections-of-Users"><code>&lt;UserTypeEntity&gt;</code></a></li>
+</ul>
+<pre><code>&lt;DriveFileParentAttribute&gt; ::=
+        (parentid &lt;DriveFolderID&gt;)|
+        (parentname &lt;DriveFolderName&gt;)|
+        (anyownerparentname &lt;DriveFolderName&gt;)|
+        (teamdriveparentid &lt;DriveFolderID&gt;)|
+        (teamdriveparent &lt;SharedDriveName&gt;)|
+        (teamdriveparentid &lt;SharedDriveID&gt; teamdriveparentname &lt;DriveFolderName&gt;)|
+        (teamdriveparent &lt;SharedDriveName&gt; teamdriveparentname &lt;DriveFolderName&gt;))|
+        (teamdriveparentid &lt;DriveFolderID&gt;)|(teamdriveparent &lt;SharedDriveName&gt;)|
+        (teamdriveparentid &lt;SharedDriveID&gt; teamdriveparentname &lt;DriveFolderName&gt;)|
+        (teamdriveparent &lt;SharedDriveName&gt; teamdriveparentname &lt;DriveFolderName&gt;)
+</code></pre>
+<ul>
+<li>The following right-hand side characters are literal: <code>{}[],'":</code></li>
+<li>The following right-hand side characters are part of the meta-syntax: <code>&lt;&gt;()*|</code></li>
+</ul>
+<pre><code>&lt;SpreadsheetJSONCreateRequest&gt; ::=
+        '{&quot;properties&quot;: {&lt;SpreadsheetProperties&gt;}, &quot;sheets&quot;: [{&lt;Sheet&gt;}(,{&lt;Sheet&gt;})*],
+          &quot;namedRanges&quot;: [{&lt;NamedRange&gt;}(,{&lt;NamedRange&gt;})*],
+          &quot;developerMetadata&quot;: [{&lt;DeveloperMetadata&gt;}(,{DeveloperMetadata&gt;})]}'
+&lt;SpreadsheetJSONUpdateRequest&gt; ::=
+        '{&quot;requests&quot;: [{&lt;Request&gt;}(,{&lt;Request&gt;})], &quot;includeSpreadsheetInResponse&quot;: true|false,
+          &quot;responseRanges&quot;: [&quot;&lt;SpreadsheetRange&gt;&quot;(,&quot;&lt;SpreadsheetRange&gt;&quot;)],
+          &quot;responseIncludeGridData&quot;: true|false}
+&lt;SpreadsheetField&gt; ::=
+        developermetadata|
+        namedranges|
+        properties|
+        sheets|
+        spreadsheetid|
+        spreadsheeturl
+&lt;SpreadsheetFieldList&gt; ::= &quot;&lt;SpreadsheetField&gt;(,&lt;SpreadsheetField&gt;)*&quot;
+&lt;SpreadsheetSheetsField&gt; ::=
+        bandedranges|
+        basicfilter|
+        charts|
+        columngroups|
+        conditionalformats|
+        data|
+        developermetadata|
+        filterviews|
+        merges|
+        properties|
+        protectedranges|
+        rowgroups|
+        slicers
+&lt;SpreadsheetRange&gt; ::= &lt;String&gt;
+&lt;SpreadsheetRangeList&gt; ::= &quot;'&lt;SpreadsheetRange&gt;'(,'&lt;SpreadsheetRange&gt;')*&quot;
+&lt;SpreadsheetValue&gt; ::= &quot;&lt;String&gt;&quot;|&lt;Number&gt;|true|false
+&lt;SpreadsheetValueList&gt; ::= &quot;&lt;SpreadsheetValue&gt;(,&lt;SpreadsheetValue&gt;)*&quot;
+&lt;SpreadsheetJSONRangeValues&gt; ::=
+        '{&quot;range&quot;: &lt;SpreadsheetRange&gt;, &quot;values&quot;: [&lt;SpreadsheetValueList&gt;(,&lt;SpreadsheetValueList&gt;)*],
+          &quot;majorDimension&quot;: &quot;ROWS|COLUMNS&quot;}'
+&lt;SpreadsheetJSONRangeValuesList&gt; ::=
+        '[&lt;SpreadsheetJSONRangeValues&gt;(,&lt;SpreadsheetJSONRangeValues&gt;)*]'
+</code></pre>
+<h2 id="json-data-quoting">JSON data quoting</h2>
+<p>When entering JSON data from the command line, different quoting rules apply based on OS.</p>
+<h3 id="linuxmac-os">Linux/Mac OS</h3>
+<p>In all cases, surround entire argument in single quotes.</p>
+<pre><code>gam redirect stdout SheetData.json user testuser@domain.com show sheetrange name TestSheet range 'Sheet1!A1:B2' formatjson valuerangesonly
+gam user testuser@domain.com update sheetranges drivefilename TestSheet json '[{&quot;range&quot;: &quot;A1:C1&quot;, &quot;values&quot;: [[1, 2, 3]], &quot;majorDimension&quot;: &quot;ROWS&quot;}, {&quot;range&quot;: &quot;A3:C3&quot;, &quot;values&quot;: [[&quot;10/01/2017 10:30:00&quot;, true, 6]], &quot;majorDimension&quot;: &quot;ROWS&quot;}]' userentered includevaluesinresponse
+</code></pre>
+<h3 id="windows-powershell">Windows PowerShell</h3>
+<p>For JSON data without double quotes, surround entire argument in double quotes.</p>
+<pre><code>gam redirect stdout SheetData.json user testuser@domain.com show sheetrange name TestSheet range &quot;Sheet1!A1:B2&quot; formatjson valuerangesonly
+</code></pre>
+<p>For JSON data with double quotes, surround entire argument in single quotes; guard double quotes with backslah.</p>
+<pre><code>gam user testuser@domain.com update sheetranges drivefilename TestSheet json '[{\&quot;range\&quot;: \&quot;A1:C1\&quot;, \&quot;values\&quot;: [[1, 2, 3]], \&quot;majorDimension\&quot;: \&quot;ROWS\&quot;}, {\&quot;range\&quot;: \&quot;A3:C3\&quot;, \&quot;values\&quot;: [[\&quot;10/01/2017 10:30:00\&quot;, true, 6]], \&quot;majorDimension\&quot;: \&quot;ROWS\&quot;}]' userentered includevaluesinresponse
+</code></pre>
+<h3 id="windows-command-prompt">Windows Command Prompt</h3>
+<p>For JSON data without double quotes, surround entire argument in double quotes.</p>
+<pre><code>gam redirect stdout SheetData.json user testuser@domain.com show sheetrange name TestSheet range &quot;Sheet1!A1:B2&quot; formatjson valuerangesonly
+</code></pre>
+<p>For JSON data with double quotes, surround entire argument in double quotes; guard double quotes with backslah.</p>
+<pre><code>gam user testuser@domain.com update sheetranges drivefilename TestSheet json &quot;[{\&quot;range\&quot;: \&quot;A1:C1\&quot;, \&quot;values\&quot;: [[1, 2, 3]], \&quot;majorDimension\&quot;: \&quot;ROWS\&quot;}, {\&quot;range\&quot;: \&quot;A3:C3\&quot;, \&quot;values\&quot;: [[\&quot;10/01/2017 10:30:00\&quot;, true, 6]], \&quot;majorDimension\&quot;: \&quot;ROWS\&quot;}]&quot; userentered includevaluesinresponse
+</code></pre>
+<h3 id="json-file">JSON file</h3>
+<p>When entering data from a JSON file, no special quoting is required.</p>
+<pre><code>File Sheet.json contains:
+[{&quot;range&quot;: &quot;A1:C1&quot;, &quot;values&quot;: [[1, 2, 3]], &quot;majorDimension&quot;: &quot;ROWS&quot;}, {&quot;range&quot;: &quot;A3:C3&quot;, &quot;values&quot;: [[&quot;10/01/2017 10:30:00&quot;, true, 6]], &quot;majorDimension&quot;: &quot;ROWS&quot;}]
+
+gam user testuser@domain.com update sheetranges drivefilename TestSheet json file Sheet.json
+</code></pre>
+<h3 id="a-field-with-json-data-from-a-csv-file">A field with JSON data from a CSV file</h3>
+<p>Surround data in single quotes.</p>
+<pre><code>CSV file Sheet.csv contains:
+User,spreadsheetId,JSON
+user@domain.com,1MOq6umgWSM7NF8-CQ-Aj3_n1DIu_GvyCcuLxxxxxx,'[{&quot;range&quot;: &quot;Sheet1!A1:C1&quot;, &quot;values&quot;: [[&quot;1&quot;, &quot;2&quot;, &quot;3&quot;]], &quot;majorDimension&quot;: &quot;ROWS&quot;}, {&quot;range&quot;: &quot;Sheet1!A3:C3&quot;, &quot;values&quot;: [[&quot;10/01/2017 10:30:00&quot;, true, &quot;6&quot;]], &quot;majorDimension&quot;: &quot;ROWS&quot;}]'
+
+gam csv Sheet.csv quotechar &quot;'&quot; gam user &quot;~User&quot; update sheetranges &quot;~spreadsheetId&quot; json &quot;~JSON&quot; userentered includevaluesinresponse
+</code></pre>
+<h2 id="create-spreadsheets">Create spreadsheets</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; create|add sheet
+        ((json [charset &lt;Charset&gt;] &lt;SpreadsheetJSONCreateRequest&gt;) |
+         (json file &lt;FileName&gt; [charset &lt;Charset&gt;]))
+        [&lt;DriveFileParentAttribute&gt;]
+        [formatjson] [returnidonly]
+</code></pre>
+<p>The JSON data can be read from a command line argument or a file.</p>
+<p>The Google Sheets API creates the spreadheet in the user's root folder; use the following options to have Gam
+assign the spreadsheet to a different location. If the assignment fails, the spreadsheet is left in the root folder.
+* <code>parentid &lt;DriveFolderID&gt;</code> - Folder ID.
+* <code>parentname &lt;DriveFolderName&gt;</code> - Folder name; the folder must be owned by <code>&lt;UserTypeEntity&gt;</code>.
+* <code>anyownerparentname &lt;DriveFolderName&gt;</code> - Folder name; the folder can be owned by any user, <code>&lt;UserTypeEntity&gt;</code> must be able to write to the folder.
+* <code>teamdriveparentid &lt;DriveFolderID&gt;</code> - Shared Drive folder ID; when used alone, this indicates a specfic Shared Drive folder.
+* <code>teamdriveparent &lt;SharedDriveName&gt;</code> - Shared Drive name; when used alone, this indicates the root level of the Shared Drive.
+* <code>teamdriveparentid &lt;SharedDriveID&gt; teamdriveparentname &lt;DriveFolderName&gt;</code> - A Shared Drive ID and a folder name  on that Shared Drive.
+* <code>teamdriveparent &lt;SharedDriveName&gt; teamdriveparentname &lt;DriveFolderName&gt;</code> - A Shared Drive name and a folder name on that Shared Drive.
+* If none of the parent options are specified, the parent folder is the root folder.</p>
+<p>The output is formatted for human readability; use the following options to produce JSON output
+* <code>formatjson</code> - Display output in JSON format for program parsing.
+* <code>returnidonly</code> - Display just the file ID of the created spreadsheet file as output</p>
+<h3 id="example">Example</h3>
+<p>Create a basic sheet.</p>
+<pre><code>File Sheet.json contains:
+{&quot;properties&quot;: {&quot;title&quot;: &quot;Gam Sheet&quot;}, &quot;sheets&quot;: [{&quot;properties&quot;: {&quot;sheetId&quot;: 0, &quot;title&quot;: &quot;Gam Tab&quot;, &quot;sheetType&quot;: &quot;GRID&quot;}}]}
+
+gam user testuser@domain.com create sheet json file Sheet.json
+</code></pre>
+<h2 id="update-spreadsheets">Update spreadsheets</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; update sheet &lt;DriveFileEntity&gt;
+        ((json [charset &lt;Charset&gt;] &lt;SpreadsheetJSONUpdateRequest&gt;) |
+         (json file &lt;FileName&gt; [charset &lt;Charset&gt;]))
+        [formatjson]
+</code></pre>
+<p>The JSON data can be read from a command line argument or a file. On the command line, the
+JSON data is enclosed in single quotes; these should not be present when the JSON data is read from a file.</p>
+<p>The output is formatted for human readability. Use the following option to produce JSON output for program parsing.
+* <code>formatjson</code> - Display output in JSON format.</p>
+<h3 id="examples">Examples</h3>
+<p>Add a new tab/sheet to a spreadsheet.</p>
+<pre><code>File Sheet.json contains:
+{&quot;requests&quot;: [{&quot;addSheet&quot;: {&quot;properties&quot;: {&quot;title&quot;: &quot;New Sheet&quot;, &quot;sheetType&quot;: &quot;GRID&quot;}}}]}
+
+gam user testuser@domain.com update sheet &lt;DriveFileItem&gt; json file Sheet.json
+</code></pre>
+<p>Delete a tab/sheet from a spreadsheet. </p>
+<pre><code>Get the sheet IDs.
+gam user testuser@domain.com info sheet &lt;DriveFileItem&gt; fields sheets
+Get the desired sheetId from the output.
+File Sheet.json contains:
+{&quot;requests&quot;: [{&quot;deleteSheet&quot;: {&quot;sheetId&quot;: 1234567890}}]}
+
+gam user testuser@domain.com update sheet &lt;DriveFileItem&gt; json file Sheet.json
+</code></pre>
+<p>Rename a tab/sheet in a spreadsheet. </p>
+<pre><code>Get the sheet IDs.
+gam user testuser@domain.com info sheet &lt;DriveFileItem&gt; fields sheets
+Get the desired sheetId from the output.
+File Sheet.json contains:
+{&quot;requests&quot;: [{&quot;updateSheetProperties&quot;: {&quot;properties&quot;: {&quot;sheetId&quot;: 1234567890, &quot;title&quot;: &quot;New Title&quot;}, &quot;fields&quot;: &quot;title&quot;}}]}
+
+gam user testuser@domain.com update sheet &lt;DriveFileItem&gt; json file Sheet.json
+</code></pre>
+<p>Delete a column from a tab in a spreadsheet.</p>
+<pre><code>Get the sheet IDs.
+gam user testuser@domain.com info sheet &lt;DriveFileItem&gt; fields sheets
+Get the desired sheetId from the output.
+Columns are numbered starting from 0 at the left; specify the starting column and the ending column + 1.
+In this example, column B is being deleted.
+File Sheet.json contains:
+{&quot;requests&quot;: [{&quot;deleteRange&quot;: {&quot;range&quot;: {&quot;sheetId&quot;: 1234567890, &quot;startColumnIndex&quot;: 1, &quot;endColumnIndex&quot;: 2}, &quot;shiftDimension&quot;: &quot;COLUMNS&quot;}}]}
+
+gam user testuser@domain.com update sheet &lt;DriveFileItem&gt; json file Sheet.json
+</code></pre>
+<h2 id="display-information-about-spreadsheets">Display information about spreadsheets</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; info|show sheet &lt;DriveFileEntity&gt;
+        [fields &lt;SpreadsheetFieldList&gt;] [sheetsfields &lt;SpreadsheetSheetsFieldList&gt;]
+        (range &lt;SpreadsheetRange&gt;)* (rangelist &lt;SpreadsheetRangeList&gt;)*
+        [includegriddata [&lt;Boolean&gt;]] [shownames]
+        [formatjson]
+</code></pre>
+<p>By default, the Sheets API does not return the sheet file name, use the <code>shownames</code> option to have GAM
+make an additional API call to get and display the sheet file name.</p>
+<p>The output is formatted for human readability. Use the following option to produce JSON output for program parsing.
+* <code>formatjson</code> - Display output in JSON format.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print sheet &lt;DriveFileEntity&gt; [todrive &lt;ToDriveAttribute&gt;*]
+        [fields &lt;SpreadsheetFieldList&gt;] [sheetsfields &lt;SpreadsheetSheetsFieldList&gt;]
+        (range &lt;SpreadsheetRange&gt;)* (rangelist &lt;SpreadsheetRangeList&gt;)*
+        [includegriddata [&lt;Boolean&gt;]] [shownames]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>By default, the Sheets API does not return the sheet file name, use the <code>shownames</code> option to have GAM
+make an additional API call to get and display the sheet file name.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h2 id="clear-values-in-a-spreadsheet">Clear values in a spreadsheet</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; clear sheetrange &lt;DriveFileEntity&gt;
+        (range &lt;SpreadsheetRange&gt;)+ (rangelist &lt;SpreadsheetRangeList&gt;)*
+        [formatjson]
+</code></pre>
+<p>Multiple ranges can be specified.</p>
+<p>With <code>clear</code>, the output is formatted for human readability. Use the following option to produce JSON output for program parsing.
+* <code>formatjson</code> - Display output in JSON format.</p>
+<h3 id="example_1">Example</h3>
+<pre><code>gam user testuser@domain.com clear sheetranges drivefilename TestSheet range A4:C5 range A9:C10
+</code></pre>
+<h2 id="display-values-in-a-spreadsheet">Display values in a spreadsheet</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; print sheetrange &lt;DriveFileEntity&gt; [todrive &lt;ToDriveAttribute&gt;*]
+        (range &lt;SpreadsheetRange&gt;)* (rangelist &lt;SpreadsheetRangeList&gt;)*
+        [rows|columns] [formula|formattedvalue|unformattedvalue]
+        [serialnumber|formattedstring]
+        [formatjson [quotechar &lt;Character&gt;] [valuerangesonly [&lt;Boolean&gt;]]]
+gam &lt;UserTypeEntity&gt; show sheetrange &lt;DriveFileEntity&gt;
+        (range &lt;SpreadsheetRange&gt;)* (rangelist &lt;SpreadsheetRangeList&gt;)*
+        [rows|columns] [formula|formattedvalue|unformattedvalue]
+        [serialnumber|formattedstring]
+        [formatjson [valuerangesonly [&lt;Boolean&gt;]]]
+</code></pre>
+<p>Multiple ranges can be specified.</p>
+<p>Specify how the values are displayed; the default is <code>rows</code>.
+* <code>rows</code> - Display rows of data
+* <code>columns</code> - Display columns of data</p>
+<p>Specify how values should be rendered in the output; the default is <code>formattedvalue</code>.
+* <code>formula</code> - Values will not be calculated; the reply will include the formulas.
+* <code>formattedvalue</code> - Values will be calculated and formatted in the reply according to the cell's formatting.
+* <code>unformattedvalue</code> - Values will be calculated, but not formatted in the reply.</p>
+<p>Specify how date and time values should be rendered in the output; the default is <code>formattedstring</code>.
+* <code>serialnumber</code> - Instructs date, time, datetime, and duration fields to be output as doubles in "serial number" format, as popularized by Lotus 1-2-3.
+* <code>formattedstring</code> - Instructs date, time, datetime, and duration fields to be output as strings in their given number format (which is dependent on the spreadsheet locale).</p>
+<p>With <code>show</code>, the values output is formatted for human readability. With <code>print</code>, the values output is expanded into multiple columns.
+* <code>formatjson</code> - Display values output in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<p>The <code>valuerangesonly</code> option used in conjunction with <code>formatjson</code> limits the display to just the <code>valueRanges</code> data.
+This will make it simpler to capture the sheetrange data, modify it, and update the sheet with the modified data.</p>
+<h3 id="examples_1">Examples</h3>
+<p>For Windows, see <a href="#json-data-quoting">JSON data quoting</a></p>
+<pre><code>gam user testuser@domain.com show sheetrange name TestSheet range 'Sheet1!A1:B2' formatjson 
+Getting all Drive Files/Folders that match query ('me' in owners and name = 'TestSheet') for testuser@domain.com
+Got 1 Drive File/Folder that matched query ('me' in owners and name = 'TestSheet') for testuser@domain.com...
+{&quot;User&quot;: &quot;testuser@domain.com&quot;, &quot;spreadsheetId&quot;: &quot;111-Ca4obeBiojvhWFfMH12lHz71GTwBmJGbL-KnYzzz&quot;, &quot;JSON&quot;: {&quot;valueRanges&quot;: [{&quot;range&quot;: 'Sheet1!A1:B2', &quot;majorDimension&quot;: &quot;ROWS&quot;, &quot;values&quot;: [[&quot;11&quot;, &quot;12&quot;], [&quot;21&quot;, &quot;22&quot;]]}]}}
+gam redirect stdout SheetData.json user testuser@domain.com show sheetrange name TestSheet range 'Sheet1!A1:B2' formatjson 
+
+gam user testuser@domain.com show sheetrange name TestSheet range 'Sheet1!A1:B2' formatjson valuerangesonly
+Getting all Drive Files/Folders that match query ('me' in owners and name = 'TestSheet') for testuser@domain.com
+Got 1 Drive File/Folder that matched query ('me' in owners and name = 'TestSheet') for testuser@domain.com...
+[{&quot;range&quot;: 'Sheet1!A1:B2', &quot;majorDimension&quot;: &quot;ROWS&quot;, &quot;values&quot;: [[&quot;11&quot;, &quot;12&quot;], [&quot;21&quot;, &quot;22&quot;]]}]
+gam redirect stdout SheetData.json user testuser@domain.com show sheetrange name TestSheet range 'Sheet1!A1:B2' formatjson valuerangesonly
+
+gam user testuser@domain.com print sheetrange name &quot;TestSheet&quot; range 'Sheet1!A1:B2' formatjson quotechar &quot;'&quot;
+Getting all Drive Files/Folders that match query ('me' in owners and name = 'TestSheet') for testuser@domain.com
+Got 1 Drive File/Folder that matched query ('me' in owners and name = 'TestSheet') for testuser@domain.com...
+User,spreadsheetId,JSON
+testuser@domain.com,1uK-Ca4obeBiojvhWFfMH12lHz71GTwBmJGbL-KnY2tM,'{&quot;valueRanges&quot;: [{&quot;range&quot;: 'Sheet1!A1:B2', &quot;majorDimension&quot;: &quot;ROWS&quot;, &quot;values&quot;: [[&quot;11&quot;, &quot;12&quot;], [&quot;21&quot;, &quot;22&quot;]]}]}'
+gam redirect csv SheetData.csv user testuser@domain.com print sheetrange name &quot;TestSheet&quot; range 'Sheet1!A1:B2' formatjson quotechar &quot;'&quot;
+
+gam user testuser@domain.com print sheetrange name &quot;TestSheet&quot; range 'Sheet1!A1:B2' formatjson quotechar &quot;'&quot; valuerangesonly
+Getting all Drive Files/Folders that match query ('me' in owners and name = 'TestSheet') for testuser@domain.com
+Got 1 Drive File/Folder that matched query ('me' in owners and name = 'TestSheet') for testuser@domain.com...
+JSON
+'[{&quot;range&quot;: 'Sheet1!A1:B2', &quot;majorDimension&quot;: &quot;ROWS&quot;, &quot;values&quot;: [[&quot;11&quot;, &quot;12&quot;], [&quot;21&quot;, &quot;22&quot;]]}]'
+gam redirect csv SheetData.csv user testuser@domain.com print sheetrange name &quot;TestSheet&quot; range 'Sheet1!A1:B2' formatjson quotechar &quot;'&quot; valuerangesonly
+</code></pre>
+<h2 id="appendupdate-values-in-a-spreadsheet">Append/update values in a spreadsheet</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; append sheetrange &lt;DriveFileEntity&gt;
+        ((json [charset &lt;Charset&gt;] &lt;SpreadsheetJSONRangeValues&gt;|&lt;SpreadsheetJSONRangeValuesList&gt;) |
+         (json file &lt;FileName&gt; [charset &lt;Charset&gt;]))
+        [overwrite|insertrows]
+        [raw|userentered] [formula|formattedvalue|unformattedvalue] [serialnumber|formattedstring]
+        [includevaluesinresponse [&lt;Boolean&gt;]] [formatjson]
+gam &lt;UserTypeEntity&gt; update sheetrange &lt;DriveFileEntity&gt;
+        ((json [charset &lt;Charset&gt;] &lt;SpreadsheetJSONRangeValues&gt;|&lt;SpreadsheetJSONRangeValuesList&gt;)+
+         (json file &lt;FileName&gt; [charset &lt;Charset&gt;])+)
+        [raw|userentered] [formula|formattedvalue|unformattedvalue] [serialnumber|formattedstring]
+        [includevaluesinresponse [&lt;Boolean&gt;]] [formatjson]
+</code></pre>
+<ul>
+<li><code>append</code> - Only one range can be specified.</li>
+<li><code>update</code> - Multiple ranges can be specified.</li>
+</ul>
+<p>The JSON data can be read from a command line argument or a file.</p>
+<p>Specify how data is to be appended to the spreadsheet; the default is <code>insertrows</code>.
+* <code>overwrite</code> - The new data overwrites existing data in the areas it is written.
+* <code>insertrows</code> - Rows are inserted for the new data.</p>
+<p>Specify how the values in <code>&lt;SpreadsheetValueList&gt;</code> are to be parsed; the default is <code>userentered</code>.
+* <code>raw</code> - The values the user has entered will not be parsed and will be stored as-is.
+* <code>userentered</code> - The values will be parsed as if the user typed them into the UI. Numbers will stay as numbers, but strings may be converted to numbers, dates, etc. following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p>
+<p>Specify whether the response should include the values of the cells that were appended/updated; the default is false.
+* <code>includevaluesinresponse [&lt;Boolean&gt;]</code></p>
+<p>Specify how values should be rendered in the output; the default is <code>formattedvalue</code>.
+* <code>formula</code> - Values will not be calculated; the reply will include the formulas.
+* <code>formattedvalue</code> - Values will be calculated and formatted in the reply according to the cell's formatting.
+* <code>unformattedvalue</code> - Values will be calculated, but not formatted in the reply.</p>
+<p>Specify how date and time values should be rendered in the output; the default is <code>formattedstring</code>.
+* <code>serialnumber</code> - Instructs date, time, datetime, and duration fields to be output as doubles in "serial number" format, as popularized by Lotus 1-2-3.
+* <code>formattedstring</code> - Instructs date, time, datetime, and duration fields to be output as strings in their given number format (which is dependent on the spreadsheet locale).</p>
+<p>With <code>append</code> and <code>update</code>, the output is formatted for human readability. Use the following option to produce JSON output for program parsing.
+* <code>formatjson</code> - Display output in JSON format.</p>
+<h3 id="examples_2">Examples</h3>
+<p>For Windows, see <a href="#json-data-quoting">JSON data quoting</a></p>
+<p>Update a spreadhseet with JSON data from the command line. All of the data must be on one line.</p>
+<pre><code>gam user user@domain.com update sheetrange name TestSheet json '[{&quot;range&quot;: 'Sheet1!A1:B2', &quot;majorDimension&quot;: &quot;ROWS&quot;, &quot;values&quot;: [[&quot;11&quot;, &quot;12&quot;], [&quot;21&quot;, &quot;22&quot;]]}]'
+</code></pre>
+<p>Update a spreadsheet with JSON data from a file.</p>
+<p>The JSON parser is OK with the values being on separate lines in the file, as long as the syntax is correct.
+Do note that the JSON file contains information on where the data is to be updated, referenced with both sheet name and range.</p>
+<pre><code>more SheetData.json
+[{&quot;range&quot;: &quot;Sheet1!C2:E3&quot;, &quot;majorDimension&quot;: &quot;ROWS&quot;, &quot;values&quot;:
+[[&quot;0102&quot;, &quot;0304&quot;, &quot;AB&quot;],
+[&quot;0506&quot;, &quot;0708&quot;, &quot;CD&quot;]]},
+{&quot;range&quot;: &quot;Sheet2!B9:C10&quot;, &quot;majorDimension&quot;: &quot;ROWS&quot;, &quot;values&quot;:
+[[&quot;0910&quot;, &quot;1112&quot;],
+[&quot;1314&quot;, &quot;1516&quot;]]}]
+
+gam user user@domain.com update sheetrange name TestSheet json file SheetData.json
+</code></pre>
+<h2 id="extended-examples-with-show-sheetrange">Extended Examples with show sheetrange</h2>
+<p>For Windows, see <a href="#json-data-quoting">JSON data quoting</a></p>
+<p>Increment values in a sheet with local data; repeat these steps as required.
+- Get the current sheet data with <code>show sheetrange</code></p>
+<pre><code>gam redirect stdout SheetData.json user testuser@domain.com show sheetrange name TestSheet range 'Sheet1!A1:B2' formatjson valuerangesonly
+more SheetData.json
+[{&quot;range&quot;: 'Sheet1!A1:B2', &quot;majorDimension&quot;: &quot;ROWS&quot;, &quot;values&quot;: [[&quot;11&quot;, &quot;12&quot;], [&quot;21&quot;, &quot;22&quot;]]}]
+</code></pre>
+<ul>
+<li>Edit SheetData.json</li>
+<li>Update the sheet data</li>
+</ul>
+<pre><code>gam user testuser@domain.com update sheetrange name TestSheet json file SheetData.json
+</code></pre>
+<p>Replace values in a sheet with local data.
+- Get the current sheet data; perform this step once.</p>
+<pre><code>gam redirect stdout SheetData.json user testuser@domain.com show sheetrange name TestSheet range 'Sheet1!A1:B2' formatjson valuerangesonly
+</code></pre>
+<p>Replace values in a sheet with local data; repeat these steps as required.
+- Edit SheetData.json
+- Update the sheet data</p>
+<pre><code>gam user testuser@domain.com update sheetrange name TestSheet json file SheetData.json
+</code></pre>
+<h2 id="extended-examples-with-print-sheetrange">Extended Examples with print sheetrange</h2>
+<p>For Windows, see <a href="#json-data-quoting">JSON data quoting</a></p>
+<p>Increment values in a sheet with local data; repeat these steps as required.
+- Get the current sheet data</p>
+<pre><code>gam redirect csv SheetData.csv user testuser@domain.com print sheetrange name TestSheet range 'Sheet1!A1:B2' formatjson quotechar &quot;'&quot; valuerangesonly
+more SheetData.csv
+JSON
+'[{&quot;range&quot;: 'Sheet1!A1:B2', &quot;majorDimension&quot;: &quot;ROWS&quot;, &quot;values&quot;: [[&quot;11&quot;, &quot;12&quot;], [&quot;21&quot;, &quot;22&quot;]]}]'
+</code></pre>
+<ul>
+<li>Edit SheetData.csv</li>
+<li>Update the sheet data</li>
+</ul>
+<pre><code>gam csv SheetData.csv quotechar &quot;'&quot; gam user testuser@domain.com update sheetrange name TestSheet json &quot;~JSON&quot;
+</code></pre>
+<p>Update values in multiple users/sheets.
+- Users/sheets to update</p>
+<pre><code>more SheetsToUpdate.csv
+User,SpreadsheetName,Rangelist
+testuser1@domain.com,SimpleSheet,&quot;'Sheet1!A1:C1','Sheet1!C3'&quot;
+testuser2@domain.com,TestSheet,'Sheet1!A1:B2'
+</code></pre>
+<ul>
+<li>Get the current sheet data</li>
+</ul>
+<pre><code>gam redirect csv SheetData.csv multiprocess csv SheetsToUpdate.csv gam user &quot;~User&quot; print sheetrange name &quot;~SpreadsheetName&quot; rangelist &quot;~Rangelist&quot; formatjson quotechar &quot;'&quot;
+</code></pre>
+<ul>
+<li>Edit SheetData.csv</li>
+<li>Update the sheet data</li>
+</ul>
+<pre><code>gam csv SheetData.csv quotechar &quot;'&quot; gam user &quot;~User&quot; update sheetrange &quot;~spreadsheetId&quot; json &quot;~JSON&quot;
+</code></pre>
+<h2 id="repair-an-uneditable-sheet-within-a-spreadsheet">Repair an uneditable sheet within a spreadsheet</h2>
+<p>Identify uneditable sheet; there is no <code>editors</code> field.</p>
+<pre><code>$ gam user owner@domain.com info sheet 1234-y9d0nbckO_cnb3xyZhsIh0Hxd9WaqpGPBwxyz fields sheets sheetsfields protectedranges
+User: owner@domain.com, Show Info 1 Spreadsheet
+  Spreadsheet: 1234-y9d0nbckO_cnb3xyZhsIh0Hxd9WaqpGPBwxyz
+...
+    Sheet: Test (5/5)
+      properties:
+        gridProperties:
+          columnCount: 76
+          frozenColumnCount: 1
+          hideGridlines: True
+          rowCount: 60
+        index: 49
+        sheetId: 420957925
+        sheetType: GRID
+        title: Test
+      protectedRanges:
+        protectedRangeId: 2117059324
+        range:
+          sheetId: 420957925
+</code></pre>
+<p>Make a JSON file that will add the <code>editors</code> field.</p>
+<pre><code>$ cat RepairSheet.json
+{&quot;requests&quot;: [
+{&quot;updateProtectedRange&quot;: {&quot;protectedRange&quot;: {&quot;protectedRangeId&quot;: 2117059324, &quot;editors&quot;: {&quot;users&quot;: [&quot;owner@domain.com]}}, &quot;fields&quot;: &quot;editors&quot;}}
+]}
+</code></pre>
+<p>Apply the repair update.</p>
+<pre><code>$ gam user owner@domain.com update sheet 1234-y9d0nbckO_cnb3xyZhsIh0Hxd9WaqpGPBwxyz json file RepairSheet.json
+User: user@domain.com, Update 1 Spreadsheet
+  User: owner@domain.com, Spreadsheet: 1234-y9d0nbckO_cnb3xyZhsIh0Hxd9WaqpGPBwxyz, Updated
+    replies:
+</code></pre>
+<p>Verify the repair.</p>
+<pre><code>$ gam user owner@domain.com info sheet 1234-y9d0nbckO_cnb3xyZhsIh0Hxd9WaqpGPBwxyz fields sheets sheetsfields protectedranges
+User: owner@domain.com, Show Info 1 Spreadsheet
+  Spreadsheet: 1234-y9d0nbckO_cnb3xyZhsIh0Hxd9WaqpGPBwxyz
+...
+    Sheet: Test (5/5)
+      properties:
+        gridProperties:
+          columnCount: 76
+          frozenColumnCount: 1
+          hideGridlines: True
+          rowCount: 60
+        index: 49
+        sheetId: 420957925
+        sheetType: GRID
+        title: Test
+      protectedRanges:
+        protectedRangeId: 2117059324
+        editors:
+          users:
+            owner@domain.com
+        range:
+          sheetId: 420957925
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

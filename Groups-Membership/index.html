@@ -1,0 +1,1816 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Groups Membership - GAM Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">GAM Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../00scratch/" class="nav-link">Scratch Me Wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Addresses/" class="nav-link">Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Administrators/" class="nav-link">Administrators</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Alert-Center/" class="nav-link">Alert Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Aliases/" class="nav-link">Aliases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Authorization/" class="nav-link">Authorization</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../BNF-Syntax/" class="nav-link">Syntax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Basic-Items/" class="nav-link">Basic Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Bulk-Processing/" class="nav-link">Bulk Processing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Business-Account-Management/" class="nav-link">Users - Business Account Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Input-Filtering/" class="nav-link">CSV Input Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Output-Filtering/" class="nav-link">CSV Output Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Special-Characters/" class="nav-link">CSV Special Characters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Access/" class="nav-link">Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Events/" class="nav-link">Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars/" class="nav-link">Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chat-Bot-Setup-Use/" class="nav-link">Chat Bot Setup and Use</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-AUE-Counts/" class="nav-link">Chrome Auto Update Expiration Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Browser-Cloud-Management/" class="nav-link">Chrome Browser Cloud Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Device-Counts/" class="nav-link">Chrome Device Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Installed-Apps/" class="nav-link">Chrome Installed Apps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Needs-Attention-Counts/" class="nav-link">Chrome Device Needs Attention Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Policies/" class="nav-link">Chrome Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Printers/" class="nav-link">Chrome Printers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Profile-Management/" class="nav-link">Chrome Profile Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-Counts/" class="nav-link">Chrome Version Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-History/" class="nav-link">Chrome Version History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../ChromeOS-Devices/" class="nav-link">ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Courses/" class="nav-link">Classroom - Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Guardians/" class="nav-link">Classroom - Guardians</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Invitations/" class="nav-link">Classroom - Invitations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Membership/" class="nav-link">Classroom - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-StudentGroups/" class="nav-link">Classroom - Student Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Channel/" class="nav-link">Cloud Channel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Devices/" class="nav-link">Cloud Identity Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups-Membership/" class="nav-link">Cloud Identity Groups - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups/" class="nav-link">Cloud Identity Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Policies/" class="nav-link">Cloud Identity Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Storage/" class="nav-link">Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-ChromeOS-Devices/" class="nav-link">Collections of ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Items/" class="nav-link">Collections of Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Users/" class="nav-link">Collections of Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Data-From-Google-Docs-Sheets-Storage/" class="nav-link">Command data from Google Docs, Sheets and Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Line-Parsing/" class="nav-link">Command Line Parsing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Logging-Progress/" class="nav-link">Command Logging and Progress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Context-Aware-Access-Levels/" class="nav-link">Context-Aware Access Levels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Customer/" class="nav-link">Customer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-People-Contacts-Profiles/" class="nav-link">Domain People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-SharedContacts/" class="nav-link">Domain Shared Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains-Verification/" class="nav-link">Domains - Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains/" class="nav-link">Domains</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Downloads-Installs/" class="nav-link">Downloads-Installs-GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-File-Selection/" class="nav-link">Drive File Selection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-Items/" class="nav-link">Drive Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-REST-API-v3/" class="nav-link">Drive REST API v3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Email-Audit-Monitor/" class="nav-link">Email Audit Monitor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Find-File-Owner/" class="nav-link">Find File Owner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Public-Chat-Room/" class="nav-link">GAM Public Chat Room</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Release-Process/" class="nav-link">Steps to release a new GAM version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Return-Codes/" class="nav-link">GAM Return Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-with-minimal-GCP-rights/" class="nav-link">GAM setup with minimal GCP permissions.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-FAQ/" class="nav-link">What is GAM7?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Android-Devices/" class="nav-link">GAM7 on Android Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Chrome-OS-Devices/" class="nav-link">GAM7 on Chrome OS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GamUpdates/" class="nav-link">Update GAM7 to latest version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Global-Address-List/" class="nav-link">Global Address List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Data-Transfers/" class="nav-link">Google Data Transfers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Network-Addresses/" class="nav-link">Google Network Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Groups Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups/" class="nav-link">Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../HTTPS-Proxy/" class="nav-link">HTTPS Proxy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Home/" class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Install-GAM7/" class="nav-link">Installing GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Uninstall-GAM7/" class="nav-link">Uninstalling GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Update-GAM7/" class="nav-link">Updating GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-GAMADV-XTD3-to-GAM7/" class="nav-link">Installation - Upgrade GAMADV-XTD3 to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-Legacy-GAM-to-GAM7/" class="nav-link">Installation - Upgrade Legacy GAM to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Inbound-SSO/" class="nav-link">Inbound SSO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Install-GAM-as-Python-Library/" class="nav-link">Install GAM as Python Library</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Licenses/" class="nav-link">Licenses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List-Items/" class="nav-link">List Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List/" class="nav-link">List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Meta-Commands-and-File-Redirection/" class="nav-link">Meta Commands and File Redirection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Mobile-Devices/" class="nav-link">Mobile Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Organizational-Units/" class="nav-link">Organizational Units</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Other-Resources/" class="nav-link">Other Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Permission-Matches/" class="nav-link">Permission Matches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Python-Regular-Expressions/" class="nav-link">Python Regular Expressions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Rclone/" class="nav-link">Rclone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reports/" class="nav-link">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reseller/" class="nav-link">Reseller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Resources/" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Running-GAM7-securely-on-a-Google-Compute-Engine/" class="nav-link">Running GAM7 securely on a Google Compute Engine</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../SSL-Root-CA-Certificates/" class="nav-link">SSL Root CA Certificates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Schemas/" class="nav-link">Schemas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Scripts/" class="nav-link">Scripts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Send-Email/" class="nav-link">Send Email</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Shared-Drives/" class="nav-link">Domain Administrators - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Sites/" class="nav-link">Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Tag-Replace/" class="nav-link">Tag Replace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Todrive/" class="nav-link">Todrive</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Unmanaged-Accounts/" class="nav-link">Unmanaged Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Upgrade-Benefits/" class="nav-link">Upgrade Benefits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Analytics-Admin/" class="nav-link">Users - Analytics Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Application-Specific-Passwords/" class="nav-link">Users - Application Specific Passwords</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Backup-Verification-Codes/" class="nav-link">Users - Backup Verification Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Access/" class="nav-link">Users - Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Events/" class="nav-link">Users - Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars/" class="nav-link">Users - Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Chat/" class="nav-link">Users - Chat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classification-Labels/" class="nav-link">Users - Classification Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classroom-Profile/" class="nav-link">Users - Classroom - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts-Delegates/" class="nav-link">Users - Contacts - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts/" class="nav-link">User Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Deprovision/" class="nav-link">Users - Deprovision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Activity-Settings/" class="nav-link">Users - Drive - Activity/Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Cleanup/" class="nav-link">Users - Drive - Cleanup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Comments/" class="nav-link">Users - Drive - Comments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Copy-Move/" class="nav-link">Users - Drive Files Copy/Move</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Display/" class="nav-link">Users - Drive Files Display</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Manage/" class="nav-link">Users - Drive Files Manage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Orphans/" class="nav-link">Users - Drive - Orphans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Ownership/" class="nav-link">Users - Drive - Ownership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Permissions/" class="nav-link">Users - Drive - Permissions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Query/" class="nav-link">Users - Drive - Query</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Revisions/" class="nav-link">Users - Drive - Revisions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Shortcuts/" class="nav-link">Users - Drive Shortcuts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Transfer/" class="nav-link">Users - Drive - Transfer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Forms/" class="nav-link">Users - Forms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-CSE/" class="nav-link">Users - Gmail - Client Side Encryption</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Delegates/" class="nav-link">Users - Gmail - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Filters/" class="nav-link">Users - Gmail - Filters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Forwarding/" class="nav-link">Users - Gmail - Forwarding</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Labels/" class="nav-link">Users - Gmail - Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Messages-Threads/" class="nav-link">Users - Gmail - Messages/Threads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Profile/" class="nav-link">Users - Gmail - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-S-MIME/" class="nav-link">Users - Gmail - S/MIME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Send-As-Signature-Vacation/" class="nav-link">Users - Gmail - Send As/Signature/Vacation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Settings/" class="nav-link">Users - Gmail - Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Group-Membership/" class="nav-link">Users - Group Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Keep-Notes/" class="nav-link">Users - Keep - Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Looker-Studio/" class="nav-link">Users - Looker Studio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Meet/" class="nav-link">Users - Meet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-People-Contacts-Profiles/" class="nav-link">Users - People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Photo/" class="nav-link">Users - Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Photo/" class="nav-link">Users - Profile Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Sharing/" class="nav-link">Users - Profile Sharing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Shared-Drives/" class="nav-link">Users - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Signout-Turnoff2SV/" class="nav-link">Users - Signout and Turn off 2-Step Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Spreadsheets/" class="nav-link">Users - Spreadsheets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tag-Manager/" class="nav-link">Users - Tag Manager</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tasks/" class="nav-link">Users - Tasks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tokens/" class="nav-link">Users - Tokens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Web-Resources-and-Sites/" class="nav-link">Users - Web Resources and Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-YouTube/" class="nav-link">Users - YouTube</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users/" class="nav-link">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-YubiKey/" class="nav-link">Using GAM7 with a YubiKey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-delegated-admin-service-account/" class="nav-link">Using GAM7 with a delegated admin service account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-keyless-authentication-Workload-Identity-Federation/" class="nav-link">Using GAM7 with Keyless Authentication - Workload Identity Federation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Vault-Takeout/" class="nav-link">Vault - Takeout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Verifying-a-GAM7-Build-is-Legitimate-and-Official/" class="nav-link">Verifying a GAM7 Build is Legitimate and Official</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Version-and-Help/" class="nav-link">Version and Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../_Sidebar/" class="nav-link"> Sidebar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../gam.cfg/" class="nav-link">GAM Configuration</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Legacy</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../legacy/l-AdminSettingsExamples/" class="dropdown-item">l AdminSettingsExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Android-Installation/" class="dropdown-item">l Android Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-BulkOperations/" class="dropdown-item">l BulkOperations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CalendarExamples/" class="dropdown-item">l CalendarExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chat-Bot/" class="dropdown-item">l Chat Bot</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Browser-Management/" class="dropdown-item">l Chrome Browser Management</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-OS-Installation/" class="dropdown-item">l Chrome OS Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Policy-Settings/" class="dropdown-item">l Chrome Policy Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Cloud-Identity-Groups/" class="dropdown-item">l Cloud Identity Groups</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendar-Resources/" class="dropdown-item">GAM Calendar Resources Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendars/" class="dropdown-item">GAM Calendar Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Definitions/" class="dropdown-item">l Command Reference Definitions</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Drive/" class="dropdown-item">GAM Drive Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Email/" class="dropdown-item">GAM Email Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Group-Attributes/" class="dropdown-item">GAM Group Attributes Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Groups/" class="dropdown-item">GAM Group Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Users/" class="dropdown-item">GAM Users Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Context-Aware-Access-Levels/" class="dropdown-item">l Context Aware Access Levels</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Creating-client_secrets.json-and-oauth2service.json/" class="dropdown-item">l Creating client secrets.json and oauth2service.json</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CreatingClientSecretsFile/" class="dropdown-item">l CreatingClientSecretsFile</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Custom-Schemas/" class="dropdown-item">l Custom Schemas</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Data-Transfers/" class="dropdown-item">l Data Transfers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-DomainVerification/" class="dropdown-item">l DomainVerification</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesAccountAuditing/" class="dropdown-item">l ExamplesAccountAuditing</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesCSV/" class="dropdown-item">l ExamplesCSV</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesEmailSettings/" class="dropdown-item">l ExamplesEmailSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesOrganizations/" class="dropdown-item">l ExamplesOrganizations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-Discussion-Group/" class="dropdown-item">GAM Discussion Group</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-on-Android-and-Chrome-OS/" class="dropdown-item">l GAM on Android and Chrome OS</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-options-files/" class="dropdown-item">l GAM options files</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-with--minimal-GCP-rights/" class="dropdown-item">l GAM with  minimal GCP rights</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3CSVListings/" class="dropdown-item">l GAM3CSVListings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3DirectoryCommands/" class="dropdown-item">l GAM3DirectoryCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3GroupSettings/" class="dropdown-item">l GAM3GroupSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Google-Vault---Takeout-Commands/" class="dropdown-item">l Google Vault   Takeout Commands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GoogleDriveManagement/" class="dropdown-item">l GoogleDriveManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Grouping-18-or-Older-Users/" class="dropdown-item">Using GAM to group 18+ users</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Home/" class="dropdown-item">l Home</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-How-to-upgrade-from-Standard-GAM/" class="dropdown-item">Installation - Upgrading from Standard GAM</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Inbound-SSO-Settings/" class="dropdown-item">l Inbound SSO Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-LicenseExamples/" class="dropdown-item">l LicenseExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Admins/" class="dropdown-item">l Managing Admins</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-CloudPrint-Printers/" class="dropdown-item">l Managing CloudPrint Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Devices/" class="dropdown-item">l Managing Devices</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Google-Classroom/" class="dropdown-item">l Managing Google Classroom</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-OAuthKeyManagement/" class="dropdown-item">l OAuthKeyManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Printers/" class="dropdown-item">l Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ResellerCommands/" class="dropdown-item">l ResellerCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-SecurityExamples/" class="dropdown-item">l SecurityExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-UnmanagedUsersExamples/" class="dropdown-item">l UnmanagedUsersExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Using-GAM-with-a-delegated-admin-service-account-%28DASA%29/" class="dropdown-item">Background</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-_Footer/" class="dropdown-item">l  Footer</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Google-Network-Addresses/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Groups/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#api-documentation" class="nav-link">API documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#query-documentation" class="nav-link">Query documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#definitions" class="nav-link">Definitions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#collections-of-users" class="nav-link">Collections of Users</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#add-members-to-a-group" class="nav-link">Add members to a group</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#delete-members-from-a-group" class="nav-link">Delete members from a group</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#synchronize-members-in-a-group" class="nav-link">Synchronize members in a group</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#delete-members-from-a-group-by-role-or-status" class="nav-link">Delete members from a group by role or status</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#update-member-roles-and-delivery-options" class="nav-link">Update member roles and delivery options</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#bulk-membership-changes" class="nav-link">Bulk membership changes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#display-user-group-member-options" class="nav-link">Display user group member options</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#display-group-membership-in-csv-format" class="nav-link">Display group membership in CSV format</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#display-group-membership-in-hierarchical-format" class="nav-link">Display group membership in hierarchical format</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#display-group-membership-in-hierarchical-format_1" class="nav-link">Display group membership in hierarchical format</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Groups - Membership
+- <a href="#api-documentation">API documentation</a>
+- <a href="#query-documentation">Query documentation</a>
+- <a href="Python-Regular-Expressions">Python Regular Expressions</a> Match function
+- <a href="#definitions">Definitions</a>
+- <a href="#collections-of-users">Collections of Users</a>
+  - <a href="#select-users-based-on-suspension-state">Select users based on suspension state</a>
+  - <a href="#select-users-based-on-archived-state">Select users based on archived state</a>
+- <a href="#add-members-to-a-group">Add members to a group</a>
+- <a href="#delete-members-from-a-group">Delete members from a group</a>
+- <a href="#synchronize-members-in-a-group">Synchronize members in a group</a>
+- <a href="#delete-members-from-a-group-by-role-or-status">Delete members from a group by role or status</a>
+- <a href="#update-member-roles-and-delivery-options">Update member roles and delivery options</a>
+- <a href="#bulk-membership-changes">Bulk membership changes</a>
+- <a href="#display-user-group-member-options">Display user group member options</a>
+- <a href="#display-group-membership-in-csv-format">Display group membership in CSV format</a>
+- <a href="#display-group-membership-in-hierarchical-format">Display group membership in hierarchical format</a></p>
+<h2 id="api-documentation">API documentation</h2>
+<ul>
+<li><a href="https://developers.google.com/admin-sdk/directory/reference/rest/v1/members">Directory API - Members</a></li>
+</ul>
+<h2 id="query-documentation">Query documentation</h2>
+<ul>
+<li><a href="https://developers.google.com/admin-sdk/directory/v1/guides/search-groups">Directory API - Search Groups</a></li>
+<li><a href="https://cloud.google.com/identity/docs/reference/rest/v1/groups#dynamicgroupquery">Cloud Identity API - Search Dynamic Groups</a></li>
+</ul>
+<h2 id="definitions">Definitions</h2>
+<p>See <a href="Collections-of-Items">Collections of Items</a></p>
+<ul>
+<li><a href="Command-Data-From-Google-Docs-Sheets-Storage">Command data from Google Docs/Sheets/Storage</a></li>
+</ul>
+<pre><code>&lt;RegularExpression&gt; ::= &lt;String&gt;
+        See: https://docs.python.org/3/library/re.html
+&lt;REMatchPattern&gt; ::= &lt;RegularExpression&gt;
+&lt;RESearchPattern&gt; ::= &lt;RegularExpression&gt;
+&lt;RESubstitution&gt; ::= &lt;String&gt;&gt;
+
+&lt;StorageBucketName&gt; ::= &lt;String&gt;
+&lt;StorageObjectName&gt; ::= &lt;String&gt;
+&lt;StorageBucketObjectName&gt; ::=
+        https://storage.cloud.google.com/&lt;StorageBucketName&gt;/&lt;StorageObjectName&gt;|
+        https://storage.googleapis.com/&lt;StorageBucketName&gt;/&lt;StorageObjectName&gt;|
+        gs://&lt;StorageBucketName&gt;/&lt;StorageObjectName&gt;|
+        &lt;StorageBucketName&gt;/&lt;StorageObjectName&gt;
+
+&lt;UserGoogleDoc&gt; ::=
+        &lt;EmailAddress&gt; &lt;DriveFileIDEntity&gt;|&lt;DriveFileNameEntity&gt;|(&lt;SharedDriveEntity&gt; &lt;SharedDriveFileNameEntity&gt;)
+
+&lt;SheetEntity&gt; ::= &lt;String&gt;|id:&lt;Number&gt;
+&lt;UserGoogleSheet&gt; ::=
+        &lt;EmailAddress&gt; &lt;DriveFileIDEntity&gt;|&lt;DriveFileNameEntity&gt;|(&lt;SharedDriveEntity&gt; &lt;SharedDriveFileNameEntity&gt;) &lt;SheetEntity&gt;
+</code></pre>
+<pre><code>&lt;DeliverySetting&gt; ::=
+        allmail|
+        abridged|daily|
+        digest|
+        disabled|
+        none|nomail
+&lt;DomainName&gt; ::= &lt;String&gt;(.&lt;String&gt;)+
+&lt;DomainNameList&gt; ::= &quot;&lt;DomainName&gt;(,&lt;DomainName&gt;)*&quot;
+&lt;DomainNameEntity&gt; ::=
+        &lt;DomainNameList&gt; | &lt;FileSelector&gt; | &lt;CSVFileSelector&gt;
+&lt;EmailAddress&gt; ::= &lt;String&gt;@&lt;DomainName&gt;
+&lt;EmailItem&gt; ::= &lt;EmailAddress&gt;|&lt;UniqueID&gt;|&lt;String&gt;
+&lt;UniqueID&gt; ::= id:&lt;String&gt;
+&lt;GroupItem&gt; ::= &lt;EmailAddress&gt;|&lt;UniqueID&gt;|&lt;String&gt;
+&lt;GroupList&gt; ::= &quot;&lt;GroupItem&gt;(,&lt;GroupItem&gt;)*&quot;
+&lt;GroupEntity&gt; ::=
+        &lt;GroupList&gt; | &lt;FileSelector&gt; | &lt;CSVkmdSelector&gt; | &lt;CSVDataSelector&gt;
+        See: https://github.com/GAM-team/GAM/wiki/Collections-of-Items
+&lt;GroupRole&gt; ::= owner|manager|member
+&lt;GroupRoleList&gt; ::= &quot;&lt;GroupRole&gt;(,&lt;GroupRole&gt;)*&quot;
+&lt;GroupMemberType&gt; ::= customer|group|user
+&lt;GroupMemberTypeList&gt; ::= &quot;&lt;GroupMemberType&gt;(,&lt;GroupMemberType&gt;)*&quot;
+&lt;QueryGroup&gt; ::= &lt;String&gt;
+        See: https://developers.google.com/admin-sdk/directory/v1/guides/search-groups
+&lt;QueryGroupList&gt; ::= &quot;&lt;QueryGroup&gt;(,&lt;QueryGroup&gt;)*&quot;
+
+&lt;MembersFieldName&gt; ::=
+        delivery|deliverysettings|
+        email|useremail|
+        group|groupemail|
+        id|
+        name|
+        role|
+        status|
+        type
+&lt;MembersFieldNameList&gt; ::= &quot;&lt;MembersFieldName&gt;(,&lt;MembersFieldName&gt;)*&quot;
+</code></pre>
+<h2 id="collections-of-users">Collections of Users</h2>
+<p>Group membership commands involve specifying collections of users;
+for <code>&lt;UserTypeEntity&gt;</code>, see: <a href="Collections-of-Users">Collections of Users</a></p>
+<h3 id="select-users-based-on-archived-state">Select users based on archived state</h3>
+<p>When adding, deleting or synchronizing group members, to select only archived or non-archived users, use the following<code>&lt;UserTypeEntity&gt;</code>:</p>
+<pre><code>        (all users_na|users_arch)|
+        (domains_na|domains_arch &lt;DomainNameList&gt;)|
+        (group_na|group_arch &lt;GroupItem&gt;)|
+        (groups_na|groups_arch &lt;GroupList&gt;)|
+        (group_users_na|group_users_arch &lt;GroupList&gt;
+                [members] [managers] [owners]
+                [primarydomain] [domains &lt;DomainNameList&gt;] [recursive|includederivedmembership] end)|
+        (ou_na|ou_arch &lt;OrgUnitItem&gt;)|
+        (ou_and_children_na|ou_and_children_arch &lt;OrgUnitItem&gt;)|
+        (ous_na|ous_arch &lt;OrgUnitList&gt;)|
+        (ous_and_children_na|ous_and_children_arch &lt;OrgUnitList&gt;)
+</code></pre>
+<p>When adding, deleting or synchronizing group members, the <code>notarchived|archived</code> option can be used to select
+users in a particular archived state. This option can be used with the following <code>&lt;UserTypeEntity&gt;</code>:</p>
+<pre><code>        (all users)|
+        (domains &lt;DomainNameList&gt;)|
+        (group &lt;GroupItem&gt;)|
+        (groups &lt;GroupList&gt;)|
+        (group_users &lt;GroupList&gt;
+                [members] [managers] [owners]
+                [primarydomain] [domains &lt;DomainNameList&gt;] [recursive|includederivedmembership] end)|
+        (ou &lt;OrgUnitItem&gt;)|
+        (ou_and_children &lt;OrgUnitItem&gt;)|
+        (ous &lt;OrgUnitList&gt;)|
+        (ous_and_children &lt;OrgUnitList&gt;)
+</code></pre>
+<h3 id="select-users-based-on-suspension-state">Select users based on suspension state</h3>
+<p>When adding, deleting or synchronizing group members, to select only suspended or non-suspended users, use the following<code>&lt;UserTypeEntity&gt;</code>:</p>
+<pre><code>        (all users_ns|users_susp)|
+        (domains_ns|domains_susp &lt;DomainNameList&gt;)|
+        (group_ns|group_susp &lt;GroupItem&gt;)|
+        (groups_ns|groups_susp &lt;GroupList&gt;)|
+        (group_users_ns|group_users_susp &lt;GroupList&gt;
+                [members] [managers] [owners]
+                [primarydomain] [domains &lt;DomainNameList&gt;] [recursive|includederivedmembership] end)|
+        (ou_ns|ou_susp &lt;OrgUnitItem&gt;)|
+        (ou_and_children_ns|ou_and_children_susp &lt;OrgUnitItem&gt;)|
+        (ous_ns|ous_susp &lt;OrgUnitList&gt;)|
+        (ous_and_children_ns|ous_and_children_susp &lt;OrgUnitList&gt;)
+</code></pre>
+<p>When adding, deleting or synchronizing group members, the <code>notsuspended|suspended</code> option can be used to select
+users in a particular suspension state. This option can be used with the following <code>&lt;UserTypeEntity&gt;</code>:</p>
+<pre><code>        (all users)|
+        (domains &lt;DomainNameList&gt;)|
+        (group &lt;GroupItem&gt;)|
+        (groups &lt;GroupList&gt;)|
+        (group_users &lt;GroupList&gt;
+                [members] [managers] [owners]
+                [primarydomain] [domains &lt;DomainNameList&gt;] [recursive|includederivedmembership] end)|
+        (ou &lt;OrgUnitItem&gt;)|
+        (ou_and_children &lt;OrgUnitItem&gt;)|
+        (ous &lt;OrgUnitList&gt;)|
+        (ous_and_children &lt;OrgUnitList&gt;)
+</code></pre>
+<h2 id="add-members-to-a-group">Add members to a group</h2>
+<pre><code>gam update group|groups &lt;GroupEntity&gt; create|add [&lt;GroupRole&gt;]
+        [usersonly|groupsonly]
+        [notsuspended|suspended] [notarchived|archived]
+        [[delivery] &lt;DeliverySetting&gt;]
+        [preview] [actioncsv]
+        &lt;UserItem&gt;|&lt;UserTypeEntity&gt;
+</code></pre>
+<p>To add a group as a member of another group, just specify its email address.</p>
+<pre><code>gam update group group1@domain.com add member group2@domain.com
+</code></pre>
+<p>When <code>&lt;UserTypeEntity&gt;</code> specifies a group or groups:
+* <code>usersonly</code> - Only the user members from the specified groups are added
+* <code>groupsonly</code> - Only the group members from the specified groups are added</p>
+<p>For <code>notsuspended|suspended</code>, see: <a href="#select-users-based-on-suspension-state">Select users based on suspension state</a></p>
+<p>For <code>notarchived|archived</code>, see: <a href="#select-users-based-on-archived-state">Select users based on archived state</a></p>
+<p>You can set the <code>delivery</code> option for the new members:
+* <code>allmail</code> - All messages, delivered as soon as they arrive
+* <code>abridged|daily</code> - No more than one message a day
+* <code>digest</code> - Up to 25 messages bundled into a single message
+* <code>none|nomail</code> - No messages
+* <code>disabled</code> - Remove subscription; this is what the documentation says, it's not clear what it means</p>
+<p>If <code>preview</code> is specified, the changes will be previewed but not executed.</p>
+<p>If <code>actioncsv</code> is specified, a CSV file with columns <code>group,email,role,action,message</code> is generated
+that shows the actions performed when updating the group.</p>
+<p>Gam adds the members in batches and pauses between batches in order to avoid exceeding Google's quota limits. The size of the batch
+is set in <code>gam.cfg/batch_size</code> and the pause in <code>gam.cfg/inter_watch_wait</code>. For add, values of 20 and 1 seem to give reasonable results.
+For each batch, if the quota rate limit is exceeded, Gam increases inter_batch_wait by .25 seconds.</p>
+<p>For example,</p>
+<pre><code>gam config batch_size 20 inter_batch_wait 1 update group testgroup@domain.com add members file users.lst
+</code></pre>
+<h3 id="actioncsv-example"><code>actioncsv</code> Example</h3>
+<p>Using <code>actioncsv</code> produces a CSV file showing the actions taken.</p>
+<pre><code>$ gam redirect csv AddUpdates.csv update group testgroup add members actioncsv users testuser2,testuser3
+Group: testgroup@domain.com, Add 2 Members
+  Group: testgroup@domain.com, Member: testuser2@domain.com, Added: Role: MEMBER (1/2)
+  Group: testgroup@domain.com, Member: testuser3@domain.com, Add Failed: Member already exists. (2/2)
+$ more AddUpdates.csv 
+group,email,role,action,message
+testgroup@domain.com,testuser2@domain.com,MEMBER,Added,Success
+testgroup@domain.com,testuser3@domain.com,MEMBER,Add Failed,Member already exists.
+</code></pre>
+<h2 id="delete-members-from-a-group">Delete members from a group</h2>
+<pre><code>gam update group|groups &lt;GroupEntity&gt; delete|remove [&lt;GroupRole&gt;]
+        [usersonly|groupsonly]
+        [notsuspended|suspended] [notarchived|archived]
+        [preview] [actioncsv]
+        &lt;UserItem&gt;|&lt;UserTypeEntity&gt;
+</code></pre>
+<p><code>&lt;GroupRole&gt;</code> is ignored, deletions take place regardless of role.</p>
+<p>To remove a group as a member of another group, just specify its email address.</p>
+<pre><code>gam update group group1@domain.com remove group2@domain.com
+</code></pre>
+<p>When <code>&lt;UserTypeEntity&gt;</code> specifies a group or groups:
+* <code>usersonly</code> - Only the user members from the specified groups are deleted
+* <code>groupsonly</code> - Only the group members from the specified groups are deleted</p>
+<p>For <code>notsuspended|suspended</code>, see: <a href="#select-users-based-on-suspension-state">Select users based on suspension state</a></p>
+<p>For <code>notarchived|archived</code>, see: <a href="#select-users-based-on-archived-state">Select users based on archived state</a></p>
+<p>If <code>preview</code> is specified, the changes will be previewed but not executed.</p>
+<p>If <code>actioncsv</code> is specified, a CSV file with columns <code>group,email,role,action,message</code> is generated
+that shows the actions performed when updating the group.</p>
+<p>Gam deletes the members in batches and pauses between batches in order to avoid exceeding Google's quota limits. The size of the batch
+is set in <code>gam.cfg/batch_size</code> and the pause in <code>gam.cfg/inter_watch_wait</code>. For delete, values of 20 and 2 seem to give reasonable results.
+For each batch, if the quota rate limit is exceeded, Gam increases inter_batch_wait by .25 seconds.</p>
+<p>For example,</p>
+<pre><code>gam config batch_size 20 inter_batch_wait 2 update group testgroup@domain.com delete members file users.lst
+</code></pre>
+<h3 id="actioncsv-example_1"><code>actioncsv</code> Example</h3>
+<p>Using <code>actioncsv</code> produces a CSV file showing the actions taken.</p>
+<pre><code>$ gam redirect csv DeleteUpdates.csv update group testgroup delete members actioncsv users testuser2,testuser4
+Group: testgroup@domain.com, Remove 2 Members
+  Group: testgroup@domain.com, Member: testuser2@domain.com, Removed: Role: MEMBER (1/2)
+  Group: testgroup@domain.com, Member: testuser4@domain.com, Remove Failed: Does not exist (2/2)
+$ more DeleteUpdates.csv 
+group,email,role,action,message
+testgroup@domain.com,testuser2@domain.com,MEMBER,Removed,Success
+testgroup@domain.com,testuser4@domain.com,MEMBER,Remove Failed,Does not exist
+</code></pre>
+<h2 id="synchronize-members-in-a-group">Synchronize members in a group</h2>
+<p>A synchronize operation gets the current membership for a group and does adds and deletes as necessary to make it match <code>&lt;UserTypeEntity&gt;</code>.
+This is done by specific role except for a special case where role is ignored.</p>
+<pre><code>gam update group|groups &lt;GroupEntity&gt; sync [&lt;GroupRole&gt;|ignorerole]
+        [usersonly|groupsonly] [addonly|removeonly]
+        [notsuspended|suspended] [notarchived|archived]
+        [remove_domain_nostatus_members]
+        [[delivery] &lt;DeliverySetting&gt;]
+        [preview] [actioncsv]
+        (additionalmembers [&lt;GroupRole&gt;] &lt;EmailAddressEntity&gt;)*
+        &lt;UserItem&gt;|&lt;UserTypeEntity&gt;
+</code></pre>
+<p>If <code>ignorerole</code> is specified, GAM removes members regardless of role and adds new members with role MEMBER.
+This is a special purpose option, use with caution and ensure that <code>&lt;UserTypeEntity&gt;</code> specifies the full desired membership list of all roles.</p>
+<p>If neither <code>&lt;GroupRole&gt;</code> nor <code>ignorerole</code> is specified, <code>member</code> is assumed.</p>
+<p>When <code>&lt;UserTypeEntity&gt;</code> specifies a group or groups:
+* <code>usersonly</code> - Only the user members from the specified groups are added/deleted
+* <code>groupsonly</code> - Only the group members from the specified groups are added/deleted</p>
+<p>For <code>notsuspended|suspended</code>, see: <a href="#select-users-based-on-suspension-state">Select users based on suspension state</a></p>
+<p>For <code>notarchived|archived</code>, see: <a href="#select-users-based-on-archived-state">Select users based on archived state</a></p>
+<p>The <code>notsuspended|suspended</code> and <code>notarchived|archived</code> not only control what users are selected from <code>&lt;UserTypeEntity&gt;</code>
+but they also control what users are selected from <code>&lt;GroupEntity&gt;</code>.
+* <code>notsuspended</code> - Select only non-suspended members
+* <code>suspended</code> - Select only suspended members
+* <code>notarchived</code> - Select only non-archived members
+* <code>archived</code> - Select only archived users
+* <code>notsuspended notarchived</code> - Select non-suspended and non-archived members</p>
+<p>The <code>remove_domain_nostatus_members</code> option is used to remove members from the group that are in your domain but have no status.
+These members were added to the group before the user or group that they represent was created.
+Your domain is defined as the value from <code>domain</code> in <code>gam.cfg</code> if it is defined, or, if not, the domain of your Google Workspace Admin in oauth2.txt.</p>
+<p>You can set the <code>delivery</code> option for the new members:
+* <code>allmail</code> - All messages, delivered as soon as they arrive
+* <code>abridged|daily</code> - No more than one message a day
+* <code>digest</code> - Up to 25 messages bundled into a single message
+* <code>none|nomail</code> - No messages
+* <code>disabled</code> - Remove subscription; this is what the documentation says, it's not clear what it means</p>
+<p>Default:
+* members in <code>&lt;UserTypeEntity&gt;</code> that are not in the current membership will be added
+* members in the current membership that are not in <code>&lt;UserTypeEntity&gt;</code> will deleted</p>
+<p>When the <code>addonly</code> option is specified:
+* members in <code>&lt;UserTypeEntity&gt;</code> that are not in the current membership will be added
+* members in the current membership that are not in <code>&lt;UserTypeEntity&gt;</code> will not be deleted</p>
+<p>When the <code>removeonly</code> option is specified:
+* members in <code>&lt;UserTypeEntity&gt;</code> that are not in the current membership will not be added
+* members in the current membership that are not in <code>&lt;UserTypeEntity&gt;</code> will be deleted</p>
+<p>If <code>preview</code> is specified, the changes will be previewed but not executed.</p>
+<p>If <code>actioncsv</code> is specified, a CSV file with columns <code>group,email,role,action,message</code> is generated
+that shows the actions performed when updating the group.</p>
+<p>The option <code>additionalmembers [&lt;GroupRole&gt;] &lt;EmailAddressEntity&gt;</code> can be used to specify members in addition to those specified with <code>&lt;UserTypeEntity&gt;</code>.
+If a <GroupRole> is specified, it must match the same role as the one used for the group sync.</p>
+<p>For example,</p>
+<pre><code>gam update group teachers@domain.com sync member additionalmembers counselor@domain.com ou /Teachers
+</code></pre>
+<p>Gam adds/deletes the members in batches and pauses between batches in order to avoid exceeding Google's quota limits. The size of the batch
+is set in <code>gam.cfg/batch_size</code> and the pause in <code>gam.cfg/inter_watch_wait</code>. For sync, values of 20 and 1 seem to give reasonable results for
+the adds but the inter_batch_wait is probably too low for the deletes; for each batch, if the quota rate limit is exceeded, Gam increases inter_batch_wait by .25 seconds.</p>
+<p>For example,</p>
+<pre><code>gam config batch_size 20 inter_batch_wait 1 update group testgroup@domain.com sync members file users.lst
+</code></pre>
+<h3 id="examples-using-csv-file-and-google-sheets">Examples using CSV file and Google sheets:</h3>
+<ul>
+<li>https://github.com/GAM-team/GAM/wiki/Collections-of-Users#examples-using-csv-files-and-google-sheets-to-update-the-membership-of-a-group</li>
+</ul>
+<h3 id="example">Example</h3>
+<p>Assume that at your school there is a group for each grade level and the members come from an OU; here is a sample CSV file GradeOU.csv</p>
+<pre><code>Grade,OU
+seniors@domain.org,/Students/ClassOf2023
+juniors@domain.org,/Students/ClassOf2024
+...
+</code></pre>
+<p>This allows you to do: <code>gam csv GradeOU.csv gam update group "~Grade" sync members ou "~OU"</code>
+But suppose that at each grade level there are additional group members that are groups of faculty/staff; e.g., senioradvisors@domain.org.
+In this scenario, you can't do the <code>update group sync</code> command as the members that are groups will be deleted; the <code>usersonly</code> option allows
+the <code>update group sync</code> command to work: <code>gam csv GradeOU.csv gam update group "~Grade" sync members usersonly ou "~OU"</code>
+The users from the OU are matched against the user members of the group and adds/deletes are done as necessary to synchronize them;
+the group members of the group are unaffected.</p>
+<h3 id="actioncsv-example_2"><code>actioncsv</code> Example</h3>
+<p>Using <code>actioncsv</code> produces a CSV file showing the actions taken.</p>
+<pre><code>$ gam redirect csv SyncUpdates.csv update group testgroup sync members actioncsv users testuser1,testuser3,testuser4
+Getting all Members for testgroup@domain.com, may take some time on a large Group...
+Got 3 Members for testgroup@domain.com...
+Group: testgroup@domain.com, Remove 1 Member
+  Group: testgroup@domain.com, Member: testuser2@domain.com, Removed: Role: MEMBER
+Group: testgroup@domain.com, Add 1 Member
+  Group: testgroup@domain.com, Member: testuser4@domain.com, Added: Role: MEMBER
+$ more SyncUpdates.csv 
+group,email,role,action,message
+testgroup@domain.com,testuser2@domain.com,MEMBER,Removed,Success
+testgroup@domain.com,testuser4@domain.com,MEMBER,Added,Success
+</code></pre>
+<h2 id="delete-members-from-a-group-by-role-or-status">Delete members from a group by role or status</h2>
+<pre><code>gam update group|groups &lt;GroupEntity&gt; clear [member] [manager] [owner]
+        [usersonly|groupsonly]
+        [notsuspended|suspended] [notarchived|archived]
+        [emailclearpattern|emailretainpattern &lt;REMatchPattern&gt;]
+        [remove_domain_nostatus_members]
+        [preview] [actioncsv]
+</code></pre>
+<p>If none of <code>member</code>, <code>manager</code>, or <code>owner</code> are specified, <code>member</code> is assumed.</p>
+<p>By default, when clearing members from a group, all members, whether users or groups, are included.
+* <code>usersonly</code> - Clear only the user members
+* <code>groupsonly</code> - Clear only the group members</p>
+<p>By default, when clearing members from a group, all members, whether suspended/archived or not, are included.
+* <code>notsuspended</code> - Clear only non-suspended members
+* <code>suspended</code> - Clear only suspended members
+* <code>notarchived</code> - Clear only non-archived members
+* <code>archived</code> - Clear only archived users
+* <code>notsuspended notarchived</code> - Clear non-suspended and non-archived members</p>
+<p>Members that have met the above qualifications to be cleared can be further qualifed by their email address.
+* <code>emailclearpattern &lt;REMatchPattern&gt;</code> - Members with email addresses that match <code>&lt;REMatchPattern&gt;</code> will be cleared; others will be retained
+* <code>emailretainpattern &lt;REMatchPattern&gt;</code> - Members with email addresses that match <code>&lt;REMatchPattern&gt;</code> will be retained; others will be cleared</p>
+<p>The <code>remove_domain_nostatus_members</code> option is used to clear members from the group that are in your domain but have no status.
+These members were added to the group before the user or group that they represent was created.
+Your domain is defined as the value from <code>domain</code> in <code>gam.cfg</code> if it is defined, or, if not, the domain of your Google Workspace Admin in oauth2.txt.</p>
+<p>If <code>preview</code> is specified, the deletes will be previewed but not executed.</p>
+<p>If <code>actioncsv</code> is specified, a CSV file with columns <code>group,email,role,action,message</code> is generated
+that shows the actions performed when updating the group.</p>
+<p>Gam deletes the members in batches and pauses between batches in order to avoid exceeding Google's quota limits. The size of the batch
+is set in <code>gam.cfg/batch_size</code> and the pause in <code>gam.cfg/inter_watch_wait</code>. For delete, values of 20 and 2 seem to give reasonable results.
+For each batch, if the quota rate limit is exceeded, Gam increases inter_batch_wait by .25 seconds.</p>
+<p>For example,</p>
+<pre><code>gam config batch_size 20 inter_batch_wait 2 update group testgroup@domain.com clear members
+</code></pre>
+<h2 id="update-member-roles-and-delivery-options">Update member roles and delivery options</h2>
+<pre><code>gam update group|groups &lt;GroupEntity&gt; update [&lt;GroupRole&gt;]
+        [usersonly|groupsonly]
+        [notsuspended|suspended] [notarchived|archived]
+        [[delivery] &lt;DeliverySetting&gt;]
+        [createifnotfound]
+        [preview] [actioncsv]
+        &lt;UserItem&gt;|&lt;UserTypeEntity&gt;
+</code></pre>
+<p>There are two items that can be updated: role and delivery. If neither option is specified,
+the users are updated to members; this is the behavior from previous versions. Otherwise,
+only the specified items are updated.</p>
+<p>When <code>&lt;UserTypeEntity&gt;</code> specifies a group or groups:
+* <code>usersonly</code> - Only the user members from the specified groups are added
+* <code>groupsonly</code> - Only the group members from the specified groups are added</p>
+<p>By default, when updating members from groups/organization units, all users, whether suspended/archived or not, are included.
+* <code>notsuspended</code> - Update only non-suspended members
+* <code>suspended</code> - Update only suspended members
+* <code>notarchived</code> - Update only non-archived members
+* <code>archived</code> - Update only archived users
+* <code>notsuspended notarchived</code> - Update non-suspended and non-archived members</p>
+<p>You can set the <code>delivery</code> option for the updated members:
+* <code>allmail</code> - All messages, delivered as soon as they arrive
+* <code>abridged|daily</code> - No more than one message a day
+* <code>digest</code> - Up to 25 messages bundled into a single message
+* <code>none|nomail</code> - No messages
+* <code>disabled</code> - Remove subscription; this is what the documentation says, it's not clear what it means</p>
+<p>If, when attempting to update the role of a group member, the group member is not found, the <code>createifnotfound</code> option causes Gam to add the member with the specified role.</p>
+<p>If <code>preview</code> is specified, the changes will be previewed but not executed.</p>
+<p>If <code>actioncsv</code> is specified, a CSV file with columns <code>group,email,role,action,message</code> is generated
+that shows the actions performed when updating the group.</p>
+<h2 id="bulk-membership-changes">Bulk membership changes</h2>
+<h3 id="example-1">Example 1</h3>
+<p>The file Users.csv has a single column of email addresses, there is no header row.</p>
+<pre><code>user1@domain.com
+user2@domain.com
+...
+
+gam update group group@domain.com sync members file Users.csv
+</code></pre>
+<p>The Google Sheet <code>user@domain.com &lt;DriveFileID&gt; &lt;SheetEntity&gt;</code> has a single column of email addresses, there is no header row.
+Define an implicit header with the <code>fields Email</code> option.</p>
+<pre><code>user1@domain.com
+user2@domain.com
+...
+
+gam update group group@domain.com sync members csvfile gsheet:Email user@domain.com &lt;DriveFileID&gt; &lt;SheetEntity&gt; fields Email
+</code></pre>
+<p>The Google Doc <code>user@domain.com &lt;DriveFileID&gt;</code> has a single column of email addresses, there is no header row.</p>
+<pre><code>user1@domain.com
+user2@domain.com
+...
+
+gam update group group@domain.com sync members file gdoc user@domain.com &lt;DriveFileID&gt;
+</code></pre>
+<h3 id="example-2">Example 2</h3>
+<p>The CSV file Users.csv has one column of email addresses labelled Email.</p>
+<pre><code>Email
+user1@domain.com
+user2@domain.com
+...
+
+gam update group group@domain.com sync members csvfile Users.csv:Email
+</code></pre>
+<p>The Google Sheet <code>user@domain.com &lt;DriveFileID&gt; &lt;SheetEntity&gt;</code> has one column of email addresses labelled Email.</p>
+<pre><code>Email
+user1@domain.com
+user2@domain.com
+...
+
+gam update group group@domain.com sync members csvfile gsheet:Email user@domain.com &lt;DriveFileID&gt; &lt;SheetEntity&gt;
+</code></pre>
+<h3 id="example-3">Example 3</h3>
+<p>The CSV file Users.csv has two columns of email addresses labelled Email1 and Email2.</p>
+<pre><code>Email1,Email2
+user1@domain.com,user2@domain.com
+user3@domain.com,user4@domain.com
+...
+
+gam update group group@domain.com sync members csvfile Users.csv:Email1:Email2
+</code></pre>
+<p>The Google Sheet <code>user@domain.com &lt;DriveFileID&gt; &lt;SheetEntity&gt;</code> has two columns of email addresses labelled Email1 and Email2.</p>
+<pre><code>Email1,Email2
+user1@domain.com,user2@domain.com
+user3@domain.com,user4@domain.com
+...
+
+gam update group group@domain.com sync members csvfile gsheet:Email1:Email2 user@domain.com &lt;DriveFileID&gt; &lt;SheetEntity&gt;
+</code></pre>
+<h3 id="example-4">Example 4</h3>
+<p>The file Groups.txt has a single column of group email addresses, there is no header row.
+You want to sync with the members of those groups.</p>
+<pre><code>group1@domain.com
+group2@domain.com
+...
+
+gam update group group@domain.com sync members datafile groups Groups.txt
+</code></pre>
+<p>The Google Doc <code>user@domain.com &lt;DriveFileID&gt;</code> has a single column of group email addresses, there is no header row.
+You want to sync with the members of those groups.</p>
+<pre><code>group1@domain.com
+group2@domain.com
+...
+
+gam update group group@domain.com sync members datafile groups gdoc user@domain.com &lt;DriveFileID&gt;
+</code></pre>
+<h3 id="example-5">Example 5</h3>
+<p>The CSV file Groups.csv has a single column of group email addresses labelled Group.
+You want to sync with the members of those groups.</p>
+<pre><code>Group
+group1@domain.com
+group2@domain.com
+...
+
+gam update group group@domain.com sync members csvdatafile groups Groups.csv:Group
+</code></pre>
+<p>The Google Sheet <code>user@domain.com &lt;DriveFileID&gt; &lt;SheetEntity&gt;</code> has a single column of group email addresses labelled Group.
+You want to sync with the members of those groups.</p>
+<pre><code>Group
+group1@domain.com
+group2@domain.com
+...
+
+gam update group group@domain.com sync members csvdatafile groups gsheet:Group user@domain.com &lt;DriveFileID&gt; &lt;SheetEntity&gt;
+</code></pre>
+<h3 id="example-6">Example 6</h3>
+<p>The CSV file GroupMembers.csv has headers: group,role,email</p>
+<p>Each row contains a group email address, member role (OWNER, MEMBER, MANAGER) and a member email address.</p>
+<p>The following command will synchronize the membership for all groups and roles.</p>
+<pre><code>gam redirect stdout ./MemberUpdates.txt redirect stderr stdout update group csvkmd GroupMembers.csv keyfield group subkeyfield role datafield email sync csvdata email
+</code></pre>
+<p>The Google Sheet <code>user@domain.com &lt;DriveFileID&gt; &lt;SheetEntity&gt;</code> has headers: group,role,email</p>
+<p>Each row contains a group email address, member role (OWNER, MEMBER, MANAGER) and a member email address.</p>
+<p>The following command will synchronize the membership for all groups and roles.</p>
+<pre><code>gam redirect stdout ./MemberUpdates.txt redirect stderr stdout update group csvkmd gsheet user@domain.com &lt;DriveFileID&gt; &lt;SheetEntity&gt; keyfield group subkeyfield role datafield email sync csvdata email
+</code></pre>
+<p>You can also do <code>create|add</code>, <code>delete</code> and <code>update</code> in this manner.</p>
+<p>If you want to update a specific role, you can do one of the following.</p>
+<pre><code>gam redirect stdout ./MemberUpdates.txt redirect stderr stdout update group csvkmd ./GroupMembers.csv keyfield group matchfield role MEMBER datafield email sync member csvdata email
+gam redirect stdout ./ManagerUpdates.txt redirect stderr stdout update group csvkmd ./GroupMembers.csv keyfield group matchfield role MANAGER datafield email sync manager csvdata email
+gam redirect stdout ./OwnerUpdates.txt redirect stderr stdout update group csvkmd ./GroupMembers.csv keyfield group matchfield role OWNER datafield email sync owner csvdata email
+</code></pre>
+<h2 id="display-user-group-member-options">Display user group member options</h2>
+<p>Display user's group membership information. Delivery information is displayed; an additional API call per user is required.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; info member|group-members &lt;GroupEntity&gt;
+gam info member|group-members &lt;UserItem&gt;|&lt;UserTypeEntity&gt; &lt;GroupEntity&gt;
+</code></pre>
+<h2 id="display-group-membership-in-csv-format">Display group membership in CSV format</h2>
+<p>By default, delivery information is not displayed.</p>
+<pre><code>gam print group-members [todrive &lt;ToDriveAttribute&gt;*]
+        [([domain|domains &lt;DomainNameEntity&gt;] ([member|showownedby &lt;EmailItem&gt;]|[(query &lt;QueryGroup&gt;)|(queries &lt;QueryGroupList&gt;)]))|
+         (group|group_ns|group_susp &lt;GroupItem&gt;)|
+         (select &lt;GroupEntity&gt;)]
+        [emailmatchpattern [not] &lt;REMatchPattern&gt;] [namematchpattern [not] &lt;REMatchPattern&gt;]
+        [descriptionmatchpattern [not] &lt;REMatchPattern&gt;]
+        [admincreatedmatch &lt;Boolean&gt;]
+        [roles &lt;GroupRoleList&gt;] [members] [managers] [owners]
+        [internal] [internaldomains &lt;DomainNameList&gt;] [external]
+        [membernames] [showdeliverysettings]
+        &lt;MembersFieldName&gt;* [fields &lt;MembersFieldNameList&gt;]
+        [notsuspended|suspended] [notarchived|archived]
+        [types &lt;GroupMemberTypeList&gt;]
+        [memberemaildisplaypattern|memberemailskippattern &lt;REMatchPattern&gt;]
+        [userfields &lt;UserFieldNameList&gt;]
+        [allschemas|(schemas|custom|customschemas &lt;SchemaNameList&gt;)]
+        [(recursive [noduplicates])|includederivedmembership] [nogroupemail]
+        [peoplelookup|(peoplelookupuser &lt;EmailAddress&gt;)]
+        [unknownname &lt;String&gt;] [cachememberinfo [Boolean]]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>By default, the group membership of all groups in the account are displayed, these options allow selection of subsets of groups:
+* <code>domain|domains &lt;DomainNameEntity&gt;</code> - Limit display to groups in the domains specified by <code>&lt;DomainNameEntity&gt;</code>
+  * You can predefine this list with the <code>print_agu_domains</code> variable in <code>gam.cfg</code>.
+* <code>member &lt;EmailItem&gt;</code> - Limit display to groups that contain <code>&lt;EmailItem&gt;</code> as a member; mutually exclusive with <code>query &lt;QueryGroup&gt;</code>
+* <code>showownedby &lt;EmailItem&gt;</code> - Limit display to groups that contain <code>&lt;EmailItem&gt;</code> as an owner; mutually exclusive with <code>query &lt;QueryGroup&gt;</code>
+* <code>(query &lt;QueryGroup&gt;)|(queries &lt;QueryGroupList&gt;)</code> - Limit groups to those that match a query; each query is run against each domain
+* <code>group &lt;GroupItem&gt;</code> - Limit display to the single group <code>&lt;GroupItem&gt;</code>
+* <code>group_ns &lt;GroupItem&gt;</code> - Limit display to the single group <code>&lt;GroupItem&gt;</code>, display non-suspended members
+* <code>group_susp &lt;GroupItem&gt;</code> - Limit display to the single group <code>&lt;GroupItem&gt;</code>, display suspended members
+* <code>select &lt;GroupEntity&gt;</code> - Limit display to the groups specified in <code>&lt;GroupEntity&gt;</code>
+* <code>showownedby &lt;UserItem&gt;</code> - Limit display to groups owned by <code>&lt;UserItem&gt;</code></p>
+<p>When using <code>query &lt;QueryGroup&gt;</code> with the <code>name:{PREFIX}*</code> query, <code>PREFIX</code> must contain at least three characters.</p>
+<p>You can identify groups with the <code>All users in the organization</code> member with:
+* <code>query "memberKey=&lt;CustomerID&gt;"</code>
+* <code>member id:&lt;CustomerID&gt;</code></p>
+<p>These options further limit the list of groups selected above:
+* <code>emailmatchpattern &lt;REMatchPattern&gt;</code> - Limit display to groups whose email address matches <code>&lt;REMatchPattern&gt;</code>
+* <code>emailmatchpattern not &lt;REMatchPattern&gt;</code> - Limit display to groups whose email address does not match <code>&lt;REMatchPattern&gt;</code>
+* <code>namematchpattern &lt;REMatchPattern&gt;</code> - Limit display to groups whose name matches <code>&lt;REMatchPattern&gt;</code>
+* <code>namematchpattern not &lt;REMatchPattern&gt;</code> - Limit display to groups whose name does not match <code>&lt;REMatchPattern&gt;</code>
+* <code>descriptionmatchpattern &lt;REMatchPattern&gt;</code> - Limit display to groups whose description matches <code>&lt;REMatchPattern&gt;</code>
+* <code>descriptionmatchpattern not &lt;REMatchPattern&gt;</code> - Limit display to groups whose description does not match <code>&lt;REMatchPattern&gt;</code>
+* <code>admincreatedmatch True</code> - Limit display to groups created by administrators
+* <code>admincreatedmatch False</code> - Limit display to groups created by users</p>
+<p>By default, all members, managers and owners in the group are displayed; these options modify that behavior:
+* <code>roles &lt;GroupRoleList&gt;</code> - Display specified roles
+* <code>members</code> - Display members
+* <code>managers</code> - Display managers
+* <code>owners</code> - Display owners</p>
+<p>By default, all types of members (customer, group, user) in the group are displayed; this option modifies that behavior:
+* <code>types &lt;GroupMemberTypeList&gt;</code> - Display specified types</p>
+<p>By default, members that are groups are displayed as a single entry of type GROUP; this option recursively expands group members to display their user members.
+* <code>recursive</code> - Recursively expand group members</p>
+<p>When <code>recursive</code> is specified, the default is to only display type user members; this option modifies those behaviors:
+* <code>types &lt;GroupMemberTypeList&gt;</code> - Display specified types</p>
+<p>By default, when displaying members from a group, all members, whether suspended/archived or not, are included.
+* <code>notsuspended</code> - Display only non-suspended members
+* <code>suspended</code> - Display only suspended members
+* <code>notarchived</code> - Do not include archived members
+* <code>archived</code> - Only include archived members, this is not common but allows creating groups that allow easy identification of archived users
+* <code>notsuspended notarchived</code> - Do not include suspended and archived members
+* <code>suspended archived</code> - Include only suspended or archived members
+* <code>notsuspended archived</code> - Only include archived members, this is not common but allows creating groups that allow easy identification of archived users
+* <code>suspended notarchived</code> - Only include suspended members, this is not common but allows creating groups that allow easy identification of suspended users</p>
+<p>By default, when listing group members, GAM does not take the domain of the member into account.
+* <code>internal internaldomains &lt;DomainNameList&gt;</code> - Display members whose domain is in <code>&lt;DomainNameList&gt;</code>
+* <code>external internaldomains &lt;DomainNameList&gt;</code> - Display members whose domain is not in <code>&lt;DomainNameList&gt;</code>
+* <code>internal external internaldomains &lt;DomainNameList&gt;</code> - Display all members, indicate their category: internal or external
+* <code>internaldomains &lt;DomainNameList&gt;</code> - Defaults to value of <code>domain</code> in <code>gam.cfg</code></p>
+<p>Members without an email address, e.g. <code>customer</code>, are considered internal.</p>
+<p>Members that have met the above qualifications to be displayed can be further qualifed by their email address.
+* <code>memberemaildisplaypattern &lt;REMatchPattern&gt;</code> - Members with email addresses that match <code>&lt;REMatchPattern&gt;</code> will be displayed; others will not be displayed
+* <code>memberemailskippattern &lt;REMatchPattern&gt;</code> - Members with email addresses that match <code>&lt;REMatchPattern&gt;</code> will not be displayed; others will be displayed</p>
+<p>By default, the ID, role, email address, type and status of each member are displayed along with the group email address;
+these options specify which fields to display:
+* <code>membernames</code> - Display members full name; an additional API call per member is required
+* <code>showdeliverysettings</code> - Display delivery settings; an additional API call per member is required
+* <code>&lt;MembersFieldName&gt;*</code> - Individual field names
+* <code>fields &lt;MembersFieldNameList&gt;</code> - A comma separated list of field names
+    * <code>delivery|deliverysettings</code> - Specify this field to get delivery information; an additional API call per member is required</p>
+<p>For members that are users, you can specify additional information to display; an additional API call per member is required
+* <code>userfields &lt;UserFieldNameList&gt;</code> - Display specific user fields
+* <code>allschemas|(schemas|custom|customschemas &lt;SchemaNameList&gt;)</code> - Display all or specific custom schema values</p>
+<p>The additional API calls can be reduced with the <code>cachememberinfo</code> option; a single API call is made for each user/group
+and the data is cached to eliminate to need to repeat the API call; this consumes more memory but dramatically reduces the number of API calls.</p>
+<p>If member names are requested, names are not available for users not in the domain; you can request that GAM use the People API to retrieve
+names for these users. Names are not retrieved in all cases and success is dependent on what user is used to perform the retrievals.
+* <code>peoplelookup</code> - Use the administrator named in oauth2.txt to perform the retrievals
+* <code>peoplelookupuser &lt;EmailAddress&gt;</code> - Use <code>&lt;EmailAddress&gt;</code> to perform the retrievals</p>
+<p>By default, when <code>membernames</code> is specified, GAM displays <code>Unknown</code> for members whose names can not be determined.
+Use <code>unknownname &lt;String&gt;</code> to specify an alternative value.</p>
+<p>By default, the group email address is always shown, you can suppress it with the <code>nogroupemail</code> option.</p>
+<p>The <code>recursive</code> option adds two columns, level and subgroup, to the output:
+* <code>level</code> - At what level of the expansion does the user appear; level 0 is the top level
+* <code>subgroup</code> - The group that contained the user</p>
+<p>Displaying membership of multiple groups or recursive expansion may result in multiple instances of the same user being displayed; these multiple instances can be reduced to one entry.
+* <code>noduplicates</code> - Reduce multiple instances of the same user to the first instance</p>
+<p>The <code>includederivedmembership</code> option is an alternative to <code>recursive</code>; it causes the API to expand type GROUP and type CUSTOMER
+members to display their constituent members while still displaying the original member.
+The API produces inconsistent results, use with caution.</p>
+<p>The options <code>recursive noduplicates</code> and <code>includederivedmembership types user noduplicates</code> return the same list of users.
+The <code>includederivedmembership</code> option makes less API calls but doesn't show level and subgroup information.
+Expanding a member of type CUSTOMER may produce a large volume of data as it will display all users in your domain.</p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h2 id="display-group-membership-in-hierarchical-format">Display group membership in hierarchical format</h2>
+<pre><code>gam show group-members
+        [([domain|domains &lt;DomainNameEntity&gt;] ([member|showownedby &lt;EmailItem&gt;]|[(query &lt;QueryGroup&gt;)|(queries &lt;QueryGroupList&gt;)]))|
+         (group|group_ns|group_susp &lt;GroupItem&gt;)|
+         (select &lt;GroupEntity&gt;)]
+        [emailmatchpattern [not] &lt;REMatchPattern&gt;] [namematchpattern [not] &lt;REMatchPattern&gt;]
+        [descriptionmatchpattern [not] &lt;REMatchPattern&gt;]
+        [admincreatedmatch &lt;Boolean&gt;]
+        [roles &lt;GroupRoleList&gt;] [members] [managers] [owners] [depth &lt;Number&gt;]
+        [internal] [internaldomains &lt;DomainNameList&gt;] [external]
+        [notsuspended|suspended] [notarchived|archived]
+        [types &lt;GroupMemberTypeList&gt;]
+        [memberemaildisplaypattern|memberemailskippattern &lt;REMatchPattern&gt;]
+        [includederivedmembership]
+</code></pre>
+<p>By default, the group membership of all groups in the account are displayed, these options allow selection of subsets of groups:
+* <code>domain|domains &lt;DomainNameEntity&gt;</code> - Limit display to groups in the domains specified by <code>&lt;DomainNameEntity&gt;</code>
+  * You can predefine this list with the <code>print_agu_domains</code> variable in <code>gam.cfg</code>.
+* <code>member &lt;EmailItem&gt;</code> - Limit display to groups that contain <code>&lt;EmailItem&gt;</code> as a member; mutually exclusive with <code>query &lt;QueryGroup&gt;</code>
+* <code>showownedby &lt;EmailItem&gt;</code> - Limit display to groups that contain <code>&lt;EmailItem&gt;</code> as an owner; mutually exclusive with <code>query &lt;QueryGroup&gt;</code>
+* <code>(query &lt;QueryGroup&gt;)|(queries &lt;QueryGroupList&gt;)</code> - Limit groups to those that match a query; each query is run against each domain
+* <code>group &lt;GroupItem&gt;</code> - Limit display to the single group <code>&lt;GroupItem&gt;</code>
+* <code>group_ns &lt;GroupItem&gt;</code> - Limit display to the single group <code>&lt;GroupItem&gt;</code>, display non-suspended members
+* <code>group_susp &lt;GroupItem&gt;</code> - Limit display to the single group <code>&lt;GroupItem&gt;</code>, display suspended members
+* <code>select &lt;GroupEntity&gt;</code> - Limit display to the groups specified in <code>&lt;GroupEntity&gt;</code>
+* <code>showownedby &lt;UserItem&gt;</code> - Limit display to groups owned by <code>&lt;UserItem&gt;</code></p>
+<p>When using <code>query &lt;QueryGroup&gt;</code> with the <code>name:{PREFIX}*</code> query, <code>PREFIX</code> must contain at least three characters.</p>
+<p>You can identify groups with the <code>All users in the organization</code> member with:
+* <code>query "memberKey=&lt;CustomerID&gt;"</code>
+* <code>member id:&lt;CustomerID&gt;</code></p>
+<p>These options further limit the list of groups selected above:
+* <code>emailmatchpattern &lt;REMatchPattern&gt;</code> - Limit display to groups whose email address matches <code>&lt;REMatchPattern&gt;</code>
+* <code>emailmatchpattern not &lt;REMatchPattern&gt;</code> - Limit display to groups whose email address does not match <code>&lt;REMatchPattern&gt;</code>
+* <code>namematchpattern &lt;REMatchPattern&gt;</code> - Limit display to groups whose name matches <code>&lt;REMatchPattern&gt;</code>
+* <code>namematchpattern not &lt;REMatchPattern&gt;</code> - Limit display to groups whose name does not match <code>&lt;REMatchPattern&gt;</code>
+* <code>descriptionmatchpattern &lt;REMatchPattern&gt;</code> - Limit display to groups whose description matches <code>&lt;REMatchPattern&gt;</code>
+* <code>descriptionmatchpattern not &lt;REMatchPattern&gt;</code> - Limit display to groups whose description does not match <code>&lt;REMatchPattern&gt;</code>
+* <code>admincreatedmatch True</code> - Limit display to groups created by administrators
+* <code>admincreatedmatch False</code> - Limit display to groups created by users</p>
+<p>By default, all members, managers and owners in the group are displayed; these options modify that behavior:
+* <code>roles &lt;GroupRoleList&gt;</code> - Display specified roles
+* <code>members</code> - Display members
+* <code>managers</code> - Display managers
+* <code>owners</code> - Display owners</p>
+<p>By default, when displaying members from a group, all members, whether suspended/archived or not, are included.
+* <code>notsuspended</code> - Display only non-suspended members
+* <code>suspended</code> - Display only suspended members
+* <code>notarchived</code> - Do not include archived members
+* <code>archived</code> - Only include archived members, this is not common but allows creating groups that allow easy identification of archived users
+* <code>notsuspended notarchived</code> - Do not include suspended and archived members
+* <code>suspended archived</code> - Include only suspended or archived members
+* <code>notsuspended archived</code> - Only include archived members, this is not common but allows creating groups that allow easy identification of archived users
+* <code>suspended notarchived</code> - Only include suspended members, this is not common but allows creating groups that allow easy identification of suspended users</p>
+<p>By default, all types of members (customer, group, user) in the group are displayed; this option modifies that behavior:
+* <code>types &lt;GroupMemberTypeList&gt;</code> - Display specified types</p>
+<p>By default, when listing group members, GAM does not take the domain of the member into account.
+* <code>internal internaldomains &lt;DomainNameList&gt;</code> - Display members whose domain is in <code>&lt;DomainNameList&gt;</code>
+* <code>external internaldomains &lt;DomainNameList&gt;</code> - Display members whose domain is not in <code>&lt;DomainNameList&gt;</code>
+* <code>internal external internaldomains &lt;DomainNameList&gt;</code> - Display all members, indicate their category: internal or external
+* <code>internaldomains &lt;DomainNameList&gt;</code> - Defaults to value of <code>domain</code> in <code>gam.cfg</code></p>
+<p>Members without an email address, e.g. <code>customer</code>, are considered internal.</p>
+<p>Members that have met the above qualifications to be displayed can be further qualifed by their email address.
+* <code>memberemaildisplaypattern &lt;REMatchPattern&gt;</code> - Members with email addresses that match <code>&lt;REMatchPattern&gt;</code> will be displayed; others will not be displayed
+* <code>memberemailskippattern &lt;REMatchPattern&gt;</code> - Members with email addresses that match <code>&lt;REMatchPattern&gt;</code> will not be displayed; others will be displayed</p>
+<p>By default, members of type GROUP are recursively expanded to show their constituent members. (Members of
+type CUSTOMER are not expanded.) The <code>depth &lt;Number&gt;</code> argument controls the depth to which nested groups are displayed.
+* <code>depth -1</code> - all groups in the selected group and below are displayed; this is the default.
+* <code>depth 0</code> - the groups within a selected group are displayed, no descendants are displayed.
+* <code>depth N</code> - the groups within the selected group and those groups N levels below the selected group are displayed.</p>
+<p>The <code>includederivedmembership</code> option causes the API to expand type GROUP and type CUSTOMER
+members to display their constituent members while still displaying the original member.</p>
+<p>The options <code>types user</code> and <code>includederivedmembership types user</code> return the same list of users.
+The <code>includederivedmembership</code> option makes less API calls but doesn't show hierarchy.
+Expanding a member of type CUSTOMER may produce a large volume of data as it will display all users in your domain.</p>
+<h3 id="display-group-structure">Display group structure</h3>
+<p>To see a group's structure of nested groups use the <code>type group</code> option.</p>
+<pre><code>$ gam show group-members group testgroup5 types group
+Group: testgroup5@domain.com
+  MEMBER, GROUP, testgroup1@domain.com, ACTIVE
+    MEMBER, GROUP, testgroup2@domain.com, ACTIVE
+  MEMBER, GROUP, testgroup3@domain.com, ACTIVE
+    MEMBER, GROUP, testgroup2@domain.com, ACTIVE
+    MEMBER, GROUP, testgroup4@domain.com, ACTIVE
+</code></pre>
+<p>To show the structure of all groups you can do the following; it will be time consuming for a large number of groups.</p>
+<pre><code>gam redirect stdout ./groups.txt show group-members types group
+</code></pre>
+<h3 id="examples">Examples</h3>
+<h4 id="print-a-csv-of-all-members-of-a-group-regardless-of-role-all-fields">Print a CSV of all members of a group regardless of role, all fields</h4>
+<pre><code>gam print group-members &lt;GroupEntity&gt;
+</code></pre>
+<h4 id="print-a-csv-containing-all-managers-emails">Print a CSV containing all managers emails</h4>
+<pre><code>gam print group-members &lt;GroupEntity&gt; role manager fields email
+</code></pre>
+<h4 id="print-a-csv-output-of-all-members-and-their-emails-only">Print a CSV output of all members and their emails only</h4>
+<pre><code>gam print group-members &lt;GroupEntity&gt; role member fields email
+</code></pre>
+<h4 id="display-group-owners-in-your-domain-but-excluding-groups-where-the-email-starts-with-a-4-digit-code">Display group owners in your domain, but excluding groups where the email starts with a 4 digit code</h4>
+<pre><code>gam print group-members domain &lt;Your Domain&gt; emailmatchpattern not '^1234.*' roles owners
+</code></pre>
+<p>These options further limit the list of groups selected above:
+* <code>emailmatchpattern &lt;REMatchPattern&gt;</code> - Limit display to groups whose email address matches <code>&lt;REMatchPattern&gt;</code>
+* <code>emailmatchpattern not &lt;REMatchPattern&gt;</code> - Limit display to groups whose email address does not match <code>&lt;REMatchPattern&gt;</code>
+* <code>namematchpattern &lt;REMatchPattern&gt;</code> - Limit display to groups whose name matches <code>&lt;REMatchPattern&gt;</code>
+* <code>namematchpattern not &lt;REMatchPattern&gt;</code> - Limit display to groups whose name does not match <code>&lt;REMatchPattern&gt;</code>
+* <code>descriptionmatchpattern &lt;REMatchPattern&gt;</code> - Limit display to groups whose description matches <code>&lt;REMatchPattern&gt;</code>
+* <code>descriptionmatchpattern not &lt;REMatchPattern&gt;</code> - Limit display to groups whose description does not match <code>&lt;REMatchPattern&gt;</code>
+* <code>admincreatedmatch True</code> - Limit display to groups created by administrators
+* <code>admincreatedmatch False</code> - Limit display to groups created by users</p>
+<p>By default, all members, managers and owners in the group are displayed; these options modify that behavior:
+* <code>roles &lt;GroupRoleList&gt;</code> - Display specified roles
+* <code>members</code> - Display members
+* <code>managers</code> - Display managers
+* <code>owners</code> - Display owners</p>
+<p>By default, all types of members (customer, group, user) in the group are displayed; this option modifies that behavior:
+* <code>types &lt;GroupMemberTypeList&gt;</code> - Display specified types</p>
+<p>By default, members that are groups are displayed as a single entry of type GROUP; this option recursively expands group members to display their user members.
+* <code>recursive</code> - Recursively expand group members</p>
+<p>When <code>recursive</code> is specified, the default is to only display type user members; this option modifies those behaviors:
+* <code>types &lt;GroupMemberTypeList&gt;</code> - Display specified types</p>
+<p>By default, when displaying members from a group, all members, whether suspended/archived or not, are included.
+* <code>notsuspended</code> - Display only non-suspended members
+* <code>suspended</code> - Display only suspended members
+* <code>notarchived</code> - Do not include archived members
+* <code>archived</code> - Only include archived members, this is not common but allows creating groups that allow easy identification of archived users
+* <code>notsuspended notarchived</code> - Do not include suspended and archived members
+* <code>suspended archived</code> - Include only suspended or archived members
+* <code>notsuspended archived</code> - Only include archived members, this is not common but allows creating groups that allow easy identification of archived users
+* <code>suspended notarchived</code> - Only include suspended members, this is not common but allows creating groups that allow easy identification of suspended users</p>
+<p>By default, when listing group members, GAM does not take the domain of the member into account.
+* <code>internal internaldomains &lt;DomainNameList&gt;</code> - Display members whose domain is in <code>&lt;DomainNameList&gt;</code>
+* <code>external internaldomains &lt;DomainNameList&gt;</code> - Display members whose domain is not in <code>&lt;DomainNameList&gt;</code>
+* <code>internal external internaldomains &lt;DomainNameList&gt;</code> - Display all members, indicate their category: internal or external
+* <code>internaldomains &lt;DomainNameList&gt;</code> - Defaults to value of <code>domain</code> in <code>gam.cfg</code></p>
+<p>Members without an email address, e.g. <code>customer</code>, are considered internal.</p>
+<p>Members that have met the above qualifications to be displayed can be further qualifed by their email address.
+* <code>memberemaildisplaypattern &lt;REMatchPattern&gt;</code> - Members with email addresses that match <code>&lt;REMatchPattern&gt;</code> will be displayed; others will not be displayed
+* <code>memberemailskippattern &lt;REMatchPattern&gt;</code> - Members with email addresses that match <code>&lt;REMatchPattern&gt;</code> will not be displayed; others will be displayed</p>
+<p>By default, the ID, role, email address, type and status of each member are displayed along with the group email address;
+these options specify which fields to display:
+* <code>membernames</code> - Display members full name; an additional API call per member is required
+* <code>showdeliverysettings</code> - Display delivery settings; an additional API call per member is required
+* <code>&lt;MembersFieldName&gt;*</code> - Individual field names
+* <code>fields &lt;MembersFieldNameList&gt;</code> - A comma separated list of field names
+    * <code>delivery|deliverysettings</code> - Specify this field to get delivery information; an additional API call per member is required</p>
+<p>For members that are users, you can specify additional information to display; an additional API call per member is required
+* <code>userfields &lt;UserFieldNameList&gt;</code> - Display specific user fields
+* <code>allschemas|(schemas|custom|customschemas &lt;SchemaNameList&gt;)</code> - Display all or specific custom schema values</p>
+<p>The additional API calls can be reduced with the <code>cachememberinfo</code> option; a single API call is made for each user/group
+and the data is cached to eliminate to need to repeat the API call; this consumes more memory but dramatically reduces the number of API calls.</p>
+<p>If member names are requested, names are not available for users not in the domain; you can request that GAM use the People API to retrieve
+names for these users. Names are not retrieved in all cases and success is dependent on what user is used to perform the retrievals.
+* <code>peoplelookup</code> - Use the administrator named in oauth2.txt to perform the retrievals
+* <code>peoplelookupuser &lt;EmailAddress&gt;</code> - Use <code>&lt;EmailAddress&gt;</code> to perform the retrievals</p>
+<p>By default, when <code>membernames</code> is specified, GAM displays <code>Unknown</code> for members whose names can not be determined.
+Use <code>unknownname &lt;String&gt;</code> to specify an alternative value.</p>
+<p>By default, the group email address is always shown, you can suppress it with the <code>nogroupemail</code> option.</p>
+<p>The <code>recursive</code> option adds two columns, level and subgroup, to the output:
+* <code>level</code> - At what level of the expansion does the user appear; level 0 is the top level
+* <code>subgroup</code> - The group that contained the user</p>
+<p>Displaying membership of multiple groups or recursive expansion may result in multiple instances of the same user being displayed; these multiple instances can be reduced to one entry.
+* <code>noduplicates</code> - Reduce multiple instances of the same user to the first instance</p>
+<p>The <code>includederivedmembership</code> option is an alternative to <code>recursive</code>; it causes the API to expand type GROUP and type CUSTOMER
+members to display their constituent members while still displaying the original member.
+The API produces inconsistent results, use with caution.</p>
+<p>The options <code>recursive noduplicates</code> and <code>includederivedmembership types user noduplicates</code> return the same list of users.
+The <code>includederivedmembership</code> option makes less API calls but doesn't show level and subgroup information.
+Expanding a member of type CUSTOMER may produce a large volume of data as it will display all users in your domain.</p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h2 id="display-group-membership-in-hierarchical-format_1">Display group membership in hierarchical format</h2>
+<pre><code>gam show group-members
+        [([domain|domains &lt;DomainNameEntity&gt;] ([member|showownedby &lt;EmailItem&gt;]|[(query &lt;QueryGroup&gt;)|(queries &lt;QueryGroupList&gt;)]))|
+         (group|group_ns|group_susp &lt;GroupItem&gt;)|
+         (select &lt;GroupEntity&gt;)]
+        [emailmatchpattern [not] &lt;REMatchPattern&gt;] [namematchpattern [not] &lt;REMatchPattern&gt;]
+        [descriptionmatchpattern [not] &lt;REMatchPattern&gt;]
+        [admincreatedmatch &lt;Boolean&gt;]
+        [roles &lt;GroupRoleList&gt;] [members] [managers] [owners] [depth &lt;Number&gt;]
+        [internal] [internaldomains &lt;DomainNameList&gt;] [external]
+        [notsuspended|suspended] [notarchived|archived]
+        [types &lt;GroupMemberTypeList&gt;]
+        [memberemaildisplaypattern|memberemailskippattern &lt;REMatchPattern&gt;]
+        [includederivedmembership]
+</code></pre>
+<p>By default, the group membership of all groups in the account are displayed, these options allow selection of subsets of groups:
+* <code>domain|domains &lt;DomainNameEntity&gt;</code> - Limit display to groups in the domains specified by <code>&lt;DomainNameEntity&gt;</code>
+  * You can predefine this list with the <code>print_agu_domains</code> variable in <code>gam.cfg</code>.
+* <code>member &lt;EmailItem&gt;</code> - Limit display to groups that contain <code>&lt;EmailItem&gt;</code> as a member; mutually exclusive with <code>query &lt;QueryGroup&gt;</code>
+* <code>showownedby &lt;EmailItem&gt;</code> - Limit display to groups that contain <code>&lt;EmailItem&gt;</code> as an owner; mutually exclusive with <code>query &lt;QueryGroup&gt;</code>
+* <code>(query &lt;QueryGroup&gt;)|(queries &lt;QueryGroupList&gt;)</code> - Limit groups to those that match a query; each query is run against each domain
+* <code>group &lt;GroupItem&gt;</code> - Limit display to the single group <code>&lt;GroupItem&gt;</code>
+* <code>group_ns &lt;GroupItem&gt;</code> - Limit display to the single group <code>&lt;GroupItem&gt;</code>, display non-suspended members
+* <code>group_susp &lt;GroupItem&gt;</code> - Limit display to the single group <code>&lt;GroupItem&gt;</code>, display suspended members
+* <code>select &lt;GroupEntity&gt;</code> - Limit display to the groups specified in <code>&lt;GroupEntity&gt;</code>
+* <code>showownedby &lt;UserItem&gt;</code> - Limit display to groups owned by <code>&lt;UserItem&gt;</code></p>
+<p>When using <code>query &lt;QueryGroup&gt;</code> with the <code>name:{PREFIX}*</code> query, <code>PREFIX</code> must contain at least three characters.</p>
+<p>You can identify groups with the <code>All users in the organization</code> member with:
+* <code>query "memberKey=&lt;CustomerID&gt;"</code>
+* <code>member id:&lt;CustomerID&gt;</code></p>
+<p>These options further limit the list of groups selected above:
+* <code>emailmatchpattern &lt;REMatchPattern&gt;</code> - Limit display to groups whose email address matches <code>&lt;REMatchPattern&gt;</code>
+* <code>emailmatchpattern not &lt;REMatchPattern&gt;</code> - Limit display to groups whose email address does not match <code>&lt;REMatchPattern&gt;</code>
+* <code>namematchpattern &lt;REMatchPattern&gt;</code> - Limit display to groups whose name matches <code>&lt;REMatchPattern&gt;</code>
+* <code>namematchpattern not &lt;REMatchPattern&gt;</code> - Limit display to groups whose name does not match <code>&lt;REMatchPattern&gt;</code>
+* <code>descriptionmatchpattern &lt;REMatchPattern&gt;</code> - Limit display to groups whose description matches <code>&lt;REMatchPattern&gt;</code>
+* <code>descriptionmatchpattern not &lt;REMatchPattern&gt;</code> - Limit display to groups whose description does not match <code>&lt;REMatchPattern&gt;</code>
+* <code>admincreatedmatch True</code> - Limit display to groups created by administrators
+* <code>admincreatedmatch False</code> - Limit display to groups created by users</p>
+<p>By default, all members, managers and owners in the group are displayed; these options modify that behavior:
+* <code>roles &lt;GroupRoleList&gt;</code> - Display specified roles
+* <code>members</code> - Display members
+* <code>managers</code> - Display managers
+* <code>owners</code> - Display owners</p>
+<p>By default, when displaying members from a group, all members, whether suspended/archived or not, are included.
+* <code>notsuspended</code> - Display only non-suspended members
+* <code>suspended</code> - Display only suspended members
+* <code>notarchived</code> - Do not include archived members
+* <code>archived</code> - Only include archived members, this is not common but allows creating groups that allow easy identification of archived users
+* <code>notsuspended notarchived</code> - Do not include suspended and archived members
+* <code>suspended archived</code> - Include only suspended or archived members
+* <code>notsuspended archived</code> - Only include archived members, this is not common but allows creating groups that allow easy identification of archived users
+* <code>suspended notarchived</code> - Only include suspended members, this is not common but allows creating groups that allow easy identification of suspended users</p>
+<p>By default, all types of members (customer, group, user) in the group are displayed; this option modifies that behavior:
+* <code>types &lt;GroupMemberTypeList&gt;</code> - Display specified types</p>
+<p>By default, when listing group members, GAM does not take the domain of the member into account.
+* <code>internal internaldomains &lt;DomainNameList&gt;</code> - Display members whose domain is in <code>&lt;DomainNameList&gt;</code>
+* <code>external internaldomains &lt;DomainNameList&gt;</code> - Display members whose domain is not in <code>&lt;DomainNameList&gt;</code>
+* <code>internal external internaldomains &lt;DomainNameList&gt;</code> - Display all members, indicate their category: internal or external
+* <code>internaldomains &lt;DomainNameList&gt;</code> - Defaults to value of <code>domain</code> in <code>gam.cfg</code></p>
+<p>Members without an email address, e.g. <code>customer</code>, are considered internal.</p>
+<p>Members that have met the above qualifications to be displayed can be further qualifed by their email address.
+* <code>memberemaildisplaypattern &lt;REMatchPattern&gt;</code> - Members with email addresses that match <code>&lt;REMatchPattern&gt;</code> will be displayed; others will not be displayed
+* <code>memberemailskippattern &lt;REMatchPattern&gt;</code> - Members with email addresses that match <code>&lt;REMatchPattern&gt;</code> will not be displayed; others will be displayed</p>
+<p>By default, members of type GROUP are recursively expanded to show their constituent members. (Members of
+type CUSTOMER are not expanded.) The <code>depth &lt;Number&gt;</code> argument controls the depth to which nested groups are displayed.
+* <code>depth -1</code> - all groups in the selected group and below are displayed; this is the default.
+* <code>depth 0</code> - the groups within a selected group are displayed, no descendants are displayed.
+* <code>depth N</code> - the groups within the selected group and those groups N levels below the selected group are displayed.</p>
+<p>The <code>includederivedmembership</code> option causes the API to expand type GROUP and type CUSTOMER
+members to display their constituent members while still displaying the original member.</p>
+<p>The options <code>types user</code> and <code>includederivedmembership types user</code> return the same list of users.
+The <code>includederivedmembership</code> option makes less API calls but doesn't show hierarchy.
+Expanding a member of type CUSTOMER may produce a large volume of data as it will display all users in your domain.</p>
+<h3 id="display-group-structure_1">Display group structure</h3>
+<p>To see a group's structure of nested groups use the <code>type group</code> option.</p>
+<pre><code>$ gam show group-members group testgroup5 types group
+Group: testgroup5@domain.com
+  MEMBER, GROUP, testgroup1@domain.com, ACTIVE
+    MEMBER, GROUP, testgroup2@domain.com, ACTIVE
+  MEMBER, GROUP, testgroup3@domain.com, ACTIVE
+    MEMBER, GROUP, testgroup2@domain.com, ACTIVE
+    MEMBER, GROUP, testgroup4@domain.com, ACTIVE
+</code></pre>
+<p>To show the structure of all groups you can do the following; it will be time consuming for a large number of groups.</p>
+<pre><code>gam redirect stdout ./groups.txt show group-members types group
+</code></pre>
+<h3 id="examples_1">Examples</h3>
+<h4 id="print-a-csv-of-all-members-of-a-group-regardless-of-role-all-fields_1">Print a CSV of all members of a group regardless of role, all fields</h4>
+<pre><code>gam print group-members &lt;GroupEntity&gt;
+</code></pre>
+<h4 id="print-a-csv-containing-all-managers-emails_1">Print a CSV containing all managers emails</h4>
+<pre><code>gam print group-members &lt;GroupEntity&gt; role manager fields email
+</code></pre>
+<h4 id="print-a-csv-output-of-all-members-and-their-emails-only_1">Print a CSV output of all members and their emails only</h4>
+<pre><code>gam print group-members &lt;GroupEntity&gt; role member fields email
+</code></pre>
+<h4 id="display-group-owners-in-your-domain-but-excluding-groups-where-the-email-starts-with-a-4-digit-code_1">Display group owners in your domain, but excluding groups where the email starts with a 4 digit code</h4>
+<pre><code>gam print group-members domain &lt;Your Domain&gt; emailmatchpattern not '^1234.*' roles owners
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

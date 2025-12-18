@@ -1,0 +1,1787 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>ChromeOS Devices - GAM Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">GAM Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../00scratch/" class="nav-link">Scratch Me Wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Addresses/" class="nav-link">Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Administrators/" class="nav-link">Administrators</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Alert-Center/" class="nav-link">Alert Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Aliases/" class="nav-link">Aliases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Authorization/" class="nav-link">Authorization</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../BNF-Syntax/" class="nav-link">Syntax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Basic-Items/" class="nav-link">Basic Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Bulk-Processing/" class="nav-link">Bulk Processing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Business-Account-Management/" class="nav-link">Users - Business Account Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Input-Filtering/" class="nav-link">CSV Input Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Output-Filtering/" class="nav-link">CSV Output Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Special-Characters/" class="nav-link">CSV Special Characters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Access/" class="nav-link">Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Events/" class="nav-link">Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars/" class="nav-link">Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chat-Bot-Setup-Use/" class="nav-link">Chat Bot Setup and Use</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-AUE-Counts/" class="nav-link">Chrome Auto Update Expiration Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Browser-Cloud-Management/" class="nav-link">Chrome Browser Cloud Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Device-Counts/" class="nav-link">Chrome Device Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Installed-Apps/" class="nav-link">Chrome Installed Apps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Needs-Attention-Counts/" class="nav-link">Chrome Device Needs Attention Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Policies/" class="nav-link">Chrome Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Printers/" class="nav-link">Chrome Printers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Profile-Management/" class="nav-link">Chrome Profile Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-Counts/" class="nav-link">Chrome Version Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-History/" class="nav-link">Chrome Version History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Courses/" class="nav-link">Classroom - Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Guardians/" class="nav-link">Classroom - Guardians</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Invitations/" class="nav-link">Classroom - Invitations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Membership/" class="nav-link">Classroom - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-StudentGroups/" class="nav-link">Classroom - Student Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Channel/" class="nav-link">Cloud Channel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Devices/" class="nav-link">Cloud Identity Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups-Membership/" class="nav-link">Cloud Identity Groups - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups/" class="nav-link">Cloud Identity Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Policies/" class="nav-link">Cloud Identity Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Storage/" class="nav-link">Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-ChromeOS-Devices/" class="nav-link">Collections of ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Items/" class="nav-link">Collections of Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Users/" class="nav-link">Collections of Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Data-From-Google-Docs-Sheets-Storage/" class="nav-link">Command data from Google Docs, Sheets and Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Line-Parsing/" class="nav-link">Command Line Parsing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Logging-Progress/" class="nav-link">Command Logging and Progress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Context-Aware-Access-Levels/" class="nav-link">Context-Aware Access Levels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Customer/" class="nav-link">Customer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-People-Contacts-Profiles/" class="nav-link">Domain People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-SharedContacts/" class="nav-link">Domain Shared Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains-Verification/" class="nav-link">Domains - Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains/" class="nav-link">Domains</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Downloads-Installs/" class="nav-link">Downloads-Installs-GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-File-Selection/" class="nav-link">Drive File Selection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-Items/" class="nav-link">Drive Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-REST-API-v3/" class="nav-link">Drive REST API v3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Email-Audit-Monitor/" class="nav-link">Email Audit Monitor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Find-File-Owner/" class="nav-link">Find File Owner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Public-Chat-Room/" class="nav-link">GAM Public Chat Room</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Release-Process/" class="nav-link">Steps to release a new GAM version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Return-Codes/" class="nav-link">GAM Return Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-with-minimal-GCP-rights/" class="nav-link">GAM setup with minimal GCP permissions.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-FAQ/" class="nav-link">What is GAM7?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Android-Devices/" class="nav-link">GAM7 on Android Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Chrome-OS-Devices/" class="nav-link">GAM7 on Chrome OS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GamUpdates/" class="nav-link">Update GAM7 to latest version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Global-Address-List/" class="nav-link">Global Address List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Data-Transfers/" class="nav-link">Google Data Transfers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Network-Addresses/" class="nav-link">Google Network Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups-Membership/" class="nav-link">Groups Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups/" class="nav-link">Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../HTTPS-Proxy/" class="nav-link">HTTPS Proxy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Home/" class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Install-GAM7/" class="nav-link">Installing GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Uninstall-GAM7/" class="nav-link">Uninstalling GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Update-GAM7/" class="nav-link">Updating GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-GAMADV-XTD3-to-GAM7/" class="nav-link">Installation - Upgrade GAMADV-XTD3 to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-Legacy-GAM-to-GAM7/" class="nav-link">Installation - Upgrade Legacy GAM to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Inbound-SSO/" class="nav-link">Inbound SSO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Install-GAM-as-Python-Library/" class="nav-link">Install GAM as Python Library</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Licenses/" class="nav-link">Licenses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List-Items/" class="nav-link">List Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List/" class="nav-link">List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Meta-Commands-and-File-Redirection/" class="nav-link">Meta Commands and File Redirection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Mobile-Devices/" class="nav-link">Mobile Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Organizational-Units/" class="nav-link">Organizational Units</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Other-Resources/" class="nav-link">Other Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Permission-Matches/" class="nav-link">Permission Matches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Python-Regular-Expressions/" class="nav-link">Python Regular Expressions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Rclone/" class="nav-link">Rclone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reports/" class="nav-link">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reseller/" class="nav-link">Reseller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Resources/" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Running-GAM7-securely-on-a-Google-Compute-Engine/" class="nav-link">Running GAM7 securely on a Google Compute Engine</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../SSL-Root-CA-Certificates/" class="nav-link">SSL Root CA Certificates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Schemas/" class="nav-link">Schemas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Scripts/" class="nav-link">Scripts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Send-Email/" class="nav-link">Send Email</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Shared-Drives/" class="nav-link">Domain Administrators - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Sites/" class="nav-link">Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Tag-Replace/" class="nav-link">Tag Replace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Todrive/" class="nav-link">Todrive</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Unmanaged-Accounts/" class="nav-link">Unmanaged Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Upgrade-Benefits/" class="nav-link">Upgrade Benefits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Analytics-Admin/" class="nav-link">Users - Analytics Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Application-Specific-Passwords/" class="nav-link">Users - Application Specific Passwords</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Backup-Verification-Codes/" class="nav-link">Users - Backup Verification Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Access/" class="nav-link">Users - Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Events/" class="nav-link">Users - Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars/" class="nav-link">Users - Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Chat/" class="nav-link">Users - Chat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classification-Labels/" class="nav-link">Users - Classification Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classroom-Profile/" class="nav-link">Users - Classroom - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts-Delegates/" class="nav-link">Users - Contacts - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts/" class="nav-link">User Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Deprovision/" class="nav-link">Users - Deprovision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Activity-Settings/" class="nav-link">Users - Drive - Activity/Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Cleanup/" class="nav-link">Users - Drive - Cleanup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Comments/" class="nav-link">Users - Drive - Comments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Copy-Move/" class="nav-link">Users - Drive Files Copy/Move</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Display/" class="nav-link">Users - Drive Files Display</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Manage/" class="nav-link">Users - Drive Files Manage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Orphans/" class="nav-link">Users - Drive - Orphans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Ownership/" class="nav-link">Users - Drive - Ownership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Permissions/" class="nav-link">Users - Drive - Permissions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Query/" class="nav-link">Users - Drive - Query</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Revisions/" class="nav-link">Users - Drive - Revisions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Shortcuts/" class="nav-link">Users - Drive Shortcuts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Transfer/" class="nav-link">Users - Drive - Transfer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Forms/" class="nav-link">Users - Forms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-CSE/" class="nav-link">Users - Gmail - Client Side Encryption</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Delegates/" class="nav-link">Users - Gmail - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Filters/" class="nav-link">Users - Gmail - Filters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Forwarding/" class="nav-link">Users - Gmail - Forwarding</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Labels/" class="nav-link">Users - Gmail - Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Messages-Threads/" class="nav-link">Users - Gmail - Messages/Threads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Profile/" class="nav-link">Users - Gmail - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-S-MIME/" class="nav-link">Users - Gmail - S/MIME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Send-As-Signature-Vacation/" class="nav-link">Users - Gmail - Send As/Signature/Vacation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Settings/" class="nav-link">Users - Gmail - Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Group-Membership/" class="nav-link">Users - Group Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Keep-Notes/" class="nav-link">Users - Keep - Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Looker-Studio/" class="nav-link">Users - Looker Studio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Meet/" class="nav-link">Users - Meet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-People-Contacts-Profiles/" class="nav-link">Users - People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Photo/" class="nav-link">Users - Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Photo/" class="nav-link">Users - Profile Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Sharing/" class="nav-link">Users - Profile Sharing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Shared-Drives/" class="nav-link">Users - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Signout-Turnoff2SV/" class="nav-link">Users - Signout and Turn off 2-Step Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Spreadsheets/" class="nav-link">Users - Spreadsheets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tag-Manager/" class="nav-link">Users - Tag Manager</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tasks/" class="nav-link">Users - Tasks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tokens/" class="nav-link">Users - Tokens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Web-Resources-and-Sites/" class="nav-link">Users - Web Resources and Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-YouTube/" class="nav-link">Users - YouTube</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users/" class="nav-link">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-YubiKey/" class="nav-link">Using GAM7 with a YubiKey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-delegated-admin-service-account/" class="nav-link">Using GAM7 with a delegated admin service account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-keyless-authentication-Workload-Identity-Federation/" class="nav-link">Using GAM7 with Keyless Authentication - Workload Identity Federation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Vault-Takeout/" class="nav-link">Vault - Takeout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Verifying-a-GAM7-Build-is-Legitimate-and-Official/" class="nav-link">Verifying a GAM7 Build is Legitimate and Official</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Version-and-Help/" class="nav-link">Version and Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../_Sidebar/" class="nav-link"> Sidebar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../gam.cfg/" class="nav-link">GAM Configuration</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Legacy</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../legacy/l-AdminSettingsExamples/" class="dropdown-item">l AdminSettingsExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Android-Installation/" class="dropdown-item">l Android Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-BulkOperations/" class="dropdown-item">l BulkOperations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CalendarExamples/" class="dropdown-item">l CalendarExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chat-Bot/" class="dropdown-item">l Chat Bot</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Browser-Management/" class="dropdown-item">l Chrome Browser Management</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-OS-Installation/" class="dropdown-item">l Chrome OS Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Policy-Settings/" class="dropdown-item">l Chrome Policy Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Cloud-Identity-Groups/" class="dropdown-item">l Cloud Identity Groups</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendar-Resources/" class="dropdown-item">GAM Calendar Resources Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendars/" class="dropdown-item">GAM Calendar Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Definitions/" class="dropdown-item">l Command Reference Definitions</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Drive/" class="dropdown-item">GAM Drive Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Email/" class="dropdown-item">GAM Email Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Group-Attributes/" class="dropdown-item">GAM Group Attributes Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Groups/" class="dropdown-item">GAM Group Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Users/" class="dropdown-item">GAM Users Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Context-Aware-Access-Levels/" class="dropdown-item">l Context Aware Access Levels</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Creating-client_secrets.json-and-oauth2service.json/" class="dropdown-item">l Creating client secrets.json and oauth2service.json</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CreatingClientSecretsFile/" class="dropdown-item">l CreatingClientSecretsFile</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Custom-Schemas/" class="dropdown-item">l Custom Schemas</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Data-Transfers/" class="dropdown-item">l Data Transfers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-DomainVerification/" class="dropdown-item">l DomainVerification</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesAccountAuditing/" class="dropdown-item">l ExamplesAccountAuditing</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesCSV/" class="dropdown-item">l ExamplesCSV</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesEmailSettings/" class="dropdown-item">l ExamplesEmailSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesOrganizations/" class="dropdown-item">l ExamplesOrganizations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-Discussion-Group/" class="dropdown-item">GAM Discussion Group</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-on-Android-and-Chrome-OS/" class="dropdown-item">l GAM on Android and Chrome OS</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-options-files/" class="dropdown-item">l GAM options files</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-with--minimal-GCP-rights/" class="dropdown-item">l GAM with  minimal GCP rights</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3CSVListings/" class="dropdown-item">l GAM3CSVListings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3DirectoryCommands/" class="dropdown-item">l GAM3DirectoryCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3GroupSettings/" class="dropdown-item">l GAM3GroupSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Google-Vault---Takeout-Commands/" class="dropdown-item">l Google Vault   Takeout Commands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GoogleDriveManagement/" class="dropdown-item">l GoogleDriveManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Grouping-18-or-Older-Users/" class="dropdown-item">Using GAM to group 18+ users</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Home/" class="dropdown-item">l Home</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-How-to-upgrade-from-Standard-GAM/" class="dropdown-item">Installation - Upgrading from Standard GAM</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Inbound-SSO-Settings/" class="dropdown-item">l Inbound SSO Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-LicenseExamples/" class="dropdown-item">l LicenseExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Admins/" class="dropdown-item">l Managing Admins</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-CloudPrint-Printers/" class="dropdown-item">l Managing CloudPrint Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Devices/" class="dropdown-item">l Managing Devices</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Google-Classroom/" class="dropdown-item">l Managing Google Classroom</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-OAuthKeyManagement/" class="dropdown-item">l OAuthKeyManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Printers/" class="dropdown-item">l Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ResellerCommands/" class="dropdown-item">l ResellerCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-SecurityExamples/" class="dropdown-item">l SecurityExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-UnmanagedUsersExamples/" class="dropdown-item">l UnmanagedUsersExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Using-GAM-with-a-delegated-admin-service-account-%28DASA%29/" class="dropdown-item">Background</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-_Footer/" class="dropdown-item">l  Footer</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Chrome-Version-History/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Classroom-Courses/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#chromeos-devices" class="nav-link">ChromeOS Devices</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#api-documentation" class="nav-link">API documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#query-documentation" class="nav-link">Query documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#notes" class="nav-link">Notes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#definitions" class="nav-link">Definitions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#cros-query-searchable-fields" class="nav-link">CrOS Query Searchable Fields</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#chromeos-device-update-ou-error-handling" class="nav-link">ChromeOS device update OU error handling</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#manage-chromeos-devices" class="nav-link">Manage ChromeOS devices</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#add-chromeos-devices-to-an-organizational-unit" class="nav-link">Add ChromeOS devices to an organizational unit</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#action-chromeos-devices" class="nav-link">Action ChromeOS devices</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#send-remote-commands-to-chromeos-devices" class="nav-link">Send remote commands to ChromeOS devices</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#chromeos-device-lists" class="nav-link">ChromeOS device lists</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-information-about-chromeos-devices" class="nav-link">Display information about ChromeOS devices</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#print-chromeos-devices" class="nav-link">Print ChromeOS devices</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-cros-device-counts" class="nav-link">Display CrOS device counts</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#print-chromeos-device-activity" class="nav-link">Print ChromeOS device activity</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#download-a-chromeos-device-file" class="nav-link">Download a ChromeOS device file</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-chromeos-telemetry-data" class="nav-link">Display ChromeOS telemetry data</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#check-chromeos-device-serial-number-validity" class="nav-link">Check ChromeOS device serial number validity</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="chromeos-devices">ChromeOS Devices</h1>
+<ul>
+<li><a href="#api-documentation">API documentation</a></li>
+<li><a href="#query-documentation">Query documentation</a></li>
+<li><a href="#notes">Notes</a></li>
+<li><a href="#definitions">Definitions</a></li>
+<li><a href="#cros-query-searchable-fields">CrOS Query Searchable Fields</a></li>
+<li><a href="#chromeos-device-update-ou-error-handling">ChromeOS device update OU error handling</a></li>
+<li><a href="#manage-chromeos-devices">Manage ChromeOS devices</a></li>
+<li><a href="#example-move-cros-devices-from-one-ou-to-another">Example: Move CrOS devices from one OU to another</a></li>
+<li><a href="#example-add-a-new-note-to-existing-notes">Example: Add a new note to existing notes</a></li>
+<li><a href="#add-chromeos-devices-to-an-organizational-unit">Add ChromeOS devices to an organizational unit</a></li>
+<li><a href="#example-add-chromeos-devices-to-a-single-ou">Example: Add ChromeOS devices to a single OU</a></li>
+<li><a href="#example-add-chromeos-devices-to-multiple-ous">Example: Add ChromeOS devices to multiple OUs</a></li>
+<li><a href="#action-chromeos-devices">Action ChromeOS devices</a></li>
+<li><a href="#send-remote-commands-to-chromeos-devices">Send remote commands to ChromeOS devices</a></li>
+<li><a href="#action-examples">Action Examples</a></li>
+<li><a href="#chromeos-device-lists">ChromeOS device lists</a></li>
+<li><a href="#display-information-about-chromeos-devices">Display information about ChromeOS devices</a></li>
+<li><a href="#print-chromeos-devices">Print ChromeOS devices</a></li>
+<li><a href="#print-no-header-row-and-deviceid-for-specified-cros-devices">Print no header row and deviceId for specified CrOS devices</a></li>
+<li><a href="#print-a-header-row-and-fields-for-selected-cros-devices">Print a header row and fields for selected CrOS devices</a></li>
+<li><a href="#print-a-header-row-and-fields-for-specified-cros-devices">Print a header row and fields for specified CrOS devices</a></li>
+<li><a href="#display-examples">Display Examples</a></li>
+<li><a href="#display-cros-device-counts">Display CrOS device counts</a></li>
+<li><a href="#print-chromeos-device-activity">Print ChromeOS device activity</a></li>
+<li><a href="#print-a-header-row-and-activity-for-selected-cros-devices">Print a header row and activity for selected CrOS devices</a></li>
+<li><a href="#print-a-header-row-and-activity-for-specified-cros-devices">Print a header row and activity for specified CrOS devices</a></li>
+<li><a href="#download-a-chromeos-device-file">Download a ChromeOS device file</a></li>
+<li><a href="#download-examples">Download Examples</a></li>
+<li><a href="#display-chromeos-telemetry-data">Display ChromeOS telemetry data</a></li>
+<li><a href="#check-chromeos-device-serial-number-validity">Check ChromeOS device serial number validity</a></li>
+</ul>
+<h2 id="api-documentation">API documentation</h2>
+<ul>
+<li><a href="https://developers.google.com/admin-sdk/directory/reference/rest/v1/chromeosdevices">Directory API ChromeOS Devices</a></li>
+<li><a href="https://developers.google.com/chrome/management/reference/rest/v1/customers.telemetry.devices">Chrome Management API - Device Telemetry</a></li>
+</ul>
+<h2 id="query-documentation">Query documentation</h2>
+<ul>
+<li><a href="https://developers.google.com/admin-sdk/directory/v1/list-query-operators">Search ChromeOS Devices</a></li>
+<li><a href="https://support.google.com/chrome/a/answer/1698333">View ChromeOS Device List and Details</a></li>
+</ul>
+<p>Undocumented API query terms.</p>
+<pre><code>&lt;QueryDate&gt; ::=
+        YYYY-MM-DD    # Specific date
+        ..YYYY-MM-DD  # Before a date
+        YYYY-MM-DD..  # After a date
+        YYYY-MM-DD..YYYY-MM-DD  # Range of dates
+
+aue:&lt;QueryDate&gt;
+compliance:compliant|pending_update|not_compliant
+last_user_activity:&lt;QueryDate&gt;
+policy_status:true|false
+public_model_name:&lt;String&gt;
+update_status:default_os_up_to_date|pending_update|os_image_download_not_started|os_image_download_in_progress|os_update_need_reboot
+</code></pre>
+<h2 id="notes">Notes</h2>
+<p>To use the <code>crostelemetry</code> commands you must authorize an additional scope:</p>
+<ul>
+<li><code>Chrome Management API - Telemetry read only</code></li>
+</ul>
+<pre><code>gam oauth create
+</code></pre>
+<h2 id="definitions">Definitions</h2>
+<ul>
+<li><a href="Collections-of-ChromeOS-Devices"><code>&lt;CrOSTypeEntity&gt;</code></a></li>
+</ul>
+<pre><code>&lt;OrgUnitPath&gt; ::= /|(/&lt;String)+
+&lt;QueryCrOS&gt; ::= &lt;String&gt; See: https://support.google.com/chrome/a/answer/1698333
+&lt;CommandID&gt; ::= &lt;String&gt;
+&lt;CrOSID&gt; ::= &lt;String&gt;
+&lt;CrOSIDList&gt; ::= &quot;&lt;CrOSID&gt;(,&lt;CrOSID&gt;)*&quot;
+&lt;SerialNumber&gt; ::= &lt;String&gt;
+&lt;SerialNumberList&gt; ::= &quot;&lt;SerialNumber&gt;(,&lt;SerialNumber&gt;)*&quot;
+&lt;SerialNumberEntity&gt; ::=
+        &lt;SerialNumberList&gt; | &lt;FileSelector&gt; | &lt;CSVFileSelector&gt;
+        See: https://github.com/GAM-team/GAM/wiki/Collections-of-Items
+
+&lt;CrOSEntity&gt; ::=
+        &lt;CrOSIDList&gt; | (cros_sn &lt;SerialNumberList&gt;) |
+        (query:&lt;QueryCrOS&gt;)|(query:orgunitpath:&lt;OrgUnitPath&gt;)|(query &lt;QueryCrOS&gt;)
+
+&lt;CrOSAttribute&gt; ::=
+        (asset|assetid|tag &lt;String&gt;)|
+        (location &lt;String&gt;)|
+        (notes &lt;String&gt;)|(updatenotes &lt;String&gt;)|
+        (org|ou &lt;OrgUnitPath&gt;)|
+        (user &lt;Name&gt;)
+
+&lt;CrOSFieldName&gt; ::=
+        activetimeranges|timeranges|
+        annotatedassetid|assetid|asset|
+        annotatedlocation|location|
+        annotateduser|user|
+        autoupdateexpiration|
+        autoupdatethrough|
+        backlightinfo|
+        bootmode|
+        chromeostype|
+        cpuinfo|
+        cpustatusreports|
+        deprovisionreason|
+        devicefiles|
+        deviceid|
+        devicelicensetype|
+        diskspaceusage|
+        diskvolumereports|
+        dockmacaddress|
+        ethernetmacaddress|
+        ethernetmacaddress0|
+        extendedsupporteligible|
+        extendedsupportstart|
+        extendedsupportenabled|
+        faninfo|
+        firmwareversion|
+        firstenrollmenttime|
+        lastdeprovisiontimestamp|
+        lastenrollmenttime|
+        lastknownnetwork|
+        lastsync|
+        macaddress|
+        manufacturedate|
+        meid|
+        model|
+        notes|
+        ordernumber|
+        orgunitid|
+        orgunitpath|org|ou|
+        osupdatestatus|
+        osversion|
+        platformversion|
+        recentusers|
+        screenshotfiles|
+        serialnumber|
+        status|
+        supportenddate|
+        systemramfreereports|
+        systemramtotal|
+        tpmversioninfo|
+        willautorenew
+&lt;CrOSFieldNameList&gt; ::= &quot;&lt;CrOSFieldName&gt;(,&lt;CrOSFieldName&gt;)*&quot;
+
+&lt;CrOSListFieldName&gt; ::=
+        activetimeranges|timeranges|times|
+        cpustatusreports|
+        devicefiles|files|
+        diskvolumereports|
+        lastknownnetwork|
+        recentusers|users|
+        screenshotfiles|
+        systemramfreereports
+&lt;CrOSListFieldNameList&gt; ::= &quot;&lt;CrOSListFieldName&gt;(,&lt;CrOSListFieldName&gt;)*&quot;
+
+&lt;CrOSOrderByFieldName&gt; ::=
+        lastsync|location|notes|serialnumber|status|supportenddate|user
+</code></pre>
+<pre><code>&lt;CrOSAction&gt; ::=
+        deprovision_different_model_replace|
+        deprovision_different_model_replacement|
+        deprovision_retiring_device|
+        deprovision_same_model_replace|
+        deprovision_same_model_replacement|
+        deprovision_upgrade_transfer|
+        disable|
+        reenable|
+        pre_provisioned_disable|
+        pre_provisioned_reenable
+
+&lt;CrOSCommand&gt;
+        reboot|
+        remote_powerwash|
+        set_volume &lt;0-100&gt;|
+        wipe_users|
+        take_a_screenshot
+</code></pre>
+<pre><code>&lt;CrOSActivityListFieldName&gt; ::=
+        activetimeranges|timeranges|times|
+        devicefiles|files|
+        recentusers|users
+&lt;CrOSActivityListFieldNameList&gt; ::= &quot;&lt;CrOSActivityListFieldName&gt;(,&lt;CrOSActivityListFieldName&gt;)*&quot;
+
+&lt;CrOSTelemetryFieldName&gt; ::=
+        audiostatusreport|
+        batteryinfo|
+        batterystatusreport|
+        bootPerformancereport|
+        cpuinfo|
+        cpustatusreport|
+        customer|
+        deviceid|
+        graphicsinfo|
+        graphicsstatusreport|
+        memoryinfo|
+        memorystatusreport|
+        name|
+        networkdiagnosticsreport|
+        networkinfo|
+        networkstatusreport|
+        orgunitid|
+        osupdatestatus|
+        peripheralsreport|
+        serialnumber|
+        storageinfo|
+        storagestatusreport|
+        thunderboltinfo
+&lt;CrOSTelemetryFieldNameList&gt; ::= &quot;&lt;CrOSTelemetryFieldName&gt;(,&lt;CrOSTelemetryFieldName&gt;)*&quot;
+
+&lt;CrOSTelemetryListFieldName&gt; ::=
+        audiostatusreport|
+        batteryinfo|
+        batterystatusreport|
+        bootperformancereport|
+        cpuinfo|
+        cpustatusreport|
+        graphicsstatusreport|
+        memorystatusreport|
+        networkdiagnosticsreport|
+        networkstatusreport|
+        osupdatestatus|
+        peripheralsreport|
+        storagestatusreport|
+        thunderboltinfo
+&lt;CrOSTelemetryListFieldNameList&gt; ::= &quot;&lt;CrOSTelemetryListFieldName&gt;(,&lt;CrOSTelemetryLIstFieldName&gt;)*&quot;
+</code></pre>
+<p>For <code>&lt;OrgUnitEntity&gt;</code>, see: <a href="Collections-of-Items">Collections of Items</a></p>
+<p>For <code>&lt;UserTypeEntity&gt;</code>, see: <a href="Collections-Of-Users">Collections of Users</a></p>
+<p>For <code>&lt;CrOSTypeEntity&gt;</code>, see: <a href="Collections-of-ChromeOS-Devices">Collections of ChromeOS Devices</a></p>
+<h2 id="cros-query-searchable-fields">CrOS Query Searchable Fields</h2>
+<p>To search within a specific field only (for example, to search for a specific user), you can enter an operator followed by an argument -- for example, <code>user:jsmith</code>. You can use single words or quoted lists of words as an argument when running an operator query.</p>
+<p>To run an operator query, follow these guidelines for each field:</p>
+<h3 id="serial-number">Serial Number</h3>
+<p>Enter <code>id:</code> as the operator. For example, if you are searching for the serial number 12345abcdefg, enter the following:</p>
+<p><code>gam print cros query "id:12345abcdefg"</code></p>
+<p>Partial serial number searches are supported, as long as you enter at least three characters in the serial number.</p>
+<p>All serial number searches are partial, be careful that you don't enter a partial serial number by mistake
+when actioning/modifying devices as you will affect multiple devices rather than the single desired device.</p>
+<h3 id="status">Status</h3>
+<p>To view all provisioned or deprovisioned devices, select the status from the left drop-down, and all of the devices that fit this criterion will appear in the view. Alternatively, you can do the following searches from the All devices view:</p>
+<p><code>gam print cros query "status:[provisioned|disabled|deprovisioned]"</code></p>
+<h3 id="user">User</h3>
+<p>Enter user: as the operator. For example, to match the name Joe, but not Joey, enter the following:</p>
+<p><code>gam print cros query "user:joe"</code></p>
+<p>To match the name Tom Sawyer or A. Tom Sawyer, but not Tom A. Sawyer, enter with quotation marks:</p>
+<p><code>gam print cros query "user:'tom sawyer'"</code></p>
+<h3 id="location">Location</h3>
+<p>Enter location: as the operator. For example, to match Seattle, enter the following:</p>
+<p><code>gam print cros query "location:seattle"</code></p>
+<p>Notes
+Enter note: as the operator. For example, to match loaned from John, enter the following with quotation marks:</p>
+<p><code>gam print cros query "note:'loaned from john'"</code></p>
+<h3 id="register">Register</h3>
+<p>This field is not displayed on the Chrome OS settings page. However, you can search for devices that were registered on a given date, or within a given time range.</p>
+<p>Enter register: as the operator, and enter a date and time (or time range) as the argument. For example, to search for all devices registered on April 15, 2020, enter the following:</p>
+<p><code>gam print cros query "register:2020-04-15"</code></p>
+<p>For additional examples using dates, times, and ranges, see "Format for date searches" below.</p>
+<h3 id="last-sync">Last Sync</h3>
+<p>Enter sync: as the operator and a date or time range as the argument. For example, to search for all devices that were last synced with policy settings on April 15, 2020, enter the following:</p>
+<p><code>gam print cros query "sync:2020-04-15"</code></p>
+<p>For additional examples using dates, times, and ranges, see "Format for date searches" below.</p>
+<h3 id="format-for-date-searches">Format for date searches</h3>
+<ul>
+<li><code>YYYY-MM-DD</code> - A single date</li>
+<li><code>YYYY-MM-DD..YYYY-MM-DD</code> - A date range</li>
+<li><code>..YYYY-MM-DD</code> - All dates on or before a date</li>
+<li><code>YYYY-MM-DD..</code> - All dates on or after a date</li>
+</ul>
+<h3 id="asset-id">Asset ID</h3>
+<p>Enter asset_id: as the operator. For example, to match the partial Asset ID 1234, enter the following:</p>
+<p><code>gam print cros query "asset_id:1234"</code></p>
+<h3 id="wifi-mac-address">WiFi MAC Address</h3>
+<p>Enter wifi_mac: as the operator. Address should be entered without spaces or colons. Partial address matching is not supported. Be aware that multiple devices may report the same address to the Admin console, and more than one result may be returned. For example, to search for the device(s) with WiFi MAC 6C:29:95:72:4C:50, enter the following:</p>
+<p><code>gam print cros query "wifi_mac:6c2995724c50"</code></p>
+<h3 id="ethernet-mac-address">Ethernet MAC Address</h3>
+<p>Enter ethernet_mac: as the operator. Address should be entered without spaces or colons. Partial address matching is not supported. Be aware that multiple devices may report the same address to the Admin console, and more than one result may be returned. For example, to search for the device(s) with ethernet MAC E8:EA:6A:15:79:81, enter the following:</p>
+<p><code>gam print cros query "ethernet_mac:e8ea6a157981"</code></p>
+<h2 id="chromeos-device-update-ou-error-handling">ChromeOS device update OU error handling</h2>
+<p>If you get the following error when trying to update the OU of a ChromeOS device:</p>
+<pre><code>400: invalidInput - Invalid Input: Inconsistent Orgunit id and path in request
+</code></pre>
+<p>issue the following command to work around the Google problem causing the wrror:</p>
+<pre><code>gam select default config update_cros_ou_with_id true save
+</code></pre>
+<h2 id="manage-chromeos-devices">Manage ChromeOS devices</h2>
+<pre><code>gam &lt;CrOSTypeEntity&gt; update &lt;CrOSAttribute&gt;+ [quickcrosmove [&lt;Boolean&gt;]] [nobatchupdate]
+</code></pre>
+<p>Google has introduced a new, faster method for moving CrOS devices to a new OU. The <code>quickcrosmove</code> option controls which method Gam uses.
+* <code>quickcrosmove not specified</code> - use value from <code>quick_cros_move</code> in <code>gam.cfg</code> to select previous/new batch method
+* <code>quickcrosmove False</code> - use individual method
+* <code>quickcrosmove True</code> - use new method
+* <code>quickcrosmove</code> - use new method</p>
+<p>If <code>quickcrosmove</code> is False or the OU is not being updated, the individual method is used to update all attributes.
+If <code>quickcrosmove</code> is True and the OU is the only <code>&lt;CrOSAttribute&gt;</code> being updated, the new method is used.
+If <code>quickcrosmove</code> is True and other <code>&lt;CrOSAttribute&gt;</code> are being updated in addition to the OU, the new method is used
+to update the OU and the individual method is used to update the other <code>&lt;CrOSAttribute&gt;</code>.</p>
+<p>With either the individual or new method, batches of devices are processed to minimize the number of API calls.
+The <code>batch_size</code> value from gam.cfg controls the number of deviceIds handled in each batch by either method.
+Use the <code>nobatchupdate</code> option to suppress batch processing.</p>
+<p>In the new method, Google doesn't seem to do any error checking of the CrOS deviceIds, there is no error message
+given if invalid CrOS deviceIds are specified.</p>
+<h3 id="example-move-cros-devices-from-one-ou-to-another">Example: Move CrOS devices from one OU to another</h3>
+<pre><code>gam cros_ou /Students/2021 update ou /Students/2022 quickcrosmove
+</code></pre>
+<h3 id="example-add-a-new-note-to-existing-notes">Example: Add a new note to existing notes</h3>
+<p>If you specify the <code>updatenotes &lt;String&gt;</code> option and it contains the string <code>#notes#</code>, the existing notes value will replace <code>#notes#</code>.
+This requires an additional API to get the existing value.</p>
+<p>If you have a CSV file, UpdateCrOS.csv with two columns: deviceId,notes
+this command will add a new line of notes to the front of the existing notes:</p>
+<pre><code>gam csv UpdateCrOS.csv gam update cros &quot;~deviceId&quot; updatenotes &quot;~~notes~~\n#notes#&quot;
+</code></pre>
+<h2 id="add-chromeos-devices-to-an-organizational-unit">Add ChromeOS devices to an organizational unit</h2>
+<p>When adding ChromeOS devices to an OU, Gam uses a batch method to speed up processing. </p>
+<p>For <code>&lt;CrOSTypeEntity&gt;</code>, see: <a href="Collections-of-ChromeOS-Devices">Collections of ChromeOS Devices</a></p>
+<pre><code>gam update org|ou &lt;OrgUnitPath&gt; add|move &lt;CrOSTypeEntity&gt;
+        [quickcrosmove [&lt;Boolean&gt;]]
+gam update orgs|ous &lt;OrgUnitEntity&gt; add|move &lt;CrOSTypeEntity&gt;
+        [quickcrosmove [&lt;Boolean&gt;]]
+</code></pre>
+<p>Google has introduced a new, faster batch method for moving CrOS devices to a new OU. The <code>quickcrosmove</code> option controls which method Gam uses.
+* <code>quickcrosmove not specified</code> - use value from <code>quick_cros_move</code> in <code>gam.cfg</code> to select previous/new batch method
+* <code>quickcrosmove False</code> - use previous batch method
+* <code>quickcrosmove True</code> - use new batch method
+* <code>quickcrosmove</code> - use new batch method</p>
+<p>The <code>batch_size</code> value from gam.cfg controls the number of deviceIds handled in each batch by either method.</p>
+<p>In the new method, Google doesn't seem to do any error checking of the CrOS deviceIds, there is no error message
+given if invalid CrOS deviceIds are specified.</p>
+<h3 id="example-add-chromeos-devices-to-a-single-ou">Example: Add ChromeOS devices to a single OU</h3>
+<p>Suppose you have a CSV file cros.csv with a single column: deviceId</p>
+<pre><code>gam update ou /Students/2022 add croscsvfile cros.csv:deviceId quickcrosmove
+</code></pre>
+<h3 id="example-add-chromeos-devices-to-multiple-ous">Example: Add ChromeOS devices to multiple OUs</h3>
+<p>Suppose you have a CSV file cros.csv with a two columns: deviceId,OU</p>
+<p>All OUs will be updated with their associated devices.</p>
+<pre><code>gam update ou csvkmd cros.csv keyfield OU datafield deviceId add croscsvdata deviceId
+</code></pre>
+<h2 id="action-chromeos-devices">Action ChromeOS devices</h2>
+<pre><code>&lt;CrOSAction&gt; ::=
+        deprovision_different_model_replace|
+        deprovision_retiring_device|
+        deprovision_same_model_replace|
+        deprovision_upgrade_transfer|
+        disable|
+        reenable
+
+gam &lt;CrOSTypeEntity&gt; update action &lt;CrOSAction&gt; [acknowledge_device_touch_requirement]
+        [actionbatchsize &lt;Integer&gt;]
+</code></pre>
+<p>ChromeOS devices are now processed in batches.
+The batch size defaults to 10, the <code>actionbatchsize &lt;Integer&gt;</code> option can be used to set a batch size between 10 and 250.</p>
+<p>As deprovisioning ChromeOS devices is not reversible, you must enter <code>acknowledge_device_touch_requirement</code>
+when <code>&lt;CrOSAction&gt;</code> is <code>deprovision_same_model_replace</code>, <code>deprovision_different_model_replace</code>,
+<code>deprovision_retiring_device</code> or <code>deprovision_upgrade_transfer</code>.</p>
+<p>Deprovisioning a device means the device will have to be physically wiped and re-enrolled to be managed by
+your domain again. This requires physical access to the device and is very time consuming to perform for
+each device. Please also be aware that deprovisioning can have an effect on your device license count.</p>
+<p>See https://support.google.com/chrome/a/answer/3523633 for full details.</p>
+<h2 id="send-remote-commands-to-chromeos-devices">Send remote commands to ChromeOS devices</h2>
+<p>Thanks to Jay for most of the following.</p>
+<p>Send a remote command to the managed Chrome OS device. It's important to note that the device must be in a proper state to accept the command or an error may be returned.
+For example, the <code>reboot</code>, <code>set_volume</code> and <code>take_a_screenshot</code> commands only work if the device is configured in auto-start kiosk app mode.</p>
+<p>The <code>wipe_users</code> and <code>remote_powerwash</code> commands will erase all user data on the device and the <code>remote_powerwash</code> command will require that the device is physically reconnected to the
+WiFi network and re-enrolled before it can be managed again. These commands require the <code>doit</code> argument so that the admin confirms the potential loss of user data and management.</p>
+<p>Commands may take some time to execute on the remote device depending on the device state and connectivity to the Internet.
+It's strongly recommended that devices be forced to auto-reenroll before performing <code>remote_powerwash</code> to prevent the device from falling out of a managed state permanently.</p>
+<p>By default, GAM will wait 2 seconds and then check the status of the command before exiting. How many times GAM performs this status check can be configured with the <code>times_to_check_status</code> argument and
+is configurable from 0 to some large number. If the status reaches <code>EXPIRED</code>, <code>CANCELLED</code> or <code>EXECUTED_BY_CLIENT</code> then the command has finished and no more checks will be performed.</p>
+<pre><code>&lt;CrOSCommand&gt;
+        reboot|
+        remote_powerwash|
+        set_volume &lt;0-100&gt;|
+        wipe_users|
+        take_a_screenshot
+
+gam &lt;CrOSTypeEntity&gt; issuecommand command &lt;CrOSCommand&gt; [times_to_check_status &lt;Integer&gt;] [doit]
+</code></pre>
+<p>If the final status is not reached before GAM exits, you can issue the following commands to continue checking the status.</p>
+<pre><code>gam &lt;CrOSTypeEntity&gt; getcommand commandid &lt;CommandID&gt; [times_to_check_status &lt;Integer&gt;]
+</code></pre>
+<h3 id="action-examples">Action Examples</h3>
+<p>Remove user profile data from the device; the device will remain enrolled and connected.
+User data not synced to the Cloud including Downloads, Android app data and Crostini Linux VMs will be permanently lost.</p>
+<pre><code>gam cros dd1d659a-0ea4-4e94-905e-4726c7a5f1e9 issuecommand command wipe_users doit
+</code></pre>
+<p>Remove profiles using the annotatedAssetID, which is a user editable field, in this example the device has an asset ID of CB1234.</p>
+<pre><code>gam cros_query &quot;asset_id:CB1234&quot; issuecommand command wipe_users doit
+</code></pre>
+<p>For multiple devices you can separate each asset ID with a comma </p>
+<pre><code>gam cros_queries &quot;asset_id:CB1234,asset_id:CB5678&quot; issuecommand command wipe_users doit
+</code></pre>
+<p>Powerwash the device with serial number 143040348.</p>
+<pre><code>gam cros_sn 143040348 issuecommand command remote_powerwash times_to_check_status 10 doit
+</code></pre>
+<p>Powerwash all devices in the /StudentCarts OrgUnit. Devices will need to be manually reconnected to WiFi which may mean entering a PSK.
+Use <code>wipe_users</code> if that's going to create too much work for you.</p>
+<pre><code>gam cros_ou /StudentCarts issuecommand command remote_powerwash times_to_check_status 0 doit
+</code></pre>
+<h2 id="chromeos-device-lists">ChromeOS device lists</h2>
+<p>ChromeOS devices have lists of data: <code>&lt;CrOSListFieldName&gt;</code>, <code>&lt;CrOSActivityListFieldName&gt;</code>, <code>&lt;CrOSTelemetryListFieldName&gt;</code>.
+All lists except <code>recentusers</code> are in ascending order (oldest to newest). As these lists can contain many entries,
+you can use the <code>listlimit &lt;Number&gt;</code> option to limit the amount of data, but you'll get the oldest <code>&lt;Number&gt;</code> entries
+(except for <code>recentusers</code>) which may not be what you want. The <code>reverselists</code> option changes the order to descending (newest to oldest);
+the <code>listlimit &lt;Number&gt;</code> now gets the newest <code>&lt;Number&gt;</code> entries.</p>
+<p>The <code>activetimeranges</code> and <code>recentusers</code> lists are independent, they are not aligned. The only alignment that
+you can achieve is <code>activetimeranges recentusers reverselists activetimeranges listlimit 1</code>; this yields the
+most recent user's activity time.</p>
+<p>List field name synonyms:
+- <code>activetimeranges</code> - <code>timeranges</code> and <code>times</code>
+- <code>devicefiles</code> - <code>files</code>
+- <code>recentusers</code> - <code>users</code></p>
+<h2 id="display-information-about-chromeos-devices">Display information about ChromeOS devices</h2>
+<pre><code>gam &lt;CrOSTypeEntity&gt; info
+        [basic|full|allfields] &lt;CrOSFieldName&gt;* [fields &lt;CrOSFieldNameList&gt;]
+        [nolists]
+        [start &lt;Date&gt;] [end &lt;Date&gt;] [listlimit &lt;Number&gt;]
+        [reverselists &lt;CrOSListFieldNameList&gt;]
+        [timerangeorder ascending|descending] [showdvrsfp]
+        [downloadfile latest|&lt;Time&gt;] [targetfolder &lt;FilePath&gt;]
+        [formatjson]
+
+gam info cros &lt;CrOSEntity&gt;
+        [basic|full|allfields] &lt;CrOSFieldName&gt;* [fields &lt;CrOSFieldNameList&gt;]
+        [nolists]
+        [start &lt;Date&gt;] [end &lt;Date&gt;] [listlimit &lt;Number&gt;]
+        [reverselists &lt;CrOSListFieldNameList&gt;]
+        [timerangeorder ascending|descending] [showdvrsfp]
+        [downloadfile latest|&lt;Time&gt;] [targetfolder &lt;FilePath&gt;]
+        [formatjson]
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values:</p>
+<ul>
+<li><code>reverselists &lt;CrOSListFieldNameList&gt;</code> - For each list, change order from ascending (oldest to newest) to descending (newest to oldest); this makes it easy to get the <code>N</code> most recent values with <code>listlimit N reverselists activetimeranges</code></li>
+<li><code>timerangeorder descending</code> - Change the <code>activetimeranges</code> order from ascending (oldest to newest) to descending (newest to oldest); this makes it easy to get the <code>N</code> most recent values with <code>timeranges listlimit N timerangeorder descending</code></li>
+<li>
+<p><code>showdvrsfp</code> - Display a field <code>diskVolumeReports.volumeInfo.storageFreePercentage</code> which is calculated as: <code>(diskVolumeReports.volumeInfo.storageFree/diskVolumeReports.volumeInfo.storageTotal)*100</code></p>
+</li>
+<li>
+<p><code>formatjson</code> - Display the fields in JSON format.</p>
+</li>
+</ul>
+<h2 id="print-chromeos-devices">Print ChromeOS devices</h2>
+<h3 id="print-no-header-row-and-deviceid-for-specified-cros-devices">Print no header row and deviceId for specified CrOS devices</h3>
+<pre><code>gam &lt;CrOSTypeEntity&gt; print
+gam &lt;CrOSTypeEntity&gt; print cros
+</code></pre>
+<h3 id="print-a-header-row-and-fields-for-selected-cros-devices">Print a header row and fields for selected CrOS devices</h3>
+<pre><code>gam print cros [todrive &lt;ToDriveAttribute&gt;*]
+        [(query &lt;QueryCrOS&gt;)|(queries &lt;QueryCrOSList&gt;) [querytime&lt;String&gt; &lt;Time&gt;]
+         [(limittoou|cros_ou &lt;OrgUnitItem&gt;)|(cros_ou_and_children &lt;OrgUnitItem&gt;)|
+          (cros_ous &lt;OrgUnitList&gt;)|(cros_ous_and_children &lt;OrgUnitList&gt;)]]
+        [orderby &lt;CrOSOrderByFieldName&gt; [ascending|descending]]
+        [basic|full|allfields] &lt;CrOSFieldName&gt;* [fields &lt;CrOSFieldNameList&gt;]
+        [nolists|(&lt;CrOSListFieldName&gt;* [onerow])]
+        [start &lt;Date&gt;] [end &lt;Date&gt;] [listlimit &lt;Number&gt;]
+        [reverselists &lt;CrOSListFieldNameList&gt;]
+        [timerangeorder ascending|descending] [showdvrsfp]
+        (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*
+        [sortheaders]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>Use these options to select CrOS devices; if none are chosen, all CrOS devices in the account are selected.</p>
+<p>If only <code>(query &lt;QueryCrOS&gt;)|(queries &lt;QueryCrOSList&gt;)</code> is specified, the query applies to all devices. If one of the <code>cros_ou</code> options
+is also specified, the query applies to devices within the OUs.</p>
+<ul>
+<li><code>(query &lt;QueryCrOS&gt;)|(queries &lt;QueryCrOSList&gt;)</code> - Select CrOS devices that match a query</li>
+<li><code>limittoou|cros_ou &lt;OrgUnitItem&gt;</code> - Select CrOS devices directly in the OU <code>&lt;OrgUnitItem&gt;</code></li>
+<li>You can predefine this item with the <code>print_cros_ous</code> variable in <code>gam.cfg</code>.</li>
+<li><code>cros_ou_and_children &lt;OrgUnitItem&gt;</code> - Select CrOS devices in the OU <code>&lt;OrgUnitItem&gt;</code> and its sub OUs</li>
+<li>You can predefine this item with the <code>print_cros_ous_and_children</code> variable in <code>gam.cfg</code>.</li>
+<li><code>cros_ous &lt;OrgUnitList&gt;</code> - Select CrOS devices directly in the OUs <code>&lt;OrgUnitList&gt;</code></li>
+<li>You can predefine this list with the <code>print_cros_ous</code> variable in <code>gam.cfg</code>.</li>
+<li><code>cros_ous_and_children &lt;OrgUnitList&gt;</code> - Select CrOS devices in the OUs <code>&lt;OrgUnitList&gt;</code> and their sub OUs</li>
+<li>You can predefine this list with the <code>print_cros_ous_and_children</code> variable in <code>gam.cfg</code>.</li>
+</ul>
+<p>Use the <code>querytime&lt;String&gt; &lt;Time&gt;</code> option to allow times, usually relative, to be substituted into the <code>query &lt;QueryCrOS&gt;</code> and <code>queries &lt;QueryCrOSList&gt;</code> options.
+The <code>querytime&lt;String&gt; &lt;Time&gt;</code> value replaces the string <code>#querytime&lt;String&gt;#</code> in any queries.
+The characters following <code>querytime</code> can be any combination of lowercase letters and numbers.</p>
+<p>For example, query for CrOS devices last synced more than a year ago:</p>
+<pre><code>querytime1year -1y query &quot;sync:..#querytime1year#&quot;
+</code></pre>
+<p>The first column will always be deviceId; the remaining field names will be sorted if <code>allfields</code>, <code>basic</code>, <code>full</code> or <code>sortheaders</code> is specified;
+otherwise, the remaining field names will appear in the order specified.</p>
+<ul>
+<li><code>basic</code> - Output these column headers: deviceId,annotatedAssetId,annotatedLocation,annotatedUser,lastSync,notes,serialNumber,status</li>
+<li><code>allfields/full</code> - Output all column headers including eight list headers: activeTimeRanges, cpuStatusReports, deviceFiles, diskVolumeReports, lastKnownNetwork, recentUsers, screenshotFiles and systemRamFreeReports that repeat with multiple subvalues each, yielding a large number of columns that make the output hard to process.</li>
+<li><code>nolists</code> -  Suppresses these six headers; if you want these headers in a more manageable form use the following arguments.</li>
+<li><code>&lt;CrOSListFieldName&gt;</code> - By default, one set of values for all <code>&lt;CrOSListFieldName&gt;</code> fields specified will be output on a separate row with all of the other headers.</li>
+<li><code>onerow</code> - Output all of the <code>&lt;CrOSListFieldName&gt;</code> on a single row</li>
+<li><code>listlimit &lt;Number&gt;</code> - Limits the number of repetitions to <code>&lt;Number&gt;</code>; if not specified or <code>&lt;Number&gt;</code> equals zero, there is no limit.</li>
+<li><code>start &lt;Date&gt;</code> and <code>end &lt;Date&gt;</code> - Constrain activeTimeRanges, cpuStatusReports, deviceFiles and systemRamFreeReports to fall within the specified <code>&lt;Dates&gt;</code>. If a <code>&lt;Date&gt;</code> isn't specified, there is no filtering in that range.</li>
+<li><code>reverselists &lt;CrOSListFieldNameList&gt;</code> - For each list, change order from ascending (oldest to newest) to descending (newest to oldest); this makes it easy to get the <code>N</code> most recent values with <code>listlimit N reverselists timeranges</code></li>
+<li><code>timerangeorder descending</code> - Change the <code>activetimeranges</code> order from ascending (oldest to newest) to descending (newest to oldest); this makes it easy to get the <code>N</code> most recent values with <code>timeranges listlimit N timerangeorder descending</code>.</li>
+<li><code>showdvrsfp</code> - Display a field <code>diskVolumeReports.volumeInfo.storageFreePercentage</code> which is calculated as: <code>(diskVolumeReports.volumeInfo.storageFree/diskVolumeReports.volumeInfo.storageTotal)*100</code></li>
+</ul>
+<p>Add additional columns of data from the command line to the output
+* <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code></p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format:</p>
+<ul>
+<li><code>formatjson</code> - Display the fields in JSON format.</li>
+</ul>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h3 id="print-a-header-row-and-fields-for-specified-cros-devices">Print a header row and fields for specified CrOS devices</h3>
+<p>Use <a href="#print-a-header-row-and-fields-for-selected-cros-devices">Print a header row and fields for selected CrOS devices</a> if
+you are specifying devices by OU; it will be much faster.</p>
+<pre><code>gam &lt;CrOSTypeEntity&gt; print cros [todrive &lt;ToDriveAttribute&gt;*]
+        [orderby &lt;CrOSOrderByFieldName&gt; [ascending|descending]]
+        [basic|full|allfields] &lt;CrOSFieldName&gt;* [fields &lt;CrOSFieldNameList&gt;]
+        [nolists|(&lt;CrOSListFieldName&gt;* [onerow])]
+        [start &lt;Date&gt;] [end &lt;Date&gt;] [listlimit &lt;Number&gt;]
+        [reverselists &lt;CrOSListFieldNameList&gt;]
+        [timerangeorder ascending|descending] [showdvrsfp]
+        (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*
+        [sortheaders]
+        [formatjson [quotechar &lt;Character&gt;]]
+
+gam print cros [todrive &lt;ToDriveAttribute&gt;*] select &lt;CrOSTypeEntity&gt;
+        [orderby &lt;CrOSOrderByFieldName&gt; [ascending|descending]]
+        [basic|full|allfields] &lt;CrOSFieldName&gt;* [fields &lt;CrOSFieldNameList&gt;]
+        [nolists|(&lt;CrOSListFieldName&gt;* [onerow])]
+        [start &lt;Date&gt;] [end &lt;Date&gt;] [listlimit &lt;Number&gt;]
+        [reverselists &lt;CrOSListFieldNameList&gt;]
+        [timerangeorder ascending|descending] [showdvrsfp]
+        [sortheaders]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>The first column will always be deviceId; the remaining field names will be sorted if <code>allfields</code>, <code>basic</code>, <code>full</code> or <code>sortheaders</code> is specified;
+otherwise, the remaining field names will appear in the order specified.</p>
+<ul>
+<li><code>basic</code> - Output these column headers: deviceId,annotatedAssetId,annotatedLocation,annotatedUser,lastSync,notes,serialNumber,status</li>
+<li><code>allfields/full</code> - Output all column headers including eight list headers: activeTimeRanges, cpuStatusReports, deviceFiles, diskVolumeReports, lastKnownNetwork, recentUsers, screenshotFiles and systemRamFreeReports that repeat with multiple subvalues each, yielding a large number of columns that make the output hard to process.</li>
+<li><code>nolists</code> -  Suppresses these six headers; if you want these headers in a more manageable form use the following arguments.</li>
+<li><code>&lt;CrOSListFieldName&gt;</code> - By default, one set of values for all <code>&lt;CrOSListFieldName&gt;</code> fields specified will be output on a separate row with all of the other headers.</li>
+<li><code>onerow</code> - Output all of the <code>&lt;CrOSListFieldName&gt;</code> on a single row</li>
+<li><code>listlimit &lt;Number&gt;</code> - Limits the number of repetitions to <code>&lt;Number&gt;</code>; if not specified or <code>&lt;Number&gt;</code> equals zero, there is no limit.</li>
+<li><code>start &lt;Date&gt;</code> and <code>end &lt;Date&gt;</code> - Constrain activeTimeRanges, cpuStatusReports, deviceFiles and systemRamFreeReports to fall within the specified <code>&lt;Dates&gt;</code>. If a <code>&lt;Date&gt;</code> isn't specified, there is no filtering in that range.</li>
+<li><code>reverselists &lt;CrOSListFieldNameList&gt;</code> - For each list, change order from ascending (oldest to newest) to descending (newest to oldest); this makes it easy to get the <code>N</code> most recent values with <code>listlimit N reverselists timeranges</code></li>
+<li><code>timerangeorder descending</code> - Change the <code>activetimeranges</code> order from ascending (oldest to newest) to descending (newest to oldest); this makes it easy to get the <code>N</code> most recent values with <code>timeranges listlimit N timerangeorder descending</code>.</li>
+<li><code>showdvrsfp</code> - Display a field <code>diskVolumeReports.volumeInfo.storageFreePercentage</code> which is calculated as: <code>(diskVolumeReports.volumeInfo.storageFree/diskVolumeReports.volumeInfo.storageTotal)*100</code></li>
+</ul>
+<p>Add additional columns of data from the command line to the output
+* <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code></p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format:</p>
+<ul>
+<li><code>formatjson</code> - Display the fields in JSON format.</li>
+</ul>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h3 id="display-examples">Display Examples</h3>
+<p>Print CrOS devices with limited free space:</p>
+<pre><code>gam config csv_output_row_filter &quot;diskVolumeReports.volumeInfo.0.storageFreePercentage:countrange=1/30&quot; redirect csv ./crosdiskusage.csv print cros fields serialnumber,ou,diskvolumereports showdvrsfp
+</code></pre>
+<p>Use <code>countrange=1/15</code> instead of <code>count&lt;15</code> as the latter will display ChromeOS devices with no
+diskVolumeReports; a blank entry is treated as a zero. Sustitue for <code>15</code> as desired.</p>
+<p>ChromeOS devices can have multiple diskVolumeReports; some experimentation may be required to
+get the desired results.</p>
+<p>Print information about CrOS devices synced more than 30 days ago:</p>
+<pre><code>gam print cros query &quot;sync:..#querytime1#&quot; querytime1 -30d
+</code></pre>
+<p>Print information about CrOS devices synced in the last 30 days:</p>
+<pre><code>gam print cros query &quot;sync:#querytime1#..&quot; querytime1 -30d
+</code></pre>
+<p>Print information about CrOS devices synced between 45 days ago and 30 days ago:</p>
+<pre><code>gam print cros query &quot;sync:#querytime1#..#querytime2#&quot; querytime1 -45d querytime2 -30d
+</code></pre>
+<h2 id="display-cros-device-counts">Display CrOS device counts</h2>
+<p>Display the number of CrOS devices in an entity.</p>
+<pre><code>gam &lt;CrOSTypeEntity&gt; show count
+gam &lt;CrOSTypeEntity&gt; print cros showitemcountonly
+gam print cros select &lt;CrOSTypeEntity&gt; showitemcountonly
+gam print cros
+        [(query &lt;QueryCrOS&gt;)|(queries &lt;QueryCrOSList&gt;) [querytime&lt;String&gt; &lt;Time&gt;]
+         [(limittoou|cros_ou &lt;OrgUnitItem&gt;)|(cros_ou_and_children &lt;OrgUnitItem&gt;)|
+          (cros_ous &lt;OrgUnitList&gt;)|(cros_ous_and_children &lt;OrgUnitList&gt;)]]
+        showitemcountonly
+</code></pre>
+<p>Example</p>
+<pre><code>$ gam print cros query &quot;sync:..2020-01-01&quot; showitemcountonly
+Getting all CrOS Devices that match query (sync:..2020-01-01) for /, may take some time on a large Organizational Unit...
+Got 77 CrOS Devices that matched query (sync:..2020-01-01) for /...
+Got 77 CrOS Devices that matched query (sync:..2020-01-01)
+77
+</code></pre>
+<p>The <code>Getting</code> and <code>Got</code> messages are written to stderr, the count is writtem to stdout.</p>
+<p>To retrieve the count with <code>showitemcountonly</code>:</p>
+<pre><code>Linux/MacOS
+count=$(gam print cros query &quot;sync:..2020-01-01&quot; showitemcountonly)
+Windows PowerShell
+$count = &amp; gam print cros query &quot;sync:..2020-01-01&quot; showitemcountonly
+Windows Command Prompt
+for /f &quot;delims=&quot; %a in ('gam print cros query &quot;sync:..2020-01-01&quot; showitemcountonly') do set count=%a
+</code></pre>
+<h2 id="print-chromeos-device-activity">Print ChromeOS device activity</h2>
+<h3 id="print-a-header-row-and-activity-for-selected-cros-devices">Print a header row and activity for selected CrOS devices</h3>
+<pre><code>gam print crosactivity [todrive &lt;ToDriveAttribute&gt;*]
+        [(query &lt;QueryCrOS&gt;)|(queries &lt;QueryCrOSList&gt;) [querytime&lt;String&gt; &lt;Time&gt;]
+         [(limittoou|cros_ou &lt;OrgUnitItem&gt;)|(cros_ou_and_children &lt;OrgUnitItem&gt;)|
+          (cros_ous &lt;OrgUnitList&gt;)|(cros_ous_and_children &lt;OrgUnitList&gt;)]]
+        [orderby &lt;CrOSOrderByFieldName&gt; [ascending|descending]]
+        [recentusers] [timeranges] [both] [devicefiles] [all] [oneuserperrow]
+        [start &lt;Date&gt;] [end &lt;Date&gt;] [listlimit &lt;Number&gt;]
+        [reverselists &lt;CrOSActivityListFieldNameList&gt;]
+        [timerangeorder ascending|descending]
+        [delimiter &lt;Character&gt;]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>Use these options to select CrOS devices; if none are chosen, all CrOS devices in the account are selected.</p>
+<p>If only <code>(query &lt;QueryCrOS&gt;)|(queries &lt;QueryCrOSList&gt;)</code> is specified, the query applies to all devices. If one of the <code>cros_ou</code> options
+is also specified, the query applies to devices within the OUs.</p>
+<ul>
+<li><code>(query &lt;QueryCrOS&gt;)|(queries &lt;QueryCrOSList&gt;)</code> - Select CrOS devices that match a query</li>
+<li><code>limittoou|cros_ou &lt;OrgUnitItem&gt;</code> - Select CrOS devices directly in the OU <code>&lt;OrgUnitItem&gt;</code></li>
+<li>You can predefine this item with the <code>print_cros_ous</code> variable in <code>gam.cfg</code>.</li>
+<li><code>cros_ou_and_children &lt;OrgUnitItem&gt;</code> - Select CrOS devices in the OU <code>&lt;OrgUnitItem&gt;</code> and its sub OUs</li>
+<li>You can predefine this item with the <code>print_cros_ous_and_children</code> variable in <code>gam.cfg</code>.</li>
+<li><code>cros_ous &lt;OrgUnitList&gt;</code> - Select CrOS devices directly in the OUs <code>&lt;OrgUnitList&gt;</code></li>
+<li>You can predefine this list with the <code>print_cros_ous</code> variable in <code>gam.cfg</code>.</li>
+<li><code>cros_ous_and_children &lt;OrgUnitList&gt;</code> - Select CrOS devices in the OUs <code>&lt;OrgUnitList&gt;</code> and their sub OUs</li>
+<li>You can predefine this list with the <code>print_cros_ous_and_children</code> variable in <code>gam.cfg</code>.</li>
+</ul>
+<p>Use the <code>querytime&lt;String&gt; &lt;Time&gt;</code> option to allow times, usually relative, to be substituted into the <code>query &lt;QueryCrOS&gt;</code> and <code>queries &lt;QueryCrOSList&gt;</code> options.
+The <code>querytime&lt;String&gt; &lt;Time&gt;</code> value replaces the string <code>#querytime&lt;String&gt;#</code> in any queries.
+The characters following <code>querytime</code> can be any combination of lowercase letters and numbers.</p>
+<p>For example, query for CrOS devices last synced more than a year ago:</p>
+<pre><code>querytime1year -1y query &quot;sync:..#querytime1year#&quot;
+</code></pre>
+<ul>
+<li><code>reverselists &lt;CrOSListFieldNameList&gt;</code> - For each list, change order from ascending (oldest to newest) to descending (newest to oldest); this makes it easy to get the <code>N</code> most recent values with <code>listlimit N reverselists timeranges</code></li>
+<li><code>timerangeorder descending</code> - Change the <code>activetimeranges</code> order from ascending (oldest to newest) to descending (newest to oldest); this makes it easy to get the <code>N</code> most recent values with <code>timeranges listlimit N timerangeorder descending</code>.</li>
+</ul>
+<h3 id="print-a-header-row-and-activity-for-specified-cros-devices">Print a header row and activity for specified CrOS devices</h3>
+<p>Use <a href="#print-a-header-row-and-activity-for-selected-cros-devices">Print a header row and activity for selected CrOS devices</a>
+you are specifying devices by OU; it will be much faster.</p>
+<pre><code>gam &lt;CrOSTypeEntity&gt; print crosactivity [todrive &lt;ToDriveAttribute&gt;*]
+        [orderby &lt;CrOSOrderByFieldName&gt; [ascending|descending]]
+        [recentusers] [timeranges] [both] [devicefiles] [all] [oneuserperrow]
+        [start &lt;Date&gt;] [end &lt;Date&gt;] [listlimit &lt;Number&gt;]
+        [reverselists &lt;CrOSActivityListFieldNameList&gt;]
+        [timerangeorder ascending|descending]
+        [delimiter &lt;Character&gt;]
+        [formatjson [quotechar &lt;Character&gt;]]
+
+gam print crosactivity [todrive &lt;ToDriveAttribute&gt;*] select &lt;CrOSTypeEntity&gt;
+        [orderby &lt;CrOSOrderByFieldName&gt; [ascending|descending]]
+        [recentusers] [timeranges] [both] [devicefiles] [all] [oneuserperrow]
+        [start &lt;Date&gt;] [end &lt;Date&gt;] [listlimit &lt;Number&gt;]
+        [reverselists &lt;CrOSActivityListFieldNameList&gt;]
+        [timerangeorder ascending|descending]
+        [delimiter &lt;Character&gt;]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<ul>
+<li>The basic column headers are: deviceId,annotatedAssetId,annotatedLocation,serialNumber,orgUnitPath.</li>
+<li><code>recentusers</code> - All of the recent users email addresses, separated by the delimiter <code>&lt;Character&gt;</code>, with header recentUsers.email, are output with the basic headers.</li>
+<li>The delimiter defaults to <code>gam.cfg/csv_output_field_delimiter</code>.</li>
+<li>If <code>oneuserperrow</code> is specified, each recent user is output on a separate row with header recentUsers.email and the basic headers.</li>
+<li><code>activetimeranges</code> - For each time range entry, activeTimeRanges.date, activeTimeRanges.duration and activeTimeRanges.minutes are output on a separate row with the basic headers.</li>
+<li>
+<p><code>devicefiles</code> - For each device file, the columns deviceFiles.type and deviceFiles.createTime are output on a separate row with the basic headers.</p>
+</li>
+<li>
+<p><code>both</code> - Specifies <code>recentusers</code> and <code>activetimeranges</code>.</p>
+</li>
+<li><code>all</code> - Specifies <code>recentusers</code>, <code>activetimeranges</code> and <code>devicefiles</code>.</li>
+<li>
+<p>The default is to include both <code>recentusers</code> and <code>activetimeranges</code>.</p>
+</li>
+<li>
+<p><code>listlimit &lt;Number&gt;</code> - Limits the number of repetitions to <code>&lt;Number&gt;</code>; if not specified or <code>&lt;Number&gt;</code> equals zero, there is no limit.</p>
+</li>
+<li><code>start &lt;Date&gt;</code> and <code>end &lt;Date&gt;</code> - Filter the time ranges and device files to fall with in the specified <code>&lt;Dates&gt;</code>. If a <code>&lt;Date&gt;</code> isn't specified, there is no filtering in that range.</li>
+<li><code>reverselists &lt;CrOSListFieldNameList&gt;</code> - For each list, change order from ascending (oldest to newest) to descending (newest to oldest); this makes it easy to get the <code>N</code> most recent values with <code>listlimit N reverselists timeranges</code></li>
+<li><code>timerangeorder descending</code> - Change the <code>activetimeranges</code> order from ascending (oldest to newest) to descending (newest to oldest); this makes it easy to get the <code>N</code> most recent values with <code>timeranges listlimit N timerangeorder descending</code>.</li>
+</ul>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format:</p>
+<ul>
+<li><code>formatjson</code> - Display the fields in JSON format.</li>
+</ul>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h2 id="download-a-chromeos-device-file">Download a ChromeOS device file</h2>
+<pre><code>gam &lt;CrOSTypeEntity&gt; info downloadfile latest|&lt;Time&gt; [targetfolder &lt;FilePath&gt;]
+</code></pre>
+<p>Select the device file to download by its timestamp.</p>
+<ul>
+<li><code>downloadfile latest</code> - Download the device file with the most recent timestamp.</li>
+<li><code>downloadfile &lt;Time&gt;</code> - Download the device file with the <code>&lt;</code>Time&gt;` timestamp.</li>
+</ul>
+<p>By default, when getting a device file, it is downloaded to the directory specified in <code>gam.cfg/drive_dir</code>.</p>
+<ul>
+<li><code>targetfolder &lt;FilePath&gt;</code> - Specify an alternate location for the downloaded file.</li>
+</ul>
+<h3 id="download-examples">Download Examples</h3>
+<p>Suppose that you have an OU "/Kiosk Chromebooks" that contains ChromeOS devices running in kiosk mode and you want to download their device files.</p>
+<p>Get the list of device files.</p>
+<pre><code>gam redirect csv ./CrOSDeviceFiles.csv print cros cros_ou &quot;/Kiosk ChromeBooks&quot; fields deviceId,devicefiles
+</code></pre>
+<p>Download the device files serially.</p>
+<pre><code>gam redirect stdout ./CrOSDeviceFiles.out redirect stderr stdout csvkmd cros ./CrOSDeviceFiles.csv keyfield deviceId matchfield deviceFiles.type LOG_FILE datafield deviceFiles.createTime get devicefile select csvdata deviceFiles.createTime
+</code></pre>
+<p>Download the device files in parallel.</p>
+<pre><code>gam redirect stdout ./CrOSDeviceFiles.out multiprocess redirect stderr stdout csv ./CrOSDeviceFiles.csv matchfield deviceFiles.type LOG_FILE gam cros &quot;~deviceId&quot; get devicefile select &quot;~deviceFiles&quot;.createTime
+</code></pre>
+<p>Suppose you want only the last device file for each Chromebook.</p>
+<p>Download the device files serially.</p>
+<pre><code>gam redirect stdout ./CrOSDeviceFiles.out redirect stderr stdout cros_ou &quot;/Kiosk ChromeBooks&quot; get devicefile select last 1
+</code></pre>
+<p>Download the device files in parallel</p>
+<pre><code>gam config auto_batch_min 1 redirect stdout ./CrOSDeviceFiles.out multiprocess redirect stderr stdout cros_ou &quot;/Kiosk ChromeBooks&quot; get devicefile select last 1
+</code></pre>
+<h2 id="display-chromeos-telemetry-data">Display ChromeOS telemetry data</h2>
+<h3 id="display-data-about-a-specific-device">Display data about a specific device.</h3>
+<pre><code>gam info crostelemetry &lt;SerialNumber&gt;
+        &lt;CrOSTelemetryFieldName&gt;* [fields &lt;CrOSTelemetryFieldNameList&gt;]
+        [start &lt;Date&gt;] [end &lt;Date&gt;] [listlimit &lt;Number&gt;]
+        [reverselists &lt;CrOSTelemetryListFieldNameList&gt;]
+        [formatjson]
+</code></pre>
+<h3 id="display-data-about-all-or-selected-devices">Display data about all or selected devices.</h3>
+<pre><code>gam show crostelemetry
+        [(ou|org|orgunit|ou_and_children &lt;OrgUnitItem&gt;)|(cros_sn &lt;SerialNumber&gt;)|(filter &lt;String&gt;)]
+        &lt;CrOSTelemetryFieldName&gt;* [fields &lt;CrOSTelemetryFieldNameList&gt;]
+        [start &lt;Date&gt;] [end &lt;Date&gt;] [listlimit &lt;Number&gt;]
+        [reverselists &lt;CrOSTelemetryListFieldNameList&gt;]
+        [formatjson]
+</code></pre>
+<p>Use these options to select CrOS devices; if none are chosen, all CrOS devices in the account are selected.</p>
+<ul>
+<li><code>ou|org|orgunit &lt;OrgUnitItem&gt;</code> - Select CrOS devices directly in the OU <code>&lt;OrgUnitItem&gt;</code></li>
+<li><code>ou_and_children &lt;OrgUnitItem&gt;</code> - Select CrOS devices in the OU <code>&lt;OrgUnitItem&gt;</code> and its sub OUs</li>
+<li><code>cros_sn &lt;SerialNumber&gt;</code> - Select the CrOS device with serial number <code>&lt;SerialNumber&gt;</code>.</li>
+<li><code>filter &lt;String&gt;</code> - Select the CrOS device with a filter.</li>
+<li><code>listlimit &lt;Number&gt;</code> - Limits the number of repetitions to <code>&lt;Number&gt;</code>; if not specified or <code>&lt;Number&gt;</code> equals zero, there is no limit.</li>
+<li><code>start &lt;Date&gt;</code> and <code>end &lt;Date&gt;</code> - Constrain list <code>reportTime</code> to fall within the specified <code>&lt;Dates&gt;</code>. If a <code>&lt;Date&gt;</code> isn't specified, there is no filtering in that range.</li>
+<li><code>reverselists &lt;CrOSTelemetryListFieldNameList&gt;</code> - For each list, change order from ascending (oldest to newest) to descending (newest to oldest); this makes it easy to get the <code>N</code> most recent values with <code>listlimit N reverselists cpustatusreport,memorystatusreport</code></li>
+</ul>
+<p>By default, all telemetry data is displayed, use the following to select specific fields:
+- <code>&lt;CrOSTelemetryFieldName&gt;*</code> - Specify fields individually
+- <code>fields &lt;CrOSTelemetryFieldNameList&gt;</code> - Specify a list of fields</p>
+<p>By default, Gam displays the information as an indented list of keys and values:
+- <code>formatjson</code> - Display the fields in JSON format.</p>
+<h3 id="print-data-about-all-or-selected-devices">Print data about all or selected devices.</h3>
+<pre><code>gam print crostelemetry [todrive &lt;ToDriveAttribute&gt;*]
+        [(ou|org|orgunit|ou_and_children &lt;OrgUnitItem&gt;)|(cros_sn &lt;SerialNumber&gt;)|(filter &lt;String&gt;)]
+        &lt;CrOSTelemetryFieldName&gt;* [fields &lt;CrOSTelemetryFieldNameList&gt;]
+        [reverselists &lt;CrOSTelemetryListFieldNameList&gt;]
+        [start &lt;Date&gt;] [end &lt;Date&gt;] [listlimit &lt;Number&gt;]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>Use these options to select CrOS devices; if none are chosen, all CrOS devices in the account are selected.</p>
+<ul>
+<li><code>ou|org|orgunit &lt;OrgUnitItem&gt;</code> - Select CrOS devices directly in the OU <code>&lt;OrgUnitItem&gt;</code></li>
+<li><code>ou_and_children &lt;OrgUnitItem&gt;</code> - Select CrOS devices in the OU <code>&lt;OrgUnitItem&gt;</code> and its sub OUs</li>
+<li><code>cros_sn &lt;SerialNumber&gt;</code> - Select the CrOS device with serial number <code>&lt;SerialNumber&gt;</code>.</li>
+<li><code>filter &lt;String&gt;</code> - Select the CrOS device with a filter.</li>
+<li><code>listlimit &lt;Number&gt;</code> - Limits the number of repetitions to <code>&lt;Number&gt;</code>; if not specified or <code>&lt;Number&gt;</code> equals zero, there is no limit.</li>
+<li><code>start &lt;Date&gt;</code> and <code>end &lt;Date&gt;</code> - Constrain list <code>reportTime</code> to fall within the specified <code>&lt;Dates&gt;</code>. If a <code>&lt;Date&gt;</code> isn't specified, there is no filtering in that range.</li>
+<li><code>reverselists &lt;CrOSTelemetryListFieldNameList&gt;</code> - For each list, change order from ascending (oldest to newest) to descending (newest to oldest); this makes it easy to get the <code>N</code> most recent values with <code>listlimit N reverselists cpustatusreport,memorystatusreport</code></li>
+</ul>
+<p>By default, all telemetry data is displayed, use the following to select specific fields:
+- <code>&lt;CrOSTelemetryFieldName&gt;*</code> - Specify fields individually
+- <code>fields &lt;CrOSTelemetryFieldNameList&gt;</code> - Specify a list of fields</p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format:
+- <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h2 id="check-chromeos-device-serial-number-validity">Check ChromeOS device serial number validity</h2>
+<p>Use this command to check the validity of ChromeOS device serial numbers.</p>
+<pre><code>gam print chromesnvalidity [todrive &lt;ToDriveAttribute&gt;*]
+        cros_sn &lt;SerialNumberEntity&gt; [listlimit &lt;Number&gt;]
+        [delimiter &lt;Character&gt;]
+</code></pre>
+<p>You specify serial numbers and GAM performs a query to see how many devices match; serial number matches are case-insensitive.</p>
+<p>There are are two types of matches:
+- Exact - A device has the exact serial number
+- Prefix - A device has a serial number that has the specified value as a prefix</p>
+<p>The column headers are: serialNumber,exactMatches,exactMatchDeviceIds,prefixMatches,prefixMatchDeviceIds.
+- serialNumber - The serial number specified
+- exactMatches - The number of exact matches
+- exactMatchDeviceIds - The list of device IDs with exact match serial numbers
+- prefixMatches - The number of prefix matches
+- prefixMatchDeviceIds - The list of device IDs with prefix match serial numbers</p>
+<p>The device IDs are separated by the delimiter <code>&lt;Character&gt;</code> that defaults to <code>gam.cfg/csv_output_field_delimiter</code>.</p>
+<p>By default, all matching device IDs are displayed:
+- <code>listlimit &lt;Number&gt;</code> - Limits the number of device IDs in a list to <code>&lt;Number&gt;</code>; if not specified or <code>&lt;Number&gt;</code> equals zero, there is no limit. <code>exactMatches</code> and <code>prefixmatches</code>
+display the total number of matches.</p>
+<h3 id="examples">Examples</h3>
+<p>Specify serial numbers in the command.</p>
+<pre><code>$ gam print chromesnvalidity crossn DPCVLB3X,5CD9326FW0,5CD92055W  listlimit 2 delimiter &quot;|&quot;
+Getting all CrOS Devices that match query (id:DPCVLB3X), may take some time on a large Google Workspace Account...
+Got 0 CrOS Devices...
+Getting all CrOS Devices that match query (id:5CD9326FW0), may take some time on a large Google Workspace Account...
+Got 1 CrOS Device...
+Getting all CrOS Devices that match query (id:5CD92055W), may take some time on a large Google Workspace Account...
+Got 5 CrOS Devices...
+serialNumber,exactMatches,exactMatchDeviceIds,prefixMatches,prefixMatchDeviceIds
+DPCVLB3X,0,,0,
+5CD9326FW0,1,bfaef389-a1d5-4e7b-b9af-bfc6cdbdb5b2,0,
+5CD92055W,0,,5,0123a16d-3884-4829-9324-df92d8fc1ad4|899d2b95-7914-4b6b-8428-d416ef900728
+</code></pre>
+<p>Specify serial numbers in a flat file.</p>
+<pre><code>$ more CrosSN.txt
+DPCVLB3X
+5CD9326FW0
+5CD92055W
+
+$ gam print chromesnvalidity crossn file CrosSN.txt listlimit 2 delimiter &quot;|&quot;
+Getting all CrOS Devices that match query (id:DPCVLB3X), may take some time on a large Google Workspace Account...
+Got 0 CrOS Devices...
+Getting all CrOS Devices that match query (id:5CD9326FW0), may take some time on a large Google Workspace Account...
+Got 1 CrOS Device...
+Getting all CrOS Devices that match query (id:5CD92055W), may take some time on a large Google Workspace Account...
+Got 5 CrOS Devices...
+serialNumber,exactMatches,exactMatchDeviceIds,prefixMatches,prefixMatchDeviceIds
+DPCVLB3X,0,,0,
+5CD9326FW0,1,bfaef389-a1d5-4e7b-b9af-bfc6cdbdb5b2,0,
+5CD92055W,0,,5,0123a16d-3884-4829-9324-df92d8fc1ad4|899d2b95-7914-4b6b-8428-d416ef900728```
+</code></pre>
+<p>Specify serial numbers in a CSV file.</p>
+<pre><code>$ more CrosSN.csv
+serialNumber
+DPCVLB3X
+5CD9326FW0
+5CD92055W
+
+$ gam print chromesnvalidity crossn csvfile CrosSN.csv:serialNumber  listlimit 2 delimiter &quot;|&quot;
+Getting all CrOS Devices that match query (id:DPCVLB3X), may take some time on a large Google Workspace Account...
+Got 0 CrOS Devices...
+Getting all CrOS Devices that match query (id:5CD9326FW0), may take some time on a large Google Workspace Account...
+Got 1 CrOS Device...
+Getting all CrOS Devices that match query (id:5CD92055W), may take some time on a large Google Workspace Account...
+Got 5 CrOS Devices...
+serialNumber,exactMatches,exactMatchDeviceIds,prefixMatches,prefixMatchDeviceIds
+DPCVLB3X,0,,0,
+5CD9326FW0,1,bfaef389-a1d5-4e7b-b9af-bfc6cdbdb5b2,0,
+5CD92055W,0,,5,0123a16d-3884-4829-9324-df92d8fc1ad4|899d2b95-7914-4b6b-8428-d416ef900728
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

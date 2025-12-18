@@ -1,0 +1,1870 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Users - Chat - GAM Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">GAM Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../00scratch/" class="nav-link">Scratch Me Wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Addresses/" class="nav-link">Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Administrators/" class="nav-link">Administrators</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Alert-Center/" class="nav-link">Alert Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Aliases/" class="nav-link">Aliases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Authorization/" class="nav-link">Authorization</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../BNF-Syntax/" class="nav-link">Syntax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Basic-Items/" class="nav-link">Basic Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Bulk-Processing/" class="nav-link">Bulk Processing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Business-Account-Management/" class="nav-link">Users - Business Account Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Input-Filtering/" class="nav-link">CSV Input Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Output-Filtering/" class="nav-link">CSV Output Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Special-Characters/" class="nav-link">CSV Special Characters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Access/" class="nav-link">Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Events/" class="nav-link">Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars/" class="nav-link">Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chat-Bot-Setup-Use/" class="nav-link">Chat Bot Setup and Use</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-AUE-Counts/" class="nav-link">Chrome Auto Update Expiration Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Browser-Cloud-Management/" class="nav-link">Chrome Browser Cloud Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Device-Counts/" class="nav-link">Chrome Device Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Installed-Apps/" class="nav-link">Chrome Installed Apps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Needs-Attention-Counts/" class="nav-link">Chrome Device Needs Attention Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Policies/" class="nav-link">Chrome Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Printers/" class="nav-link">Chrome Printers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Profile-Management/" class="nav-link">Chrome Profile Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-Counts/" class="nav-link">Chrome Version Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-History/" class="nav-link">Chrome Version History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../ChromeOS-Devices/" class="nav-link">ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Courses/" class="nav-link">Classroom - Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Guardians/" class="nav-link">Classroom - Guardians</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Invitations/" class="nav-link">Classroom - Invitations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Membership/" class="nav-link">Classroom - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-StudentGroups/" class="nav-link">Classroom - Student Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Channel/" class="nav-link">Cloud Channel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Devices/" class="nav-link">Cloud Identity Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups-Membership/" class="nav-link">Cloud Identity Groups - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups/" class="nav-link">Cloud Identity Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Policies/" class="nav-link">Cloud Identity Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Storage/" class="nav-link">Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-ChromeOS-Devices/" class="nav-link">Collections of ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Items/" class="nav-link">Collections of Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Users/" class="nav-link">Collections of Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Data-From-Google-Docs-Sheets-Storage/" class="nav-link">Command data from Google Docs, Sheets and Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Line-Parsing/" class="nav-link">Command Line Parsing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Logging-Progress/" class="nav-link">Command Logging and Progress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Context-Aware-Access-Levels/" class="nav-link">Context-Aware Access Levels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Customer/" class="nav-link">Customer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-People-Contacts-Profiles/" class="nav-link">Domain People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-SharedContacts/" class="nav-link">Domain Shared Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains-Verification/" class="nav-link">Domains - Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains/" class="nav-link">Domains</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Downloads-Installs/" class="nav-link">Downloads-Installs-GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-File-Selection/" class="nav-link">Drive File Selection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-Items/" class="nav-link">Drive Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-REST-API-v3/" class="nav-link">Drive REST API v3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Email-Audit-Monitor/" class="nav-link">Email Audit Monitor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Find-File-Owner/" class="nav-link">Find File Owner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Public-Chat-Room/" class="nav-link">GAM Public Chat Room</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Release-Process/" class="nav-link">Steps to release a new GAM version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Return-Codes/" class="nav-link">GAM Return Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-with-minimal-GCP-rights/" class="nav-link">GAM setup with minimal GCP permissions.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-FAQ/" class="nav-link">What is GAM7?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Android-Devices/" class="nav-link">GAM7 on Android Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Chrome-OS-Devices/" class="nav-link">GAM7 on Chrome OS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GamUpdates/" class="nav-link">Update GAM7 to latest version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Global-Address-List/" class="nav-link">Global Address List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Data-Transfers/" class="nav-link">Google Data Transfers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Network-Addresses/" class="nav-link">Google Network Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups-Membership/" class="nav-link">Groups Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups/" class="nav-link">Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../HTTPS-Proxy/" class="nav-link">HTTPS Proxy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Home/" class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Install-GAM7/" class="nav-link">Installing GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Uninstall-GAM7/" class="nav-link">Uninstalling GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Update-GAM7/" class="nav-link">Updating GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-GAMADV-XTD3-to-GAM7/" class="nav-link">Installation - Upgrade GAMADV-XTD3 to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-Legacy-GAM-to-GAM7/" class="nav-link">Installation - Upgrade Legacy GAM to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Inbound-SSO/" class="nav-link">Inbound SSO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Install-GAM-as-Python-Library/" class="nav-link">Install GAM as Python Library</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Licenses/" class="nav-link">Licenses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List-Items/" class="nav-link">List Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List/" class="nav-link">List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Meta-Commands-and-File-Redirection/" class="nav-link">Meta Commands and File Redirection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Mobile-Devices/" class="nav-link">Mobile Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Organizational-Units/" class="nav-link">Organizational Units</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Other-Resources/" class="nav-link">Other Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Permission-Matches/" class="nav-link">Permission Matches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Python-Regular-Expressions/" class="nav-link">Python Regular Expressions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Rclone/" class="nav-link">Rclone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reports/" class="nav-link">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reseller/" class="nav-link">Reseller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Resources/" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Running-GAM7-securely-on-a-Google-Compute-Engine/" class="nav-link">Running GAM7 securely on a Google Compute Engine</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../SSL-Root-CA-Certificates/" class="nav-link">SSL Root CA Certificates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Schemas/" class="nav-link">Schemas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Scripts/" class="nav-link">Scripts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Send-Email/" class="nav-link">Send Email</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Shared-Drives/" class="nav-link">Domain Administrators - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Sites/" class="nav-link">Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Tag-Replace/" class="nav-link">Tag Replace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Todrive/" class="nav-link">Todrive</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Unmanaged-Accounts/" class="nav-link">Unmanaged Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Upgrade-Benefits/" class="nav-link">Upgrade Benefits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Analytics-Admin/" class="nav-link">Users - Analytics Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Application-Specific-Passwords/" class="nav-link">Users - Application Specific Passwords</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Backup-Verification-Codes/" class="nav-link">Users - Backup Verification Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Access/" class="nav-link">Users - Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Events/" class="nav-link">Users - Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars/" class="nav-link">Users - Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Users - Chat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classification-Labels/" class="nav-link">Users - Classification Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classroom-Profile/" class="nav-link">Users - Classroom - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts-Delegates/" class="nav-link">Users - Contacts - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts/" class="nav-link">User Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Deprovision/" class="nav-link">Users - Deprovision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Activity-Settings/" class="nav-link">Users - Drive - Activity/Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Cleanup/" class="nav-link">Users - Drive - Cleanup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Comments/" class="nav-link">Users - Drive - Comments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Copy-Move/" class="nav-link">Users - Drive Files Copy/Move</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Display/" class="nav-link">Users - Drive Files Display</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Manage/" class="nav-link">Users - Drive Files Manage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Orphans/" class="nav-link">Users - Drive - Orphans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Ownership/" class="nav-link">Users - Drive - Ownership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Permissions/" class="nav-link">Users - Drive - Permissions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Query/" class="nav-link">Users - Drive - Query</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Revisions/" class="nav-link">Users - Drive - Revisions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Shortcuts/" class="nav-link">Users - Drive Shortcuts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Transfer/" class="nav-link">Users - Drive - Transfer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Forms/" class="nav-link">Users - Forms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-CSE/" class="nav-link">Users - Gmail - Client Side Encryption</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Delegates/" class="nav-link">Users - Gmail - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Filters/" class="nav-link">Users - Gmail - Filters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Forwarding/" class="nav-link">Users - Gmail - Forwarding</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Labels/" class="nav-link">Users - Gmail - Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Messages-Threads/" class="nav-link">Users - Gmail - Messages/Threads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Profile/" class="nav-link">Users - Gmail - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-S-MIME/" class="nav-link">Users - Gmail - S/MIME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Send-As-Signature-Vacation/" class="nav-link">Users - Gmail - Send As/Signature/Vacation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Settings/" class="nav-link">Users - Gmail - Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Group-Membership/" class="nav-link">Users - Group Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Keep-Notes/" class="nav-link">Users - Keep - Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Looker-Studio/" class="nav-link">Users - Looker Studio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Meet/" class="nav-link">Users - Meet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-People-Contacts-Profiles/" class="nav-link">Users - People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Photo/" class="nav-link">Users - Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Photo/" class="nav-link">Users - Profile Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Sharing/" class="nav-link">Users - Profile Sharing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Shared-Drives/" class="nav-link">Users - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Signout-Turnoff2SV/" class="nav-link">Users - Signout and Turn off 2-Step Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Spreadsheets/" class="nav-link">Users - Spreadsheets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tag-Manager/" class="nav-link">Users - Tag Manager</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tasks/" class="nav-link">Users - Tasks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tokens/" class="nav-link">Users - Tokens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Web-Resources-and-Sites/" class="nav-link">Users - Web Resources and Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-YouTube/" class="nav-link">Users - YouTube</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users/" class="nav-link">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-YubiKey/" class="nav-link">Using GAM7 with a YubiKey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-delegated-admin-service-account/" class="nav-link">Using GAM7 with a delegated admin service account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-keyless-authentication-Workload-Identity-Federation/" class="nav-link">Using GAM7 with Keyless Authentication - Workload Identity Federation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Vault-Takeout/" class="nav-link">Vault - Takeout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Verifying-a-GAM7-Build-is-Legitimate-and-Official/" class="nav-link">Verifying a GAM7 Build is Legitimate and Official</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Version-and-Help/" class="nav-link">Version and Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../_Sidebar/" class="nav-link"> Sidebar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../gam.cfg/" class="nav-link">GAM Configuration</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Legacy</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../legacy/l-AdminSettingsExamples/" class="dropdown-item">l AdminSettingsExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Android-Installation/" class="dropdown-item">l Android Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-BulkOperations/" class="dropdown-item">l BulkOperations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CalendarExamples/" class="dropdown-item">l CalendarExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chat-Bot/" class="dropdown-item">l Chat Bot</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Browser-Management/" class="dropdown-item">l Chrome Browser Management</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-OS-Installation/" class="dropdown-item">l Chrome OS Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Policy-Settings/" class="dropdown-item">l Chrome Policy Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Cloud-Identity-Groups/" class="dropdown-item">l Cloud Identity Groups</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendar-Resources/" class="dropdown-item">GAM Calendar Resources Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendars/" class="dropdown-item">GAM Calendar Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Definitions/" class="dropdown-item">l Command Reference Definitions</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Drive/" class="dropdown-item">GAM Drive Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Email/" class="dropdown-item">GAM Email Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Group-Attributes/" class="dropdown-item">GAM Group Attributes Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Groups/" class="dropdown-item">GAM Group Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Users/" class="dropdown-item">GAM Users Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Context-Aware-Access-Levels/" class="dropdown-item">l Context Aware Access Levels</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Creating-client_secrets.json-and-oauth2service.json/" class="dropdown-item">l Creating client secrets.json and oauth2service.json</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CreatingClientSecretsFile/" class="dropdown-item">l CreatingClientSecretsFile</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Custom-Schemas/" class="dropdown-item">l Custom Schemas</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Data-Transfers/" class="dropdown-item">l Data Transfers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-DomainVerification/" class="dropdown-item">l DomainVerification</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesAccountAuditing/" class="dropdown-item">l ExamplesAccountAuditing</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesCSV/" class="dropdown-item">l ExamplesCSV</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesEmailSettings/" class="dropdown-item">l ExamplesEmailSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesOrganizations/" class="dropdown-item">l ExamplesOrganizations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-Discussion-Group/" class="dropdown-item">GAM Discussion Group</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-on-Android-and-Chrome-OS/" class="dropdown-item">l GAM on Android and Chrome OS</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-options-files/" class="dropdown-item">l GAM options files</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-with--minimal-GCP-rights/" class="dropdown-item">l GAM with  minimal GCP rights</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3CSVListings/" class="dropdown-item">l GAM3CSVListings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3DirectoryCommands/" class="dropdown-item">l GAM3DirectoryCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3GroupSettings/" class="dropdown-item">l GAM3GroupSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Google-Vault---Takeout-Commands/" class="dropdown-item">l Google Vault   Takeout Commands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GoogleDriveManagement/" class="dropdown-item">l GoogleDriveManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Grouping-18-or-Older-Users/" class="dropdown-item">Using GAM to group 18+ users</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Home/" class="dropdown-item">l Home</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-How-to-upgrade-from-Standard-GAM/" class="dropdown-item">Installation - Upgrading from Standard GAM</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Inbound-SSO-Settings/" class="dropdown-item">l Inbound SSO Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-LicenseExamples/" class="dropdown-item">l LicenseExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Admins/" class="dropdown-item">l Managing Admins</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-CloudPrint-Printers/" class="dropdown-item">l Managing CloudPrint Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Devices/" class="dropdown-item">l Managing Devices</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Google-Classroom/" class="dropdown-item">l Managing Google Classroom</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-OAuthKeyManagement/" class="dropdown-item">l OAuthKeyManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Printers/" class="dropdown-item">l Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ResellerCommands/" class="dropdown-item">l ResellerCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-SecurityExamples/" class="dropdown-item">l SecurityExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-UnmanagedUsersExamples/" class="dropdown-item">l UnmanagedUsersExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Using-GAM-with-a-delegated-admin-service-account-%28DASA%29/" class="dropdown-item">Background</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-_Footer/" class="dropdown-item">l  Footer</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Users-Calendars/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Users-Classification-Labels/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#users-chat" class="nav-link">Users - Chat</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#introduction" class="nav-link">Introduction</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#set-up-a-chat-bot" class="nav-link">Set up a Chat Bot</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#api-documentation" class="nav-link">API documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#query-documentation" class="nav-link">Query documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#definitions" class="nav-link">Definitions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#chat-space-permissions" class="nav-link">Chat Space Permissions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#manage-chat-spaces" class="nav-link">Manage Chat Spaces</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-chat-spaces" class="nav-link">Display Chat Spaces</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#ui-api-member-role-mapping" class="nav-link">UI API member role mapping</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#manage-chat-members" class="nav-link">Manage Chat Members</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-chat-members" class="nav-link">Display Chat Members</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#manage-chat-messages" class="nav-link">Manage Chat Messages</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-chat-messages" class="nav-link">Display Chat Messages</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-chat-events" class="nav-link">Display Chat Events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#manage-chat-emojis" class="nav-link">Manage Chat Emojis</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-chat-emojis" class="nav-link">Display Chat Emojis</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#bulk-operations" class="nav-link">Bulk Operations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="users-chat">Users - Chat</h1>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#set-up-a-chat-bot">Set up a Chat Bot</a></li>
+<li><a href="#api-documentation">API documentation</a></li>
+<li><a href="#query-documentation">Query Documentation</a></li>
+<li><a href="#definitions">Definitions</a></li>
+<li><a href="#chat-space-permissions">Chat Space Permissions</a></li>
+<li><a href="#manage-chat-spaces">Manage Chat Spaces</a></li>
+<li><a href="#display-chat-spaces">Display Chat Spaces</a></li>
+<li><a href="#ui-api-mwmber-role-mapping">UI API member role mapping</a></li>
+<li><a href="#manage-chat-members">Manage Chat Members</a></li>
+<li><a href="#display-chat-members">Display Chat Members</a></li>
+<li><a href="#manage-chat-messages">Manage Chat Messages</a></li>
+<li><a href="#display-chat-messages">Display Chat Messages</a></li>
+<li><a href="#display-chat-events">Display Chat Events</a></li>
+<li><a href="#manage-chat-emojis">Manage Chat Emojis</a></li>
+<li><a href="#display-chat-emojis">Display Chat Emojis</a></li>
+<li><a href="#bulk-operations">Bulk Operations</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>To use these commands you must update your service account authorization.</p>
+<pre><code>gam user user@domain.com update serviceaccount
+
+[*]  3)  Chat API - Custom Emojis (supports readonly)
+[*]  4)  Chat API - Memberships (supports readonly)
+[*]  5)  Chat API - Memberships Admin (supports readonly)
+[*]  6)  Chat API - Messages (supports readonly)
+[*]  7)  Chat API - Spaces (supports readonly)
+[*]  8)  Chat API - Spaces Admin (supports readonly)
+[*]  9)  Chat API - Spaces Delete
+[*] 10)  Chat API - Spaces Delete Admin
+</code></pre>
+<p>Added <code>use_chat_admin_access</code> Boolean variable to <code>gam.cfg</code>. </p>
+<pre><code>* When False, GAM uses user access when making all Chat API calls. For calls that support admin access,
+    this can be overridden with the asadmin command line option.
+* When True, GAM uses admin access for Chat API calls that support admin access; other calls will use user access.
+* Default: False
+</code></pre>
+<p>Google requires that you have a Chat Bot configured in order to use the Chat API; set up a Chat Bot as described in the next section.</p>
+<h2 id="set-up-a-chat-bot">Set up a Chat Bot</h2>
+<ul>
+<li>Run the command <code>gam setup chat</code>; it will point you to a URL to configure your Chat Bot.</li>
+<li>Uncheck "Build this chat app as a workspace add-on"</li>
+<li>Enter an App name and Description of your choosing.</li>
+<li>For the Avatar URL you can use <code>https://dummyimage.com/384x256/4d4d4d/0011ff.png&amp;text=+GAM</code> or a public URL to an image of your own choosing.</li>
+<li>In Functionality, uncheck both "Receive 1:1 messages" and "Join spaces and group conversations"</li>
+<li>In Connection settings, choose "Cloud Pub/Sub" and enter <code>projects/&lt;ProjectID&gt;/topics/no-topic</code> for the Topic Name. Replace <code>&lt;ProjectID&gt;</code> with your GAM project ID. GAM doesn't yet listen to pub/sub so this option is not used.</li>
+<li>In Visibility, uncheck "Make this Chat app available to specific people and groups in Domain Workspace".</li>
+<li>Click Save.</li>
+</ul>
+<h2 id="api-documentation">API documentation</h2>
+<ul>
+<li><a href="https://developers.google.com/workspace/chat/overview">Overview</a></li>
+<li><a href="https://developers.google.com/workspace/chat/api/reference/rest">Chat API</a></li>
+<li><a href="https://developers.google.com/workspace/chat/api/reference/rest/v1/customEmojis">Chat API - Custom Emojis</a></li>
+<li><a href="https://developers.google.com/workspace/chat/api/reference/rest/v1/spaces.members/list">Chat API - Members</a></li>
+<li><a href="https://developers.google.com/workspace/chat/api/reference/rest/v1/spaces.messages/list">Chat API - Messages</a></li>
+<li><a href="https://developers.google.com/workspace/chat/api/reference/rest/v1/spaces.spaceEvents/list">Chat API - Events</a></li>
+<li><a href="https://support.google.com/chat/answer/7655820">Apps in Google Chat</a></li>
+<li><a href="https://support.google.com/a/answer/12850085">Manage customemoji permissions</a></li>
+<li><a href="https://support.google.com/a/answer/13369245">Manage Spaces in Admin Console</a></li>
+<li><a href="https://developers.google.com/workspace/chat/api/reference/rest/v1/spaces#Space.FIELDS.predefined_permission_settings">Predefined permission settings</a></li>
+</ul>
+<h2 id="query-documentation">Query documentation</h2>
+<ul>
+<li><a href="https://developers.google.com/workspace/chat/api/reference/rest/v1/spaces/search">Search Spaces</a></li>
+</ul>
+<h2 id="definitions">Definitions</h2>
+<ul>
+<li><a href="Collections-of-Users"><code>&lt;UserTypeEntity&gt;</code></a></li>
+<li><a href="Drive-File-Selection">Drive File Selection</a> for symbols not listed here, such as <code>&lt;DriveFileIDEntity&gt;</code></li>
+<li><a href="Command-Data-From-Google-Docs-Sheets-Storage">Command data from Google Docs/Sheets/Storage</a></li>
+</ul>
+<pre><code>&lt;StorageBucketName&gt; ::= &lt;String&gt;
+&lt;StorageObjectName&gt; ::= &lt;String&gt;
+&lt;StorageBucketObjectName&gt; ::=
+        https://storage.cloud.google.com/&lt;StorageBucketName&gt;/&lt;StorageObjectName&gt;|
+        https://storage.googleapis.com/&lt;StorageBucketName&gt;/&lt;StorageObjectName&gt;|
+        gs://&lt;StorageBucketName&gt;/&lt;StorageObjectName&gt;|
+        &lt;StorageBucketName&gt;/&lt;StorageObjectName&gt;
+
+&lt;UserGoogleDoc&gt; ::=
+        &lt;EmailAddress&gt; &lt;DriveFileIDEntity&gt;|&lt;DriveFileNameEntity&gt;|(&lt;SharedDriveEntity&gt; &lt;SharedDriveFileNameEntity&gt;)
+
+&lt;ChatContent&gt; ::=
+        ((text &lt;String&gt;)|
+         (textfile &lt;FileName&gt; [charset &lt;Charset&gt;])|
+         (gdoc &lt;UserGoogleDoc&gt;)|
+         (gcsdoc &lt;StorageBucketObjectName&gt;))
+
+&lt;ChatEmojiName&gt; ::= :[0-9a-z_-]+:
+&lt;ChatEmoji&gt; ::= emojiname &lt;ChatEmojiName&gt; | customemojis/&lt;String&gt;
+&lt;ChatEvent&gt; ::= spaces/&lt;String&gt;/spaceEvents/&lt;String&gt;
+&lt;ChatMember&gt; ::= spaces/&lt;String&gt;/members/&lt;String&gt;
+&lt;ChatMemberList&gt; ::= &quot;&lt;ChatMember&gt;(,&lt;ChatMember&gt;)*&quot;
+&lt;ChatMessage&gt; ::= spaces/&lt;String&gt;/messages/&lt;String&gt;
+&lt;ChatSpace&gt; ::= spaces/&lt;String&gt; | space &lt;String&gt; | space spaces/&lt;String&gt;
+&lt;ChatThread&gt; ::= spaces/&lt;String&gt;/threads/&lt;String&gt;
+&lt;ChatSpaceType&gt; ::=
+        space|
+    groupchat|
+    directmessage
+&lt;ChatSpaceTypeList&gt; ::= &quot;&lt;ChatSpaceType&gt;(,&lt;ChatSpaceType&gt;)*&quot;
+&lt;ChatMessageID&gt; ::= client-&lt;String&gt;
+        &lt;String&gt; must contain only lowercase letters, numbers, and hyphens up to 56 characters in length.
+</code></pre>
+<pre><code>&lt;ChatSpaceFieldName&gt; ::=
+        accesssettings|
+        admininstalled|
+        createtime|
+        displayname|
+        externaluserallowed|
+        importmode|
+        lastactivetime|
+        membershipcount|
+        name|
+        permissionsettings|
+        singleuserbotdm|
+        spacedetails|
+        spacehistorystate|
+        spacethreadingstate|threaded|
+        spacetype|type|
+        spaceuri
+&lt;ChatSpaceFieldNameList&gt; ::= &quot;&lt;ChatSpaceFieldName&gt;(,&lt;ChatSpaceFieldName&gt;)*&quot;
+
+&lt;ChatMemberFieldName&gt; ::=
+        createtime|
+        deletetime|
+        groupmember|
+        member|
+        name|
+        role|
+        state|
+&lt;ChatMemberFieldNameList&gt; ::= &quot;&lt;ChatMemberFieldName&gt;(,&lt;ChatMemberFieldName&gt;)*&quot;
+
+&lt;ChatMessageFieldName&gt; ::=
+        accessorywidgets|
+        actionresponse|
+        annotations|
+        argumenttext|
+        attachedgifs|
+        attachment|
+        cards|
+        cardsv2|
+        clientassignedmessageid|
+        createtime|
+        deletetime|
+        deletionmetadata|
+        emojireactionsummaries|
+        fallbacktext|
+        formattedtext|
+        lastupdatetime|
+        matchedurl|
+        name|
+        privatemessageviewer|
+        quotedmessagemetadata|
+        sender|
+        slashcommand|
+        space|
+        text|
+        thread|
+        threadreply
+&lt;ChatMessageFieldNameList&gt; ::= &quot;&lt;ChatMessageFieldName&gt;(,&lt;ChatMessageFieldName&gt;)*&quot;
+
+</code></pre>
+<h2 id="chat-space-permissions">Chat Space Permissions</h2>
+<h3 id="announcement">Announcement</h3>
+<table>
+<thead>
+<tr>
+<th>Keyword</th>
+<th>Description</th>
+<th>Allowed</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>manageapps</td>
+<td>Manage apps</td>
+<td>managers-immutable</td>
+<td>managers</td>
+</tr>
+<tr>
+<td>managemembersandgroups</td>
+<td>Manage members and groups</td>
+<td>managers/members</td>
+<td>managers</td>
+</tr>
+<tr>
+<td>managewebhooks</td>
+<td>Manage web hooks</td>
+<td>managers-immutable</td>
+<td>managers</td>
+</tr>
+<tr>
+<td>modifyspacedetails</td>
+<td>Modify space details</td>
+<td>managers/members</td>
+<td>managers</td>
+</tr>
+<tr>
+<td>postmessages</td>
+<td>Post messages</td>
+<td>managers-immutable</td>
+<td>managers</td>
+</tr>
+<tr>
+<td>replymessages</td>
+<td>Reply messages</td>
+<td>members/managers</td>
+<td>members</td>
+</tr>
+<tr>
+<td>togglehistory</td>
+<td>Turn history on and off</td>
+<td>managers/members</td>
+<td>managers</td>
+</tr>
+<tr>
+<td>useatmentionall</td>
+<td>Use @all</td>
+<td>managers-immutable</td>
+<td>managers</td>
+</tr>
+</tbody>
+</table>
+<h3 id="collaboration">Collaboration</h3>
+<table>
+<thead>
+<tr>
+<th>Keyword</th>
+<th>Description</th>
+<th>Allowed</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>manageapps</td>
+<td>Manage apps</td>
+<td>members-immutable</td>
+<td>members</td>
+</tr>
+<tr>
+<td>managemembersandgroups</td>
+<td>Manage members and groups</td>
+<td>managers/members</td>
+<td>members</td>
+</tr>
+<tr>
+<td>managewebhooks</td>
+<td>Manage web hooks</td>
+<td>managers/members</td>
+<td>members</td>
+</tr>
+<tr>
+<td>modifyspacedetails</td>
+<td>Modify space details</td>
+<td>managers/members</td>
+<td>members</td>
+</tr>
+<tr>
+<td>postmessages</td>
+<td>Post messages</td>
+<td>members-immutable</td>
+<td>members</td>
+</tr>
+<tr>
+<td>replymessages</td>
+<td>Reply messages</td>
+<td>members-immutable</td>
+<td>members</td>
+</tr>
+<tr>
+<td>togglehistory</td>
+<td>Turn history on and off</td>
+<td>managers/members</td>
+<td>members</td>
+</tr>
+<tr>
+<td>useatmentionall</td>
+<td>Use @all</td>
+<td>managers/members</td>
+<td>members</td>
+</tr>
+</tbody>
+</table>
+<h2 id="manage-chat-spaces">Manage Chat Spaces</h2>
+<h3 id="create-a-chat-space">Create a chat space</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; create chatspace
+        [type &lt;ChatSpaceType&gt;] [announcement|collaboration]
+        [restricted|(audience &lt;String&gt;)]
+        [externalusersallowed &lt;Boolean&gt;]
+        [members &lt;UserTypeEntity&gt;]
+        [displayname &lt;String&gt;]
+        [description &lt;String&gt;] [guidelines &lt;String&gt;]
+        [history &lt;Boolean&gt;]
+        [&lt;ChatContent&gt;]
+        [formatjson|returnidonly]
+</code></pre>
+<p>For <code>type space</code>, the following apply:
+* <code>members &lt;UserTypeEntity&gt;</code> - Optional, can not specify more that 20 users
+* <code>displayname &lt;String&gt;</code> - Required
+* <code>description &lt;String&gt;</code> - Optional
+* <code>guidelines &lt;String&gt;</code> - Optional
+* <code>history &lt;Boolean&gt;</code> - Optional
+* <code>announcement|collaboration</code> - Initial permission settings; default is <code>collaboration</code></p>
+<p>For <code>type groupchat</code>, the following apply:
+* <code>members &lt;UserTypeEntity&gt;</code> - Required, must specify between 2 and 20 users
+* <code>displayname &lt;String&gt;</code> - Ignored
+* <code>description &lt;String&gt;</code> - Optional
+* <code>guidelines &lt;String&gt;</code> - Optional
+* <code>history &lt;Boolean&gt;</code> - Optional</p>
+<p>For <code>type directmessage</code>, the following apply:
+* <code>members &lt;UserTypeEntity&gt;</code> - Required, must specify 1 user
+* <code>displayname &lt;String&gt;</code> - Ignored
+* <code>description &lt;String&gt;</code> - Ignored
+* <code>guidelines &lt;String&gt;</code> - Ignored
+* <code>history &lt;Boolean&gt;</code> - Optional</p>
+<p>By default, Gam displays the information about the created chatspace as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.
+* <code>returnidonly</code> - Display the chatspace name only</p>
+<p>Use the <code>&lt;ChatContent&gt;</code> option to send an initial message to the created chatspace.</p>
+<p>By default, details about the chatmessage are displayed.
+* <code>returnidonly</code> - Display the chatmessage name only</p>
+<h3 id="update-a-users-chat-space">Update a user's chat space</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; update chatspace &lt;ChatSpace&gt;
+        [restricted|(audience &lt;String&gt;)]|
+        ([displayname &lt;String&gt;]
+         [type space]
+         [description &lt;String&gt;] [guidelines|rules &lt;String&gt;]
+         [history &lt;Boolean&gt;])
+        [managemembersandgroups owners|managers|members]
+        [modifyspacedetails owners|managers|members]
+        [togglehistory owners|managers|members]
+        [useatmentionall owners|managers|members]
+        [manageapps owners|managers|members]
+        [managewebhooks owners|managers|members]
+        [replymessages owners|managers|members]
+        [formatjson]
+</code></pre>
+<p>A groupchat space can be upgraded to a space by specifying <code>type space</code> and <code>displayname &lt;String&gt;</code>.</p>
+<p>The <code>restricted|audience</code> options can not be combined with options <code>displayname,type,description,guidelines,history</code>.</p>
+<p>By default, Gam displays the information about the created chatspace as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<h3 id="update-a-chat-space-asadmin">Update a chat space, asadmin</h3>
+<pre><code>gam &lt;UserItem&gt; update chatspace asadmin &lt;ChatSpace&gt;
+        [restricted|(audience &lt;String&gt;)]|
+        ([displayname &lt;String&gt;]
+         [type space]
+         [description &lt;String&gt;] [guidelines|rules &lt;String&gt;]
+         [history &lt;Boolean&gt;])
+        [formatjson]
+</code></pre>
+<p>A groupchat space can be upgraded to a space by specifying <code>type space</code> and <code>displayname &lt;String&gt;</code>.</p>
+<p>The <code>restricted|audience</code> options can not be combined with options <code>displayname,type,description,guidelines,history</code>.</p>
+<p>By default, Gam displays the information about the created chatspace as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<h3 id="delete-a-users-chat-space">Delete a user's chat space</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; delete chatspace &lt;ChatSpace&gt;
+</code></pre>
+<h3 id="delete-a-chat-space-asadmin">Delete a chat space, asadmin</h3>
+<pre><code>gam &lt;UserItem&gt; delete chatspace asadmin &lt;ChatSpace&gt;
+</code></pre>
+<h2 id="display-chat-spaces">Display Chat Spaces</h2>
+<h3 id="display-information-about-a-specific-chat-space-for-a-user">Display information about a specific chat space for a user</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; info chatspace &lt;ChatSpace&gt;
+        [fields &lt;ChatSpaceFieldNameList&gt;]
+        [formatjson]
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<h3 id="display-information-about-a-direct-message-chat-space-between-two-users">Display information about a direct message chat space between two users</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; info chatspacedm &lt;UserItem&gt;
+        [fields &lt;ChatSpaceFieldNameList&gt;]
+        [formatjson]
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<h3 id="display-information-about-all-chat-spaces-for-a-user">Display information about all chat spaces for a user</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; show chatspaces
+        [types &lt;ChatSpaceTypeList&gt;]
+        [fields &lt;ChatSpaceFieldNameList&gt;] [showaccessssettings]
+        [formatjson]
+</code></pre>
+<p>By default, chat spaces of all types are displayed.
+* <code>types &lt;ChatSpaceTypeList&gt;</code> - Display specific types of spaces.</p>
+<p>When listing Chat Spaces, the Chat API does not return the <code>accessSettings</code> field; if you need to see this field,
+add <code>showaccesssettings</code> to the command. This requires an additional Chat API call per chat space of type <code>SPACE</code>
+to get the <code>accessSettings</code> field.</p>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print chatspaces [todrive &lt;ToDriveAttribute&gt;*]
+        [types &lt;ChatSpaceTypeList&gt;]
+        [fields &lt;ChatSpaceFieldNameList&gt;] [showaccessssettings]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>By default, chat spaces of all types are displayed.
+* <code>types &lt;ChatSpaceTypeList&gt;</code> - Display specific types of spaces.</p>
+<p>When listing Chat Spaces, the Chat API does not return the <code>accessSettings</code> field; if you need to see this field,
+add <code>showaccesssettings</code> to the command. This requires an additional Chat API call per chat space of type <code>SPACE</code>
+to get the <code>accessSettings</code> field.</p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h3 id="display-information-about-all-users-chat-spaces">Display information about all user's chat spaces</h3>
+<pre><code># Local file
+gam config auto_batch_min 1 redirect csv ./AllChatSpaces.csv multiprocess redirect stdout - multiprocess redirect stderr stdout all users print chatspaces
+# Google sheet
+gam config auto_batch_min 1 redirect csv - todrive &lt;ToDriveAttribute&gt;* multiprocess redirect stdout - multiprocess redirect stderr stdout all users print chatspaces
+</code></pre>
+<p>Add these options as desired:</p>
+<pre><code>        [types &lt;ChatSpaceTypeList&gt;]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h3 id="display-information-about-a-specific-chat-space-asadmin">Display information about a specific chat space, asadmin</h3>
+<pre><code>gam &lt;UserItem&gt; info chatspace asadmin &lt;ChatSpace&gt;
+        [fields &lt;ChatSpaceFieldNameList&gt;]
+        [formatjson]
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<h3 id="display-information-about-all-chat-spaces-asadmin">Display information about all chat spaces, asadmin</h3>
+<p>For query and orderby information, see: https://developers.google.com/workspace/chat/api/reference/rest/v1/spaces/search</p>
+<p>Only spaces of <code>&lt;ChatSpaceType&gt;</code> <code>space</code> are displayed; spaces of <code>&lt;ChatSpaceType&gt;</code> <code>groupchat</code> and <code>directmessage</code> are not displayed.</p>
+<pre><code>gam &lt;UserItem&gt; show chatspaces asadmin
+        [query &lt;String&gt;] [querytime&lt;String&gt; &lt;Time&gt;]
+        [orderby &lt;ChatSpaceAdminOrderByFieldName&gt; [ascending|descending]]
+        [fields &lt;ChatSpaceFieldNameList&gt;] [showaccessssettings]
+        [formatjson]
+</code></pre>
+<p>By default, all chat spaces of type SPACE are displayed.
+* <code>query &lt;String&gt; [querytime&lt;String&gt; &lt;Time&gt;]</code> - Display selected chat spaces
+  * See: https://developers.google.com/workspace/chat/api/reference/rest/v1/spaces/search</p>
+<p>When listing Chat Spaces, the Chat API does not return the <code>accessSettings</code> field; if you need to see this field,
+add <code>showaccesssettings</code> to the command. This requires an additional Chat API call per chat space of type <code>SPACE</code>
+to get the <code>accessSettings</code> field.</p>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<pre><code>gam &lt;UserItem&gt; print chatspaces asadmin [todrive &lt;ToDriveAttribute&gt;*]
+        [query &lt;String&gt;] [querytime&lt;String&gt; &lt;Time&gt;]
+        [orderby &lt;ChatSpaceAdminOrderByFieldName&gt; [ascending|descending]]
+        [fields &lt;ChatSpaceFieldNameList&gt;] [showaccessssettings]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>By default, all chat spaces of type SPACE are displayed.
+* <code>query &lt;String&gt; [querytime&lt;String&gt; &lt;Time&gt;]</code> - Display selected chat spaces
+  * See: https://developers.google.com/workspace/chat/api/reference/rest/v1/spaces/search</p>
+<p>When listing Chat Spaces, the Chat API does not return the <code>accessSettings</code> field; if you need to see this field,
+add <code>showaccesssettings</code> to the command. This requires an additional Chat API call per chat space of type <code>SPACE</code>
+to get the <code>accessSettings</code> field.</p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h2 id="ui-api-member-role-mapping">UI API member role mapping</h2>
+<p>GAM uses the Chat UI role names.</p>
+<table>
+<thead>
+<tr>
+<th>UI setting</th>
+<th>API setting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Member</td>
+<td>ROLE_MEMBER</td>
+</tr>
+<tr>
+<td>Manager</td>
+<td>ROLE_ASSISTANT_MANAGER</td>
+</tr>
+<tr>
+<td>Owner</td>
+<td>ROLE_MANAGER</td>
+</tr>
+</tbody>
+</table>
+<h2 id="manage-chat-members">Manage Chat Members</h2>
+<h3 id="add-members-to-a-users-chat-space">Add members to a user's chat space</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; create chatmember &lt;ChatSpace&gt;
+        [type human|bot] [role member|manager|owner]
+        (user &lt;UserItem&gt;)* (members &lt;UserTypeEntity&gt;)*
+        (group &lt;GroupItem&gt;)* (groups &lt;GroupEntity&gt;)*
+        [formatjson|returnidonly]
+</code></pre>
+<p>By default, Gam displays the information about the chatmember as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.
+* <code>returnidonly</code> - Display the chatmember name only</p>
+<h3 id="delete-members-from-a-users-chat-space">Delete members from a user's chat space</h3>
+<p>Delete members by specifying a chat space and user/group email addresses.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; delete chatmember &lt;ChatSpace&gt;
+        ((user &lt;UserItem&gt;)|(members &lt;UserTypeEntity&gt;)|
+         (group &lt;GroupItem&gt;)|(groups &lt;GroupEntity&gt;))+
+</code></pre>
+<p>Delete members from a user's chat space by specifying chatmember names.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; remove chatmember members &lt;ChatMemberList&gt;
+</code></pre>
+<h3 id="add-members-to-a-chat-space-asadmin">Add members to a chat space, asadmin</h3>
+<p>Creating memberships for users outside the administrator's Google Workspace organization isn't supported using asadmin.</p>
+<pre><code>gam &lt;UserItem&gt; create chatmember asadmin &lt;ChatSpace&gt;
+        [type human|bot] [role member|manager|owner]
+        (user &lt;UserItem&gt;)* (members &lt;UserTypeEntity&gt;)*
+        (group &lt;GroupItem&gt;)* (groups &lt;GroupEntity&gt;)*
+        [formatjson|returnidonly]
+</code></pre>
+<p>By default, Gam displays the information about the chatmember as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.
+* <code>returnidonly</code> - Display the chatmember name only</p>
+<h3 id="delete-members-from-a-chat-space-asadmin">Delete members from a chat space, asadmin</h3>
+<p>Delete members by specifying a chat space and user/group email addresses.</p>
+<pre><code>gam &lt;UserItem&gt; delete chatmember asadmin &lt;ChatSpace&gt;
+        ((user &lt;UserItem&gt;)|(members &lt;UserTypeEntity&gt;)|
+         (group &lt;GroupItem&gt;)|(groups &lt;GroupEntity&gt;))+
+</code></pre>
+<p>Delete members from a chat space by specifying chatmember names, asadmin</p>
+<pre><code>gam &lt;UserItem&gt; remove chatmember asadmin members &lt;ChatMemberList&gt;
+</code></pre>
+<h3 id="update-a-members-role-in-a-users-chat-space">Update a members role in a user's chat space</h3>
+<p>Update members by specifying a chat space, user/group email addresses and role.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; update chatmember &lt;ChatSpace&gt;
+        role member|manager|owner
+        ((user &lt;UserItem&gt;)|(members &lt;UserTypeEntity&gt;))+
+</code></pre>
+<p>Update members by specifying chatmember names and role.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; modify chatmember
+        role member|manager|owner
+        members &lt;ChatMemberList&gt;
+</code></pre>
+<h3 id="update-a-members-role-in-a-chat-space-asadmin">Update a members role in a chat space, asadmin</h3>
+<p>Update members by specifying a chat space, user/group email addresses and role.</p>
+<pre><code>gam &lt;UserItem&gt; update chatmember asadmin &lt;ChatSpace&gt;
+        role member|manager|owner
+        ((user &lt;UserItem&gt;)|(members &lt;UserTypeEntity&gt;))+
+</code></pre>
+<p>Update members by specifying chatmember names and role.</p>
+<pre><code>gam &lt;UserItem&gt; modify chatmember asadmin
+        role member|manager|owner
+        members &lt;ChatMemberList&gt;
+</code></pre>
+<h2 id="display-chat-members">Display Chat Members</h2>
+<h3 id="display-information-about-a-users-specific-chat-members">Display information about a user's specific chat members</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; info chatmember members &lt;ChatMemberList&gt;
+        [fields &lt;ChatMemberFieldNameList&gt;]
+        [formatjson]
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<h3 id="display-information-about-members-in-a-users-chat-spaces">Display information about members in a user's chat spaces</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; show chatmembers
+        &lt;ChatSpace&gt;* [types &lt;ChatSpaceTypeList&gt;]
+        [showinvited [&lt;Boolean&gt;]] [showgroups [&lt;Boolean&gt;]] [filter &lt;String&gt;]
+        [fields &lt;ChatMemberFieldNameList&gt;]
+        [formatjson]
+</code></pre>
+<p>By default, members for all of a user's chat spaces of all types are displayed.
+* <code>&lt;ChatSpace&gt;</code> - Display members for a specific chat space
+* <code>types &lt;ChatSpaceTypeList&gt;</code> - Display members for specific types of spaces.</p>
+<p>By default, all JOINED user members in a chat space are displayed.
+* <code>showinvited</code> - Display <code>INVITED</code> members.
+* <code>showgroups</code> - Display group members,
+* <code>filter &lt;String&gt;</code> - Filter memberships by a member's <code>role</code>and <code>member.type</code>.
+  * To filter by role, set role to ROLE_MEMBER or ROLE_MANAGER.
+  * To filter by type, set member.type to HUMAN or BOT.
+  * To filter by both role and type, use the AND operator.
+  * To filter by either role or type, use the OR operator.</p>
+<p>For example, the following filters are valid:</p>
+<pre><code>role = &quot;ROLE_MANAGER&quot; OR role = &quot;ROLE_MEMBER&quot;
+member.type = &quot;HUMAN&quot; AND role = &quot;ROLE_MANAGER&quot;
+</code></pre>
+<p>The following filters are invalid:</p>
+<pre><code>member.type = &quot;HUMAN&quot; AND member.type = &quot;BOT&quot;
+role = &quot;ROLE_MANAGER&quot; AND role = &quot;ROLE_MEMBER&quot;
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print chatmembers [todrive &lt;ToDriveAttribute&gt;*]
+        &lt;ChatSpace&gt;* [types &lt;ChatSpaceTypeList&gt;]
+        [showinvited [&lt;Boolean&gt;]] [showgroups [&lt;Boolean&gt;]] [filter &lt;String&gt;]
+        [fields &lt;ChatMemberFieldNameList&gt;]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>By default, members for all of a user's chat spaces of all types are displayed.
+* <code>&lt;ChatSpace&gt;</code> - Display members for a specific chat space
+* <code>types &lt;ChatSpaceTypeList&gt;</code> - Display members for specific types of spaces.</p>
+<p>By default, all JOINED user members in a chat space are displayed.
+* <code>showinvited</code> - Display <code>INVITED</code> members.
+* <code>showgroups</code> - Display group members,
+* <code>filter &lt;String&gt;</code> - Filter memberships by a member's <code>role</code>and <code>member.type</code>.
+  * To filter by role, set role to ROLE_MEMBER or ROLE_MANAGER.
+  * To filter by type, set member.type to HUMAN or BOT.
+  * To filter by both role and type, use the AND operator.
+  * To filter by either role or type, use the OR operator.</p>
+<p>For example, the following filters are valid:</p>
+<pre><code>role = &quot;ROLE_MANAGER&quot; OR role = &quot;ROLE_MEMBER&quot;
+member.type = &quot;HUMAN&quot; AND role = &quot;ROLE_MANAGER&quot;
+</code></pre>
+<p>The following filters are invalid:</p>
+<pre><code>member.type = &quot;HUMAN&quot; AND member.type = &quot;BOT&quot;
+role = &quot;ROLE_MANAGER&quot; AND role = &quot;ROLE_MEMBER&quot;
+</code></pre>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h3 id="display-information-about-specific-chat-members-asadmin">Display information about specific chat members, asadmin</h3>
+<pre><code>gam &lt;UserItem&gt; info chatmember asadmin members &lt;ChatMemberList&gt;
+        [fields &lt;ChatMemberFieldNameList&gt;]
+        [formatjson]
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<h3 id="display-information-about-members-all-chat-spaces-asadmin">Display information about members all chat spaces, asadmin</h3>
+<p>For query and orderby information, see: https://developers.google.com/workspace/chat/api/reference/rest/v1/spaces/search</p>
+<pre><code>gam &lt;UserItem&gt; show chatmembers asadmin
+        &lt;ChatSpace&gt;*  [query &lt;String&gt;] [querytime&lt;String&gt; &lt;Time&gt;]
+        [showinvited [&lt;Boolean&gt;]] [showgroups [&lt;Boolean&gt;]] [filter &lt;String&gt;]
+        [fields &lt;ChatMemberFieldNameList&gt;]
+        [formatjson]
+</code></pre>
+<p>By default, members for all chat spaces of type SPACE are displayed.
+* <code>&lt;ChatSpace&gt;</code> - Display members for a specific chat space
+* <code>query &lt;String&gt; [querytime&lt;String&gt; &lt;Time&gt;]</code> - Display members for selected chat spaces
+  * See: https://developers.google.com/workspace/chat/api/reference/rest/v1/spaces/search</p>
+<p>By default, all JOINED user members in a chat space are displayed.
+* <code>showinvited</code> - Display <code>INVITED</code> members.
+* <code>showgroups</code> - Display group members,
+* <code>filter &lt;String&gt;</code> - Filter memberships by a member's <code>role</code>and <code>member.type</code>.
+  * To filter by role, set role to ROLE_MEMBER or ROLE_MANAGER.
+  * To filter by type, set member.type to HUMAN or BOT.
+  * To filter by both role and type, use the AND operator.
+  * To filter by either role or type, use the OR operator.</p>
+<p>For example, the following filters are valid:</p>
+<pre><code>role = &quot;ROLE_MANAGER&quot; OR role = &quot;ROLE_MEMBER&quot;
+member.type = &quot;HUMAN&quot; AND role = &quot;ROLE_MANAGER&quot;
+</code></pre>
+<p>The following filters are invalid:</p>
+<pre><code>member.type = &quot;HUMAN&quot; AND member.type = &quot;BOT&quot;
+role = &quot;ROLE_MANAGER&quot; AND role = &quot;ROLE_MEMBER&quot;
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<pre><code>gam &lt;UserItem&gt; print chatmembers asadmin  [todrive &lt;ToDriveAttribute&gt;*]
+        &lt;ChatSpace&gt;*  [query &lt;String&gt;] [querytime&lt;String&gt; &lt;Time&gt;]
+        [showinvited [&lt;Boolean&gt;]] [showgroups [&lt;Boolean&gt;]] [filter &lt;String&gt;]
+        [fields &lt;ChatMemberFieldNameList&gt;]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>By default, members for all chat spaces of type SPACE are displayed.
+* <code>&lt;ChatSpace&gt;</code> - Display members for a specific chat space
+* <code>query &lt;String&gt; [querytime&lt;String&gt; &lt;Time&gt;]</code> - Display members for selected chat spaces
+  * See: https://developers.google.com/workspace/chat/api/reference/rest/v1/spaces/search</p>
+<p>By default, all JOINED user members in a chat space are displayed.
+* <code>showinvited</code> - Display <code>INVITED</code> members.
+* <code>showgroups</code> - Display group members,
+* <code>filter &lt;String&gt;</code> - Filter memberships by a member's <code>role</code>and <code>member.type</code>.
+  * To filter by role, set role to ROLE_MEMBER or ROLE_MANAGER.
+  * To filter by type, set member.type to HUMAN or BOT.
+  * To filter by both role and type, use the AND operator.
+  * To filter by either role or type, use the OR operator.</p>
+<p>For example, the following filters are valid:</p>
+<pre><code>role = &quot;ROLE_MANAGER&quot; OR role = &quot;ROLE_MEMBER&quot;
+member.type = &quot;HUMAN&quot; AND role = &quot;ROLE_MANAGER&quot;
+</code></pre>
+<p>The following filters are invalid:</p>
+<pre><code>member.type = &quot;HUMAN&quot; AND member.type = &quot;BOT&quot;
+role = &quot;ROLE_MANAGER&quot; AND role = &quot;ROLE_MEMBER&quot;
+</code></pre>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h3 id="delete-a-user-from-their-space-and-groupchat-spaces">Delete a user from their <code>space</code> and <code>groupchat</code> spaces</h3>
+<p>There is no way to delete a user from a directmessage space.</p>
+<p>Replace user@domain.com and admin@domain.com with actual values.</p>
+<pre><code>gam redirect csv ./UserChatSpaces.csv user user@domain.com print chatspaces types space,groupchat
+gam redirect stdout ./DeleteUserChatMemberships.txt multiprocess redirect stderr stdout csv ./UserChatSpaces.csv gam user admin@domain.com delete chatmember asadmin &quot;~name&quot; user &quot;~User&quot;
+</code></pre>
+<h2 id="manage-chat-messages">Manage Chat Messages</h2>
+<h3 id="create-a-chat-message-in-a-space">Create a chat message in a space</h3>
+<p>Messages are limited to 4,096 characters and will be trimmed to that length.</p>
+<p>Chat supports <a href="https://developers.google.com/chat/reference/message-formats/basic#using_formatted_text_in_messages">simple formatting</a> allowing you to bold, underline, italics and strikethrough your text.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; create chatmessage &lt;ChatSpace&gt;
+        &lt;ChatContent&gt;
+        [messageId &lt;ChatMessageID&gt;]
+        [(thread &lt;ChatThread&gt;)|(threadkey &lt;String&gt;) [replyoption fail|fallbacktonew]]
+        [returnidonly]
+</code></pre>
+<p>Specify the text of the message: <code>&lt;ChatContent&gt;</code>
+* <code>text &lt;String&gt;</code> - The message is <code>&lt;String&gt;</code>
+* <code>textfile &lt;FileName&gt; [charset &lt;Charset&gt;]</code> - The message is read from a local file
+* <code>gdoc &lt;UserGoogleDoc&gt;</code> - The message is read from a Google Doc.
+* <code>gcsdoc &lt;StorageBucketObjectName&gt;</code> - The message is read from a Google Cloud Storage file.</p>
+<p>By default, a new message thread is created; use <code>thread &lt;ChatThread&gt;</code> or <code>threadkey &lt;String&gt;</code> to create the message as a reply to an existing thread.
+Use <code>replyoption</code> to specify what happens if the specified thread does not exist:
+* <code>fail</code> - If the thread soes not exiat, a <code>Not Found</code> error is generated
+* <code>fallbacktonew</code> - If the thread does not exist, start a new thread</p>
+<p>The first time you reply to a thread you must use <code>thread &lt;ChatThread&gt;</code>; if you also specify <code>threadkey &lt;String&gt;</code>
+then you can use just <code>threadkey &lt;String&gt;</code> in subsequent replies.</p>
+<p>If you specify <code>thread</code> or <code>threadkey</code> but not <code>replyoption</code>, the default is <code>fail</code>.</p>
+<p>By default, details about the chatmessage are displayed.
+* <code>returnidonly</code> - Display the chatmessage name only</p>
+<h3 id="examples">Examples</h3>
+<p>This example creates a new chat message in the given room.</p>
+<pre><code>gam user user@domain.com create chatmessage space spaces/iEMj8AAAAAE text &quot;Hello Chat&quot;
+</code></pre>
+<p>This example creates a formatted message and posts it to an existing thread</p>
+<pre><code>gam user user@domain.com create chatmessage space spaces/AAAADi-pvqc thread spaces/AAAADi-pvqc/threads/FMNw-iE9jN4 text &quot;*Bold* _Italics_ ~Strikethrough~&quot;
+</code></pre>
+<p>This example reads the MotD.txt file and posts its contents to Chat.</p>
+<pre><code>gam user user@domain.com create chatmessage spaces spaces/AAAADi-pvqc textfile MotD.txt
+</code></pre>
+<p>This example reads the Google Doc MotD and posts its contents to Chat.</p>
+<pre><code>gam user user@domain.com create chatmessage spaces spaces/AAAADi-pvqc gdoc announcements@domain.com name &quot;MotD&quot;
+</code></pre>
+<h3 id="update-a-chat-message">Update a Chat Message</h3>
+<p>Updates and rewrites an existing Chat message. Message will show as edited and no notification will be sent to members.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; update chatmessage name &lt;ChatMessage&gt;
+        [&lt;ChatContent&gt;] [clearattachments &lt;String&gt;]
+</code></pre>
+<p>Specify the text of the message: <code>&lt;ChatContent&gt;</code>
+* <code>text &lt;String&gt;</code> - The message is <code>&lt;String&gt;</code>
+* <code>textfile &lt;FileName&gt; [charset &lt;Charset&gt;]</code> - The message is read from a local file
+* <code>gdoc &lt;UserGoogleDoc&gt;</code> - The message is read from a Google Doc.
+* <code>gcsdoc &lt;StorageBucketObjectName&gt;</code> - The message is read from a Google Cloud Storage file.</p>
+<p>The option <code>clearattachments &lt;String&gt;</code> can be used to clear all attachments from a Chat message.
+If <code>&lt;ChatContent&gt;</code> is not specified, the current message text is retained and <code>&lt;String&gt;</code> is appended;
+<code>&lt;String&gt;</code> must be specified but can be empty in which case the current message test is preserved as-is.</p>
+<h3 id="example">Example</h3>
+<p>This example updates an existing chat message with new text.</p>
+<pre><code>gam user user@domain.com update chatmessage name spaces/AAAADi-pvqc/messages/PKJrx90ooIU.PKJrx90ooIU text &quot;HELLO CHAT?&quot;
+</code></pre>
+<p>This example clears attachments from a chat message and appends <code>- Attachments cleared</code>
+to the current message text.</p>
+<pre><code>gam user user@domain.com update chatmessage name spaces/AAAADi-pvqc/messages/PKJrx90ooIU.PKJrx90ooIU clearattachments &quot; - Attachments cleared&quot;
+</code></pre>
+<h3 id="delete-a-chat-message">Delete a Chat Message</h3>
+<p>Deletes the given Chat message. Members will no longer see the message.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; delete chatmessage name &lt;ChatMessage&gt;
+</code></pre>
+<h3 id="example_1">Example</h3>
+<pre><code>gam user user@domain.com delete chatmessage name spaces/AAAADi-pvqc/messages/PKJrx90ooIU.PKJrx90ooIU
+</code></pre>
+<h2 id="display-chat-messages">Display Chat Messages</h2>
+<p>Display a specific Chat message.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; info chatmessage name &lt;ChatMessage&gt;
+        [fields &lt;ChatMessageFieldNameList&gt;]
+        [formatjson]
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<h3 id="example_2">Example</h3>
+<pre><code>gam user user@domain.com info chatmessage name spaces/AAAADi-pvqc/messages/PKJrx90ooIU.PKJrx90ooIU
+</code></pre>
+<h3 id="display-information-about-all-chat-messages-in-a-chat-space">Display information about all chat messages in a chat space</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; show chatmessages
+        &lt;ChatSpace&gt;+
+        [showdeleted [&lt;Boolean&gt;]] [filter &lt;String&gt;]
+        [fields &lt;ChatMessageFieldNameList&gt;]
+        [formatjson]
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print chatmessages [todrive &lt;ToDriveAttribute&gt;*]
+        &lt;ChatSpace&gt;+
+        [showdeleted [&lt;Boolean&gt;]] [filter &lt;String&gt;]
+        [fields &lt;ChatMessageFieldNameList&gt;]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<p>By default, deleted messages are not displayed; use <code>showdeleted</code> to also display deleted messages.</p>
+<p>Use <code>filter &lt;String&gt;</code> to filter messages by <code>createTime</code> and <code>thread.name</code>.</p>
+<p>To filter messages by the date they were created, specify the createTime with a timestamp in RFC-3339 format and double quotation marks. For example, "2023-04-21T11:30:00-04:00".
+* Use the greater than operator <code>&gt;</code> to list messages that were created after a timestamp.
+* Use the less than operator <code>&lt;</code> to list messages that were created before a timestamp.
+* To filter messages within a time interval, use the AND operator between two timestamps.
+* To filter by thread, specify the thread.name, formatted as spaces/{space}/threads/{thread}. You can only specify one thread.name per query.
+* To filter by both thread and date, use the AND operator in your query.</p>
+<p>For example, the following queries are valid on Linux/MacOS:</p>
+<pre><code>filter 'createTime &gt; &quot;2012-04-21T11:30:00-04:00&quot;'
+filter 'createTime &gt; &quot;2012-04-21T11:30:00-04:00&quot; AND thread.name = spaces/AAAAAAAAAAA/threads/123'
+filter 'createTime &gt; &quot;2012-04-21T11:30:00+00:00&quot; AND createTime &lt; &quot;2013-01-01T00:00:00+00:00&quot; AND thread.name = spaces/AAAAAAAAAAA/threads/123'
+filter 'thread.name = spaces/AAAAAAAAAAA/threads/123'
+</code></pre>
+<p>For example, the following queries are valid on Windows Command Prompt:</p>
+<pre><code>filter &quot;createTime &gt; \&quot;2012-04-21T11:30:00-04:00\&quot;&quot;
+filter &quot;createTime &gt; \&quot;2012-04-21T11:30:00-04:00\&quot; AND thread.name = spaces/AAAAAAAAAAA/threads/123&quot;
+filter &quot;createTime &gt; \&quot;2012-04-21T11:30:00+00:00\&quot; AND createTime &lt; \&quot;2013-01-01T00:00:00+00:00\&quot; AND thread.name = spaces/AAAAAAAAAAA/threads/123&quot;
+filter &quot;thread.name = spaces/AAAAAAAAAAA/threads/123&quot;
+</code></pre>
+<p>For example, the following queries are valid on Windows PowerShell:</p>
+<pre><code>filter 'createTime &gt; \&quot;2012-04-21T11:30:00-04:00\&quot;'
+filter 'createTime &gt; \&quot;2012-04-21T11:30:00-04:00\&quot; AND thread.name = spaces/AAAAAAAAAAA/threads/123&quot;'
+filter 'createTime &gt; \&quot;2012-04-21T11:30:00+00:00\&quot; AND createTime &lt; \&quot;2013-01-01T00:00:00+00:00\&quot; AND thread.name = spaces/AAAAAAAAAAA/threads/123'
+filter 'thread.name = spaces/AAAAAAAAAAA/threads/123'
+</code></pre>
+<h2 id="display-chat-events">Display Chat Events</h2>
+<p>Display a specific Chat event.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; info chatevent name &lt;ChatEvent&gt;
+        [formatjson]
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<h3 id="example_3">Example</h3>
+<pre><code>gam user user@domain.com info chatevent name spaces/AAAAsUhqjkg/spaceEvents/MTcxMTY4ODM2NDE3OTQzOV81X3VwZGF0ZWQ
+</code></pre>
+<h3 id="display-information-about-all-chat-events-in-a-chat-space">Display information about all chat events in a chat space</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; show chatevents
+        &lt;ChatSpace&gt;+
+        filter &lt;String&gt;
+        [formatjson]
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print chatevents [todrive &lt;ToDriveAttribute&gt;*]
+        &lt;ChatSpace&gt;+
+        filter &lt;String&gt;
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<p>Use <code>filter &lt;String&gt;</code> to filter events by when they occurred and by the type of event.</p>
+<p>To filter events by the date they happened, specify the start_time and end_time with a timestamp in RFC-3339 format and double quotation marks.</p>
+<p>You must specify at least one event type (event_types) using the has : operator. To filter by multiple event types, use the OR operator.
+For a list of supported event types, see: https://developers.google.com/workspace/chat/api/reference/rest/v1/spaces.spaceEvents#SpaceEvent.FIELDS.event_type</p>
+<p>For example, the following queries are valid on Linux/MacOS:</p>
+<pre><code>filter 'start_time=&quot;2024-03-15T11:30:00-04:00&quot; AND event_types:&quot;google.workspace.chat.message.v1.created&quot;'
+filter 'start_time=&quot;2024-03-15T11:30:00+00:00&quot; AND end_time=&quot;2024-03-3100:00:00+00:00&quot;event_types:&quot;google.workspace.chat.message.v1.created&quot;'
+</code></pre>
+<p>For example, the following queries are valid on Windows Command Prompt:</p>
+<pre><code>filter &quot;start_time=\&quot;2024-03-15T11:30:00-04:00\&quot; AND event_types:\&quot;google.workspace.chat.message.v1.created\&quot;&quot;
+filter &quot;start_time=\&quot;2024-03-15T11:30:00+00:00\&quot; AND end_time=\&quot;2024-03-3100:00:00+00:00\&quot; AND event_types:\&quot;google.workspace.chat.message.v1.created\&quot;&quot;
+</code></pre>
+<p>For example, the following queries are valid on Windows PowerShell:</p>
+<pre><code>filter 'start_time=\&quot;2024-03-15T11:30:00-04:00\&quot; AND event_types:\&quot;google.workspace.chat.message.v1.created\&quot;'
+filter 'start_time=\&quot;2024-03-15T11:30:00+00:00\&quot; AND end_time=\&quot;2024-03-3100:00:00+00:00\&quot; AND event_types:\&quot;google.workspace.chat.message.v1.created\&quot;'
+</code></pre>
+<h2 id="manage-chat-emojis">Manage Chat Emojis</h2>
+<h3 id="create-a-chat-emoji">Create a Chat Emoji</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; create chatemoji &lt;ChatEmojiName&gt;
+         ([drivedir|(sourcefolder &lt;FilePath&gt;)] [filename &lt;FileNamePattern&gt;])
+        [formatjson]
+</code></pre>
+<p>Emoji names must start and end with colons, must be lowercase and can only contain alphanumeric characters, hyphens, and underscores.
+Hyphens and underscores should be used to separate words and cannot be used consecutively.</p>
+<p>By default, the emoji file will be uploaded from the current working directory.
+* <code>drivedir</code> - The emoji file will be uploaded from the directory specified by <code>drive_dir</code> in gam.cfg
+* <code>sourcefolder &lt;FilePath&gt;</code> - The emoji file will be uploaded from <code>&lt;FilePath&gt;</code></p>
+<p>Specify the emoji file name; the following substitutions will be made:
+* <code>#email#</code> and <code>#user#</code> will be replaced by the user's full email address
+* <code>#username#</code> will be replaced by the local part of the user's email address</p>
+<h3 id="delete-a-chat-emoji">Delete a Chat Emoji</h3>
+<p>Deletes the given Chat emoji.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; delete chatemoji &lt;Chatemoji&gt;
+</code></pre>
+<h2 id="display-chat-emojis">Display Chat Emojis</h2>
+<h3 id="display-a-specific-chat-emoji">Display a specific Chat emoji</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; info chatemoji &lt;Chatemoji&gt;
+        [formatjson]
+</code></pre>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<h3 id="display-information-about-all-chat-emojis">Display information about all chat emojis</h3>
+<pre><code>gam &lt;UserTypeEntity&gt; show chatemojis
+        [showcreatedby any|me|others]
+        [formatjson]
+</code></pre>
+<p>Select emojis to display:
+* <code>showcreatedby any</code> - Display all emojis regardless of creator
+* <code>showcreatedby</code> - Display all emojis created by the user; this is the default
+* <code>showcreatedby others</code> - Display all emojis not created by the user</p>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print chatemojis [todrive &lt;ToDriveAttribute&gt;*]
+        [showcreatedby any|me|others]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<p>Select emojis to display:
+* <code>showcreatedby any</code> - Display all emojis regardless of creator
+* <code>showcreatedby</code> - Display all emojis created by the user; this is the default
+* <code>showcreatedby others</code> - Display all emojis not created by the user</p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h2 id="bulk-operations">Bulk Operations</h2>
+<h3 id="display-information-about-all-chat-spaces-for-a-collection-of-users">Display information about all chat spaces for a collection of users</h3>
+<pre><code>gam config auto_batch_min 1 redirect csv ./ChatSpaces.csv multiprocess [todrive &lt;ToDriveAttribute&gt;*] redirect stdout - multiprocess redirect stderr &lt;UserTypeEntity&gt; print chatsacesp
+        [types &lt;ChatSpaceTypeList&gt;]
+        [fields &lt;ChatSpaceFieldNameList&gt;] [showaccessssettings]
+        [formatjson [quotechar &lt;Character&gt;]]
+</code></pre>
+<h3 id="display-information-about-all-chat-space-members-of-the-chat-spaces-for-a-collection-of-users">Display information about all chat space members of the chat spaces for a collection of users</h3>
+<pre><code>gam config auto_batch_min 1 redirect csv ./ChatSpaces.csv multiprocess [todrive &lt;ToDriveAttribute&gt;*] redirect stdout - multiprocess redirect stderr &lt;UserTypeEntity&gt; print chatspaces
+        [types &lt;ChatSpaceTypeList&gt;]
+gam redirect csv ./ChatSpaceMembers.csv multiprocess [todrive &lt;ToDriveAttribute&gt;*] redirect stdout - multiprocess redirect stderr stdout csv ./ChatSpaces.csv gam user &quot;~User&quot; print chatmembers &quot;~name&quot;
+        [showinvited [&lt;Boolean&gt;]] [filter &lt;String&gt;]
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

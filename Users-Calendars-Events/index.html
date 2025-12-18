@@ -1,0 +1,1865 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Users - Calendars - Events - GAM Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">GAM Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../00scratch/" class="nav-link">Scratch Me Wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Addresses/" class="nav-link">Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Administrators/" class="nav-link">Administrators</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Alert-Center/" class="nav-link">Alert Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Aliases/" class="nav-link">Aliases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Authorization/" class="nav-link">Authorization</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../BNF-Syntax/" class="nav-link">Syntax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Basic-Items/" class="nav-link">Basic Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Bulk-Processing/" class="nav-link">Bulk Processing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Business-Account-Management/" class="nav-link">Users - Business Account Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Input-Filtering/" class="nav-link">CSV Input Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Output-Filtering/" class="nav-link">CSV Output Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Special-Characters/" class="nav-link">CSV Special Characters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Access/" class="nav-link">Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Events/" class="nav-link">Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars/" class="nav-link">Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chat-Bot-Setup-Use/" class="nav-link">Chat Bot Setup and Use</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-AUE-Counts/" class="nav-link">Chrome Auto Update Expiration Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Browser-Cloud-Management/" class="nav-link">Chrome Browser Cloud Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Device-Counts/" class="nav-link">Chrome Device Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Installed-Apps/" class="nav-link">Chrome Installed Apps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Needs-Attention-Counts/" class="nav-link">Chrome Device Needs Attention Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Policies/" class="nav-link">Chrome Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Printers/" class="nav-link">Chrome Printers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Profile-Management/" class="nav-link">Chrome Profile Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-Counts/" class="nav-link">Chrome Version Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-History/" class="nav-link">Chrome Version History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../ChromeOS-Devices/" class="nav-link">ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Courses/" class="nav-link">Classroom - Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Guardians/" class="nav-link">Classroom - Guardians</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Invitations/" class="nav-link">Classroom - Invitations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Membership/" class="nav-link">Classroom - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-StudentGroups/" class="nav-link">Classroom - Student Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Channel/" class="nav-link">Cloud Channel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Devices/" class="nav-link">Cloud Identity Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups-Membership/" class="nav-link">Cloud Identity Groups - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups/" class="nav-link">Cloud Identity Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Policies/" class="nav-link">Cloud Identity Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Storage/" class="nav-link">Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-ChromeOS-Devices/" class="nav-link">Collections of ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Items/" class="nav-link">Collections of Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Users/" class="nav-link">Collections of Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Data-From-Google-Docs-Sheets-Storage/" class="nav-link">Command data from Google Docs, Sheets and Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Line-Parsing/" class="nav-link">Command Line Parsing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Logging-Progress/" class="nav-link">Command Logging and Progress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Context-Aware-Access-Levels/" class="nav-link">Context-Aware Access Levels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Customer/" class="nav-link">Customer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-People-Contacts-Profiles/" class="nav-link">Domain People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-SharedContacts/" class="nav-link">Domain Shared Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains-Verification/" class="nav-link">Domains - Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains/" class="nav-link">Domains</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Downloads-Installs/" class="nav-link">Downloads-Installs-GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-File-Selection/" class="nav-link">Drive File Selection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-Items/" class="nav-link">Drive Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-REST-API-v3/" class="nav-link">Drive REST API v3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Email-Audit-Monitor/" class="nav-link">Email Audit Monitor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Find-File-Owner/" class="nav-link">Find File Owner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Public-Chat-Room/" class="nav-link">GAM Public Chat Room</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Release-Process/" class="nav-link">Steps to release a new GAM version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Return-Codes/" class="nav-link">GAM Return Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-with-minimal-GCP-rights/" class="nav-link">GAM setup with minimal GCP permissions.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-FAQ/" class="nav-link">What is GAM7?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Android-Devices/" class="nav-link">GAM7 on Android Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Chrome-OS-Devices/" class="nav-link">GAM7 on Chrome OS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GamUpdates/" class="nav-link">Update GAM7 to latest version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Global-Address-List/" class="nav-link">Global Address List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Data-Transfers/" class="nav-link">Google Data Transfers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Network-Addresses/" class="nav-link">Google Network Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups-Membership/" class="nav-link">Groups Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups/" class="nav-link">Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../HTTPS-Proxy/" class="nav-link">HTTPS Proxy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Home/" class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Install-GAM7/" class="nav-link">Installing GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Uninstall-GAM7/" class="nav-link">Uninstalling GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Update-GAM7/" class="nav-link">Updating GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-GAMADV-XTD3-to-GAM7/" class="nav-link">Installation - Upgrade GAMADV-XTD3 to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-Legacy-GAM-to-GAM7/" class="nav-link">Installation - Upgrade Legacy GAM to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Inbound-SSO/" class="nav-link">Inbound SSO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Install-GAM-as-Python-Library/" class="nav-link">Install GAM as Python Library</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Licenses/" class="nav-link">Licenses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List-Items/" class="nav-link">List Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List/" class="nav-link">List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Meta-Commands-and-File-Redirection/" class="nav-link">Meta Commands and File Redirection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Mobile-Devices/" class="nav-link">Mobile Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Organizational-Units/" class="nav-link">Organizational Units</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Other-Resources/" class="nav-link">Other Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Permission-Matches/" class="nav-link">Permission Matches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Python-Regular-Expressions/" class="nav-link">Python Regular Expressions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Rclone/" class="nav-link">Rclone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reports/" class="nav-link">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reseller/" class="nav-link">Reseller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Resources/" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Running-GAM7-securely-on-a-Google-Compute-Engine/" class="nav-link">Running GAM7 securely on a Google Compute Engine</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../SSL-Root-CA-Certificates/" class="nav-link">SSL Root CA Certificates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Schemas/" class="nav-link">Schemas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Scripts/" class="nav-link">Scripts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Send-Email/" class="nav-link">Send Email</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Shared-Drives/" class="nav-link">Domain Administrators - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Sites/" class="nav-link">Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Tag-Replace/" class="nav-link">Tag Replace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Todrive/" class="nav-link">Todrive</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Unmanaged-Accounts/" class="nav-link">Unmanaged Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Upgrade-Benefits/" class="nav-link">Upgrade Benefits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Analytics-Admin/" class="nav-link">Users - Analytics Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Application-Specific-Passwords/" class="nav-link">Users - Application Specific Passwords</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Backup-Verification-Codes/" class="nav-link">Users - Backup Verification Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Access/" class="nav-link">Users - Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Users - Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars/" class="nav-link">Users - Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Chat/" class="nav-link">Users - Chat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classification-Labels/" class="nav-link">Users - Classification Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classroom-Profile/" class="nav-link">Users - Classroom - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts-Delegates/" class="nav-link">Users - Contacts - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts/" class="nav-link">User Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Deprovision/" class="nav-link">Users - Deprovision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Activity-Settings/" class="nav-link">Users - Drive - Activity/Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Cleanup/" class="nav-link">Users - Drive - Cleanup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Comments/" class="nav-link">Users - Drive - Comments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Copy-Move/" class="nav-link">Users - Drive Files Copy/Move</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Display/" class="nav-link">Users - Drive Files Display</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Manage/" class="nav-link">Users - Drive Files Manage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Orphans/" class="nav-link">Users - Drive - Orphans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Ownership/" class="nav-link">Users - Drive - Ownership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Permissions/" class="nav-link">Users - Drive - Permissions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Query/" class="nav-link">Users - Drive - Query</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Revisions/" class="nav-link">Users - Drive - Revisions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Shortcuts/" class="nav-link">Users - Drive Shortcuts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Transfer/" class="nav-link">Users - Drive - Transfer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Forms/" class="nav-link">Users - Forms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-CSE/" class="nav-link">Users - Gmail - Client Side Encryption</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Delegates/" class="nav-link">Users - Gmail - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Filters/" class="nav-link">Users - Gmail - Filters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Forwarding/" class="nav-link">Users - Gmail - Forwarding</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Labels/" class="nav-link">Users - Gmail - Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Messages-Threads/" class="nav-link">Users - Gmail - Messages/Threads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Profile/" class="nav-link">Users - Gmail - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-S-MIME/" class="nav-link">Users - Gmail - S/MIME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Send-As-Signature-Vacation/" class="nav-link">Users - Gmail - Send As/Signature/Vacation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Settings/" class="nav-link">Users - Gmail - Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Group-Membership/" class="nav-link">Users - Group Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Keep-Notes/" class="nav-link">Users - Keep - Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Looker-Studio/" class="nav-link">Users - Looker Studio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Meet/" class="nav-link">Users - Meet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-People-Contacts-Profiles/" class="nav-link">Users - People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Photo/" class="nav-link">Users - Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Photo/" class="nav-link">Users - Profile Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Sharing/" class="nav-link">Users - Profile Sharing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Shared-Drives/" class="nav-link">Users - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Signout-Turnoff2SV/" class="nav-link">Users - Signout and Turn off 2-Step Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Spreadsheets/" class="nav-link">Users - Spreadsheets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tag-Manager/" class="nav-link">Users - Tag Manager</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tasks/" class="nav-link">Users - Tasks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tokens/" class="nav-link">Users - Tokens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Web-Resources-and-Sites/" class="nav-link">Users - Web Resources and Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-YouTube/" class="nav-link">Users - YouTube</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users/" class="nav-link">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-YubiKey/" class="nav-link">Using GAM7 with a YubiKey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-delegated-admin-service-account/" class="nav-link">Using GAM7 with a delegated admin service account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-keyless-authentication-Workload-Identity-Federation/" class="nav-link">Using GAM7 with Keyless Authentication - Workload Identity Federation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Vault-Takeout/" class="nav-link">Vault - Takeout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Verifying-a-GAM7-Build-is-Legitimate-and-Official/" class="nav-link">Verifying a GAM7 Build is Legitimate and Official</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Version-and-Help/" class="nav-link">Version and Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../_Sidebar/" class="nav-link"> Sidebar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../gam.cfg/" class="nav-link">GAM Configuration</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Legacy</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../legacy/l-AdminSettingsExamples/" class="dropdown-item">l AdminSettingsExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Android-Installation/" class="dropdown-item">l Android Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-BulkOperations/" class="dropdown-item">l BulkOperations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CalendarExamples/" class="dropdown-item">l CalendarExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chat-Bot/" class="dropdown-item">l Chat Bot</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Browser-Management/" class="dropdown-item">l Chrome Browser Management</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-OS-Installation/" class="dropdown-item">l Chrome OS Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Policy-Settings/" class="dropdown-item">l Chrome Policy Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Cloud-Identity-Groups/" class="dropdown-item">l Cloud Identity Groups</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendar-Resources/" class="dropdown-item">GAM Calendar Resources Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendars/" class="dropdown-item">GAM Calendar Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Definitions/" class="dropdown-item">l Command Reference Definitions</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Drive/" class="dropdown-item">GAM Drive Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Email/" class="dropdown-item">GAM Email Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Group-Attributes/" class="dropdown-item">GAM Group Attributes Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Groups/" class="dropdown-item">GAM Group Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Users/" class="dropdown-item">GAM Users Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Context-Aware-Access-Levels/" class="dropdown-item">l Context Aware Access Levels</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Creating-client_secrets.json-and-oauth2service.json/" class="dropdown-item">l Creating client secrets.json and oauth2service.json</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CreatingClientSecretsFile/" class="dropdown-item">l CreatingClientSecretsFile</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Custom-Schemas/" class="dropdown-item">l Custom Schemas</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Data-Transfers/" class="dropdown-item">l Data Transfers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-DomainVerification/" class="dropdown-item">l DomainVerification</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesAccountAuditing/" class="dropdown-item">l ExamplesAccountAuditing</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesCSV/" class="dropdown-item">l ExamplesCSV</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesEmailSettings/" class="dropdown-item">l ExamplesEmailSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesOrganizations/" class="dropdown-item">l ExamplesOrganizations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-Discussion-Group/" class="dropdown-item">GAM Discussion Group</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-on-Android-and-Chrome-OS/" class="dropdown-item">l GAM on Android and Chrome OS</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-options-files/" class="dropdown-item">l GAM options files</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-with--minimal-GCP-rights/" class="dropdown-item">l GAM with  minimal GCP rights</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3CSVListings/" class="dropdown-item">l GAM3CSVListings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3DirectoryCommands/" class="dropdown-item">l GAM3DirectoryCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3GroupSettings/" class="dropdown-item">l GAM3GroupSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Google-Vault---Takeout-Commands/" class="dropdown-item">l Google Vault   Takeout Commands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GoogleDriveManagement/" class="dropdown-item">l GoogleDriveManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Grouping-18-or-Older-Users/" class="dropdown-item">Using GAM to group 18+ users</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Home/" class="dropdown-item">l Home</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-How-to-upgrade-from-Standard-GAM/" class="dropdown-item">Installation - Upgrading from Standard GAM</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Inbound-SSO-Settings/" class="dropdown-item">l Inbound SSO Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-LicenseExamples/" class="dropdown-item">l LicenseExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Admins/" class="dropdown-item">l Managing Admins</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-CloudPrint-Printers/" class="dropdown-item">l Managing CloudPrint Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Devices/" class="dropdown-item">l Managing Devices</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Google-Classroom/" class="dropdown-item">l Managing Google Classroom</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-OAuthKeyManagement/" class="dropdown-item">l OAuthKeyManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Printers/" class="dropdown-item">l Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ResellerCommands/" class="dropdown-item">l ResellerCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-SecurityExamples/" class="dropdown-item">l SecurityExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-UnmanagedUsersExamples/" class="dropdown-item">l UnmanagedUsersExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Using-GAM-with-a-delegated-admin-service-account-%28DASA%29/" class="dropdown-item">Background</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-_Footer/" class="dropdown-item">l  Footer</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Users-Calendars-Access/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Users-Calendars/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#users-calendars-events" class="nav-link">Users - Calendars - Events</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#api-documentation" class="nav-link">API documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#definitions" class="nav-link">Definitions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#recurrence-rules" class="nav-link">Recurrence rules</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#event-colors" class="nav-link">Event colors</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#calendar-selection" class="nav-link">Calendar selection</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#event-selection" class="nav-link">Event selection</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#add-and-import-calendar-events" class="nav-link">Add and import calendar events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#update-calendar-events" class="nav-link">Update calendar events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#add-calendar-attendees" class="nav-link">Add calendar attendees</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#update-calendar-attendees" class="nav-link">Update calendar attendees</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#specify-calendar-attendees-with-json-data" class="nav-link">Specify calendar attendees with JSON data</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#delete-selected-calendar-events" class="nav-link">Delete selected calendar events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#delete-all-calendar-events" class="nav-link">Delete all calendar events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#delete-all-event-resources" class="nav-link">Delete all event resources</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#empty-calendar-trash" class="nav-link">Empty calendar trash</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#move-calendar-events-to-another-calendar" class="nav-link">Move calendar events to another calendar</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-calendar-events" class="nav-link">Display calendar events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#update-calendar-event-attendees" class="nav-link">Update calendar event attendees</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#status-events" class="nav-link">Status events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#focus-time-events" class="nav-link">Focus time events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#manage-focus-time-events" class="nav-link">Manage focus time events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-focus-time-events" class="nav-link">Display focus time events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#out-of-office-events" class="nav-link">Out of office events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#manage-out-of-office-events" class="nav-link">Manage out of office events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-out-of-office-events" class="nav-link">Display out of office events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#working-location-events" class="nav-link">Working location events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#manage-working-location-events" class="nav-link">Manage working location events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display-working-location-events" class="nav-link">Display working location events</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="users-calendars-events">Users - Calendars - Events</h1>
+<ul>
+<li><a href="#api-documentation">API documentation</a></li>
+<li><a href="Python-Regular-Expressions">Python Regular Expressions</a> Search function</li>
+<li><a href="#definitions">Definitions</a></li>
+<li><a href="#recurrence-rules">Recurrence rules</a></li>
+<li><a href="#event-colors">Event colors</a></li>
+<li><a href="#calendar-selection">Calendar selection</a></li>
+<li><a href="#event-selection">Event selection</a></li>
+<li><a href="#add-and-import-calendar-events">Add and import calendar events</a></li>
+<li><a href="#update-calendar-events">Update calendar events</a></li>
+<li><a href="#add-calendar-attendees">Add calendar attendees</a></li>
+<li><a href="#update-calendar-attendees">Update calendar attendees</a></li>
+<li><a href="#specify-calendar-attendees-with-json-data">Specify calendar attendees with JSON data</a></li>
+<li><a href="#delete-selected-calendar-events">Delete selected calendar events</a></li>
+<li><a href="#delete-all-calendar-events">Delete all calendar events</a></li>
+<li><a href="#delete-all-event-resources">Delete all event resources</a></li>
+<li><a href="#move-calendar-events-to-another-calendar">Move calendar events to another calendar</a></li>
+<li><a href="#empty-calendar-trash">Empty calendar trash</a></li>
+<li><a href="#display-calendar-events">Display calendar events</a></li>
+<li><a href="#update-calendar-event-attendees">Update calendar event attendees</a></li>
+<li><a href="#status-events">Status events</a></li>
+<li><a href="#focus-time-events">Focus time events</a></li>
+<li><a href="#out-of-office-events">Out of office events</a></li>
+<li><a href="#working-location-events">Working location events</a></li>
+</ul>
+<h2 id="api-documentation">API documentation</h2>
+<ul>
+<li><a href="https://developers.google.com/calendar/v3/reference/events">Calendar API - Events</a></li>
+<li><a href="https://developers.google.com/calendar/api/guides/working-hours-and-location">Focus Time/Out of Office/Working Location Events</a></li>
+<li><a href="https://developers.google.com/calendar/api/guides/event-types#birthday">Birthday Events</a></li>
+</ul>
+<h2 id="definitions">Definitions</h2>
+<ul>
+<li><a href="Collections-of-Users"><code>&lt;UserTypeEntity&gt;</code></a></li>
+<li><a href="Command-Data-From-Google-Docs-Sheets-Storage">Command data from Google Docs/Sheets/Storage</a></li>
+</ul>
+<pre><code>&lt;RegularExpression&gt; ::= &lt;String&gt;
+        See: https://docs.python.org/3/library/re.html
+&lt;REMatchPattern&gt; ::= &lt;RegularExpression&gt;
+&lt;RESearchPattern&gt; ::= &lt;RegularExpression&gt;
+&lt;RESubstitution&gt; ::= &lt;String&gt;&gt;
+
+&lt;StorageBucketName&gt; ::= &lt;String&gt;
+&lt;StorageObjectName&gt; ::= &lt;String&gt;
+&lt;StorageBucketObjectName&gt; ::=
+        https://storage.cloud.google.com/&lt;StorageBucketName&gt;/&lt;StorageObjectName&gt;|
+        https://storage.googleapis.com/&lt;StorageBucketName&gt;/&lt;StorageObjectName&gt;|
+        gs://&lt;StorageBucketName&gt;/&lt;StorageObjectName&gt;|
+        &lt;StorageBucketName&gt;/&lt;StorageObjectName&gt;
+
+&lt;UserGoogleDoc&gt; ::=
+        &lt;EmailAddress&gt; &lt;DriveFileIDEntity&gt;|&lt;DriveFileNameEntity&gt;|(&lt;SharedDriveEntity&gt; &lt;SharedDriveFileNameEntity&gt;)
+
+&lt;CSVFileInput&gt; ::=
+        ((&lt;FileName&gt; [charset &lt;Charset&gt;] )|
+         (gsheet &lt;UserGoogleSheet&gt;)|
+         (gdoc &lt;UserGoogleDoc&gt;)|
+         (gcscsv &lt;StorageBucketObjectName&gt;)|
+         (gcsdoc &lt;StorageBucketObjectName&gt;))
+        [warnifnodata] [columndelimiter &lt;Character&gt;] [noescapechar &lt;Boolean&gt;]  [quotechar &lt;Character&gt;]
+        [endcsv|(fields &lt;FieldNameList&gt;)]
+
+&lt;CSVFileSelector&gt; ::=
+        csvfile ((&lt;FileName&gt;(:&lt;FieldName&gt;)+ [charset &lt;Charset&gt;] )|
+                 (gsheet(:&lt;FieldName&gt;)+ &lt;UserGoogleSheet&gt;)|
+                 (gdoc(:&lt;FieldName&gt;)+ &lt;UserGoogleDoc&gt;)|
+                 (gcscsv(:&lt;FieldName&gt;)+ &lt;StorageBucketObjectName&gt;)|
+                 (gcsdoc(:&lt;FieldName&gt;)+ &lt;StorageBucketObjectName&gt;))
+                [warnifnodata] [columndelimiter &lt;Character&gt;] [noescapechar &lt;Boolean&gt;] [quotechar &lt;Character&gt;]
+                [endcsv|(fields &lt;FieldNameList&gt;)]
+                (matchfield|skipfield &lt;FieldName&gt; &lt;REMatchPattern&gt;)*
+                [delimiter &lt;Character&gt;]
+</code></pre>
+<pre><code>&lt;Year&gt; ::= &lt;Digit&gt;&lt;Digit&gt;&lt;Digit&gt;&lt;Digit&gt;
+&lt;Month&gt; ::= &lt;Digit&gt;&lt;Digit&gt;
+&lt;Day&gt; ::= &lt;Digit&gt;&lt;Digit&gt;
+&lt;Hour&gt; ::= &lt;Digit&gt;&lt;Digit&gt;
+&lt;Minute&gt; ::= &lt;Digit&gt;&lt;Digit&gt;
+&lt;Second&gt; ::= &lt;Digit&gt;&lt;Digit&gt;
+&lt;MilliSeconds&gt; ::= &lt;Digit&gt;&lt;Digit&gt;&lt;Digit&gt;
+&lt;Date&gt; ::=
+        &lt;Year&gt;-&lt;Month&gt;-&lt;Day&gt; |
+        (+|-)&lt;Number&gt;(d|w|y) |
+        never|
+        today
+&lt;DateTime&gt; ::=
+        &lt;Year&gt;-&lt;Month&gt;-&lt;Day&gt;(&lt;Space&gt;|T)&lt;Hour&gt;:&lt;Minute&gt; |
+        (+|-)&lt;Number&gt;(m|h|d|w|y) |
+        never|
+        now|today
+&lt;Time&gt; ::=
+        &lt;Year&gt;-&lt;Month&gt;-&lt;Day&gt;(&lt;Space&gt;|T)&lt;Hour&gt;:&lt;Minute&gt;:&lt;Second&gt;[.&lt;MilliSeconds&gt;](Z|(+|-(&lt;Hour&gt;:&lt;Minute&gt;))) |
+        (+|-)&lt;Number&gt;(m|h|d|w|y) |
+        never|
+        now|today
+&lt;TimeZone&gt; ::= &lt;String&gt;
+        See: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+&lt;JSONData&gt; ::= (json [charset &lt;Charset&gt;] &lt;String&gt;) | (json file &lt;FileName&gt; [charset &lt;Charset&gt;]) |
+
+&lt;CalendarItem&gt; ::= &lt;EmailAddress&gt;
+&lt;CalendarList&gt; ::= &quot;&lt;CalendarItem&gt;(,&lt;CalendarItem&gt;)*&quot;
+&lt;CalendarEntity&gt; ::= &lt;CalendarList&gt; | &lt;FileSelector&gt; | &lt;CSVkmdSelector&gt; | &lt;CSVDataSelector&gt;
+        See: https://github.com/GAM-team/GAM/wiki/Collections-of-Items
+&lt;DomainName&gt; ::= &lt;String&gt;(.&lt;String&gt;)+
+&lt;EmailAddress&gt; ::= &lt;String&gt;@&lt;DomainName&gt;
+&lt;EmailAddressList&gt; ::= &quot;&lt;EmailAddress&gt;(,&lt;EmailAddress&gt;)*&quot;
+&lt;EmailAddressEntity&gt; ::=
+        &lt;EmailAddressList&gt; | &lt;FileSelector&gt; | &lt;CSVFileSelector&gt; |
+        &lt;CSVkmdSelector&gt; | &lt;CSVDataSelector&gt;
+        See: https://github.com/GAM-team/GAM/wiki/Collections-of-Users
+&lt;CourseAlias&gt; ::= &lt;String&gt;
+&lt;CourseID&gt; ::= &lt;Number&gt;|d:&lt;CourseAlias&gt;
+&lt;CourseIDList&gt; ::= &quot;&lt;CourseID&gt;(,&lt;CourseID&gt;)*&quot;
+&lt;CourseState&gt; ::= active|archived|provisioned|declined
+&lt;CourseStateList&gt; ::= all|&quot;&lt;CourseState&gt;(,&lt;CourseState&gt;)*&quot;
+&lt;iCalUID&gt; ::= &lt;String&gt;
+&lt;ResourceID&gt; ::= &lt;String&gt;
+&lt;ResourceIDList&gt; ::= &quot;&lt;ResourceID&gt;(,&lt;ResourceID&gt;)*&quot;
+&lt;UniqueID&gt; ::= id:&lt;String&gt;
+&lt;UserItem&gt; ::= &lt;EmailAddress&gt;|&lt;UniqueID&gt;|&lt;String&gt;
+
+&lt;CalendarACLRole&gt; ::=
+        editor|freebusy|freebusyreader|owner|reader|writer
+
+&lt;CalendarSelectProperty&gt; ::=
+        minaccessrole &lt;CalendarACLRole&gt;|
+        showdeleted|
+        showhidden
+
+&lt;UserCalendarEntity&gt; ::=
+        allcalendars|
+        primary|
+        &lt;EmailAddress&gt;|
+        &lt;UniqueID&gt;|
+        (courses &lt;CourseIDList&gt;)|
+        ((courses_with_teacher &lt;UserItem&gt;)|my_courses_as_teacher
+          [coursestates &lt;CourseStateList&gt;])|
+        ((courses_with_student &lt;UserItem&gt;)|my_courses_as_student
+          [coursestates &lt;CourseStateList&gt;])|
+        (resource &lt;ResourceID&gt;)|
+        (resources &lt;ResourceIDList&gt;)|
+        ((calendars &lt;CalendarList&gt;)|&lt;FileSelector&gt;|&lt;CSVFileSelector&gt;|
+        &lt;CSVkmdSelector&gt; | &lt;CSVDataSelector&gt;)|
+        &lt;CalendarSelectProperty&gt;+
+</code></pre>
+<pre><code>&lt;EventAttachmentsSubfieldName&gt; ::=
+        attachments.fileid|
+        attachments.fileurl|
+        attachments.iconlink|
+        attachments.mimetype|
+        attachments.title
+
+&lt;EventAttendeesSubfieldName&gt; ::=
+        attendees.additionalguests|
+        attendees.comment|
+        attendees.displayname|
+        attendees.email|
+        attendees.id|
+        attendees.optional|
+        attendees.organizer|
+        attendees.resource|
+        attendees.responseStatus|
+        attendees.self
+
+&lt;EventConferenceDataSubfieldName&gt; ::=
+        conferencedata.conferenceid|
+        conferencedata.conferencesolution|
+        conferencedata.createrequest|
+        conferencedata.entrypoints|
+        conferencedata.notes|
+        conferencedata.signature
+
+&lt;EventCreatorSubfieldName&gt; ::=
+        creator.displayname|
+        creator.email|
+        creator.id|
+        creator.self
+
+&lt;EventFocusTimePropertiesSubfieldName&gt; ::=
+        focustimeproperties.chatstatus|
+        focustimeproperties.declinemode|
+        focustimeproperties.declinemessage
+
+&lt;EventOrganizerSubfieldName&gt; ::=
+        organizer.displayname|
+        organizer.email|
+        organizer.id|
+        organizer.self
+
+&lt;EventOutOfOfficePropertiesSubfieldName&gt; ::=
+        outofoffice.declinemode|
+        outofoffice.declinemessage
+
+&lt;EventWorkingLocationPropertiesSubfieldName&gt; ::=
+        workinglocationproperties.homeoffice|
+        workinglocationproperties.customlocation|
+        workinglocationproperties.officelocation
+
+&lt;EventFieldName&gt; ::=
+        anyonecanaddself|
+        attachments|
+        &lt;EventAttachmentsSubfieldName&gt;|
+        attendees|
+        &lt;EventAttendeesSubfieldName&gt;|
+        attendeesomitted|
+        colorid|
+        conferencedata|
+        &lt;EventConferenceDataSubfieldName&gt;|
+        created|
+        creator|
+        &lt;EventCreatorSubfieldName&gt;|
+        description|
+        end|endtime|
+        endtimeunspecified|
+        extendedproperties|
+        eventtype|
+        &lt;EventFocusTimePropertiesSubfieldName&gt;
+        gadget|
+        guestscaninviteothers|
+        guestscanmodify|
+        guestscanseeotherguests|
+        hangoutlink|
+        htmllink|
+        icaluid|
+        id|
+        location|
+        locked|
+        organizer|
+        &lt;EventOrganizerSubfieldName&gt;|
+        originalstart|originalstarttime|
+        &lt;EventOutOfOfficePropertiesSubfieldName&gt;
+        privatecopy|
+        recurrence|
+        recurringeventid|
+        reminders|
+        sequence|
+        source|
+        start|starttime|
+        status|
+        summary|
+        transparency|
+        updated|
+        visibility|
+        workinglocationproperties|
+        &lt;EventWorkingLocationPropertiesSubfieldName&gt;
+&lt;EventFieldNameList&gt; ::= &quot;&lt;EventFieldName&gt;(,&lt;EventFieldName&gt;)*&quot;
+
+&lt;AttendeeAttendance&gt; ::= optional|required
+&lt;AttendeeStatus&gt; ::= accepted|declined|needsaction|tentative
+</code></pre>
+<pre><code>&lt;EventType&gt; ::=
+        birthday|
+        default|
+        focustime|
+        fromgmail|
+        outofoffice|
+        workinglocation
+&lt;EventTypeList&gt; ::= &quot;&lt;EventType&gt;(,&lt;EventType&gt;)*&quot;
+
+&lt;EventSelectProperty&gt; ::=
+        (after|starttime|timemin &lt;Time&gt;)|
+        (before|endtime|timemax &lt;Time&gt;)|
+        (eventtype|eventtypes &lt;EventTypeList&gt;)|
+        (query &lt;QueryCalendar&gt;)|
+        (privateextendedproperty &lt;String&gt;)|
+        (sharedextendedproperty &lt;String&gt;)|
+        showdeletedevents|
+        showhiddeninvitations|
+        singleevents|
+        (updatedmin &lt;Time&gt;)
+
+&lt;EventMatchProperty&gt; ::=
+        (matchfield attendees &lt;EmailAddressEntity&gt;)|
+        (matchfield attendeesonlydomainlist &lt;DomainNameList&gt;)|
+        (matchfield attendeesdomainlist &lt;DomainNameList&gt;)|
+        (matchfield attendeesnotdomainlist &lt;DomainNameList&gt;)|
+        (matchfield attendeespattern &lt;RESearchPattern&gt;)|
+        (matchfield attendeesstatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddressEntity&gt;)|
+        (matchfield creatoremail &lt;RESearchPattern&gt;)|
+        (matchfield creatorname &lt;RESearchPattern&gt;)|
+        (matchfield description &lt;RESearchPattern&gt;)|
+        (matchfield hangoutlink &lt;RESearchPattern&gt;)|
+        (matchfield location &lt;RESearchPattern&gt;)|
+        (matchfield organizeremail &lt;RESearchPattern&gt;)|
+        (matchfield organizername &lt;RESearchPattern&gt;)|
+        (matchfield organizerself &lt;Boolean&gt;)|
+        (matchfield status &lt;RESearchPattern&gt;)|
+        (matchfield summary &lt;RESearchPattern&gt;)|
+        (matchfield transparency &lt;RESearchPattern&gt;)|
+        (matchfield visibility &lt;RESearchPattern&gt;)
+
+&lt;EventIDEntity&gt; ::=
+        (id|eventid &lt;EventId&gt;) |
+        (event|events &lt;EventIdList&gt; |
+        &lt;FileSelector&gt; | &lt;CSVFileSelector&gt; | &lt;CSVkmdSelector&gt; | &lt;CSVSubkeySelector&gt; | &lt;CSVDataSelector&gt;)
+        See: https://github.com/GAM-team/GAM/wiki/Collections-of-Items
+&lt;EventSelectEntity&gt; ::=
+        (&lt;EventSelectProperty&gt;+ &lt;EventMatchProperty&gt;*)
+
+&lt;EventEntity&gt; ::=
+        &lt;EventIDEntity&gt; | &lt;EventSelectEntity&gt;
+
+&lt;EventColorIndex&gt; ::= &lt;Number in range 1-11&gt;
+&lt;EventColorName&gt; ::=
+        banana|basil|blueberry|flamingo|graphite|grape|
+        lavender|peacock|sage|tangerine|tomato
+&lt;PropertyKey&gt; ::= &lt;String&gt;
+&lt;PropertyValue&gt; ::= &lt;String&gt;
+&lt;TimeZone&gt; ::= &lt;String&gt;
+
+&lt;EventAttribute&gt; ::=
+        (allday &lt;Date&gt;)|
+        (anyonecanaddself [&lt;Boolean&gt;])|
+        (attachment &lt;String&gt; &lt;URL&gt;)|
+        (attendee &lt;EmailAddress&gt;)|
+        (attendeestatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddress&gt;)|
+        available|
+        (birthday &lt;Date&gt;)|
+        (color &lt;EventColorName&gt;)|
+        (colorindex|colorid &lt;EventColorIndex&gt;)|
+        (description &lt;String&gt;)|
+        (end|endtime (allday &lt;Date&gt;)|&lt;Time&gt;)|
+        (guestscaninviteothers &lt;Boolean&gt;)|
+        guestscantinviteothers|
+        (guestscanmodify &lt;Boolean&gt;)|
+        (guestscanseeotherguests &lt;Boolean&gt;)|
+        guestscantseeotherguests|
+        googlemeet|hangoutsmeet|
+        &lt;JSONData&gt;|
+        (jsonattendees [charset &lt;Charset&gt;] &lt;String&gt;)|
+        (jsonattendees file &lt;FileName&gt; [charset &lt;Charset&gt;])|
+        (location &lt;String&gt;)|
+        (noreminders|(reminder email|popup &lt;Number&gt;))|
+        (optionalattendee &lt;EmailAddress&gt;)|
+        (originalstart|originalstarttime (allday &lt;Date&gt;)|&lt;Time&gt;)|
+        (privateproperty &lt;PropertyKey&gt; &lt;PropertyValue&gt;)|
+        (range &lt;Date&gt; &lt;Date&gt;)|
+        (recurrence &lt;RRULE, EXRULE, RDATE and EXDATE line&gt;)|
+        (reminder &lt;Number&gt; email|popup)|
+        (resource &lt;ResourceID&gt;)|
+        (selectattendees [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;UserTypeEntity&gt;)|
+        (sequence &lt;Integer&gt;)|
+        (sharedproperty &lt;PropertyKey&gt; &lt;PropertyValue&gt;)|
+        (source &lt;String&gt; &lt;URL&gt;)|
+        (start|starttime (allday &lt;Date&gt;)|&lt;Time&gt;)|
+        (status confirmed|tentative|cancelled)|
+        (summary &lt;String&gt;)|
+        tentative|
+        (timerange &lt;Time&gt; &lt;Time&gt;)|
+        (timezone &lt;TimeZone&gt;)|
+        (transparency opaque|transparent)|
+        (visibility default|public|private)
+
+The following attributes are equivalent:
+        available - transparency transparent
+        guestscantinviteothers - guestscaninviteothers False
+        guestscantseeothers - guestscanseeotherguests False
+        tentative - status tentative
+
+&lt;EventImportAttribute&gt; ::=
+        &lt;EventAttribute&gt;|
+        (organizername &lt;String&gt;)|
+        (organizeremail &lt;EmailAddress&gt;)
+
+&lt;EventUpdateAttribute&gt; ::=
+        &lt;EventAttribute&gt;|
+        clearattachments|
+        clearattendees|
+        cleargooglemeet|clearhangoutsmeet|
+        (clearprivateproperty &lt;PropertyKey&gt;)|
+        clearresources|
+        (clearsharedproperty &lt;PropertyKey&gt;)|
+        (removeattendee &lt;EmailAddress&gt;)|
+        (removeresource &lt;ResourceID&gt;)|
+        (replacedescription &lt;REMatchPattern&gt; &lt;RESubstitution&gt;)|
+        (selectremoveattendees &lt;UserTypeEntity&gt;)
+
+&lt;EventNotificationAttribute&gt; ::=
+        notifyattendees|(sendnotifications &lt;Boolean&gt;)|(sendupdates all|enternalonly|none)
+
+The following attributes are equivalent:
+        notifyattendees - sendupdates all
+        sendnotifications false - sendupdates none
+        sendnotifications true - sendupdates all
+
+&lt;EventDisplayProperty&gt; ::=
+        (alwaysincludeemail)|
+        (icaluid &lt;String&gt;)|
+        (maxattendees &lt;Integer&gt;)|
+        (orderby starttime|updated)|
+        (timezone &lt;TimeZone&gt;)
+</code></pre>
+<h2 id="recurrence-rules">Recurrence rules</h2>
+<p>Recurring events require a rule: <code>recurrence &lt;RRULE, EXRULE, RDATE and EXDATE line&gt;</code>
+* https://tools.ietf.org/html/rfc5545#section-3.8.5</p>
+<p>This is dense reading; a simpler approach is to define a test event in Google Calendar with
+the recurrence rule that you want, then use <code>gam calendar &lt;EmailAddress&gt; info events eventid &lt;EventId&gt;</code> to get the recurrence rule and use it in subsequent commands.</p>
+<pre><code>RRULE:FREQ=DAILY - Daily
+RRULE:FREQ=DAILY;COUNT=30 - Daily for 30 days
+RRULE:FREQ=WEEKLY - Weekly on the same day of the week as the starting day; e.g., every Wednesday
+RRULE:FREQ=WEEKLY;COUNT=13 - Weekly on the same day of the week as the starting day; e.g., every Wednesday, for 13 weeks
+RRULE:FREQ=MONTHLY - Monthly on the same day of the month as the starting day; e.g., every 15th of the month
+RRULE:FREQ=MONTHLY;BYDAY=4TH - Monthly on the fourth instance of the starting day; e.g., every 4th Thursday
+</code></pre>
+<h2 id="event-colors">Event colors</h2>
+<p>The event color grid presented in calendar.google.com and <code>&lt;EventColorIndex&gt;</code> are related like this:</p>
+<pre><code>11:tomato 4:flamingo
+6:tangerine 5:banana
+2:sage 10:basil
+7:peacock 9:blueberry
+1:lavender 3:grape
+8:graphite
+</code></pre>
+<h2 id="calendar-selection">Calendar selection</h2>
+<p>These are the possible values for <code>&lt;UserCalendarEntity&gt;</code>.
+* <code>allcalendars</code> - All calendars in a user's calendar list
+* <code>primary</code> - The user's primary calendar
+* <code>&lt;EmailAddress&gt;</code> - The address of a calendar in a user's calendar list
+* <code>&lt;UniqueID&gt;</code> - The uniqueid of a calendar in a user's calendar list
+* <code>courses &lt;CourseIDList&gt;</code>- The calendars associated with a list of courses
+* <code>courses_with_teacher &lt;UserItem&gt;</code> - The calendars associated with courses with <code>&lt;UserItem&gt;</code> as a teacher
+* <code>my_courses_as_teacher</code> - The calendars associated with the User from <code>&lt;UserTypeEntity&gt;</code> as a teacher
+* <code>courses_with_student &lt;UserItem&gt;</code> - The calendars associated with courses with <code>&lt;UserItem&gt;</code> as a student
+* <code>my_courses_as_student</code> - The calendars associated with the User from <code>&lt;UserTypeEntity&gt;</code> as a student
+* <code>coursestates &lt;CourseStateList&gt;</code> - Used with the previous four options to select courses in a particular state; the default is all
+* <code>resource &lt;ResourceID&gt;</code> - The calendar associated with a resource ID
+* <code>resources &lt;ResourceIDList&gt;</code> - The calendars associated with a list of resource IDs
+* <code>calendars (&lt;CalendarList&gt; | &lt;FileSelector&gt; | &lt;CSVFileSelector&gt; | &lt;CSVkmdSelector&gt; | &lt;CSVDataSelector&gt;)</code> - A collection of calendars: <a href="Collections-of-Items">Collections of Items</a>
+* <code>&lt;CalendarSelectProperty&gt;+</code> - The calendars in a user's calendar list with the specified properites</p>
+<h2 id="event-selection">Event selection</h2>
+<p>These are the possible values for <code>&lt;EventEntity&gt;</code>; you either specify event IDs or properties used to select events.
+If none of the following options are selected, all events are selected.
+* <code>id|eventid &lt;EventId&gt;</code> - A single event ID
+* <code>event|events &lt;EventIdList&gt; | &lt;FileSelector&gt; | &lt;CSVFileSelector&gt; | &lt;CSVkmdSelector&gt; | &lt;CSVSubkeySelector&gt; | &lt;CSVDataSelector&gt;)</code> - A collection of event IDs: <a href="Collections-of-Items">Collections of Items</a>
+* <code>&lt;EventSelectProperty&gt;* &lt;EventMatchProperty&gt;*</code> - Properties used to select events</p>
+<p>The Google Calendar API processes <code>&lt;EventSelectProperty&gt;*</code>; you may specify none or multiple properties.
+* <code>after|starttime|timemin &lt;Time&gt;</code> - Lower bound (exclusive) for an event's end time to filter by. If timeMax is set, timeMin must be smaller than timeMax.
+* <code>before|endtime|timemax &lt;Time&gt;</code> - Upper bound (exclusive) for an event's start time to filter by. If timeMin is set, timeMax must be greater than timeMin.
+* <code>eventtypes &lt;EventTypeList&gt;</code> - Select events based on their type.
+* <code>query &lt;QueryCalendar&gt;</code> - Free text search terms to find events that match these terms in any field, except for extended properties
+* <code>privateextendedproperty &lt;String&gt;</code> - A required private property; <code>&lt;String&gt;</code> must be of the form <code>propertyName=value</code>
+* <code>sharedextendedproperty &lt;String&gt;</code> - A required shared property; <code>&lt;String&gt;</code> must be of the form <code>propertyName=value</code>
+* <code>showdeletedevents</code> - Whether to include deleted events (with status equals "cancelled") in the result
+* <code>showhiddeninvitations</code> - Whether to include hidden invitations in the result
+* <code>singleevents</code> - Whether to expand recurring events into instances and only return single one-off events and instances of recurring events, but not the underlying recurring events themselves
+* <code>updatedmin &lt;Time&gt;</code> - Lower bound for an event's last modification time (as a RFC3339 timestamp) to filter by. When specified, entries deleted since this time will always be included regardless of showdeletedevents</p>
+<p>GAM processes <code>&lt;EventMatchProperty&gt;*</code>; you may specify none or multiple properties.
+* <code>matchfield attendees &lt;EmailAddressEntity&gt;</code> - All of the attendees in <code>&lt;EmailAddressEntity&gt;</code> must be present
+* <code>matchfield attendeesonlydomainlist &lt;DomainNameList&gt;</code> - All attendee's email addresses must be in a domain in <code>&lt;DomainNameList&gt;</code>
+  * For example, this lets you look for events with all attendees in your internal domains. You should include <code>resource.calendar.google.com</code>
+    in <code>&lt;DomainNameList&gt;</code> if the events use resources.
+* <code>matchfield attendeesdomainlist &lt;DomainNameList&gt;</code> - Some attendee's email address must be in a domain in <code>&lt;DomainNameList&gt;</code>
+  * For example, this lets you look for events with attendees in specific external domains
+* <code>matchfield attendeesnotdomainlist &lt;DomainNameList&gt;</code> - Some attendee's email address must be in a domain not in <code>&lt;DomainNameList&gt;</code>
+  * For example, this lets you look for events with attendees not in your internal domains. You should include <code>resource.calendar.google.com</code>
+    in <code>&lt;DomainNameList&gt;</code> if the events use resources.
+* <code>matchfield attendeespattern &lt;RESearchPattern&gt;</code> - Some attendee's email address must match <code>&lt;RESearchPattern&gt;</code>
+* <code>matchfield attendeesstatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddressEntity&gt;</code> - All of the attendees in <code>&lt;EmailAddressEntity&gt;</code> must be present
+and must have the specified values.
+    * <code>&lt;AttendeeAttendance&gt;</code> - Default is <code>required</code>
+    * <code>&lt;AttendanceStatus&gt;</code> - Default is<code>needsaction</code>
+* <code>matchfield creatoremail &lt;RESearchPattern&gt;</code> - The creator email address must match <code>&lt;RESearchPattern&gt;</code>
+* <code>matchfield creatorname &lt;RESearchPattern&gt;</code> - The creator name must match <code>&lt;RESearchPattern&gt;</code>
+* <code>matchfield description &lt;RESearchPattern&gt;</code> - The description (summary) must match <code>&lt;RESearchPattern&gt;</code>
+* <code>matchfield location &lt;RESearchPattern&gt;</code> - The location must match <code>&lt;RESearchPattern&gt;</code>
+* <code>matchfield organizeremail &lt;RESearchPattern&gt;</code> - The organizer email address must match <code>&lt;RESearchPattern&gt;</code>
+* <code>matchfield organizername &lt;RESearchPattern&gt;</code> - The orgainzer name must match <code>&lt;RESearchPattern&gt;</code>
+* <code>matchfield organizerself &lt;Boolean&gt;</code> - The user must be/not be the organizer of the event
+* <code>matchfield status &lt;RESearchPattern&gt;</code> - The summary must match <code>&lt;RESearchPattern&gt;</code>. The API documented values are:
+    * <code>confirmed</code>
+    * <code>tentative</code>
+    * <code>cancelled</code>
+* <code>matchfield summary &lt;RESearchPattern&gt;</code> - The summary must match <code>&lt;RESearchPattern&gt;</code>
+* <code>matchfield transparency &lt;RESearchPattern&gt;</code> - The summary must match <code>&lt;RESearchPattern&gt;</code>. The API documented values are:
+    * <code>opaque</code> - Busy. The API does not seem to return this value; use <code>"(^$)|opaque"</code> to match no value or <code>opaque</code>.
+    * <code>transparent</code> -  Free/Available
+* <code>matchfield visibility &lt;RESearchPattern&gt;</code> - The summary must match <code>&lt;RESearchPattern&gt;</code>. The API documented values are:
+    * <code>default</code> - The API does not seem to return this value; use <code>"(^$)|default"</code> to match no value or <code>default</code>.
+    * <code>public</code> - The API does not seem to return this value if it is the default; use <code>"(^$)|public"</code> to match no value or <code>public</code>.
+    * <code>private</code> - The API does not seem to return this value if it is the default; use <code>"(^$)|private"</code> to match no value or <code>private</code>.
+    * <code>confidential</code></p>
+<h2 id="add-and-import-calendar-events">Add and import calendar events</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; add event &lt;UserCalendarEntity&gt; [id &lt;String&gt;] &lt;EventAttribute&gt;+ [&lt;EventNotificationAttribute&gt;]
+        [showdayofweek]
+        [csv [todrive &lt;ToDriveAttribute&gt;*] [formatjson [quotechar &lt;Character&gt;]]]
+gam &lt;UserTypeEntity&gt; import event &lt;UserCalendarEntity&gt; icaluid &lt;iCalUID&gt; &lt;EventImportAttribute&gt;+
+        [showdayofweek]
+        [csv [todrive &lt;ToDriveAttribute&gt;*] [formatjson [quotechar &lt;Character&gt;]]]
+</code></pre>
+<p>By default, when an event is created|imported, GAM outputs the calendar name and event ID.
+* <code>csv [todrive &lt;ToDriveAttribute&gt;*] [formatjson [quotechar &lt;Character&gt;]]</code> - Output the event details in CSV format.</p>
+<p>You can specify multiple attachments; <code>&lt;String&gt;</code> is the title of the attachment and <code>&lt;URL&gt;</code> is a sharable link from Google Drive.
+You must specify all attachments in each command, you can not incrementally add attachments.</p>
+<p>Importing events is similar to adding events; the principal difference
+is that you must specify an <code>iCalUID</code>. All instances of recurring events will have the same
+<code>iCalUID</code> but different <code>EventIDs</code>. The import command supports two new attributes to set the
+event organizer, but the API doesn't seem to honor the values; the organizer is set to
+the calendar owner.</p>
+<h2 id="update-calendar-events">Update calendar events</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; update events &lt;UserCalendarEntity&gt; [&lt;EventEntity&gt;] &lt;EventUpdateAttribute&gt;+ [&lt;EventNotificationAttribute&gt;]
+        [showdayofweek]
+        [csv [todrive &lt;ToDriveAttribute&gt;*] [formatjson [quotechar &lt;Character&gt;]]]
+</code></pre>
+<p>If <code>&lt;EventEntity&gt;</code> is not specified, all events in <code>&lt;UserCalendarEntity&gt;</code> are selected. This is not typically used
+unless you're trying to change a basic <code>&lt;EventAttribute&gt;</code>, e.g., <code>color</code>, on all events.</p>
+<p>By default, when an event is updated, GAM outputs the calendar name and event ID.
+* <code>csv [todrive &lt;ToDriveAttribute&gt;*] [formatjson [quotechar &lt;Character&gt;]]</code> - Output the event details in CSV format.</p>
+<p>You can clear/modify existing attributes:
+* <code>clearattachments</code> - Delete all attachments
+* <code>clearhangoutsmeet</code> - Clear Hangouts/Meet link
+* <code>clearprivateproperty &lt;PropertyKey&gt;</code> - Clear private properties
+* <code>clearsharedproperty &lt;PropertyKey&gt;</code> - Clear shared properties
+* <code>replacedescription &lt;REMatchPattern&gt; &lt;RESubstitution&gt;</code> - Modify the description</p>
+<h2 id="add-calendar-attendees">Add calendar attendees</h2>
+<p>You can specify attendees in the following ways:
+* <code>attendee &lt;EmailAddress&gt;</code> - The attendee attendance is required with status <code>needsaction'
+*</code>optionalattendee <EmailAddress><code>- The attendee attendance is optional with status</code>needsaction'
+* <code>attendeestatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddress&gt;</code> - One attendee
+  * If <code>&lt;AttendeeAttendance&gt;</code> is not specified, the attendee is required to attend
+  * If <code>&lt;AttendeeStatus&gt;</code> is not specified, <code>needsaction</code> is chosen
+* <code>jsonattendees [charset &lt;Charset&gt;] &lt;String&gt;</code>
+* <code>jsonattendees file &lt;FileName&gt; [charset &lt;Charset&gt;]</code>
+* <code>selectattendees [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;UserTypeEntity&gt;</code> - Multiple attendees
+  * If <code>&lt;AttendeeAttendance&gt;</code> is not specified, all attendees are required to attend
+  * If <code>&lt;AttendeeStatus&gt;</code> is not specified, <code>needsaction</code> is chosen
+* <code>resource &lt;ResourceID&gt;</code> - Add a resource attendee to the event</p>
+<p>For <code>&lt;UserTypeEntity&gt;</code> See: <a href="Collections-of-Users">Collections of Users</a></p>
+<h2 id="update-calendar-attendees">Update calendar attendees</h2>
+<p>The default behavior is to allow incremental changes to the attendees list;
+the current attendee list is downloaded and the specified changes are applied.</p>
+<p>The <code>replacemode</code> option causes the current attendee list to be replaced with the specified changes.</p>
+<p>You can add attendees in the following ways:
+* <code>attendee &lt;EmailAddress&gt;</code> - The attendee attendance is required with status <code>needsaction'
+*</code>optionalattendee <EmailAddress><code>- The attendee attendance is optional with status</code>needsaction'
+* <code>attendeestatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddress&gt;</code> - One attendee
+  * If <code>&lt;AttendeeAttendance&gt;</code> is not specified, the attendee is required to attend
+  * If <code>&lt;AttendeeStatus&gt;</code> is not specified, <code>needsaction</code> is chosen
+* <code>jsonattendees [charset &lt;Charset&gt;] &lt;String&gt;</code>
+* <code>jsonattendees file &lt;FileName&gt; [charset &lt;Charset&gt;]</code>
+* <code>selectattendees [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;UserTypeEntity&gt;</code> - Multiple attendees
+  * If <code>&lt;AttendeeAttendance&gt;</code> is not specified, all attendees are required to attend
+  * If <code>&lt;AttendeeStatus&gt;</code> is not specified, <code>needsaction</code> is chosen
+* <code>resource &lt;ResourceID&gt;</code> - Add a resource attendee to the event</p>
+<p>You can remove attendees in the following ways:
+* <code>clearattendees</code> - Clear all current attendees from the attendee list
+* <code>removeattendee &lt;EmailAddress&gt;</code> - Remove a single attendee from the attendee list
+* <code>selectremoveattendees &lt;UserTypeEntity&gt;</code> - Remove a selected collection of attendees from the attendee list
+* <code>clearresources</code> - Clear all resource attendees from the event
+* <code>removeresource &lt;ResourceID&gt;</code> - Remove a resource attendee from the event</p>
+<p>For <code>&lt;UserTypeEntity&gt;</code> See: <a href="Collections-of-Users">Collections of Users</a></p>
+<h2 id="specify-calendar-attendees-with-json-data">Specify calendar attendees with JSON data</h2>
+<p>You can predefine lists of attendees and use them when creating/updating events. If you set <code>responseStatus</code> to <code>accepted</code>, no notifications are sent.</p>
+<pre><code>$ more attendees.json
+{&quot;attendees&quot;: [{&quot;email&quot;: &quot;testuser2@domain.com&quot;, &quot;responseStatus&quot;: &quot;needsAction&quot;, &quot;optional&quot;: &quot;True&quot;}, {&quot;email&quot;: &quot;testuser3@domain.com&quot;, &quot;responseStatus&quot;: &quot;accepted&quot;}, {&quot;email&quot;: &quot;testuser4@domain.com&quot;, &quot;responseStatus&quot;: &quot;accepted&quot;}]}
+</code></pre>
+<p>You can use output the attendee information for an event in a calendar and use that data when defining other events.</p>
+<pre><code>$ gam redirect stdout ./attendees.json calendar testuser1@domain.com info event id 0000h8kk7c9o2tonk73hu2zzzz fields attendees formatjson 
+$ more attendees.json 
+{&quot;calendarId&quot;: &quot;testuser1@domain.com&quot;, &quot;event&quot;: {&quot;attendees&quot;: [{&quot;email&quot;: &quot;testuser3@domain.com&quot;, &quot;responseStatus&quot;: &quot;accepted&quot;}, {&quot;email&quot;: &quot;testuser4@domain.com&quot;, &quot;responseStatus&quot;: &quot;accepted&quot;}], &quot;id&quot;: &quot;0000h8kk7c9o2tonk73hu2zzzz&quot;}}
+</code></pre>
+<p>Use <code>jsonattendees file ./attendees.json</code> in <code>create/update event</code>.</p>
+<h2 id="delete-selected-calendar-events">Delete selected calendar events</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; delete events &lt;UserCalendarEntity&gt; [&lt;EventEntity&gt;] [doit] [&lt;EventNotificationAttribute&gt;]
+gam &lt;UserTypeEntity&gt; purge events &lt;UserCalendarEntity&gt; [&lt;EventEntity&gt;] [doit] [&lt;EventNotificationAttribute&gt;]
+</code></pre>
+<p>If <code>&lt;EventEntity&gt;</code> is not specified, all events in <code>&lt;UserCalendarEntity&gt;</code> are selected. This is not typically used.</p>
+<p>No events are deleted unless you specify the <code>doit</code> option; omit <code>doit</code> to verify that you properly selected the events to delete.</p>
+<p>When events are deleted from a calendar, they are moved to the calendar's trash and are only permanently deleted (purged) after 30 days.
+Following a suggestion here (https://stackoverflow.com/questions/41043053/how-to-empty-calendar-trash-via-google-services) you can permanently delete
+calendar events with <code>purge events</code>. This is achieved by creating a temporary calendar, deleting the events, moving the deleted events to the temporary calendar
+and then deleting the temporary calendar. </p>
+<h2 id="delete-all-calendar-events">Delete all calendar events</h2>
+<p>For a user's primary calendar:</p>
+<pre><code>gam &lt;UserTypeEntity&gt; wipe events primary
+</code></pre>
+<p>For non-primary calendars:</p>
+<pre><code>gam &lt;UserTypeEntity&gt; delete events &lt;UserCalendarEntity&gt; [doit] [&lt;EventNotificationAttribute&gt;]
+</code></pre>
+<p>No events are deleted unless you specify the <code>doit</code> option; omit <code>doit</code> to verify that you properly selected the events to delete.</p>
+<h1 id="delete-all-event-resources">Delete all event resources</h1>
+<p>Use option <code>clearresources</code> to clear all resources from a user's future calendar events.</p>
+<pre><code>gam user user@domain.com update events primary matchfield attendeespattern @resource.calendar.google.com after now clearresources
+</code></pre>
+<h2 id="empty-calendar-trash">Empty calendar trash</h2>
+<p>A user signed in to Google Calendar can empty the calendar trash but there is no direct API support for this operation.
+To empty the calendar trash a temporary calendar is created, the deleted events are moved to the temporary calendar and then the temporary calendar is deleted.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; empty calendartrash &lt;UserCalendarEntity&gt;
+</code></pre>
+<h2 id="move-calendar-events-to-another-calendar">Move calendar events to another calendar</h2>
+<p>Generally you won't move all events from one calendar to another; typically, you'll move events created by the event creator
+using <code>matchfield creatoremail &lt;RESearchPattern&gt;</code> in conjunction with other <code>&lt;EventSelectProperty&gt;</code> and <code>&lt;EventMatchProperty&gt;</code> options.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; move events &lt;UserCalendarEntity&gt; [&lt;EventEntity&gt;] destination|to &lt;CalendarItem&gt; [&lt;EventNotificationAttribute&gt;]
+</code></pre>
+<h2 id="display-calendar-events">Display calendar events</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; info events &lt;UserCalendarEntity&gt; [&lt;EventEntity&gt;] [maxinstances &lt;Number&gt;]
+        [fields &lt;EventFieldNameList&gt;] [showdayofweek]
+        [formatjson]
+</code></pre>
+<p>In <code>&lt;EventEntity&gt;</code>, any <code>&lt;EventSelectProperty&gt;</code> options must precede all other options.</p>
+<ul>
+<li><code>maxinstances -1</code> - Default, display base event</li>
+<li><code>maxinstances 0</code> - Display all instances of a recurring event</li>
+<li><code>maxinstances N</code> - Display first N instances of a recurring event</li>
+</ul>
+<p><code>showdayofweek</code> displays <code>dayOfWeek</code> when event start and end times are displayed.</p>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; show events &lt;UserCalendarEntity&gt; [&lt;EventEntity&gt;] &lt;EventDisplayProperty&gt;*
+        [fields &lt;EventFieldNameList&gt;] [showdayofweek]
+        [countsonly|formatjson]
+</code></pre>
+<p>In <code>&lt;EventEntity&gt;</code>, any <code>&lt;EventSelectProperty&gt;</code> options must precede all other options.</p>
+<p>By default, only the base event of a recurring event is displayed. Use the <code>&lt;EventSelectProperty&gt;</code>
+option <code>singleevents</code> to display all instances of a recurring event.</p>
+<p><code>&lt;EventDisplayProperty&gt; orderby starttime</code> is only valid with <code>&lt;EventSelectProperty&gt; singleevents</code>.</p>
+<p><code>showdayofweek</code> displays <code>dayOfWeek</code> when event start and end times are displayed.</p>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, Gam displays event details, use <code>countsonly</code> to display only the number of events. <code>formatjson</code> does not apply in this case.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print events &lt;UserCalendarEntity&gt; [&lt;EventEntity&gt;] &lt;EventDisplayProperty&gt;*
+        [fields &lt;EventFieldNameList&gt;] [showdayofweek]
+        (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*
+        [eventrowfilter]                                                                                          [countsonly|(formatjson [quotechar &lt;Character&gt;])] [todrive &lt;ToDriveAttribute&gt;*]
+</code></pre>
+<p>In <code>&lt;EventEntity&gt;</code>, any <code>&lt;EventSelectProperty&gt;</code> options must precede all other options.</p>
+<p>By default, only the base event of a recurring event is displayed. Use the <code>&lt;EventSelectProperty&gt;</code>
+option <code>singleevents</code> to display all instances of a recurring event.</p>
+<p><code>&lt;EventDisplayProperty&gt; orderby starttime</code> is only valid with <code>&lt;EventSelectProperty&gt; singleevents</code>.</p>
+<p><code>showdayofweek</code> displays columns <code>start.dayOfWeek</code> and <code>end.dayOfWeek</code> when event start and end times are displayed.</p>
+<p>Add additional columns of data from the command line to the output after the calendarId.
+* <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code></p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, Gam displays event details, use <code>countsonly</code> to display only the number of events. <code>formatjson</code> does not apply in this case.</p>
+<p>When <code>countsonly</code> is specified, the <code>eventrowfilter</code> option causes
+GAM to apply <code>config csv_output_row_filter</code> to the event details rather than the event counts.
+This will be useful when <code>&lt;EventSelectProperty&gt;</code> and <code>&lt;EventMatchProperty&gt;</code> do not have the
+capabilty to select the events of interest; e.g., you want to filter based on the event <code>created</code> property.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h3 id="special-character-processing">Special character processing</h3>
+<p>When outputting events with <code>formatjson</code> with the goal of adding the events to another calendar,
+use these options at the beginning of the command:
+<code>config csv_output_convert_cr_nl false csv_output_no_escape_char true</code></p>
+<p>On the subsequent command to add the events, use this option at the beginning of the command:
+<code>config csv_input_no_escape_char true</code></p>
+<p>These options ensure that newline <code>\n</code>, double quote <code>"</code>, single quote <code>'</code> and backslash <code>\</code> are
+properly processed.</p>
+<h2 id="update-calendar-event-attendees">Update calendar event attendees</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; update calattendees &lt;UserCalendarEntity&gt; &lt;EventEntity&gt; [anyorganizer]
+        [&lt;EventNotificationAttribute&gt;] [splitupdate] [dryrun|doit]
+        (csv|csvfile &lt;CSVFileInput&gt; endcsv)
+        (delete &lt;EmailAddress&gt;)*
+        (deleteentity &lt;EmailAddressEntity&gt;)*
+        (add &lt;EmailAddress&gt;)*
+        (addentity &lt;EmailAddressEntity&gt;)*
+        (addstatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddress&gt;)*
+        (addentitystatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddressEntity&gt;)*
+        (replace &lt;EmailAddress&gt; &lt;EmailAddress&gt;)*
+        (replacestatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddress&gt; &lt;EmailAddress&gt;)*
+        (updatestatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddress&gt;)*
+        (updateentitystatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddressEntity&gt;)*
+</code></pre>
+<p>By default, only events in <code>&lt;EventEntity&gt;</code> organized by the user are selected.
+* <code>anyorganizer|allevents</code> - All events in <code>&lt;EventEntity&gt;</code> are selected.</p>
+<ul>
+<li><code>csv &lt;FileName&gt;</code> - A CSV file with no header row and two to four columns; the last two columns are optional<ul>
+<li><code>&lt;EmailAddress&gt;,add,&lt;AttendeeAttendance&gt;,&lt;AttendeeStatus&gt;</code> - Add an attendee</li>
+<li><code>&lt;EmailAddress&gt;,delete</code> - Delete an attendee</li>
+<li><code>&lt;EmailAddress&gt;,&lt;EmailAddress&gt;,&lt;AttendeeAttendance&gt;,&lt;AttendeeStatus&gt;</code> - Replace the attendee in the first <code>&lt;EmailAddress&gt;</code> with the  attendee in the second <code>&lt;EmailAddress&gt;</code></li>
+<li><code>&lt;EmailAddress&gt;,update,&lt;AttendeeAttendance&gt;,&lt;AttendeeStatus&gt;</code> - Update an attendee</li>
+</ul>
+</li>
+<li><code>gsheet &lt;UserGoogleSheet&gt;</code> - A Google Sheet with no header row and two columns<ul>
+<li><code>&lt;EmailAddress&gt;,add,&lt;AttendeeAttendance&gt;,&lt;AttendeeStatus&gt;</code> - Add an attendee</li>
+<li><code>&lt;EmailAddress&gt;,delete</code> - Delete an attendee</li>
+<li><code>&lt;EmailAddress&gt;,&lt;EmailAddress&gt;,&lt;AttendeeAttendance&gt;,&lt;AttendeeStatus&gt;</code> - Replace the attendee in the first <code>&lt;EmailAddress&gt;</code> with the  attendee in the second <code>&lt;EmailAddress&gt;</code></li>
+<li><code>&lt;EmailAddress&gt;,update,&lt;AttendeeAttendance&gt;,&lt;AttendeeStatus&gt;</code> - Update an attendee</li>
+</ul>
+</li>
+<li><code>delete &lt;EmailAddress&gt;</code> - Delete an attendee</li>
+<li><code>deleteentity &lt;EmailAddressEntity&gt;</code> - Delete multiple attendees</li>
+<li><code>add &lt;EmailAddress&gt;</code> - Add an attendee</li>
+<li><code>addentity &lt;EmailAddressEntity&gt;</code> - Add multiple attendees</li>
+<li><code>addstatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddress&gt;</code> - Add an attendee</li>
+<li><code>addentitystatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddressEntity&gt;</code> - Add multiple attendees</li>
+<li><code>replace &lt;EmailAddress&gt; &lt;EmailAddress&gt;</code> - Replace the attendee in the first <code>&lt;EmailAddress&gt;</code> with the  attendee in the second <code>&lt;EmailAddress&gt;</code></li>
+<li><code>replacestatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddress&gt; &lt;EmailAddress&gt;</code> - Replace the attendee in the first <code>&lt;EmailAddress&gt;</code> with the  attendee in the second <code>&lt;EmailAddress&gt;</code></li>
+<li><code>updatestatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddress&gt;</code> - Update an attendee</li>
+<li><code>updateentitystatus [&lt;AttendeeAttendance&gt;] [&lt;AttendeeStatus&gt;] &lt;EmailAddressEntity&gt;</code> - Update multiple attendees</li>
+</ul>
+<p>For <code>add</code>, <code>addstatus</code> and <code>addentitystatus</code>:
+* <code>&lt;AttendeeAttendance&gt;</code> - Default is <code>required</code>
+* <code>&lt;AttendanceStatus&gt;</code> - Default is <code>needsaction</code></p>
+<p>For <code>replace</code>, <code>replacestatus</code>, <code>updatestatus</code> and <code>updateentitystatus</code>:
+* <code>&lt;AttendeeAttendance&gt;</code> - Default is no change from current value
+* <code>&lt;AttendanceStatus&gt;</code> - Default is no change from current value</p>
+<p>By default, when you try to replace an email alias with its primary email, the Google Calendar API
+detects that the underlying user ID is the same and doesn't change the address. The <code>splitupdate</code>
+option causes GAM to make two updates to the attendee list; the first removes the alias and
+the second adds the primary email.</p>
+<p>The attendee changes are displayed but not processed unless <code>doit</code> is specified.</p>
+<h2 id="status-events">Status events</h2>
+<h2 id="focus-time-events">Focus time events</h2>
+<h2 id="manage-focus-time-events">Manage focus time events</h2>
+<p>To update a focus time event, see: <a href="#update-calendar-events">Update calendar events</a></p>
+<pre><code>gam &lt;UserTypeEntity&gt; create focustime
+        [chatstatus available|donotdisturb]|
+        [declinemode none|all|new] [declinemessage &lt;String&gt;]|
+        [summary &lt;String&gt;]
+        ((date yyyy-mm-dd)|
+         (range yyyy-mm-dd yyyy-mm-dd)|
+         (daily yyyy-mm-dd &lt;Number&gt;)|
+         (weekly yyyy-mm-dd &lt;Number&gt;)|
+         (timerange &lt;Time&gt; &lt;Time&gt; (recurrence &lt;RRULE, EXRULE, RDATE and EXDATE line&gt;)*))+
+        [timezone &lt;String&gt;]
+        (noreminders|(reminder email|popup &lt;Number&gt;)+)
+
+gam &lt;UserTypeEntity&gt; delete focustime
+        ((date yyyy-mm-dd)|
+         (range yyyy-mm-dd yyyy-mm-dd)|
+         (daily yyyy-mm-dd &lt;Number&gt;)|
+         (weekly yyyy-mm-dd &lt;Number&gt;)|
+         (timerange &lt;Time&gt; &lt;Time&gt;))+
+</code></pre>
+<p>Focus time events span a time range:
+* <code>date yyyy-mm-dd</code> - A specific day
+* <code>range yyyy-mm-dd yyyy-mm-dd</code> - Every day in the range
+* <code>daily yyyy-mm-dd &lt;Number&gt;</code> - Every day starting on the date for <code>&lt;Number&gt;</code> total days
+* <code>weekly yyyy-mm-dd &lt;Number&gt;</code> - A day per week starting on the date for <code>&lt;Number&gt;</code> total weeks
+* <code>timerange &lt;Time&gt; &lt;Time&gt;</code> - A time range, may span multiple days</p>
+<h2 id="display-focus-time-events">Display focus time events</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; show focustime
+        ((date yyyy-mm-dd)|
+         (range yyyy-mm-dd yyyy-mm-dd)|
+         (daily yyyy-mm-dd &lt;Number&gt;)|
+         (weekly yyyy-mm-dd &lt;Number&gt;)|
+         (timerange &lt;Time&gt; &lt;Time&gt;))+
+        [showdayofweek]
+        [formatjson]
+</code></pre>
+<p><code>showdayofweek</code> displays <code>dayOfWeek</code> when event start and end times are displayed.</p>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print focustime
+        ((date yyyy-mm-dd)|
+         (range yyyy-mm-dd yyyy-mm-dd)|
+         (daily yyyy-mm-dd &lt;Number&gt;)|
+         (weekly yyyy-mm-dd &lt;Number&gt;)|
+         (timerange &lt;Time&gt; &lt;Time&gt;))+
+        [showdayofweek]
+        [formatjson [quotechar &lt;Character&gt;]] [todrive &lt;ToDriveAttribute&gt;*]
+</code></pre>
+<p><code>showdayofweek</code> displays columns <code>start.dayOfWeek</code> and <code>end.dayOfWeek</code> when event start and end times are displayed.</p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, Gam displays event details, use <code>countsonly</code> to display only the number of events. <code>formatjson</code> does not apply in this case.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h2 id="out-of-office-events">Out of office events</h2>
+<h2 id="manage-out-of-office-events">Manage out of office events</h2>
+<p>To update an out of office event, see: <a href="#update-calendar-events">Update calendar events</a></p>
+<pre><code>gam &lt;UserTypeEntity&gt; create outofoffice
+        [declinemode none|all|new]
+        [declinemessage &lt;String&gt;]
+        [summary &lt;String&gt;]
+        ((date yyyy-mm-dd)|
+         (range yyyy-mm-dd yyyy-mm-dd)|
+         (daily yyyy-mm-dd &lt;Number&gt;)|
+         (weekly yyyy-mm-dd &lt;Number&gt;)|
+         (timerange &lt;Time&gt; &lt;Time&gt; (recurrence &lt;RRULE, EXRULE, RDATE and EXDATE line&gt;)*))+
+        [timezone &lt;String&gt;]
+        (noreminders|(reminder email|popup &lt;Number&gt;)+)
+
+gam &lt;UserTypeEntity&gt; delete outofoffice
+        (timerange &lt;Time&gt; &lt;Time&gt;)+
+</code></pre>
+<p>Out of office events span a time range:
+* <code>date yyyy-mm-dd</code> - A specific day
+* <code>range yyyy-mm-dd yyyy-mm-dd</code> - Every day in the range
+* <code>daily yyyy-mm-dd &lt;Number&gt;</code> - Every day starting on the date for <code>&lt;Number&gt;</code> total days
+* <code>weekly yyyy-mm-dd &lt;Number&gt;</code> - A day per week starting on the date for <code>&lt;Number&gt;</code> total weeks
+* <code>timerange &lt;Time&gt; &lt;Time&gt;</code> - A time range, may span multiple days</p>
+<h2 id="display-out-of-office-events">Display out of office events</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; show outofoffice
+        ((date yyyy-mm-dd)|
+         (range yyyy-mm-dd yyyy-mm-dd)|
+         (daily yyyy-mm-dd &lt;Number&gt;)|
+         (weekly yyyy-mm-dd &lt;Number&gt;)|
+         (timerange &lt;Time&gt; &lt;Time&gt;))+
+        [showdayofweek]
+        [formatjson]
+</code></pre>
+<p><code>showdayofweek</code> displays <code>dayOfWeek</code> when event start and end times are displayed.</p>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print outofoffice
+        ((date yyyy-mm-dd)|
+         (range yyyy-mm-dd yyyy-mm-dd)|
+         (daily yyyy-mm-dd &lt;Number&gt;)|
+         (weekly yyyy-mm-dd &lt;Number&gt;)|
+         (timerange &lt;Time&gt; &lt;Time&gt;))+
+        (timerange &lt;Time&gt; &lt;Time&gt;)+
+        [showdayofweek]
+        [formatjson [quotechar &lt;Character&gt;]] [todrive &lt;ToDriveAttribute&gt;*]
+</code></pre>
+<p><code>showdayofweek</code> displays columns <code>start.dayOfWeek</code> and <code>end.dayOfWeek</code> when event start and end times are displayed.</p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, Gam displays event details, use <code>countsonly</code> to display only the number of events. <code>formatjson</code> does not apply in this case.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p>
+<h2 id="working-location-events">Working location events</h2>
+<h2 id="manage-working-location-events">Manage working location events</h2>
+<p>You can create and delete working location events; they can not be updated.
+To update a working location event, delete the working location event and recreate it.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; create workinglocation
+        (home|
+         (custom &lt;String&gt;)|
+         (office &lt;String&gt; [building|buildingid &lt;String&gt;] [floor|floorname &lt;String&gt;]
+              [section|floorsection &lt;String&gt;] [desk|deskcode &lt;String&gt;]))
+        ((date yyyy-mm-dd)|
+         (range yyyy-mm-dd yyyy-mm-dd)|
+         (daily yyyy-mm-dd &lt;Number&gt;)|
+         (weekly yyyy-mm-dd &lt;Number&gt;)|
+         (timerange &lt;Time&gt; &lt;Time&gt; (recurrence &lt;RRULE, EXRULE, RDATE and EXDATE line&gt;)*))+
+        [timezone &lt;String&gt;]
+        (noreminders|(reminder email|popup &lt;Number&gt;)+)
+
+gam &lt;UserTypeEntity&gt; delete workinglocation
+        ((date yyyy-mm-dd)|
+         (range yyyy-mm-dd yyyy-mm-dd)|
+         (daily yyyy-mm-dd &lt;Number&gt;)|
+         (weekly yyyy-mm-dd &lt;Number&gt;)|
+         (timerange &lt;Time&gt; &lt;Time&gt;))+
+</code></pre>
+<p>Use one of <code>home</code>, <code>custom &lt;String&gt;</code> and <code>office &lt;String&gt;</code> to specify the working location event label.</p>
+<p>Working location events are either single all day events or span a time range:
+* <code>date yyyy-mm-dd</code> - A specific day
+* <code>range yyyy-mm-dd yyyy-mm-dd</code> - Every day in the range
+* <code>daily yyyy-mm-dd &lt;Number&gt;</code> - Every day starting on the date for <code>&lt;Number&gt;</code> total days
+* <code>weekly yyyy-mm-dd &lt;Number&gt;</code> - A day per week starting on the date for <code>&lt;Number&gt;</code> total weeks
+* <code>timerange &lt;Time&gt; &lt;Time&gt;</code> - A time range, may span multiple days</p>
+<h2 id="display-working-location-events">Display working location events</h2>
+<pre><code>gam &lt;UserTypeEntity&gt; show workinglocation
+        ((date yyyy-mm-dd)|
+         (range yyyy-mm-dd yyyy-mm-dd)|
+         (daily yyyy-mm-dd &lt;Number&gt;)|
+         (weekly yyyy-mm-dd &lt;Number&gt;)|
+         (timerange &lt;Time&gt; &lt;Time&gt;))+
+        [showdayofweek]
+        [formatjson]
+</code></pre>
+<p><code>showdayofweek</code> displays <code>dayOfWeek</code> when event start and end times are displayed.</p>
+<p>By default, Gam displays the information as an indented list of keys and values.
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<pre><code>gam &lt;UserTypeEntity&gt; print workinglocation
+        ((date yyyy-mm-dd)|
+         (range yyyy-mm-dd yyyy-mm-dd)|
+         (daily yyyy-mm-dd &lt;Number&gt;)|
+         (weekly yyyy-mm-dd &lt;Number&gt;)|
+         (timerange &lt;Time&gt; &lt;Time&gt;))+
+        [showdayofweek]
+        [formatjson [quotechar &lt;Character&gt;]] [todrive &lt;ToDriveAttribute&gt;*]
+</code></pre>
+<p><code>showdayofweek</code> displays columns <code>start.dayOfWeek</code> and <code>end.dayOfWeek</code> when event start and end times are displayed.</p>
+<p>By default, Gam displays the information as columns of fields; the following option causes the output to be in JSON format,
+* <code>formatjson</code> - Display the fields in JSON format.</p>
+<p>By default, Gam displays event details, use <code>countsonly</code> to display only the number of events. <code>formatjson</code> does not apply in this case.</p>
+<p>By default, when writing CSV files, Gam uses a quote character of double quote <code>"</code>. The quote character is used to enclose columns that contain
+the quote character itself, the column delimiter (comma by default) and new-line characters. Any quote characters within the column are doubled.
+When using the <code>formatjson</code> option, double quotes are used extensively in the data resulting in hard to read/process output.
+The <code>quotechar &lt;Character&gt;</code> option allows you to choose an alternate quote character, single quote for instance, that makes for readable/processable output.
+<code>quotechar</code> defaults to <code>gam.cfg/csv_output_quote_char</code>. When uploading CSV files to Google, double quote <code>"</code> should be used.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

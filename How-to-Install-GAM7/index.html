@@ -1,0 +1,1884 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Installing GAM7 - GAM Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">GAM Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../00scratch/" class="nav-link">Scratch Me Wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Addresses/" class="nav-link">Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Administrators/" class="nav-link">Administrators</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Alert-Center/" class="nav-link">Alert Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Aliases/" class="nav-link">Aliases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Authorization/" class="nav-link">Authorization</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../BNF-Syntax/" class="nav-link">Syntax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Basic-Items/" class="nav-link">Basic Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Bulk-Processing/" class="nav-link">Bulk Processing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Business-Account-Management/" class="nav-link">Users - Business Account Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Input-Filtering/" class="nav-link">CSV Input Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Output-Filtering/" class="nav-link">CSV Output Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Special-Characters/" class="nav-link">CSV Special Characters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Access/" class="nav-link">Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Events/" class="nav-link">Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars/" class="nav-link">Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chat-Bot-Setup-Use/" class="nav-link">Chat Bot Setup and Use</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-AUE-Counts/" class="nav-link">Chrome Auto Update Expiration Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Browser-Cloud-Management/" class="nav-link">Chrome Browser Cloud Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Device-Counts/" class="nav-link">Chrome Device Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Installed-Apps/" class="nav-link">Chrome Installed Apps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Needs-Attention-Counts/" class="nav-link">Chrome Device Needs Attention Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Policies/" class="nav-link">Chrome Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Printers/" class="nav-link">Chrome Printers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Profile-Management/" class="nav-link">Chrome Profile Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-Counts/" class="nav-link">Chrome Version Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-History/" class="nav-link">Chrome Version History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../ChromeOS-Devices/" class="nav-link">ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Courses/" class="nav-link">Classroom - Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Guardians/" class="nav-link">Classroom - Guardians</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Invitations/" class="nav-link">Classroom - Invitations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Membership/" class="nav-link">Classroom - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-StudentGroups/" class="nav-link">Classroom - Student Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Channel/" class="nav-link">Cloud Channel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Devices/" class="nav-link">Cloud Identity Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups-Membership/" class="nav-link">Cloud Identity Groups - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups/" class="nav-link">Cloud Identity Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Policies/" class="nav-link">Cloud Identity Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Storage/" class="nav-link">Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-ChromeOS-Devices/" class="nav-link">Collections of ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Items/" class="nav-link">Collections of Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Users/" class="nav-link">Collections of Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Data-From-Google-Docs-Sheets-Storage/" class="nav-link">Command data from Google Docs, Sheets and Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Line-Parsing/" class="nav-link">Command Line Parsing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Logging-Progress/" class="nav-link">Command Logging and Progress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Context-Aware-Access-Levels/" class="nav-link">Context-Aware Access Levels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Customer/" class="nav-link">Customer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-People-Contacts-Profiles/" class="nav-link">Domain People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-SharedContacts/" class="nav-link">Domain Shared Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains-Verification/" class="nav-link">Domains - Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains/" class="nav-link">Domains</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Downloads-Installs/" class="nav-link">Downloads-Installs-GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-File-Selection/" class="nav-link">Drive File Selection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-Items/" class="nav-link">Drive Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-REST-API-v3/" class="nav-link">Drive REST API v3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Email-Audit-Monitor/" class="nav-link">Email Audit Monitor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Find-File-Owner/" class="nav-link">Find File Owner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Public-Chat-Room/" class="nav-link">GAM Public Chat Room</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Release-Process/" class="nav-link">Steps to release a new GAM version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Return-Codes/" class="nav-link">GAM Return Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-with-minimal-GCP-rights/" class="nav-link">GAM setup with minimal GCP permissions.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-FAQ/" class="nav-link">What is GAM7?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Android-Devices/" class="nav-link">GAM7 on Android Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Chrome-OS-Devices/" class="nav-link">GAM7 on Chrome OS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GamUpdates/" class="nav-link">Update GAM7 to latest version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Global-Address-List/" class="nav-link">Global Address List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Data-Transfers/" class="nav-link">Google Data Transfers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Network-Addresses/" class="nav-link">Google Network Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups-Membership/" class="nav-link">Groups Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups/" class="nav-link">Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../HTTPS-Proxy/" class="nav-link">HTTPS Proxy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Home/" class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Installing GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Uninstall-GAM7/" class="nav-link">Uninstalling GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Update-GAM7/" class="nav-link">Updating GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-GAMADV-XTD3-to-GAM7/" class="nav-link">Installation - Upgrade GAMADV-XTD3 to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-Legacy-GAM-to-GAM7/" class="nav-link">Installation - Upgrade Legacy GAM to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Inbound-SSO/" class="nav-link">Inbound SSO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Install-GAM-as-Python-Library/" class="nav-link">Install GAM as Python Library</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Licenses/" class="nav-link">Licenses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List-Items/" class="nav-link">List Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List/" class="nav-link">List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Meta-Commands-and-File-Redirection/" class="nav-link">Meta Commands and File Redirection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Mobile-Devices/" class="nav-link">Mobile Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Organizational-Units/" class="nav-link">Organizational Units</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Other-Resources/" class="nav-link">Other Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Permission-Matches/" class="nav-link">Permission Matches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Python-Regular-Expressions/" class="nav-link">Python Regular Expressions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Rclone/" class="nav-link">Rclone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reports/" class="nav-link">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reseller/" class="nav-link">Reseller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Resources/" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Running-GAM7-securely-on-a-Google-Compute-Engine/" class="nav-link">Running GAM7 securely on a Google Compute Engine</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../SSL-Root-CA-Certificates/" class="nav-link">SSL Root CA Certificates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Schemas/" class="nav-link">Schemas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Scripts/" class="nav-link">Scripts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Send-Email/" class="nav-link">Send Email</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Shared-Drives/" class="nav-link">Domain Administrators - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Sites/" class="nav-link">Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Tag-Replace/" class="nav-link">Tag Replace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Todrive/" class="nav-link">Todrive</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Unmanaged-Accounts/" class="nav-link">Unmanaged Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Upgrade-Benefits/" class="nav-link">Upgrade Benefits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Analytics-Admin/" class="nav-link">Users - Analytics Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Application-Specific-Passwords/" class="nav-link">Users - Application Specific Passwords</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Backup-Verification-Codes/" class="nav-link">Users - Backup Verification Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Access/" class="nav-link">Users - Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Events/" class="nav-link">Users - Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars/" class="nav-link">Users - Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Chat/" class="nav-link">Users - Chat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classification-Labels/" class="nav-link">Users - Classification Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classroom-Profile/" class="nav-link">Users - Classroom - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts-Delegates/" class="nav-link">Users - Contacts - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts/" class="nav-link">User Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Deprovision/" class="nav-link">Users - Deprovision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Activity-Settings/" class="nav-link">Users - Drive - Activity/Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Cleanup/" class="nav-link">Users - Drive - Cleanup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Comments/" class="nav-link">Users - Drive - Comments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Copy-Move/" class="nav-link">Users - Drive Files Copy/Move</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Display/" class="nav-link">Users - Drive Files Display</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Manage/" class="nav-link">Users - Drive Files Manage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Orphans/" class="nav-link">Users - Drive - Orphans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Ownership/" class="nav-link">Users - Drive - Ownership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Permissions/" class="nav-link">Users - Drive - Permissions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Query/" class="nav-link">Users - Drive - Query</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Revisions/" class="nav-link">Users - Drive - Revisions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Shortcuts/" class="nav-link">Users - Drive Shortcuts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Transfer/" class="nav-link">Users - Drive - Transfer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Forms/" class="nav-link">Users - Forms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-CSE/" class="nav-link">Users - Gmail - Client Side Encryption</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Delegates/" class="nav-link">Users - Gmail - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Filters/" class="nav-link">Users - Gmail - Filters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Forwarding/" class="nav-link">Users - Gmail - Forwarding</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Labels/" class="nav-link">Users - Gmail - Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Messages-Threads/" class="nav-link">Users - Gmail - Messages/Threads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Profile/" class="nav-link">Users - Gmail - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-S-MIME/" class="nav-link">Users - Gmail - S/MIME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Send-As-Signature-Vacation/" class="nav-link">Users - Gmail - Send As/Signature/Vacation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Settings/" class="nav-link">Users - Gmail - Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Group-Membership/" class="nav-link">Users - Group Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Keep-Notes/" class="nav-link">Users - Keep - Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Looker-Studio/" class="nav-link">Users - Looker Studio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Meet/" class="nav-link">Users - Meet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-People-Contacts-Profiles/" class="nav-link">Users - People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Photo/" class="nav-link">Users - Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Photo/" class="nav-link">Users - Profile Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Sharing/" class="nav-link">Users - Profile Sharing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Shared-Drives/" class="nav-link">Users - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Signout-Turnoff2SV/" class="nav-link">Users - Signout and Turn off 2-Step Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Spreadsheets/" class="nav-link">Users - Spreadsheets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tag-Manager/" class="nav-link">Users - Tag Manager</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tasks/" class="nav-link">Users - Tasks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tokens/" class="nav-link">Users - Tokens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Web-Resources-and-Sites/" class="nav-link">Users - Web Resources and Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-YouTube/" class="nav-link">Users - YouTube</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users/" class="nav-link">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-YubiKey/" class="nav-link">Using GAM7 with a YubiKey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-delegated-admin-service-account/" class="nav-link">Using GAM7 with a delegated admin service account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-keyless-authentication-Workload-Identity-Federation/" class="nav-link">Using GAM7 with Keyless Authentication - Workload Identity Federation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Vault-Takeout/" class="nav-link">Vault - Takeout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Verifying-a-GAM7-Build-is-Legitimate-and-Official/" class="nav-link">Verifying a GAM7 Build is Legitimate and Official</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Version-and-Help/" class="nav-link">Version and Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../_Sidebar/" class="nav-link"> Sidebar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../gam.cfg/" class="nav-link">GAM Configuration</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Legacy</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../legacy/l-AdminSettingsExamples/" class="dropdown-item">l AdminSettingsExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Android-Installation/" class="dropdown-item">l Android Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-BulkOperations/" class="dropdown-item">l BulkOperations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CalendarExamples/" class="dropdown-item">l CalendarExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chat-Bot/" class="dropdown-item">l Chat Bot</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Browser-Management/" class="dropdown-item">l Chrome Browser Management</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-OS-Installation/" class="dropdown-item">l Chrome OS Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Policy-Settings/" class="dropdown-item">l Chrome Policy Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Cloud-Identity-Groups/" class="dropdown-item">l Cloud Identity Groups</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendar-Resources/" class="dropdown-item">GAM Calendar Resources Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendars/" class="dropdown-item">GAM Calendar Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Definitions/" class="dropdown-item">l Command Reference Definitions</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Drive/" class="dropdown-item">GAM Drive Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Email/" class="dropdown-item">GAM Email Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Group-Attributes/" class="dropdown-item">GAM Group Attributes Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Groups/" class="dropdown-item">GAM Group Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Users/" class="dropdown-item">GAM Users Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Context-Aware-Access-Levels/" class="dropdown-item">l Context Aware Access Levels</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Creating-client_secrets.json-and-oauth2service.json/" class="dropdown-item">l Creating client secrets.json and oauth2service.json</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CreatingClientSecretsFile/" class="dropdown-item">l CreatingClientSecretsFile</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Custom-Schemas/" class="dropdown-item">l Custom Schemas</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Data-Transfers/" class="dropdown-item">l Data Transfers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-DomainVerification/" class="dropdown-item">l DomainVerification</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesAccountAuditing/" class="dropdown-item">l ExamplesAccountAuditing</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesCSV/" class="dropdown-item">l ExamplesCSV</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesEmailSettings/" class="dropdown-item">l ExamplesEmailSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesOrganizations/" class="dropdown-item">l ExamplesOrganizations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-Discussion-Group/" class="dropdown-item">GAM Discussion Group</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-on-Android-and-Chrome-OS/" class="dropdown-item">l GAM on Android and Chrome OS</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-options-files/" class="dropdown-item">l GAM options files</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-with--minimal-GCP-rights/" class="dropdown-item">l GAM with  minimal GCP rights</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3CSVListings/" class="dropdown-item">l GAM3CSVListings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3DirectoryCommands/" class="dropdown-item">l GAM3DirectoryCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3GroupSettings/" class="dropdown-item">l GAM3GroupSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Google-Vault---Takeout-Commands/" class="dropdown-item">l Google Vault   Takeout Commands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GoogleDriveManagement/" class="dropdown-item">l GoogleDriveManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Grouping-18-or-Older-Users/" class="dropdown-item">Using GAM to group 18+ users</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Home/" class="dropdown-item">l Home</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-How-to-upgrade-from-Standard-GAM/" class="dropdown-item">Installation - Upgrading from Standard GAM</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Inbound-SSO-Settings/" class="dropdown-item">l Inbound SSO Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-LicenseExamples/" class="dropdown-item">l LicenseExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Admins/" class="dropdown-item">l Managing Admins</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-CloudPrint-Printers/" class="dropdown-item">l Managing CloudPrint Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Devices/" class="dropdown-item">l Managing Devices</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Google-Classroom/" class="dropdown-item">l Managing Google Classroom</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-OAuthKeyManagement/" class="dropdown-item">l OAuthKeyManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Printers/" class="dropdown-item">l Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ResellerCommands/" class="dropdown-item">l ResellerCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-SecurityExamples/" class="dropdown-item">l SecurityExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-UnmanagedUsersExamples/" class="dropdown-item">l UnmanagedUsersExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Using-GAM-with-a-delegated-admin-service-account-%28DASA%29/" class="dropdown-item">Background</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-_Footer/" class="dropdown-item">l  Footer</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Home/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../How-to-Uninstall-GAM7/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#installing-gam7" class="nav-link">Installing GAM7</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#linux-and-macos-and-google-cloud-shell" class="nav-link">Linux and MacOS and Google Cloud Shell</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#windows" class="nav-link">Windows</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="installing-gam7">Installing GAM7</h1>
+<p>Use these steps if you have never used any version of GAM in your domain. They will create your GAM project
+and all necessary authentications.</p>
+<ul>
+<li><a href="Downloads-Installs">Downloads-Installs</a></li>
+<li><a href="#linux-and-mac-os-and-google-cloud-shell">Linux and MacOS and Google Cloud Shell</a></li>
+<li><a href="#windows">Windows</a></li>
+<li><a href="gam.cfg">GAM Configuration</a></li>
+</ul>
+<h2 id="linux-and-macos-and-google-cloud-shell">Linux and MacOS and Google Cloud Shell</h2>
+<p>In these examples, your Google Super admin is shown as admin@domain.com; replace with the
+actual email adddress.</p>
+<p>In these examples, the user home folder is shown as /Users/admin; adjust according to your
+specific situation; e.g., /home/administrator.</p>
+<p>This example assumes that GAM7 has been installed in /Users/admin/bin/gam7.
+If you've installed GAM7 in another directory, substitute that value in the directions.</p>
+<h3 id="set-a-configuration-directory">Set a configuration directory</h3>
+<p>The default GAM configuration directory is /Users/admin/.gam; for more flexibility you
+probably want to select a non-hidden location. This example assumes that the GAM
+configuration directory will be /Users/admin/GAMConfig; If you've chosen another directory,
+substitute that value in the directions.</p>
+<p>Make the directory:</p>
+<pre><code>admin@server:/Users/admin$ mkdir -p /Users/admin/GAMConfig
+</code></pre>
+<p>Add the following line:</p>
+<pre><code>export GAMCFGDIR=&quot;/Users/admin/GAMConfig&quot;
+</code></pre>
+<p>to one of these files based on your shell:</p>
+<pre><code>~/.bash_profile
+~/.bashrc
+~/.zshrc
+~/.profile
+</code></pre>
+<p>Issue the following command replacing <code>&lt;Filename&gt;</code> with the name of the file you edited:</p>
+<pre><code>admin@server:/Users/admin$ source &lt;Filename&gt;
+</code></pre>
+<p>You need to make sure the GAM configuration directory actually exists. Test that like this:</p>
+<pre><code>admin@server:/Users/admin$ ls -l $GAMCFGDIR
+</code></pre>
+<h3 id="set-a-working-directory">Set a working directory</h3>
+<p>You should establish a GAM working directory; you will store your GAM related
+data in this folder and execute GAM commands from this folder. You should not use
+/Users/admin/bin/gam7 or /Users/admin/GAMConfig for this purpose.
+This example assumes that the GAM working directory will be /Users/admin/GAMWork; If you've chosen
+another directory, substitute that value in the directions.</p>
+<p>Make the directory:</p>
+<pre><code>admin@server:/Users/admin$ mkdir -p /Users/admin/GAMWork
+</code></pre>
+<h3 id="set-an-alias">Set an alias</h3>
+<p>You should set an alias to point to /Users/admin/bin/gam7/gam so you can operate from the /Users/admin/GAMWork directory.
+Aliases aren't available in scripts, so you may want to set a symlink instead, see below.</p>
+<p>Add the following line:</p>
+<pre><code>alias gam=&quot;/Users/admin/bin/gam7/gam&quot;
+</code></pre>
+<p>to one of these files based on your shell:</p>
+<pre><code>~/.bash_aliases
+~/.bash_profile
+~/.bashrc
+~/.zshrc
+~/.profile
+</code></pre>
+<p>Issue the following command replacing <code>&lt;Filename&gt;</code> with the name of the file you edited:</p>
+<pre><code>admin@server:/Users/admin$ source &lt;Filename&gt;
+</code></pre>
+<h3 id="set-a-symlink">Set a symlink</h3>
+<p>Set a symlink in <code>/usr/local/bin</code> (or some other location on $PATH) to point to GAM. </p>
+<pre><code>admin@server:/Users/admin$ ln -s &quot;/Users/admin/bin/gam7/gam&quot; /usr/local/bin/gam
+</code></pre>
+<h3 id="initialize-gam7-this-should-be-the-first-gam7-command-executed">Initialize GAM7; this should be the first GAM7 command executed.</h3>
+<pre><code>admin@server:/Users/admin$ gam config drive_dir /Users/admin/GAMWork verify
+Created: /Users/admin/GAMConfig
+Created: /Users/admin/GAMConfig/gamcache
+Config File: /Users/admin/GAMConfig/gam.cfg, Initialized
+Section: DEFAULT
+  ...
+  cache_dir = /Users/admin/GAMConfig/gamcache
+  ...
+  config_dir = /Users/admin/GAMConfig
+  ...
+  drive_dir = /Users/admin/GAMWork
+  ...
+
+admin@server:/Users/admin$
+</code></pre>
+<h3 id="verify-initialization-this-was-a-successful-installation">Verify initialization, this was a successful installation.</h3>
+<pre><code>admin@server:/Users/admin$ ls -l $GAMCFGDIR
+total 48
+-rw-r-----+ 1 admin  staff  1069 Mar  3 09:23 gam.cfg
+drwxr-x---+ 2 admin  staff    68 Mar  3 09:23 gamcache
+-rw-rw-rw-+ 1 admin  staff     0 Mar  3 09:23 oauth2.txt.lock
+admin@server:/Users/admin$ 
+</code></pre>
+<h3 id="create-your-project-with-local-browser">Create your project with local browser</h3>
+<pre><code>admin@server:/Users/admin$ gam create project
+WARNING: Config File: /Users/admin/GAMConfig/gam.cfg, Item: client_secrets_json, Value: /Users/admin/GAMConfig/client_secrets.json, Not Found
+WARNING: Config File: /Users/admin/GAMConfig/gam.cfg, Item: oauth2service_json, Value: /Users/admin/GAMConfig/oauth2service.json, Not Found
+
+Enter your Google Workspace admin or GCP project manager email address authorized to manage project(s) admin@domain.com
+
+Your browser has been opened to visit:
+
+    https://accounts.google.com/o/oauth2/v2/auth?client_id=CLI...response_type=code
+
+If your browser is on a different machine then press CTRL+C,
+set no_browser = true in gam.cfg and re-run this command.
+
+Authentication successful.
+Creating project &quot;GAM Project&quot;...
+Checking project status...
+Project: gam-project-abc-def-ghi, Enable 23 APIs
+  API: admin.googleapis.com, Enabled (1/23)
+  API: alertcenter.googleapis.com, Enabled (2/23)
+  API: appsactivity.googleapis.com, Enabled (3/23)
+  API: audit.googleapis.com, Enabled (4/23)
+  API: calendar-json.googleapis.com, Enabled (5/23)
+  API: chat.googleapis.com, Enabled (6/23)
+  API: classroom.googleapis.com, Enabled (7/23)
+  API: contacts.googleapis.com, Enabled (8/23)
+  API: drive.googleapis.com, Enabled (9/23)
+  API: driveactivity.googleapis.com, Enabled (10/23)
+  API: gmail.googleapis.com, Enabled (11/23)
+  API: groupsmigration.googleapis.com, Enabled (12/23)
+  API: groupssettings.googleapis.com, Enabled (13/23)
+  API: iam.googleapis.com, Enabled (14/23)
+  API: iap.googleapis.com, Enabled (15/23)
+  API: licensing.googleapis.com, Enabled (16/23)
+  API: people.googleapis.com, Enabled (17/23)
+  API: pubsub.googleapis.com, Enabled (18/23)
+  API: reseller.googleapis.com, Enabled (19/23)
+  API: sheets.googleapis.com, Enabled (20/23)
+  API: siteverification.googleapis.com, Enabled (21/23)
+  API: storage-api.googleapis.com, Enabled (22/23)
+  API: vault.googleapis.com, Enabled (23/23)
+Setting GAM project consent screen...
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Enabled
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Generating new private key
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Extracting public certificate
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Done generating private key and public certificate
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Service Account Key: SVCACCTKEY, Uploaded
+Service Account OAuth2 File: /Users/admin/GAMConfig/oauth2service.json, Service Account Key: SVCACCTKEY, Updated
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Has rights to rotate own private key
+Please go to:
+
+https://console.cloud.google.com/apis/credentials/oauthclient?project=gam-project-abc-def-ghi
+
+1. Choose &quot;Desktop App&quot; or &quot;Other&quot; for &quot;Application type&quot;.
+2. Enter &quot;GAM&quot; or another desired value for &quot;Name&quot;.
+3. Click the blue &quot;Create&quot; button.
+4. Copy your &quot;client ID&quot; value that shows on the next page.
+
+Enter your Client ID: CLIENTID
+
+5. Go back to your browser and copy your &quot;client secret&quot; value.
+Enter your Client Secret: CLIENTSECRET
+6. Go back to your browser and click OK to close the &quot;OAuth client&quot; popup if it's still open.
+That's it! Your GAM Project is created and ready to use.
+
+admin@server:/Users/admin$ 
+</code></pre>
+<h3 id="create-your-project-without-local-browser-google-cloud-shell-for-instance">Create your project without local browser (Google Cloud Shell for instance)</h3>
+<pre><code>admin@server:/Users/admin$ gam config no_browser true save
+admin@server:/Users/admin$ gam create project
+WARNING: Config File: /Users/admin/GAMConfig/gam.cfg, Item: client_secrets_json, Value: /Users/admin/GAMConfig/client_secrets.json, Not Found
+WARNING: Config File: /Users/admin/GAMConfig/gam.cfg, Item: oauth2service_json, Value: /Users/admin/GAMConfig/oauth2service.json, Not Found
+
+Enter your Google Workspace admin or GCP project manager email address authorized to manage project(s) admin@domain.com
+
+Go to the following link in a browser on other computer:
+
+    https://accounts.google.com/o/oauth2/v2/auth?re... m&amp;prompt=consent
+
+Enter verification code: abc...xyz
+
+Authentication successful.
+Creating project &quot;GAM Project&quot;...
+Checking project status...
+Project: gam-project-abc-def-ghi, Enable 23 APIs
+  API: admin.googleapis.com, Enabled (1/23)
+  API: alertcenter.googleapis.com, Enabled (2/23)
+  API: appsactivity.googleapis.com, Enabled (3/23)
+  API: audit.googleapis.com, Enabled (4/23)
+  API: calendar-json.googleapis.com, Enabled (5/23)
+  API: chat.googleapis.com, Enabled (6/23)
+  API: classroom.googleapis.com, Enabled (7/23)
+  API: contacts.googleapis.com, Enabled (8/23)
+  API: drive.googleapis.com, Enabled (9/23)
+  API: driveactivity.googleapis.com, Enabled (10/23)
+  API: gmail.googleapis.com, Enabled (11/23)
+  API: groupsmigration.googleapis.com, Enabled (12/23)
+  API: groupssettings.googleapis.com, Enabled (13/23)
+  API: iam.googleapis.com, Enabled (14/23)
+  API: iap.googleapis.com, Enabled (15/23)
+  API: licensing.googleapis.com, Enabled (16/23)
+  API: people.googleapis.com, Enabled (17/23)
+  API: pubsub.googleapis.com, Enabled (18/23)
+  API: reseller.googleapis.com, Enabled (19/23)
+  API: sheets.googleapis.com, Enabled (20/23)
+  API: siteverification.googleapis.com, Enabled (21/23)
+  API: storage-api.googleapis.com, Enabled (22/23)
+  API: vault.googleapis.com, Enabled (23/23)
+Setting GAM project consent screen...
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Enabled
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Generating new private key
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Extracting public certificate
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Done generating private key and public certificate
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Service Account Key: SVCACCTKEY, Uploaded
+Service Account OAuth2 File: /Users/admin/GAMConfig/oauth2service.json, Service Account Key: SVCACCTKEY, Updated
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Has rights to rotate own private key
+Please go to:
+
+https://console.cloud.google.com/apis/credentials/oauthclient?project=gam-project-abc-def-ghi
+
+1. Choose &quot;Desktop App&quot; or &quot;Other&quot; for &quot;Application type&quot;.
+2. Enter &quot;GAM&quot; or another desired value for &quot;Name&quot;.
+3. Click the blue &quot;Create&quot; button.
+4. Copy your &quot;client ID&quot; value that shows on the next page.
+
+Enter your Client ID: CLIENTID
+
+5. Go back to your browser and copy your &quot;client secret&quot; value.
+Enter your Client Secret: CLIENTSECRET
+6. Go back to your browser and click OK to close the &quot;OAuth client&quot; popup if it's still open.
+That's it! Your GAM Project is created and ready to use.
+
+admin@server:/Users/admin$ 
+</code></pre>
+<h3 id="enable-gam7-client-access">Enable GAM7 client access</h3>
+<p>You select a list of scopes, GAM uses a browser to get final authorization from Google for these scopes and
+writes the credentials into the file oauth2.txt.</p>
+<pre><code>admin@server:/Users/admin$ gam oauth create
+
+[*]  0)  Calendar API (supports readonly)
+[*]  1)  Chrome Browser Cloud Management API (supports readonly)
+[*]  2)  Chrome Management API - AppDetails read only
+[*]  3)  Chrome Management API - Telemetry read only
+[*]  4)  Chrome Management API - read only
+[*]  5)  Chrome Policy API (supports readonly)
+[*]  6)  Chrome Printer Management API (supports readonly)
+[*]  7)  Chrome Version History API
+[*]  8)  Classroom API - Course Announcements (supports readonly)
+[*]  9)  Classroom API - Course Topics (supports readonly)
+[*] 10)  Classroom API - Course Work/Materials (supports readonly)
+[*] 11)  Classroom API - Course Work/Submissions (supports readonly)
+[*] 12)  Classroom API - Courses (supports readonly)
+[*] 13)  Classroom API - Profile Emails
+[*] 14)  Classroom API - Profile Photos
+[*] 15)  Classroom API - Rosters (supports readonly)
+[*] 16)  Classroom API - Student Guardians (supports readonly)
+[ ] 17)  Cloud Channel API (supports readonly)
+[*] 18)  Cloud Identity - Inbound SSO Settings (supports readonly)
+[*] 19)  Cloud Identity Groups API (supports readonly)
+[*] 20)  Cloud Identity OrgUnits API (supports readonly)
+[*] 21)  Cloud Identity User Invitations API (supports readonly)
+[ ] 22)  Cloud Storage API (Read Only, Vault/Takeout Download, Cloud Storage)
+[ ] 23)  Cloud Storage API (Read/Write, Vault/Takeout Copy/Download, Cloud Storage)
+[*] 24)  Contact Delegation API (supports readonly)
+[*] 25)  Contacts API - Domain Shared Contacts and GAL
+[*] 26)  Data Transfer API (supports readonly)
+[*] 27)  Directory API - Chrome OS Devices (supports readonly)
+[*] 28)  Directory API - Customers (supports readonly)
+[*] 29)  Directory API - Domains (supports readonly)
+[*] 30)  Directory API - Groups (supports readonly)
+[*] 31)  Directory API - Mobile Devices Directory (supports readonly and action)
+[*] 32)  Directory API - Organizational Units (supports readonly)
+[*] 33)  Directory API - Resource Calendars (supports readonly)
+[*] 34)  Directory API - Roles (supports readonly)
+[*] 35)  Directory API - User Schemas (supports readonly)
+[*] 36)  Directory API - User Security
+[*] 37)  Directory API - Users (supports readonly)
+[ ] 38)  Email Audit API
+[*] 39)  Groups Migration API
+[*] 40)  Groups Settings API
+[*] 41)  License Manager API
+[*] 42)  People API (supports readonly)
+[*] 43)  People Directory API - read only
+[ ] 44)  Pub / Sub API
+[*] 45)  Reports API - Audit Reports
+[*] 46)  Reports API - Usage Reports
+[ ] 47)  Reseller API
+[*] 48)  Site Verification API
+[ ] 49)  Sites API
+[*] 50)  Vault API (supports readonly)
+
+Select an unselected scope [ ] by entering a number; yields [*]
+For scopes that support readonly, enter a number and an 'r' to grant read-only access; yields [R]
+For scopes that support action, enter a number and an 'a' to grant action-only access; yields [A]
+Clear read-only access [R] or action-only access [A] from a scope by entering a number; yields [*]
+Unselect a selected scope [*] by entering a number; yields [ ]
+Select all default scopes by entering an 's'; yields [*] for default scopes, [ ] for others
+Unselect all scopes by entering a 'u'; yields [ ] for all scopes
+Exit without changes/authorization by entering an 'e'
+Continue to authorization by entering a 'c'
+  Note, if all scopes are selected, Google will probably generate an authorization error
+
+Please enter 0-50[a|r] or s|u|e|c: c
+
+Enter your Google Workspace admin email address? admin@domain.com
+
+Go to the following link in a browser on this computer or on another computer:
+
+    https://accounts.google.com/o/oauth2/v2/auth?response_type=code&amp;client_id=423565144751-10lsdt2lgnsch9jmdhl35uq4617u1ifp&amp;redirect_uri=http%3A%2F%2F127.0.0.1%3A8080%2F&amp;scope=...
+
+If you use a browser on another computer, you will get a browser error that the site can't be reached AFTER you
+click the Allow button, paste &quot;Unable to connect&quot; URL from other computer (only URL data up to &amp;scope required):
+
+Enter verification code or paste &quot;Unable to connect&quot; URL from other computer (only URL data up to &amp;scope required):
+
+The authentication flow has completed.
+Client OAuth2 File: /Users/admin/GAMConfig/oauth2.txt, Created
+
+admin@server:/Users/admin$ 
+</code></pre>
+<p>If clicking on the link in the instructions does not work (i.e. you get a 404 or 400 error message, instead of something about 'unable to connect') the URL in the link is too long. Most likely, you have selected all scopes. Try again with fewer scopes until it works. (there is no harm in repeatedly trying)</p>
+<h3 id="enable-gam7-service-account-access">Enable GAM7 service account access.</h3>
+<pre><code>admin@server:/Users/admin$ gam user admin@domain.com update serviceaccount
+[*]  0)  AlertCenter API
+[*]  1)  Analytics API - read only
+[*]  2)  Analytics Admin API - read only
+[*]  3)  Calendar API (supports readonly)
+[*]  4)  Chat API - Memberships (supports readonly)
+[*]  5)  Chat API - Memberships Admin (supports readonly)
+[*]  6)  Chat API - Messages (supports readonly)
+[*]  7)  Chat API - Spaces (supports readonly)
+[*]  8)  Chat API - Spaces Admin (supports readonly)
+[*]  9)  Chat API - Spaces Delete
+[*] 10)  Chat API - Spaces Delete Admin
+[*] 11)  Classroom API - Course Announcements (supports readonly)
+[*] 12)  Classroom API - Course Topics (supports readonly)
+[*] 13)  Classroom API - Course Work/Materials (supports readonly)
+[*] 14)  Classroom API - Course Work/Submissions (supports readonly)
+[*] 15)  Classroom API - Profile Emails
+[*] 16)  Classroom API - Profile Photos
+[*] 17)  Classroom API - Rosters (supports readonly)
+[*] 18)  Cloud Identity Devices API (supports readonly)
+[*] 19)  Docs API (supports readonly)
+[*] 20)  Drive API (supports readonly)
+[*] 21)  Drive API - todrive
+[*] 22)  Drive Activity API v2 - must pair with Drive API
+[*] 23)  Drive Labels API - Admin (supports readonly)
+[*] 24)  Drive Labels API - User (supports readonly)
+[*] 25)  Forms API
+[*] 26)  Gmail API - Basic Settings (Filters,IMAP, Language, POP, Vacation) - read/write, Sharing Settings (Delegates, Forwarding, SendAs) - read
+[*] 27)  Gmail API - Full Access (Labels, Messages)
+[*] 28)  Gmail API - Full Access (Labels, Messages) except delete message
+[ ] 29)  Gmail API - Full Access - read only
+[ ] 30)  Gmail API - Send Messages - including todrive
+[*] 31)  Gmail API - Sharing Settings (Delegates, Forwarding, SendAs) - write
+[*] 32)  Identity and Access Management API
+[*] 33)  Keep API (supports readonly)
+[*] 34)  Looker Studio API (supports readonly)
+[*] 35)  Meet API (supports readonly)
+[*] 36)  OAuth2 API
+[*] 37)  People API (supports readonly)
+[*] 38)  People API - Other Contacts - read only
+[*] 39)  People Directory API - read only
+[*] 40)  Sheets API (supports readonly)
+[*] 41)  Sheets API - todrive
+[*] 42)  Sites API
+[*] 43)  Tasks API (supports readonly)
+[ ] 44)  Youtube API - read only
+
+Select an unselected scope [ ] by entering a number; yields [*]
+For scopes that support readonly, enter a number and an 'r' to grant read-only access; yields [R]
+For scopes that support action, enter a number and an 'a' to grant action-only access; yields [A]
+Clear read-only access [R] or action-only access [A] from a scope by entering a number; yields [*]
+Unselect a selected scope [*] by entering a number; yields [ ]
+Select all default scopes by entering an 's'; yields [*] for default scopes, [ ] for others
+Unselect all scopes by entering a 'u'; yields [ ] for all scopes
+Exit without changes/authorization by entering an 'e'
+Continue to authorization by entering a 'c'
+
+Please enter 0-44[a|r] or s|u|e|c: c
+System time status
+  Your system time differs from admin.googleapis.com by less than 1 second  PASS
+Service Account Private Key Authentication
+  Authentication                                                            PASS
+Service Account Private Key age; Google recommends rotating keys on a routine basis
+  Service Account Private Key age: 1 day                                    WARN
+Domain-wide Delegation authentication:, User: admin@domain.com, Scopes: 38
+  https://mail.google.com/                                                  FAIL (1/38)
+  https://sites.google.com/feeds                                            FAIL (2/38)
+  https://www.googleapis.com/auth/analytics.readonly                        FAIL (3/38)
+  https://www.googleapis.com/auth/apps.alerts                               FAIL (4/38)
+  https://www.googleapis.com/auth/calendar                                  FAIL (5/38)
+  https://www.googleapis.com/auth/chat.admin.delete                         FAIL (6/38)
+  https://www.googleapis.com/auth/chat.admin.memberships                    FAIL (7/38)
+  https://www.googleapis.com/auth/chat.admin.spaces                         FAIL (8/38)
+  https://www.googleapis.com/auth/chat.delete                               FAIL (9/38)
+  https://www.googleapis.com/auth/chat.memberships                          FAIL (10/38)
+  https://www.googleapis.com/auth/chat.messages                             FAIL (11/38)
+  https://www.googleapis.com/auth/chat.spaces                               FAIL (12/38)
+  https://www.googleapis.com/auth/classroom.announcements                   FAIL (13/38)
+  https://www.googleapis.com/auth/classroom.coursework.students             FAIL (14/38)
+  https://www.googleapis.com/auth/classroom.courseworkmaterials             FAIL (15/38)
+  https://www.googleapis.com/auth/classroom.profile.emails                  FAIL (16/38)
+  https://www.googleapis.com/auth/classroom.profile.photos                  FAIL (17/38)
+  https://www.googleapis.com/auth/classroom.rosters                         FAIL (18/38)
+  https://www.googleapis.com/auth/classroom.topics                          FAIL (19/38)
+  https://www.googleapis.com/auth/cloud-identity                            FAIL (20/38)
+  https://www.googleapis.com/auth/cloud-platform                            FAIL (21/38)
+  https://www.googleapis.com/auth/contacts                                  FAIL (22/38)
+  https://www.googleapis.com/auth/contacts.other.readonly                   FAIL (23/38)
+  https://www.googleapis.com/auth/datastudio                                FAIL (24/38)
+  https://www.googleapis.com/auth/directory.readonly                        FAIL (25/38)
+  https://www.googleapis.com/auth/documents                                 FAIL (26/38)
+  https://www.googleapis.com/auth/drive                                     FAIL (27/38)
+  https://www.googleapis.com/auth/drive.activity                            FAIL (28/38)
+  https://www.googleapis.com/auth/drive.admin.labels                        FAIL (29/38)
+  https://www.googleapis.com/auth/drive.labels                              FAIL (30/38)
+  https://www.googleapis.com/auth/gmail.modify                              FAIL (31/38)
+  https://www.googleapis.com/auth/gmail.settings.basic                      FAIL (32/38)
+  https://www.googleapis.com/auth/gmail.settings.sharing                    FAIL (33/38)
+  https://www.googleapis.com/auth/keep                                      FAIL (34/38)
+  https://www.googleapis.com/auth/meetings.space.created                    FAIL (35/38)
+  https://www.googleapis.com/auth/spreadsheets                              FAIL (36/38)
+  https://www.googleapis.com/auth/tasks                                     FAIL (37/38)
+  https://www.googleapis.com/auth/userinfo.profile                          FAIL (38/38)
+Some scopes FAILED!
+To authorize them, please go to the following link in your browser:
+
+    https://gam-shortn.appspot.com/hvtbrz
+
+You will be directed to the Google Workspace admin console Security &gt; API Controls &gt; Domain-wide Delegation page
+The &quot;Add a new Client ID&quot; box will open
+Make sure that &quot;Overwrite existing client ID&quot; is checked
+Click AUTHORIZE
+When the box closes you're done
+After authorizing it may take some time for this test to pass so wait a few moments and then try this command again.
+
+admin@server:/Users/admin$
+</code></pre>
+<p>The link shown in the error message should take you directly to the authorization screen.
+If not, make sure that you are logged in as a domain admin, then re-enter the link.</p>
+<h3 id="verify-gam7-service-account-access">Verify GAM7 service account access.</h3>
+<p>Wait a moment and then perform the following command; it it still fails, wait a bit longer, it can sometimes take serveral minutes
+for the authorization to complete.</p>
+<pre><code>admin@server:/Users/admin$ gam user admin@domain.com check serviceaccount
+System time status
+  Your system time differs from admin.googleapis.com by less than 1 second  PASS
+Service Account Private Key Authentication
+  Authentication                                                            PASS
+Service Account Private Key age; Google recommends rotating keys on a routine basis
+  Service Account Private Key age: 1 day                                    WARN
+Domain-wide Delegation authentication:, User: admin@domain.com, Scopes: 38
+  https://mail.google.com/                                                  PASS (1/38)
+  https://sites.google.com/feeds                                            PASS (2/38)
+  https://www.googleapis.com/auth/analytics.readonly                        PASS (3/38)
+  https://www.googleapis.com/auth/apps.alerts                               PASS (4/38)
+  https://www.googleapis.com/auth/calendar                                  PASS (5/38)
+  https://www.googleapis.com/auth/chat.admin.delete                         PASS (6/38)
+  https://www.googleapis.com/auth/chat.admin.memberships                    PASS (7/38)
+  https://www.googleapis.com/auth/chat.admin.spaces                         PASS (8/38)
+  https://www.googleapis.com/auth/chat.delete                               PASS (9/38)
+  https://www.googleapis.com/auth/chat.memberships                          PASS (10/38)
+  https://www.googleapis.com/auth/chat.messages                             PASS (11/38)
+  https://www.googleapis.com/auth/chat.spaces                               PASS (12/38)
+  https://www.googleapis.com/auth/classroom.announcements                   PASS (13/38)
+  https://www.googleapis.com/auth/classroom.coursework.students             PASS (14/38)
+  https://www.googleapis.com/auth/classroom.courseworkmaterials             PASS (15/38)
+  https://www.googleapis.com/auth/classroom.profile.emails                  PASS (16/38)
+  https://www.googleapis.com/auth/classroom.profile.photos                  PASS (17/38)
+  https://www.googleapis.com/auth/classroom.rosters                         PASS (18/38)
+  https://www.googleapis.com/auth/classroom.topics                          PASS (19/38)
+  https://www.googleapis.com/auth/cloud-identity                            PASS (20/38)
+  https://www.googleapis.com/auth/cloud-platform                            PASS (21/38)
+  https://www.googleapis.com/auth/contacts                                  PASS (22/38)
+  https://www.googleapis.com/auth/contacts.other.readonly                   PASS (23/38)
+  https://www.googleapis.com/auth/datastudio                                PASS (24/38)
+  https://www.googleapis.com/auth/directory.readonly                        PASS (25/38)
+  https://www.googleapis.com/auth/documents                                 PASS (26/38)
+  https://www.googleapis.com/auth/drive                                     PASS (27/38)
+  https://www.googleapis.com/auth/drive.activity                            PASS (28/38)
+  https://www.googleapis.com/auth/drive.admin.labels                        PASS (29/38)
+  https://www.googleapis.com/auth/drive.labels                              PASS (30/38)
+  https://www.googleapis.com/auth/gmail.modify                              PASS (31/38)
+  https://www.googleapis.com/auth/gmail.settings.basic                      PASS (32/38)
+  https://www.googleapis.com/auth/gmail.settings.sharing                    PASS (33/38)
+  https://www.googleapis.com/auth/keep                                      PASS (34/38)
+  https://www.googleapis.com/auth/meetings.space.created                    PASS (35/38)
+  https://www.googleapis.com/auth/spreadsheets                              PASS (36/38)
+  https://www.googleapis.com/auth/tasks                                     PASS (37/38)
+  https://www.googleapis.com/auth/userinfo.profile                          PASS (38/38)
+All scopes PASSED!
+
+Service Account Client name: SVCACCTID is fully authorized.
+
+admin@server:/Users/admin$ 
+</code></pre>
+<h3 id="update-gamcfg-with-some-basic-values">Update gam.cfg with some basic values</h3>
+<ul>
+<li><code>customer_id</code> - Having this data keeps Gam from having to make extra API calls</li>
+<li><code>domain</code> - This allows you to omit the domain portion of email addresses</li>
+<li><code>timezone local</code> - Gam will convert all UTC times to your local timezone</li>
+</ul>
+<pre><code>admin@server:/Users/admin$ gam info domain
+Customer ID: C01234567
+Primary Domain: domain.com
+Customer Creation Time: 2007-06-06T15:47:55.444Z
+Primary Domain Verified: True
+Default Language: en
+...
+
+admin@server:/Users/admin$ gam config customer_id C01234567 domain domain.com timezone local save verify
+Config File: /Users/admin/GAMConfig/gam.cfg, Saved
+Section: DEFAULT
+  ...
+  customer_id = C01234567
+  ...
+  domain = domain.com
+  ...
+  timezone = local
+  ...
+
+admin@server:/Users/admin$
+</code></pre>
+<h2 id="windows">Windows</h2>
+<p>In these examples, your Google Super admin is shown as admin@domain.com; replace with the
+actual email adddress.</p>
+<p>This example assumes that GAM7 has been installed in C:\GAM7; if you've installed
+GAM7 in another directory, substitute that value in the directions.</p>
+<p>These steps assume Command Prompt, adjust if you're using PowerShell.</p>
+<h3 id="set-a-configuration-directory_1">Set a configuration directory</h3>
+<p>The default GAM configuration directory is C:\Users\<UserName>.gam; for more flexibility you
+probably want to select a non user-specific location. This example assumes that the GAM
+configuration directory will be C:\GAMConfig; If you've chosen another directory,
+substitute that value in the directions.
+* Make the C:\GAMConfig directory before proceeding.</p>
+<h3 id="set-a-working-directory_1">Set a working directory</h3>
+<p>You should extablish a GAM working directory; you will store your GAM related
+data in this folder and execute GAM commands from this folder. You should not use
+C:\GAM7 or C:\GAMConfig for this purpose.
+This example assumes that the GAM working directory will be C:\GAMWork; If you've chosen
+another directory, substitute that value in the directions.
+* Make the C:\GAMWork directory before proceeding.</p>
+<h3 id="set-system-path-and-gam-configuration-directory">Set system path and GAM configuration directory</h3>
+<p>You should set the system path to point to C:\GAM7 so you can operate from the C:\GAMWork directory.</p>
+<pre><code>Start Control Panel
+Click System
+Click Advanced system settings
+Click Environment Variables...
+Click Path under System variables
+Click Edit...
+If C:\GAM7 is already on the Path, skip the next three steps
+  Click New
+  Enter C:\GAM7
+  Click OK
+Click New
+Set Variable name: GAMCFGDIR
+Set Variable value: C:\GAMConfig
+Click OK
+Click OK
+Click OK
+Exit Control Panel
+</code></pre>
+<p>At this point, you should restart Command Prompt so that it has the updated path and environment variables.</p>
+<h3 id="initialize-gam7-this-should-be-the-first-gam7-command-executed_1">Initialize GAM7; this should be the first GAM7 command executed.</h3>
+<pre><code>C:\&gt;gam config drive_dir C:\GAMWork verify
+Created: C:\GAMConfig
+Created: C:\GAMConfig\gamcache
+Config File: C:\GAMConfig\gam.cfg, Initialized
+Section: DEFAULT
+  ...
+  cache_dir = C:\GAMConfig\gamcache
+  ...
+  config_dir = C:\GAMConfig
+  ...
+  drive_dir = C:\GAMWork
+  ...
+
+C:\&gt;
+</code></pre>
+<h3 id="verify-initialization-this-was-a-successful-installation_1">Verify initialization, this was a successful installation.</h3>
+<pre><code>C:\&gt;dir %GAMCFGDIR%
+ Volume in drive C has no label.
+ Volume Serial Number is 663F-DA8B
+
+ Directory of C:\GAMConfig
+
+03/03/2017  10:16 AM    &lt;DIR&gt;          .
+03/03/2017  10:16 AM    &lt;DIR&gt;          ..
+03/03/2017  10:15 AM             1,125 gam.cfg
+03/03/2017  10:15 AM    &lt;DIR&gt;          gamcache
+03/03/2017  10:15 AM                 0 oauth2.txt.lock
+               2 File(s)         15,769 bytes
+               3 Dir(s)  110,532,562,944 bytes free
+C:\&gt;
+</code></pre>
+<h3 id="create-your-project-with-local-browser_1">Create your project with local browser</h3>
+<pre><code>C:\&gt;gam create project
+WARNING: Config File: C:\GAMConfig\gam.cfg, Item: client_secrets_json, Value: C:\GAMConfig\client_secrets.json, Not Found
+WARNING: Config File: C:\GAMConfig\gam.cfg, Item: oauth2service_json, Value: C:\GAMConfig\oauth2service.json, Not Found
+
+Enter your Google Workspace admin or GCP project manager email address authorized to manage project(s) admin@domain.com
+
+Your browser has been opened to visit:
+
+    https://accounts.google.com/o/oaut...pe=code
+
+If your browser is on a different machine then press CTRL+C,
+set no_browser = true in gam.cfg and re-run this command.
+
+Authentication successful.
+Creating project &quot;GAM Project&quot;...
+Checking project status...
+Project: gam-project-abc-def-ghi, Enable 23 APIs
+  API: admin.googleapis.com, Enabled (1/23)
+  API: alertcenter.googleapis.com, Enabled (2/23)
+  API: appsactivity.googleapis.com, Enabled (3/23)
+  API: audit.googleapis.com, Enabled (4/23)
+  API: calendar-json.googleapis.com, Enabled (5/23)
+  API: chat.googleapis.com, Enabled (6/23)
+  API: classroom.googleapis.com, Enabled (7/23)
+  API: contacts.googleapis.com, Enabled (8/23)
+  API: drive.googleapis.com, Enabled (9/23)
+  API: driveactivity.googleapis.com, Enabled (10/23)
+  API: gmail.googleapis.com, Enabled (11/23)
+  API: groupsmigration.googleapis.com, Enabled (12/23)
+  API: groupssettings.googleapis.com, Enabled (13/23)
+  API: iam.googleapis.com, Enabled (14/23)
+  API: iap.googleapis.com, Enabled (15/23)
+  API: licensing.googleapis.com, Enabled (16/23)
+  API: people.googleapis.com, Enabled (17/23)
+  API: pubsub.googleapis.com, Enabled (18/23)
+  API: reseller.googleapis.com, Enabled (19/23)
+  API: sheets.googleapis.com, Enabled (20/23)
+  API: siteverification.googleapis.com, Enabled (21/23)
+  API: storage-api.googleapis.com, Enabled (22/23)
+  API: vault.googleapis.com, Enabled (23/23)
+Setting GAM project consent screen...
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Enabled
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Generating new private key
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Extracting public certificate
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Done generating private key and public certificate
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Service Account Key: SVCACCTKEY, Uploaded
+Service Account OAuth2 File: C:\GAMConfig\oauth2service.json, Service Account Key: SVCACCTKEY, Updated
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Has rights to rotate own private key
+Please go to:
+
+https://console.cloud.google.com/apis/credentials/oauthclient?project=gam-project-abc-def-ghi
+
+1. Choose &quot;Desktop App&quot; or &quot;Other&quot; for &quot;Application type&quot;.
+2. Enter &quot;GAM&quot; or another desired value for &quot;Name&quot;.
+3. Click the blue &quot;Create&quot; button.
+4. Copy your &quot;client ID&quot; value that shows on the next page.
+
+Enter your Client ID: CLIENTID
+
+5. Go back to your browser and copy your &quot;client secret&quot; value.
+Enter your Client Secret: CLIENTSECRET
+6. Go back to your browser and click OK to close the &quot;OAuth client&quot; popup if it's still open.
+That's it! Your GAM Project is created and ready to use.
+
+C:\&gt;
+</code></pre>
+<h3 id="create-your-project-without-local-browser-headless-server-for-instance">Create your project without local browser (headless server for instance)</h3>
+<pre><code>C:\&gt;gam config no_browser true save
+C:\&gt;gam create project
+WARNING: Config File: C:\GAMConfig\gam.cfg, Item: client_secrets_json, Value: C:\GAMConfig\client_secrets.json, Not Found
+WARNING: Config File: C:\GAMConfig\gam.cfg, Item: oauth2service_json, Value: C:\GAMConfig\oauth2service.json, Not Found
+
+Enter your Google Workspace admin or GCP project manager email address authorized to manage project(s) admin@domain.com
+
+Go to the following link in a browser on other computer:
+
+    https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&amp;response_type=code&amp;client_id=...
+
+Enter verification code: abc...xyz
+
+Authentication successful.
+Creating project &quot;GAM Project&quot;...
+Checking project status...
+Project: gam-project-abc-def-ghi, Enable 23 APIs
+  API: admin.googleapis.com, Enabled (1/23)
+  API: alertcenter.googleapis.com, Enabled (2/23)
+  API: appsactivity.googleapis.com, Enabled (3/23)
+  API: audit.googleapis.com, Enabled (4/23)
+  API: calendar-json.googleapis.com, Enabled (5/23)
+  API: chat.googleapis.com, Enabled (6/23)
+  API: classroom.googleapis.com, Enabled (7/23)
+  API: contacts.googleapis.com, Enabled (8/23)
+  API: drive.googleapis.com, Enabled (9/23)
+  API: driveactivity.googleapis.com, Enabled (10/23)
+  API: gmail.googleapis.com, Enabled (11/23)
+  API: groupsmigration.googleapis.com, Enabled (12/23)
+  API: groupssettings.googleapis.com, Enabled (13/23)
+  API: iam.googleapis.com, Enabled (14/23)
+  API: iap.googleapis.com, Enabled (15/23)
+  API: licensing.googleapis.com, Enabled (16/23)
+  API: people.googleapis.com, Enabled (17/23)
+  API: pubsub.googleapis.com, Enabled (18/23)
+  API: reseller.googleapis.com, Enabled (19/23)
+  API: sheets.googleapis.com, Enabled (20/23)
+  API: siteverification.googleapis.com, Enabled (21/23)
+  API: storage-api.googleapis.com, Enabled (22/23)
+  API: vault.googleapis.com, Enabled (23/23)
+Setting GAM project consent screen...
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Enabled
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Generating new private key
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Extracting public certificate
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Done generating private key and public certificate
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Service Account Key: SVCACCTKEY, Uploaded
+Service Account OAuth2 File: C:\GAMConfig\oauth2service.json, Service Account Key: SVCACCTKEY, Updated
+Project: gam-project-abc-def-ghi, Service Account: gam-project-abc-def-ghi@gam-project-abc-def-ghi.iam.gserviceaccount.com, Has rights to rotate own private key
+Please go to:
+
+https://console.cloud.google.com/apis/credentials/oauthclient?project=gam-project-abc-def-ghi
+
+1. Choose &quot;Desktop App&quot; or &quot;Other&quot; for &quot;Application type&quot;.
+2. Enter &quot;GAM&quot; or another desired value for &quot;Name&quot;.
+3. Click the blue &quot;Create&quot; button.
+4. Copy your &quot;client ID&quot; value that shows on the next page.
+
+Enter your Client ID: CLIENTID
+
+5. Go back to your browser and copy your &quot;client secret&quot; value.
+Enter your Client Secret: CLIENTSECRET
+6. Go back to your browser and click OK to close the &quot;OAuth client&quot; popup if it's still open.
+That's it! Your GAM Project is created and ready to use.
+
+C:\&gt;
+</code></pre>
+<h3 id="enable-gam7-client-access_1">Enable GAM7 client access</h3>
+<p>You select a list of scopes, GAM uses a browser to get final authorization from Google for these scopes and
+writes the credentials into the file oauth2.txt.</p>
+<pre><code>C:\&gt;gam oauth create
+
+[*]  0)  Calendar API (supports readonly)
+[*]  1)  Chrome Browser Cloud Management API (supports readonly)
+[*]  2)  Chrome Management API - AppDetails read only
+[*]  3)  Chrome Management API - Telemetry read only
+[*]  4)  Chrome Management API - read only
+[*]  5)  Chrome Policy API (supports readonly)
+[*]  6)  Chrome Printer Management API (supports readonly)
+[*]  7)  Chrome Version History API
+[*]  8)  Classroom API - Course Announcements (supports readonly)
+[*]  9)  Classroom API - Course Topics (supports readonly)
+[*] 10)  Classroom API - Course Work/Materials (supports readonly)
+[*] 11)  Classroom API - Course Work/Submissions (supports readonly)
+[*] 12)  Classroom API - Courses (supports readonly)
+[*] 13)  Classroom API - Profile Emails
+[*] 14)  Classroom API - Profile Photos
+[*] 15)  Classroom API - Rosters (supports readonly)
+[*] 16)  Classroom API - Student Guardians (supports readonly)
+[ ] 17)  Cloud Channel API (supports readonly)
+[*] 18)  Cloud Identity - Inbound SSO Settings (supports readonly)
+[*] 19)  Cloud Identity Groups API (supports readonly)
+[*] 20)  Cloud Identity OrgUnits API (supports readonly)
+[*] 21)  Cloud Identity User Invitations API (supports readonly)
+[ ] 22)  Cloud Storage API (Read Only, Vault/Takeout Download, Cloud Storage)
+[ ] 23)  Cloud Storage API (Read/Write, Vault/Takeout Copy/Download, Cloud Storage)
+[*] 24)  Contact Delegation API (supports readonly)
+[*] 25)  Contacts API - Domain Shared Contacts and GAL
+[*] 26)  Data Transfer API (supports readonly)
+[*] 27)  Directory API - Chrome OS Devices (supports readonly)
+[*] 28)  Directory API - Customers (supports readonly)
+[*] 29)  Directory API - Domains (supports readonly)
+[*] 30)  Directory API - Groups (supports readonly)
+[*] 31)  Directory API - Mobile Devices Directory (supports readonly and action)
+[*] 32)  Directory API - Organizational Units (supports readonly)
+[*] 33)  Directory API - Resource Calendars (supports readonly)
+[*] 34)  Directory API - Roles (supports readonly)
+[*] 35)  Directory API - User Schemas (supports readonly)
+[*] 36)  Directory API - User Security
+[*] 37)  Directory API - Users (supports readonly)
+[ ] 38)  Email Audit API
+[*] 39)  Groups Migration API
+[*] 40)  Groups Settings API
+[*] 41)  License Manager API
+[*] 42)  People API (supports readonly)
+[*] 43)  People Directory API - read only
+[ ] 44)  Pub / Sub API
+[*] 45)  Reports API - Audit Reports
+[*] 46)  Reports API - Usage Reports
+[ ] 47)  Reseller API
+[*] 48)  Site Verification API
+[ ] 49)  Sites API
+[*] 50)  Vault API (supports readonly)
+
+Select an unselected scope [ ] by entering a number; yields [*]
+For scopes that support readonly, enter a number and an 'r' to grant read-only access; yields [R]
+For scopes that support action, enter a number and an 'a' to grant action-only access; yields [A]
+Clear read-only access [R] or action-only access [A] from a scope by entering a number; yields [*]
+Unselect a selected scope [*] by entering a number; yields [ ]
+Select all default scopes by entering an 's'; yields [*] for default scopes, [ ] for others
+Unselect all scopes by entering a 'u'; yields [ ] for all scopes
+Exit without changes/authorization by entering an 'e'
+Continue to authorization by entering a 'c'
+  Note, if all scopes are selected, Google will probably generate an authorization error
+
+Please enter 0-50[a|r] or s|u|e|c: c
+
+Enter your Google Workspace admin email address? admin@domain.com
+
+Go to the following link in a browser on this computer or on another computer:
+
+    https://accounts.google.com/o/oauth2/v2/auth?response_type=code&amp;client_id=423565144751-10lsdt2lgnsch9jmdhl35uq4617u1ifp&amp;redirect_uri=http%3A%2F%2F127.0.0.1%3A8080%2F&amp;scope=...
+
+If you use a browser on another computer, you will get a browser error that the site can't be reached AFTER you
+click the Allow button, paste &quot;Unable to connect&quot; URL from other computer (only URL data up to &amp;scope required):
+
+Enter verification code or paste &quot;Unable to connect&quot; URL from other computer (only URL data up to &amp;scope required):
+
+The authentication flow has completed.
+Client OAuth2 File: C:\GAMConfig\oauth2.txt, Created
+
+C:\&gt;
+</code></pre>
+<h3 id="enable-gam7-service-account-access_1">Enable GAM7 service account access.</h3>
+<pre><code>C:\&gt;gam user admin@domain.com update serviceaccount
+[*]  0)  AlertCenter API
+[*]  1)  Analytics API - read only
+[*]  2)  Analytics Admin API - read only
+[*]  3)  Calendar API (supports readonly)
+[*]  4)  Chat API - Memberships (supports readonly)
+[*]  5)  Chat API - Memberships Admin (supports readonly)
+[*]  6)  Chat API - Messages (supports readonly)
+[*]  7)  Chat API - Spaces (supports readonly)
+[*]  8)  Chat API - Spaces Admin (supports readonly)
+[*]  9)  Chat API - Spaces Delete
+[*] 10)  Chat API - Spaces Delete Admin
+[*] 11)  Classroom API - Course Announcements (supports readonly)
+[*] 12)  Classroom API - Course Topics (supports readonly)
+[*] 13)  Classroom API - Course Work/Materials (supports readonly)
+[*] 14)  Classroom API - Course Work/Submissions (supports readonly)
+[*] 15)  Classroom API - Profile Emails
+[*] 16)  Classroom API - Profile Photos
+[*] 17)  Classroom API - Rosters (supports readonly)
+[*] 18)  Cloud Identity Devices API (supports readonly)
+[*] 19)  Docs API (supports readonly)
+[*] 20)  Drive API (supports readonly)
+[*] 21)  Drive API - todrive
+[*] 22)  Drive Activity API v2 - must pair with Drive API
+[*] 23)  Drive Labels API - Admin (supports readonly)
+[*] 24)  Drive Labels API - User (supports readonly)
+[*] 25)  Forms API
+[*] 26)  Gmail API - Basic Settings (Filters,IMAP, Language, POP, Vacation) - read/write, Sharing Settings (Delegates, Forwarding, SendAs) - read
+[*] 27)  Gmail API - Full Access (Labels, Messages)
+[*] 28)  Gmail API - Full Access (Labels, Messages) except delete message
+[ ] 29)  Gmail API - Full Access - read only
+[ ] 30)  Gmail API - Send Messages - including todrive
+[*] 31)  Gmail API - Sharing Settings (Delegates, Forwarding, SendAs) - write
+[*] 32)  Identity and Access Management API
+[*] 33)  Keep API (supports readonly)
+[*] 34)  Looker Studio API (supports readonly)
+[*] 35)  Meet API (supports readonly)
+[*] 36)  OAuth2 API
+[*] 37)  People API (supports readonly)
+[*] 38)  People API - Other Contacts - read only
+[*] 39)  People Directory API - read only
+[*] 40)  Sheets API (supports readonly)
+[*] 41)  Sheets API - todrive
+[*] 42)  Sites API
+[*] 43)  Tasks API (supports readonly)
+[ ] 44)  Youtube API - read only
+
+Select an unselected scope [ ] by entering a number; yields [*]
+For scopes that support readonly, enter a number and an 'r' to grant read-only access; yields [R]
+For scopes that support action, enter a number and an 'a' to grant action-only access; yields [A]
+Clear read-only access [R] or action-only access [A] from a scope by entering a number; yields [*]
+Unselect a selected scope [*] by entering a number; yields [ ]
+Select all default scopes by entering an 's'; yields [*] for default scopes, [ ] for others
+Unselect all scopes by entering a 'u'; yields [ ] for all scopes
+Exit without changes/authorization by entering an 'e'
+Continue to authorization by entering a 'c'
+
+Please enter 0-44[a|r] or s|u|e|c: c
+System time status
+  Your system time differs from admin.googleapis.com by less than 1 second  PASS
+Service Account Private Key Authentication
+  Authentication                                                            PASS
+Service Account Private Key age; Google recommends rotating keys on a routine basis
+  Service Account Private Key age: 1 day                                    WARN
+Domain-wide Delegation authentication:, User: admin@domain.com, Scopes: 38
+  https://mail.google.com/                                                  FAIL (1/38)
+  https://sites.google.com/feeds                                            FAIL (2/38)
+  https://www.googleapis.com/auth/analytics.readonly                        FAIL (3/38)
+  https://www.googleapis.com/auth/apps.alerts                               FAIL (4/38)
+  https://www.googleapis.com/auth/calendar                                  FAIL (5/38)
+  https://www.googleapis.com/auth/chat.admin.delete                         FAIL (6/38)
+  https://www.googleapis.com/auth/chat.admin.memberships                    FAIL (7/38)
+  https://www.googleapis.com/auth/chat.admin.spaces                         FAIL (8/38)
+  https://www.googleapis.com/auth/chat.delete                               FAIL (9/38)
+  https://www.googleapis.com/auth/chat.memberships                          FAIL (10/38)
+  https://www.googleapis.com/auth/chat.messages                             FAIL (11/38)
+  https://www.googleapis.com/auth/chat.spaces                               FAIL (12/38)
+  https://www.googleapis.com/auth/classroom.announcements                   FAIL (13/38)
+  https://www.googleapis.com/auth/classroom.coursework.students             FAIL (14/38)
+  https://www.googleapis.com/auth/classroom.courseworkmaterials             FAIL (15/38)
+  https://www.googleapis.com/auth/classroom.profile.emails                  FAIL (16/38)
+  https://www.googleapis.com/auth/classroom.profile.photos                  FAIL (17/38)
+  https://www.googleapis.com/auth/classroom.rosters                         FAIL (18/38)
+  https://www.googleapis.com/auth/classroom.topics                          FAIL (19/38)
+  https://www.googleapis.com/auth/cloud-identity                            FAIL (20/38)
+  https://www.googleapis.com/auth/cloud-platform                            FAIL (21/38)
+  https://www.googleapis.com/auth/contacts                                  FAIL (22/38)
+  https://www.googleapis.com/auth/contacts.other.readonly                   FAIL (23/38)
+  https://www.googleapis.com/auth/datastudio                                FAIL (24/38)
+  https://www.googleapis.com/auth/directory.readonly                        FAIL (25/38)
+  https://www.googleapis.com/auth/documents                                 FAIL (26/38)
+  https://www.googleapis.com/auth/drive                                     FAIL (27/38)
+  https://www.googleapis.com/auth/drive.activity                            FAIL (28/38)
+  https://www.googleapis.com/auth/drive.admin.labels                        FAIL (29/38)
+  https://www.googleapis.com/auth/drive.labels                              FAIL (30/38)
+  https://www.googleapis.com/auth/gmail.modify                              FAIL (31/38)
+  https://www.googleapis.com/auth/gmail.settings.basic                      FAIL (32/38)
+  https://www.googleapis.com/auth/gmail.settings.sharing                    FAIL (33/38)
+  https://www.googleapis.com/auth/keep                                      FAIL (34/38)
+  https://www.googleapis.com/auth/meetings.space.created                    FAIL (35/38)
+  https://www.googleapis.com/auth/spreadsheets                              FAIL (36/38)
+  https://www.googleapis.com/auth/tasks                                     FAIL (37/38)
+  https://www.googleapis.com/auth/userinfo.profile                          FAIL (38/38)
+Some scopes FAILED!
+To authorize them, please go to the following link in your browser:
+
+    https://gam-shortn.appspot.com/hvtbrz
+
+You will be directed to the Google Workspace admin console Security &gt; API Controls &gt; Domain-wide Delegation page
+The &quot;Add a new Client ID&quot; box will open
+Make sure that &quot;Overwrite existing client ID&quot; is checked
+Click AUTHORIZE
+When the box closes you're done
+After authorizing it may take some time for this test to pass so wait a few moments and then try this command again.
+
+C:\&gt;
+</code></pre>
+<p>The link shown in the error message should take you directly to the authorization screen.
+If not, make sure that you are logged in as a domain admin, then re-enter the link.</p>
+<h3 id="verify-gam7-service-account-access_1">Verify GAM7 service account access.</h3>
+<p>Wait a moment and then perform the following command; it it still fails, wait a bit longer, it can sometimes take serveral minutes
+for the authorization to complete.</p>
+<pre><code>C:\&gt;gam user admin@domain.com check serviceaccount
+System time status
+  Your system time differs from admin.googleapis.com by less than 1 second  PASS
+Service Account Private Key Authentication
+  Authentication                                                            PASS
+Service Account Private Key age; Google recommends rotating keys on a routine basis
+  Service Account Private Key age: 1 day                                    WARN
+Domain-wide Delegation authentication:, User: admin@domain.com, Scopes: 38
+  https://mail.google.com/                                                  PASS (1/38)
+  https://sites.google.com/feeds                                            PASS (2/38)
+  https://www.googleapis.com/auth/analytics.readonly                        PASS (3/38)
+  https://www.googleapis.com/auth/apps.alerts                               PASS (4/38)
+  https://www.googleapis.com/auth/calendar                                  PASS (5/38)
+  https://www.googleapis.com/auth/chat.admin.delete                         PASS (6/38)
+  https://www.googleapis.com/auth/chat.admin.memberships                    PASS (7/38)
+  https://www.googleapis.com/auth/chat.admin.spaces                         PASS (8/38)
+  https://www.googleapis.com/auth/chat.delete                               PASS (9/38)
+  https://www.googleapis.com/auth/chat.memberships                          PASS (10/38)
+  https://www.googleapis.com/auth/chat.messages                             PASS (11/38)
+  https://www.googleapis.com/auth/chat.spaces                               PASS (12/38)
+  https://www.googleapis.com/auth/classroom.announcements                   PASS (13/38)
+  https://www.googleapis.com/auth/classroom.coursework.students             PASS (14/38)
+  https://www.googleapis.com/auth/classroom.courseworkmaterials             PASS (15/38)
+  https://www.googleapis.com/auth/classroom.profile.emails                  PASS (16/38)
+  https://www.googleapis.com/auth/classroom.profile.photos                  PASS (17/38)
+  https://www.googleapis.com/auth/classroom.rosters                         PASS (18/38)
+  https://www.googleapis.com/auth/classroom.topics                          PASS (19/38)
+  https://www.googleapis.com/auth/cloud-identity                            PASS (20/38)
+  https://www.googleapis.com/auth/cloud-platform                            PASS (21/38)
+  https://www.googleapis.com/auth/contacts                                  PASS (22/38)
+  https://www.googleapis.com/auth/contacts.other.readonly                   PASS (23/38)
+  https://www.googleapis.com/auth/datastudio                                PASS (24/38)
+  https://www.googleapis.com/auth/directory.readonly                        PASS (25/38)
+  https://www.googleapis.com/auth/documents                                 PASS (26/38)
+  https://www.googleapis.com/auth/drive                                     PASS (27/38)
+  https://www.googleapis.com/auth/drive.activity                            PASS (28/38)
+  https://www.googleapis.com/auth/drive.admin.labels                        PASS (29/38)
+  https://www.googleapis.com/auth/drive.labels                              PASS (30/38)
+  https://www.googleapis.com/auth/gmail.modify                              PASS (31/38)
+  https://www.googleapis.com/auth/gmail.settings.basic                      PASS (32/38)
+  https://www.googleapis.com/auth/gmail.settings.sharing                    PASS (33/38)
+  https://www.googleapis.com/auth/keep                                      PASS (34/38)
+  https://www.googleapis.com/auth/meetings.space.created                    PASS (35/38)
+  https://www.googleapis.com/auth/spreadsheets                              PASS (36/38)
+  https://www.googleapis.com/auth/tasks                                     PASS (37/38)
+  https://www.googleapis.com/auth/userinfo.profile                          PASS (38/38)
+All scopes PASSED!
+
+Service Account Client name: SVCACCTID is fully authorized.
+
+C:\&gt;
+</code></pre>
+<h3 id="update-gamcfg-with-some-basic-values_1">Update gam.cfg with some basic values</h3>
+<ul>
+<li><code>customer_id</code> - Having this data keeps Gam from having to make extra API calls</li>
+<li><code>domain</code> - This allows you to omit the domain portion of email addresses</li>
+<li><code>timezone local</code> - Gam will convert all UTC times to your local timezone</li>
+</ul>
+<pre><code>C:\&gt;gam info domain
+Customer ID: C01234567
+Primary Domain: domain.com
+Customer Creation Time: 2007-06-06T15:47:55.444Z
+Primary Domain Verified: True
+Default Language: en
+...
+
+C:\&gt;gam config customer_id C01234567 domain domain.com timezone local save verify
+Config File: C:\GAMConfig\gam.cfg, Saved
+Section: DEFAULT
+  ...
+  customer_id = C01234567
+  ...
+  domain = domain.com
+  ...
+  timezone = local
+  ...
+
+C:\&gt;
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

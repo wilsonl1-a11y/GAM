@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>l Managing Google Classroom - GAM Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">GAM Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../00scratch/" class="nav-link">Scratch Me Wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Addresses/" class="nav-link">Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Administrators/" class="nav-link">Administrators</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Alert-Center/" class="nav-link">Alert Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Aliases/" class="nav-link">Aliases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Authorization/" class="nav-link">Authorization</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../BNF-Syntax/" class="nav-link">Syntax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Basic-Items/" class="nav-link">Basic Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Bulk-Processing/" class="nav-link">Bulk Processing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Business-Account-Management/" class="nav-link">Users - Business Account Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../CSV-Input-Filtering/" class="nav-link">CSV Input Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../CSV-Output-Filtering/" class="nav-link">CSV Output Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../CSV-Special-Characters/" class="nav-link">CSV Special Characters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Calendars-Access/" class="nav-link">Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Calendars-Events/" class="nav-link">Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Calendars/" class="nav-link">Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Chat-Bot-Setup-Use/" class="nav-link">Chat Bot Setup and Use</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Chrome-AUE-Counts/" class="nav-link">Chrome Auto Update Expiration Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Chrome-Browser-Cloud-Management/" class="nav-link">Chrome Browser Cloud Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Chrome-Device-Counts/" class="nav-link">Chrome Device Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Chrome-Installed-Apps/" class="nav-link">Chrome Installed Apps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Chrome-Needs-Attention-Counts/" class="nav-link">Chrome Device Needs Attention Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Chrome-Policies/" class="nav-link">Chrome Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Chrome-Printers/" class="nav-link">Chrome Printers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Chrome-Profile-Management/" class="nav-link">Chrome Profile Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Chrome-Version-Counts/" class="nav-link">Chrome Version Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Chrome-Version-History/" class="nav-link">Chrome Version History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../ChromeOS-Devices/" class="nav-link">ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Classroom-Courses/" class="nav-link">Classroom - Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Classroom-Guardians/" class="nav-link">Classroom - Guardians</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Classroom-Invitations/" class="nav-link">Classroom - Invitations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Classroom-Membership/" class="nav-link">Classroom - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Classroom-StudentGroups/" class="nav-link">Classroom - Student Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Cloud-Channel/" class="nav-link">Cloud Channel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Cloud-Identity-Devices/" class="nav-link">Cloud Identity Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Cloud-Identity-Groups-Membership/" class="nav-link">Cloud Identity Groups - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Cloud-Identity-Groups/" class="nav-link">Cloud Identity Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Cloud-Identity-Policies/" class="nav-link">Cloud Identity Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Cloud-Storage/" class="nav-link">Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Collections-of-ChromeOS-Devices/" class="nav-link">Collections of ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Collections-of-Items/" class="nav-link">Collections of Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Collections-of-Users/" class="nav-link">Collections of Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Command-Data-From-Google-Docs-Sheets-Storage/" class="nav-link">Command data from Google Docs, Sheets and Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Command-Line-Parsing/" class="nav-link">Command Line Parsing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Command-Logging-Progress/" class="nav-link">Command Logging and Progress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Context-Aware-Access-Levels/" class="nav-link">Context-Aware Access Levels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Customer/" class="nav-link">Customer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Domain-People-Contacts-Profiles/" class="nav-link">Domain People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Domain-SharedContacts/" class="nav-link">Domain Shared Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Domains-Verification/" class="nav-link">Domains - Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Domains/" class="nav-link">Domains</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Downloads-Installs/" class="nav-link">Downloads-Installs-GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Drive-File-Selection/" class="nav-link">Drive File Selection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Drive-Items/" class="nav-link">Drive Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Drive-REST-API-v3/" class="nav-link">Drive REST API v3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Email-Audit-Monitor/" class="nav-link">Email Audit Monitor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Find-File-Owner/" class="nav-link">Find File Owner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../GAM-Public-Chat-Room/" class="nav-link">GAM Public Chat Room</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../GAM-Release-Process/" class="nav-link">Steps to release a new GAM version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../GAM-Return-Codes/" class="nav-link">GAM Return Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../GAM-with-minimal-GCP-rights/" class="nav-link">GAM setup with minimal GCP permissions.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../GAM7-FAQ/" class="nav-link">What is GAM7?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../GAM7-on-Android-Devices/" class="nav-link">GAM7 on Android Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../GAM7-on-Chrome-OS-Devices/" class="nav-link">GAM7 on Chrome OS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../GamUpdates/" class="nav-link">Update GAM7 to latest version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Global-Address-List/" class="nav-link">Global Address List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Google-Data-Transfers/" class="nav-link">Google Data Transfers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Google-Network-Addresses/" class="nav-link">Google Network Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Groups-Membership/" class="nav-link">Groups Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Groups/" class="nav-link">Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../HTTPS-Proxy/" class="nav-link">HTTPS Proxy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Home/" class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../How-to-Install-GAM7/" class="nav-link">Installing GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../How-to-Uninstall-GAM7/" class="nav-link">Uninstalling GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../How-to-Update-GAM7/" class="nav-link">Updating GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../How-to-Upgrade-GAMADV-XTD3-to-GAM7/" class="nav-link">Installation - Upgrade GAMADV-XTD3 to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../How-to-Upgrade-Legacy-GAM-to-GAM7/" class="nav-link">Installation - Upgrade Legacy GAM to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Inbound-SSO/" class="nav-link">Inbound SSO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Install-GAM-as-Python-Library/" class="nav-link">Install GAM as Python Library</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Licenses/" class="nav-link">Licenses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../List-Items/" class="nav-link">List Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../List/" class="nav-link">List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Meta-Commands-and-File-Redirection/" class="nav-link">Meta Commands and File Redirection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Mobile-Devices/" class="nav-link">Mobile Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Organizational-Units/" class="nav-link">Organizational Units</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Other-Resources/" class="nav-link">Other Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Permission-Matches/" class="nav-link">Permission Matches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Python-Regular-Expressions/" class="nav-link">Python Regular Expressions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Rclone/" class="nav-link">Rclone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Reports/" class="nav-link">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Reseller/" class="nav-link">Reseller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Resources/" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Running-GAM7-securely-on-a-Google-Compute-Engine/" class="nav-link">Running GAM7 securely on a Google Compute Engine</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../SSL-Root-CA-Certificates/" class="nav-link">SSL Root CA Certificates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Schemas/" class="nav-link">Schemas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Scripts/" class="nav-link">Scripts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Send-Email/" class="nav-link">Send Email</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Shared-Drives/" class="nav-link">Domain Administrators - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Sites/" class="nav-link">Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Tag-Replace/" class="nav-link">Tag Replace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Todrive/" class="nav-link">Todrive</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Unmanaged-Accounts/" class="nav-link">Unmanaged Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Upgrade-Benefits/" class="nav-link">Upgrade Benefits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Analytics-Admin/" class="nav-link">Users - Analytics Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Application-Specific-Passwords/" class="nav-link">Users - Application Specific Passwords</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Backup-Verification-Codes/" class="nav-link">Users - Backup Verification Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Calendars-Access/" class="nav-link">Users - Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Calendars-Events/" class="nav-link">Users - Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Calendars/" class="nav-link">Users - Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Chat/" class="nav-link">Users - Chat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Classification-Labels/" class="nav-link">Users - Classification Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Classroom-Profile/" class="nav-link">Users - Classroom - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Contacts-Delegates/" class="nav-link">Users - Contacts - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Contacts/" class="nav-link">User Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Deprovision/" class="nav-link">Users - Deprovision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Activity-Settings/" class="nav-link">Users - Drive - Activity/Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Cleanup/" class="nav-link">Users - Drive - Cleanup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Comments/" class="nav-link">Users - Drive - Comments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Copy-Move/" class="nav-link">Users - Drive Files Copy/Move</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Files-Display/" class="nav-link">Users - Drive Files Display</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Files-Manage/" class="nav-link">Users - Drive Files Manage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Orphans/" class="nav-link">Users - Drive - Orphans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Ownership/" class="nav-link">Users - Drive - Ownership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Permissions/" class="nav-link">Users - Drive - Permissions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Query/" class="nav-link">Users - Drive - Query</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Revisions/" class="nav-link">Users - Drive - Revisions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Shortcuts/" class="nav-link">Users - Drive Shortcuts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Drive-Transfer/" class="nav-link">Users - Drive - Transfer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Forms/" class="nav-link">Users - Forms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Gmail-CSE/" class="nav-link">Users - Gmail - Client Side Encryption</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Gmail-Delegates/" class="nav-link">Users - Gmail - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Gmail-Filters/" class="nav-link">Users - Gmail - Filters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Gmail-Forwarding/" class="nav-link">Users - Gmail - Forwarding</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Gmail-Labels/" class="nav-link">Users - Gmail - Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Gmail-Messages-Threads/" class="nav-link">Users - Gmail - Messages/Threads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Gmail-Profile/" class="nav-link">Users - Gmail - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Gmail-S-MIME/" class="nav-link">Users - Gmail - S/MIME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Gmail-Send-As-Signature-Vacation/" class="nav-link">Users - Gmail - Send As/Signature/Vacation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Gmail-Settings/" class="nav-link">Users - Gmail - Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Group-Membership/" class="nav-link">Users - Group Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Keep-Notes/" class="nav-link">Users - Keep - Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Looker-Studio/" class="nav-link">Users - Looker Studio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Meet/" class="nav-link">Users - Meet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-People-Contacts-Profiles/" class="nav-link">Users - People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Photo/" class="nav-link">Users - Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Profile-Photo/" class="nav-link">Users - Profile Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Profile-Sharing/" class="nav-link">Users - Profile Sharing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Shared-Drives/" class="nav-link">Users - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Signout-Turnoff2SV/" class="nav-link">Users - Signout and Turn off 2-Step Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Spreadsheets/" class="nav-link">Users - Spreadsheets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Tag-Manager/" class="nav-link">Users - Tag Manager</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Tasks/" class="nav-link">Users - Tasks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Tokens/" class="nav-link">Users - Tokens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-Web-Resources-and-Sites/" class="nav-link">Users - Web Resources and Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users-YouTube/" class="nav-link">Users - YouTube</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Users/" class="nav-link">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Using-GAM7-with-a-YubiKey/" class="nav-link">Using GAM7 with a YubiKey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Using-GAM7-with-a-delegated-admin-service-account/" class="nav-link">Using GAM7 with a delegated admin service account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Using-GAM7-with-keyless-authentication-Workload-Identity-Federation/" class="nav-link">Using GAM7 with Keyless Authentication - Workload Identity Federation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Vault-Takeout/" class="nav-link">Vault - Takeout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Verifying-a-GAM7-Build-is-Legitimate-and-Official/" class="nav-link">Verifying a GAM7 Build is Legitimate and Official</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Version-and-Help/" class="nav-link">Version and Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../_Sidebar/" class="nav-link"> Sidebar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../gam.cfg/" class="nav-link">GAM Configuration</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Legacy</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../l-AdminSettingsExamples/" class="dropdown-item">l AdminSettingsExamples</a>
+</li>
+                                    
+<li>
+    <a href="../l-Android-Installation/" class="dropdown-item">l Android Installation</a>
+</li>
+                                    
+<li>
+    <a href="../l-BulkOperations/" class="dropdown-item">l BulkOperations</a>
+</li>
+                                    
+<li>
+    <a href="../l-CalendarExamples/" class="dropdown-item">l CalendarExamples</a>
+</li>
+                                    
+<li>
+    <a href="../l-Chat-Bot/" class="dropdown-item">l Chat Bot</a>
+</li>
+                                    
+<li>
+    <a href="../l-Chrome-Browser-Management/" class="dropdown-item">l Chrome Browser Management</a>
+</li>
+                                    
+<li>
+    <a href="../l-Chrome-OS-Installation/" class="dropdown-item">l Chrome OS Installation</a>
+</li>
+                                    
+<li>
+    <a href="../l-Chrome-Policy-Settings/" class="dropdown-item">l Chrome Policy Settings</a>
+</li>
+                                    
+<li>
+    <a href="../l-Cloud-Identity-Groups/" class="dropdown-item">l Cloud Identity Groups</a>
+</li>
+                                    
+<li>
+    <a href="../l-Command-Reference-Calendar-Resources/" class="dropdown-item">GAM Calendar Resources Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../l-Command-Reference-Calendars/" class="dropdown-item">GAM Calendar Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../l-Command-Reference-Definitions/" class="dropdown-item">l Command Reference Definitions</a>
+</li>
+                                    
+<li>
+    <a href="../l-Command-Reference-Drive/" class="dropdown-item">GAM Drive Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../l-Command-Reference-Email/" class="dropdown-item">GAM Email Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../l-Command-Reference-Group-Attributes/" class="dropdown-item">GAM Group Attributes Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../l-Command-Reference-Groups/" class="dropdown-item">GAM Group Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../l-Command-Reference-Users/" class="dropdown-item">GAM Users Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../l-Context-Aware-Access-Levels/" class="dropdown-item">l Context Aware Access Levels</a>
+</li>
+                                    
+<li>
+    <a href="../l-Creating-client_secrets.json-and-oauth2service.json/" class="dropdown-item">l Creating client secrets.json and oauth2service.json</a>
+</li>
+                                    
+<li>
+    <a href="../l-CreatingClientSecretsFile/" class="dropdown-item">l CreatingClientSecretsFile</a>
+</li>
+                                    
+<li>
+    <a href="../l-Custom-Schemas/" class="dropdown-item">l Custom Schemas</a>
+</li>
+                                    
+<li>
+    <a href="../l-Data-Transfers/" class="dropdown-item">l Data Transfers</a>
+</li>
+                                    
+<li>
+    <a href="../l-DomainVerification/" class="dropdown-item">l DomainVerification</a>
+</li>
+                                    
+<li>
+    <a href="../l-ExamplesAccountAuditing/" class="dropdown-item">l ExamplesAccountAuditing</a>
+</li>
+                                    
+<li>
+    <a href="../l-ExamplesCSV/" class="dropdown-item">l ExamplesCSV</a>
+</li>
+                                    
+<li>
+    <a href="../l-ExamplesEmailSettings/" class="dropdown-item">l ExamplesEmailSettings</a>
+</li>
+                                    
+<li>
+    <a href="../l-ExamplesOrganizations/" class="dropdown-item">l ExamplesOrganizations</a>
+</li>
+                                    
+<li>
+    <a href="../l-GAM-Discussion-Group/" class="dropdown-item">GAM Discussion Group</a>
+</li>
+                                    
+<li>
+    <a href="../l-GAM-on-Android-and-Chrome-OS/" class="dropdown-item">l GAM on Android and Chrome OS</a>
+</li>
+                                    
+<li>
+    <a href="../l-GAM-options-files/" class="dropdown-item">l GAM options files</a>
+</li>
+                                    
+<li>
+    <a href="../l-GAM-with--minimal-GCP-rights/" class="dropdown-item">l GAM with  minimal GCP rights</a>
+</li>
+                                    
+<li>
+    <a href="../l-GAM3CSVListings/" class="dropdown-item">l GAM3CSVListings</a>
+</li>
+                                    
+<li>
+    <a href="../l-GAM3DirectoryCommands/" class="dropdown-item">l GAM3DirectoryCommands</a>
+</li>
+                                    
+<li>
+    <a href="../l-GAM3GroupSettings/" class="dropdown-item">l GAM3GroupSettings</a>
+</li>
+                                    
+<li>
+    <a href="../l-Google-Vault---Takeout-Commands/" class="dropdown-item">l Google Vault   Takeout Commands</a>
+</li>
+                                    
+<li>
+    <a href="../l-GoogleDriveManagement/" class="dropdown-item">l GoogleDriveManagement</a>
+</li>
+                                    
+<li>
+    <a href="../l-Grouping-18-or-Older-Users/" class="dropdown-item">Using GAM to group 18+ users</a>
+</li>
+                                    
+<li>
+    <a href="../l-Home/" class="dropdown-item">l Home</a>
+</li>
+                                    
+<li>
+    <a href="../l-How-to-upgrade-from-Standard-GAM/" class="dropdown-item">Installation - Upgrading from Standard GAM</a>
+</li>
+                                    
+<li>
+    <a href="../l-Inbound-SSO-Settings/" class="dropdown-item">l Inbound SSO Settings</a>
+</li>
+                                    
+<li>
+    <a href="../l-LicenseExamples/" class="dropdown-item">l LicenseExamples</a>
+</li>
+                                    
+<li>
+    <a href="../l-Managing-Admins/" class="dropdown-item">l Managing Admins</a>
+</li>
+                                    
+<li>
+    <a href="../l-Managing-CloudPrint-Printers/" class="dropdown-item">l Managing CloudPrint Printers</a>
+</li>
+                                    
+<li>
+    <a href="../l-Managing-Devices/" class="dropdown-item">l Managing Devices</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">l Managing Google Classroom</a>
+</li>
+                                    
+<li>
+    <a href="../l-OAuthKeyManagement/" class="dropdown-item">l OAuthKeyManagement</a>
+</li>
+                                    
+<li>
+    <a href="../l-Printers/" class="dropdown-item">l Printers</a>
+</li>
+                                    
+<li>
+    <a href="../l-ResellerCommands/" class="dropdown-item">l ResellerCommands</a>
+</li>
+                                    
+<li>
+    <a href="../l-SecurityExamples/" class="dropdown-item">l SecurityExamples</a>
+</li>
+                                    
+<li>
+    <a href="../l-UnmanagedUsersExamples/" class="dropdown-item">l UnmanagedUsersExamples</a>
+</li>
+                                    
+<li>
+    <a href="../l-Using-GAM-with-a-delegated-admin-service-account-%28DASA%29/" class="dropdown-item">Background</a>
+</li>
+                                    
+<li>
+    <a href="../l-_Footer/" class="dropdown-item">l  Footer</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../l-Managing-Devices/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../l-OAuthKeyManagement/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#managing-courses" class="nav-link">Managing Courses</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#creating-a-course" class="nav-link">Creating A Course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#updating-a-course" class="nav-link">Updating A Course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#getting-course-info" class="nav-link">Getting Course Info</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#deleting-a-course" class="nav-link">Deleting A Course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#managing-course-aliases" class="nav-link">Managing Course Aliases</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#creating-an-alias" class="nav-link">Creating An Alias</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#deleting-an-alias" class="nav-link">Deleting An Alias</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#managing-course-participants" class="nav-link">Managing Course Participants</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#adding-students-and-teachers-to-a-course" class="nav-link">Adding Students And Teachers To A Course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#syncing-students-and-teachers-to-a-course" class="nav-link">Syncing Students And Teachers To A Course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#removing-students-and-teachers-from-a-course" class="nav-link">Removing Students And Teachers From A Course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#managing-guardians" class="nav-link">Managing Guardians</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#inviting-a-guardian" class="nav-link">Inviting a Guardian</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#delete-a-guardian" class="nav-link">Delete a Guardian</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#printing-guardians" class="nav-link">Printing Guardians</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#course-and-course-participant-reports" class="nav-link">Course And Course Participant Reports</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#printing-courses" class="nav-link">Printing Courses</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#printing-course-participants" class="nav-link">Printing Course Participants</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#troubleshooting" class="nav-link">Troubleshooting</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#403-error" class="nav-link">403 Error</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<ul>
+<li><a href="#managing-courses">Managing Courses</a></li>
+<li><a href="#creating-a-course">Creating A Course</a></li>
+<li><a href="#updating-a-course">Updating A Course</a></li>
+<li><a href="#getting-course-info">Getting Course Info</a></li>
+<li><a href="#deleting-a-course">Deleting A Course</a></li>
+<li><a href="#managing-course-aliases">Managing Course Aliases</a></li>
+<li><a href="#creating-an-alias">Creating An Alias</a></li>
+<li><a href="#deleting-an-alias">Deleting An Alias</a></li>
+<li><a href="#managing-course-participants">Managing Course Participants</a></li>
+<li><a href="#adding-students-and-teachers-to-a-course">Adding Students And Teachers To A Course</a></li>
+<li><a href="#syncing-students-and-teachers-to-a-course">Syncing Students And Teachers To A Course</a></li>
+<li><a href="#removing-students-and-teachers-from-a-course">Removing Students And Teachers From A Course</a></li>
+<li><a href="#managing-guardians">Managing Guardians</a></li>
+<li><a href="#inviting-a-guardian">Inviting a guardian</a></li>
+<li><a href="#deleting-a-guardian">Deleting a guardian</a></li>
+<li><a href="#printing-guardians">Printing Guardians</a></li>
+<li><a href="#course-and-course-participant-reports">Course And Course Participant Reports</a></li>
+<li><a href="#printing-courses">Printing Courses</a></li>
+<li><a href="#printing-course-participants">Printing Course Participants</a></li>
+<li><a href="#troubleshooting">Troubleshooting</a></li>
+<li><a href="#403-error">403 Error</a></li>
+</ul>
+<h1 id="managing-courses">Managing Courses</h1>
+<h2 id="creating-a-course">Creating A Course</h2>
+<h3 id="syntax">Syntax</h3>
+<pre><code>gam create course [alias &lt;alias&gt;] [name &lt;name&gt;] [section &lt;section&gt;] [heading &lt;heading&gt;] [description &lt;description&gt;] [room &lt;room&gt;] [teacher &lt;teacher email&gt;] [status &lt;PROVISIONED|ACTIVE|ARCHIVED|DECLINED&gt;]
+</code></pre>
+<p>Provision a new course. The optional alias parameter provides a unique id which can be used to reference the course. If a course already exists with this alias, an error will be thrown. If no alias is supplied, the course must be managed by the id that is assigned to it by Google when created. The optional name, section, heading, description and room parameters provide additional details for the course. The optional teacher parameter provides the email address of the owner / primary teacher of the course. If no teacher is provided then the admin user running GAM will be the owner / primary teacher of the course. The optional status parameter provides the initial status of the course when created. If no status is provided, courses default to PROVISIONED status.</p>
+<h3 id="example">Example</h3>
+<p>This example creates a course.</p>
+<pre><code>gam create course alias the-republic-s01 name &quot;The Republic&quot; section s01 heading &quot;The definition of justice (δικαιοσύνη), the order and character of the just city-state and the just man&quot; room academy-01 teacher plato@athens.edu
+</code></pre>
+<hr />
+<h2 id="updating-a-course">Updating A Course</h2>
+<h3 id="syntax_1">Syntax</h3>
+<pre><code>gam update course &lt;id or alias&gt; [name &lt;name&gt;] [section &lt;section&gt;]
+  [heading &lt;heading&gt;] [description &lt;description&gt;] [room &lt;room&gt;]
+  [status &lt;PROVISIONED|ACTIVE|ARCHIVED|DECLINED&gt;]
+  [owner &lt;teacher email&gt;]
+</code></pre>
+<p>Updates an existing course. The id or alias of the course is needed to identify the exact course to be updated. The optional name, section, heading, description and room parameters provide additional details for the course. The optional status parameter sets the status of the course. The optional owner argument sets a new owner teacher for the course. The owner email address must already be a teacher of the course and the old owner will remain a teacher of the course.</p>
+<h3 id="example_1">Example</h3>
+<p>This example updates an existing course to make it active</p>
+<pre><code>gam update course the-republic-s01 status ACTIVE
+</code></pre>
+<p>This example sets a new owner for the course.</p>
+<pre><code>gam update course the-republic-s01 owner aristotle@athens.edu
+</code></pre>
+<hr />
+<h2 id="getting-course-info">Getting Course Info</h2>
+<h3 id="syntax_2">Syntax</h3>
+<pre><code>gam info course &lt;id or alias&gt;
+</code></pre>
+<p>Prints detailed information about a course.</p>
+<h3 id="example_2">Example</h3>
+<p>This example prints information about the course</p>
+<pre><code>gam info course the-republic-s01
+updateTime: 2015-07-01T13:47:20.000Z
+room: academy-01
+alternateLink: http://classroom.google.com/c/MtM0NzcxNDY5
+enrollmentCode: 46rvtp
+section: s01
+creationTime: 2015-07-01T13:47:20.000Z
+courseState: ACTIVE
+ownerId: 102043113942954782808
+id: 134781269
+descriptionHeading: The definition of justice (δικαιοσύνη), the order and character of the just city-state and the just man
+name: The Republic
+Aliases:
+  the-republic-s01
+Participants:
+ Teachers:
+  Plato Plato - plato@athens.edu
+ Students:
+</code></pre>
+<hr />
+<h2 id="deleting-a-course">Deleting A Course</h2>
+<h3 id="syntax_3">Syntax</h3>
+<pre><code>gam delete course &lt;id or alias&gt;
+</code></pre>
+<p>Deletes the given course.</p>
+<h3 id="example_3">Example</h3>
+<p>This example deletes the course</p>
+<pre><code>gam delete course the-republic-s01
+</code></pre>
+<hr />
+<h1 id="managing-course-aliases">Managing Course Aliases</h1>
+<h2 id="creating-an-alias">Creating An Alias</h2>
+<h3 id="syntax_4">Syntax</h3>
+<pre><code>gam course &lt;id or alias&gt; add alias &lt;alias&gt;
+</code></pre>
+<p>Create a new alias for an existing course.</p>
+<h3 id="example_4">Example</h3>
+<p>This example creates an alias for a course which already has one alias.</p>
+<pre><code>gam course this-is-an-alias add alias this-is-another-alias
+</code></pre>
+<hr />
+<h2 id="deleting-an-alias">Deleting An Alias</h2>
+<h3 id="syntax_5">Syntax</h3>
+<pre><code>gam course &lt;id or alias&gt; delete alias &lt;alias&gt;
+</code></pre>
+<p>Delete an alias from an existing course.</p>
+<h3 id="example_5">Example</h3>
+<p>This example deletes the alias from the add alias example above.</p>
+<pre><code>gam course this-is-an-alias delete alias this-is-another-alias
+</code></pre>
+<hr />
+<h1 id="managing-course-participants">Managing Course Participants</h1>
+<h2 id="adding-students-and-teachers-to-a-course">Adding Students And Teachers To A Course</h2>
+<h3 id="syntax_6">Syntax</h3>
+<pre><code>gam course &lt;id or alias&gt; add student|teacher &lt;email address&gt;
+</code></pre>
+<p>Add the given user email address to the course as a student or teacher.</p>
+<h3 id="example_6">Example</h3>
+<p>This example adds Aristotle as a student in the course</p>
+<pre><code>gam course the-republic-s01 add student aristotle@athens.edu
+</code></pre>
+<hr />
+<h2 id="syncing-students-and-teachers-to-a-course">Syncing Students And Teachers To A Course</h2>
+<h3 id="syntax_7">Syntax</h3>
+<pre><code>gam course &lt;id or alias&gt; sync students|teachers group &lt;group email&gt; | ou &lt;orgunit&gt; | file &lt;filename&gt; | query &lt;users query&gt; | course &lt;id or alias&gt;
+</code></pre>
+<p>Syncs the students or teachers for the given course against another list of users. Students/Teachers not in the other list will be removed from the given course. Students/Teachers in the other list but not the course will be added.</p>
+<h3 id="examples">Examples</h3>
+<p>This example adds all users in the Google Org Unit /schools/sunnybrook/K-1 into the course. If there are students in the course that are not in this OU, they will be removed.</p>
+<pre><code>gam course sunnybrook-k-1 sync students ou /schools/sunnybrook/K-1
+</code></pre>
+<p>This example syncs the course teachers against members of the biology-101-teachers@sunnybrook.edu group.</p>
+<pre><code>gam course biology-101-s01 sync teachers group biology-101-teachers@sunnybrook.edu
+</code></pre>
+<p>This example syncs course students against a CSV file</p>
+<pre><code>gam course history-200-s02 sync students file history-200-s02-students.csv
+</code></pre>
+<hr />
+<h2 id="removing-students-and-teachers-from-a-course">Removing Students And Teachers From A Course</h2>
+<h3 id="syntax_8">Syntax</h3>
+<pre><code>gam course &lt;id or alias&gt; remove student|teacher &lt;email address&gt;
+</code></pre>
+<p>removes the given email address from the course as a student or teacher.</p>
+<h3 id="example_7">Example</h3>
+<p>This example removes John from the course.</p>
+<pre><code>gam course the-republic-s01 remove student john@athens.edu
+</code></pre>
+<hr />
+<h1 id="managing-guardians">Managing Guardians</h1>
+<h2 id="inviting-a-guardian">Inviting a Guardian</h2>
+<h3 id="syntax_9">Syntax</h3>
+<pre><code>gam create guardianinvite &lt;guardian email&gt; &lt;student email&gt;
+</code></pre>
+<p>Sends an email to the specified guardian email address inviting them to receive notifications for Classroom activities of given student email. The guardian email address can be any valid recipient but in order to accept the invitation the guardian must login or create a Google account. The guardian Google account does not need to be directly associated to the guardian email address.</p>
+<p>Because this command sends out email notifications externally, it is recommended that plenty of internal testing is done with guardian invites before bulk inviting real guardians.</p>
+<h3 id="examples_1">Examples</h3>
+<p>This example invites moma.smith@hotmail.com as a guardian of johnny.smith@acme.edu</p>
+<pre><code>gam create guardianinvite moma.smith@hotmail.com johnny.smith@acme.edu
+</code></pre>
+<p>Assuming you have a csv file named parents.csv that looks like:</p>
+<pre><code>student-email,parent-email
+johnny.smith@acme.edu,jonathan.t.smith@widgets.com
+jane.smith@acme.edu,jonathan.t.smith@widgets.com
+johnny.smith@acme.edu,judy.r.smith@gizmos.com
+jane.smith@acme.edu,judy.r.smith@gizmos.com
+george.johnson@acme.edu,johnson.fam.5@yahoo.com
+</code></pre>
+<p>this example bulk invites parents as guardians for their students.</p>
+<pre><code>gam csv parents.csv gam create guardianinvite ~parent-email ~student-email
+</code></pre>
+<hr />
+<h2 id="delete-a-guardian">Delete a Guardian</h2>
+<h3 id="syntax_10">Syntax</h3>
+<pre><code>gam delete guardian &lt;guardian email&gt; &lt;student email&gt;
+</code></pre>
+<p>Removes the given guardian as a guardian of the given student if guardian has accepted invitation and also cancels any pending invitations. The guardian will receive email notification that they have been removed as a guardian of the student.</p>
+<h3 id="examples_2">Examples</h3>
+<p>This example removes legal.guardian@yahoo.com as a guardian of johnny.smith@acme.edu or cancels any PENDING invitations</p>
+<pre><code>gam delete guardian legal.guardian@yahoo.com johnny.smith@acme.edu
+</code></pre>
+<hr />
+<h2 id="printing-guardians">Printing Guardians</h2>
+<h3 id="syntax_11">Syntax</h3>
+<pre><code>gam print guardians [invitations] [student &lt;email&gt;] [invitedguardian &lt;email&gt;] [user &lt;username&gt;|group &lt;email&gt;|ou &lt;ouname&gt;|all users] [states &lt;COMPLETE,PENDING,GUARDIAN_INVITATION_STATE_UNSPECIFIED&gt;] [todrive] [nocsv]
+</code></pre>
+<p>Prints a report of guardians. Currently you must specify a student or list of users for which to pull guardians. The optional argument invitations pulls information on guardian invitations instead of actual guardians who have been invited and accepted. Guardian invitations with a state of COMPLETE are no longer valid either because they've been accepted or rejected by the guardian, an admin has cancelled the invitation or the invitation has expired. The optional parameter student specifies the email address of a single student whose guardians or guardian invites should be pulled. The optional parameters user <email>, group <email>, ou <ouname> and all users specify a grouping of users whose guardians or guardian invites should be pulled. The optional argument states specifies a comma separated list of guardian invites that should be pulled based on their current state. The optional parameter todrive outputs the results to a Google Sheet instead of CSV. The optional parameter nocsv prints the guardians to the screen in a format that's human-eye friendly.</p>
+<h3 id="examples_3">Examples</h3>
+<p>This example creates a Google Sheet for all existing guardians. It makes one API call per user in the domain so may be very slow for large domains.</p>
+<pre><code>gam print guardians all users todrive
+</code></pre>
+<p>This example prints all guardian invitations that are still in a pending state for the /Students OU.</p>
+<pre><code>gam print guardians invitations states PENDING ou &quot;/Students&quot;
+</code></pre>
+<p>This example shows all of johnny.smith@acme.edu's current guardians.</p>
+<pre><code>gam print guardians student johnny.smith@acme.edu
+</code></pre>
+<hr />
+<h1 id="course-and-course-participant-reports">Course And Course Participant Reports</h1>
+<h2 id="printing-courses">Printing Courses</h2>
+<h3 id="syntax_12">Syntax</h3>
+<pre><code>gam print courses [teacher &lt;email&gt;] [student &lt;email&gt;] [state &lt;states&gt;] [todrive] [aliases] [delimiter &lt;String&gt;]
+</code></pre>
+<p>Output CSV format details of courses. By default, all courses in the organization will be returned. The optional <code>teacher</code> and <code>student</code> parameters limit the results to courses where the given user is a participant in the course of the given type. The optional state parameter specifies a comma separated list of states (active, archived, provisioned, declined, suspended). Only courses in those states will be included in the results. The optional <code>todrive</code> argument creates a Google Drive spreadsheet of the results rather than outputting the information to the console. The optional <code>aliases</code> argument uses an additional API call per course to get the course aliases. By default, multiple aliases are delimited by spaces, if you would like a different delimiter, e.g., comma, use the <code>delimiter &lt;String&gt;</code> argument.</p>
+<h3 id="examples_4">Examples</h3>
+<p>This example creates a CSV file of all courses</p>
+<pre><code>gam print courses
+</code></pre>
+<p>this example creates a Google Spreadsheet of all the courses Mr. Smith is teaching</p>
+<pre><code>gam print courses teacher mrsmith@acme.edu todrive
+</code></pre>
+<p>this example limits the CSV output to provisioned and active courses</p>
+<pre><code>gam print courses state active,provisioned
+</code></pre>
+<hr />
+<h2 id="printing-course-participants">Printing Course Participants</h2>
+<h3 id="syntax_13">Syntax</h3>
+<pre><code>gam print course-participants [course &lt;id or alias&gt;] [student &lt;email&gt;] [teacher &lt;email&gt;] [show teachers|students|all] [todrive]
+</code></pre>
+<p>Output CSV format details of course participants. The optional course parameter limits results to the given course. Multiple course parameters can be included to pull participants for a subset of courses. If no course parameter is specified then participants will be retrieved for all courses. The optional student and teacher parameters limit the courses returned to those where the given user is a teacher or student. The optional state parameter specifies a comma separated list of states (active, archived, provisioned, declined, suspended). Only courses in those states will be included in the results. The optional show parameter limits the participants to teachers or students, and defaults to all participants. The optional todrive argument creates a Google Drive spreadsheet of the results rather than outputting the information to the console.</p>
+<h3 id="examples_5">Examples</h3>
+<p>This example prints all course participants in all courses.</p>
+<pre><code>gam print course-participants
+</code></pre>
+<p>this example creates a spreadsheet of the course participants in all three sections of Chemistry.</p>
+<pre><code>gam print course-participants course chemistry-101-s01 course chemistry-101-s02 course chemistry-101-s03 todrive
+</code></pre>
+<p>this example creates a spreadsheet of only the course teachers in all three sections of Chemistry.</p>
+<pre><code>gam print course-participants course chemistry-101-s01 course chemistry-101-s02 course chemistry-101-s03 show teachers todrive
+</code></pre>
+<hr />
+<h1 id="troubleshooting">Troubleshooting</h1>
+<h2 id="403-error">403 Error</h2>
+<p>If you're using the default Super Admin account <em>(the very first account in your G Suite organization, that has all the permissions by default)</em> you can get a <code>403: The caller does not have permission - 403 error</code>. In this case you have to create a new account, and assign Super Admin Role to it, and use that with gam. 
+In addition, with the default Super Admin account, the <code>gam print courses</code> will not list all the courses in the organization.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

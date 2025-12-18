@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Reports - GAM Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">GAM Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../00scratch/" class="nav-link">Scratch Me Wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Addresses/" class="nav-link">Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Administrators/" class="nav-link">Administrators</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Alert-Center/" class="nav-link">Alert Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Aliases/" class="nav-link">Aliases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Authorization/" class="nav-link">Authorization</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../BNF-Syntax/" class="nav-link">Syntax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Basic-Items/" class="nav-link">Basic Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Bulk-Processing/" class="nav-link">Bulk Processing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Business-Account-Management/" class="nav-link">Users - Business Account Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Input-Filtering/" class="nav-link">CSV Input Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Output-Filtering/" class="nav-link">CSV Output Filtering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../CSV-Special-Characters/" class="nav-link">CSV Special Characters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Access/" class="nav-link">Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars-Events/" class="nav-link">Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Calendars/" class="nav-link">Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chat-Bot-Setup-Use/" class="nav-link">Chat Bot Setup and Use</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-AUE-Counts/" class="nav-link">Chrome Auto Update Expiration Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Browser-Cloud-Management/" class="nav-link">Chrome Browser Cloud Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Device-Counts/" class="nav-link">Chrome Device Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Installed-Apps/" class="nav-link">Chrome Installed Apps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Needs-Attention-Counts/" class="nav-link">Chrome Device Needs Attention Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Policies/" class="nav-link">Chrome Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Printers/" class="nav-link">Chrome Printers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Profile-Management/" class="nav-link">Chrome Profile Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-Counts/" class="nav-link">Chrome Version Counts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Chrome-Version-History/" class="nav-link">Chrome Version History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../ChromeOS-Devices/" class="nav-link">ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Courses/" class="nav-link">Classroom - Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Guardians/" class="nav-link">Classroom - Guardians</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Invitations/" class="nav-link">Classroom - Invitations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-Membership/" class="nav-link">Classroom - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Classroom-StudentGroups/" class="nav-link">Classroom - Student Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Channel/" class="nav-link">Cloud Channel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Devices/" class="nav-link">Cloud Identity Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups-Membership/" class="nav-link">Cloud Identity Groups - Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Groups/" class="nav-link">Cloud Identity Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Identity-Policies/" class="nav-link">Cloud Identity Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Cloud-Storage/" class="nav-link">Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-ChromeOS-Devices/" class="nav-link">Collections of ChromeOS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Items/" class="nav-link">Collections of Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Collections-of-Users/" class="nav-link">Collections of Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Data-From-Google-Docs-Sheets-Storage/" class="nav-link">Command data from Google Docs, Sheets and Cloud Storage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Line-Parsing/" class="nav-link">Command Line Parsing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Command-Logging-Progress/" class="nav-link">Command Logging and Progress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Context-Aware-Access-Levels/" class="nav-link">Context-Aware Access Levels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Customer/" class="nav-link">Customer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-People-Contacts-Profiles/" class="nav-link">Domain People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domain-SharedContacts/" class="nav-link">Domain Shared Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains-Verification/" class="nav-link">Domains - Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Domains/" class="nav-link">Domains</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Downloads-Installs/" class="nav-link">Downloads-Installs-GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-File-Selection/" class="nav-link">Drive File Selection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-Items/" class="nav-link">Drive Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Drive-REST-API-v3/" class="nav-link">Drive REST API v3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Email-Audit-Monitor/" class="nav-link">Email Audit Monitor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Find-File-Owner/" class="nav-link">Find File Owner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Public-Chat-Room/" class="nav-link">GAM Public Chat Room</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Release-Process/" class="nav-link">Steps to release a new GAM version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-Return-Codes/" class="nav-link">GAM Return Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM-with-minimal-GCP-rights/" class="nav-link">GAM setup with minimal GCP permissions.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-FAQ/" class="nav-link">What is GAM7?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Android-Devices/" class="nav-link">GAM7 on Android Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GAM7-on-Chrome-OS-Devices/" class="nav-link">GAM7 on Chrome OS Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../GamUpdates/" class="nav-link">Update GAM7 to latest version</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Global-Address-List/" class="nav-link">Global Address List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Data-Transfers/" class="nav-link">Google Data Transfers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Google-Network-Addresses/" class="nav-link">Google Network Addresses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups-Membership/" class="nav-link">Groups Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Groups/" class="nav-link">Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../HTTPS-Proxy/" class="nav-link">HTTPS Proxy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Home/" class="nav-link">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Install-GAM7/" class="nav-link">Installing GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Uninstall-GAM7/" class="nav-link">Uninstalling GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Update-GAM7/" class="nav-link">Updating GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-GAMADV-XTD3-to-GAM7/" class="nav-link">Installation - Upgrade GAMADV-XTD3 to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../How-to-Upgrade-Legacy-GAM-to-GAM7/" class="nav-link">Installation - Upgrade Legacy GAM to GAM7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Inbound-SSO/" class="nav-link">Inbound SSO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Install-GAM-as-Python-Library/" class="nav-link">Install GAM as Python Library</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Licenses/" class="nav-link">Licenses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List-Items/" class="nav-link">List Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../List/" class="nav-link">List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Meta-Commands-and-File-Redirection/" class="nav-link">Meta Commands and File Redirection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Mobile-Devices/" class="nav-link">Mobile Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Organizational-Units/" class="nav-link">Organizational Units</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Other-Resources/" class="nav-link">Other Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Permission-Matches/" class="nav-link">Permission Matches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Python-Regular-Expressions/" class="nav-link">Python Regular Expressions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Rclone/" class="nav-link">Rclone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Reseller/" class="nav-link">Reseller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Resources/" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Running-GAM7-securely-on-a-Google-Compute-Engine/" class="nav-link">Running GAM7 securely on a Google Compute Engine</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../SSL-Root-CA-Certificates/" class="nav-link">SSL Root CA Certificates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Schemas/" class="nav-link">Schemas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Scripts/" class="nav-link">Scripts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Send-Email/" class="nav-link">Send Email</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Shared-Drives/" class="nav-link">Domain Administrators - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Sites/" class="nav-link">Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Tag-Replace/" class="nav-link">Tag Replace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Todrive/" class="nav-link">Todrive</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Unmanaged-Accounts/" class="nav-link">Unmanaged Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Upgrade-Benefits/" class="nav-link">Upgrade Benefits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Analytics-Admin/" class="nav-link">Users - Analytics Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Application-Specific-Passwords/" class="nav-link">Users - Application Specific Passwords</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Backup-Verification-Codes/" class="nav-link">Users - Backup Verification Codes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Access/" class="nav-link">Users - Calendars - Access</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars-Events/" class="nav-link">Users - Calendars - Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Calendars/" class="nav-link">Users - Calendars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Chat/" class="nav-link">Users - Chat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classification-Labels/" class="nav-link">Users - Classification Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Classroom-Profile/" class="nav-link">Users - Classroom - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts-Delegates/" class="nav-link">Users - Contacts - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Contacts/" class="nav-link">User Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Deprovision/" class="nav-link">Users - Deprovision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Activity-Settings/" class="nav-link">Users - Drive - Activity/Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Cleanup/" class="nav-link">Users - Drive - Cleanup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Comments/" class="nav-link">Users - Drive - Comments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Copy-Move/" class="nav-link">Users - Drive Files Copy/Move</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Display/" class="nav-link">Users - Drive Files Display</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Files-Manage/" class="nav-link">Users - Drive Files Manage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Orphans/" class="nav-link">Users - Drive - Orphans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Ownership/" class="nav-link">Users - Drive - Ownership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Permissions/" class="nav-link">Users - Drive - Permissions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Query/" class="nav-link">Users - Drive - Query</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Revisions/" class="nav-link">Users - Drive - Revisions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Shortcuts/" class="nav-link">Users - Drive Shortcuts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Drive-Transfer/" class="nav-link">Users - Drive - Transfer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Forms/" class="nav-link">Users - Forms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-CSE/" class="nav-link">Users - Gmail - Client Side Encryption</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Delegates/" class="nav-link">Users - Gmail - Delegates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Filters/" class="nav-link">Users - Gmail - Filters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Forwarding/" class="nav-link">Users - Gmail - Forwarding</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Labels/" class="nav-link">Users - Gmail - Labels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Messages-Threads/" class="nav-link">Users - Gmail - Messages/Threads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Profile/" class="nav-link">Users - Gmail - Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-S-MIME/" class="nav-link">Users - Gmail - S/MIME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Send-As-Signature-Vacation/" class="nav-link">Users - Gmail - Send As/Signature/Vacation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Gmail-Settings/" class="nav-link">Users - Gmail - Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Group-Membership/" class="nav-link">Users - Group Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Keep-Notes/" class="nav-link">Users - Keep - Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Looker-Studio/" class="nav-link">Users - Looker Studio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Meet/" class="nav-link">Users - Meet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-People-Contacts-Profiles/" class="nav-link">Users - People - Contacts &amp; Profiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Photo/" class="nav-link">Users - Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Photo/" class="nav-link">Users - Profile Photo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Profile-Sharing/" class="nav-link">Users - Profile Sharing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Shared-Drives/" class="nav-link">Users - Shared Drives</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Signout-Turnoff2SV/" class="nav-link">Users - Signout and Turn off 2-Step Verification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Spreadsheets/" class="nav-link">Users - Spreadsheets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tag-Manager/" class="nav-link">Users - Tag Manager</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tasks/" class="nav-link">Users - Tasks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Tokens/" class="nav-link">Users - Tokens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-Web-Resources-and-Sites/" class="nav-link">Users - Web Resources and Sites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users-YouTube/" class="nav-link">Users - YouTube</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Users/" class="nav-link">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-YubiKey/" class="nav-link">Using GAM7 with a YubiKey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-a-delegated-admin-service-account/" class="nav-link">Using GAM7 with a delegated admin service account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Using-GAM7-with-keyless-authentication-Workload-Identity-Federation/" class="nav-link">Using GAM7 with Keyless Authentication - Workload Identity Federation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Vault-Takeout/" class="nav-link">Vault - Takeout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Verifying-a-GAM7-Build-is-Legitimate-and-Official/" class="nav-link">Verifying a GAM7 Build is Legitimate and Official</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Version-and-Help/" class="nav-link">Version and Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../_Sidebar/" class="nav-link"> Sidebar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../gam.cfg/" class="nav-link">GAM Configuration</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Legacy</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../legacy/l-AdminSettingsExamples/" class="dropdown-item">l AdminSettingsExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Android-Installation/" class="dropdown-item">l Android Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-BulkOperations/" class="dropdown-item">l BulkOperations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CalendarExamples/" class="dropdown-item">l CalendarExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chat-Bot/" class="dropdown-item">l Chat Bot</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Browser-Management/" class="dropdown-item">l Chrome Browser Management</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-OS-Installation/" class="dropdown-item">l Chrome OS Installation</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Chrome-Policy-Settings/" class="dropdown-item">l Chrome Policy Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Cloud-Identity-Groups/" class="dropdown-item">l Cloud Identity Groups</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendar-Resources/" class="dropdown-item">GAM Calendar Resources Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Calendars/" class="dropdown-item">GAM Calendar Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Definitions/" class="dropdown-item">l Command Reference Definitions</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Drive/" class="dropdown-item">GAM Drive Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Email/" class="dropdown-item">GAM Email Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Group-Attributes/" class="dropdown-item">GAM Group Attributes Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Groups/" class="dropdown-item">GAM Group Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Command-Reference-Users/" class="dropdown-item">GAM Users Command Reference</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Context-Aware-Access-Levels/" class="dropdown-item">l Context Aware Access Levels</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Creating-client_secrets.json-and-oauth2service.json/" class="dropdown-item">l Creating client secrets.json and oauth2service.json</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-CreatingClientSecretsFile/" class="dropdown-item">l CreatingClientSecretsFile</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Custom-Schemas/" class="dropdown-item">l Custom Schemas</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Data-Transfers/" class="dropdown-item">l Data Transfers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-DomainVerification/" class="dropdown-item">l DomainVerification</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesAccountAuditing/" class="dropdown-item">l ExamplesAccountAuditing</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesCSV/" class="dropdown-item">l ExamplesCSV</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesEmailSettings/" class="dropdown-item">l ExamplesEmailSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ExamplesOrganizations/" class="dropdown-item">l ExamplesOrganizations</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-Discussion-Group/" class="dropdown-item">GAM Discussion Group</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-on-Android-and-Chrome-OS/" class="dropdown-item">l GAM on Android and Chrome OS</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-options-files/" class="dropdown-item">l GAM options files</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM-with--minimal-GCP-rights/" class="dropdown-item">l GAM with  minimal GCP rights</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3CSVListings/" class="dropdown-item">l GAM3CSVListings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3DirectoryCommands/" class="dropdown-item">l GAM3DirectoryCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GAM3GroupSettings/" class="dropdown-item">l GAM3GroupSettings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Google-Vault---Takeout-Commands/" class="dropdown-item">l Google Vault   Takeout Commands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-GoogleDriveManagement/" class="dropdown-item">l GoogleDriveManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Grouping-18-or-Older-Users/" class="dropdown-item">Using GAM to group 18+ users</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Home/" class="dropdown-item">l Home</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-How-to-upgrade-from-Standard-GAM/" class="dropdown-item">Installation - Upgrading from Standard GAM</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Inbound-SSO-Settings/" class="dropdown-item">l Inbound SSO Settings</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-LicenseExamples/" class="dropdown-item">l LicenseExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Admins/" class="dropdown-item">l Managing Admins</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-CloudPrint-Printers/" class="dropdown-item">l Managing CloudPrint Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Devices/" class="dropdown-item">l Managing Devices</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Managing-Google-Classroom/" class="dropdown-item">l Managing Google Classroom</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-OAuthKeyManagement/" class="dropdown-item">l OAuthKeyManagement</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Printers/" class="dropdown-item">l Printers</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-ResellerCommands/" class="dropdown-item">l ResellerCommands</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-SecurityExamples/" class="dropdown-item">l SecurityExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-UnmanagedUsersExamples/" class="dropdown-item">l UnmanagedUsersExamples</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-Using-GAM-with-a-delegated-admin-service-account-%28DASA%29/" class="dropdown-item">Background</a>
+</li>
+                                    
+<li>
+    <a href="../legacy/l-_Footer/" class="dropdown-item">l  Footer</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Rclone/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Reseller/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#reports" class="nav-link">Reports</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#api-documentation" class="nav-link">API documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#definitions" class="nav-link">Definitions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#special-quoting" class="nav-link">Special quoting</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#activity-reports" class="nav-link">Activity reports</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#find-shared-drives-with-no-activity" class="nav-link">Find Shared Drives with no activity</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#customer-and-user-reports-parameters" class="nav-link">Customer and user reports parameters</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#customer-usage-reports" class="nav-link">Customer usage reports</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#customer-reports" class="nav-link">Customer reports</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#user-usage-reports" class="nav-link">User usage reports</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#user-reports" class="nav-link">User reports</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#monthly-report" class="nav-link">Monthly Report</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="reports">Reports</h1>
+<ul>
+<li><a href="#api-documentation">API documentation</a></li>
+<li><a href="Collections-of-Users">Collections of Users</a></li>
+<li><a href="#definitions">Definitions</a></li>
+<li><a href="#special-quoting">Special quoting</a></li>
+<li><a href="#activity-reports">Activity reports</a></li>
+<li><a href="#find-shared-drives-with-no-activity">Find Shared Drives with no activity</a></li>
+<li><a href="#customer-and-user-reports-parameters">Customer and user reports parameters</a></li>
+<li><a href="#customer-usage-reports">Customer usage reports</a></li>
+<li><a href="#customer-reports">Customer reports</a></li>
+<li><a href="#user-usage-reports">User usage reports</a></li>
+<li><a href="#user-reports">User reports</a></li>
+</ul>
+<h2 id="api-documentation">API documentation</h2>
+<p>Changes starting 2025-10-29.</p>
+<ul>
+<li><a href="https://support.google.com/a/answer/16601511">Reports API - Admin log event changes</a></li>
+</ul>
+<p>These pages show event/parameter names; scroll down in the left column to: Reports.</p>
+<ul>
+<li><a href="https://developers.google.com/admin-sdk/reports/v1/reference/activities">Reports API - Activities</a></li>
+<li><a href="https://developers.google.com/admin-sdk/reports/v1/reference/customerUsageReports">Reports API - Customer Usage</a></li>
+<li><a href="https://developers.google.com/admin-sdk/reports/v1/reference/userUsageReport">Reports API - User Usage</a></li>
+</ul>
+<h2 id="definitions">Definitions</h2>
+<pre><code>&lt;DayOfWeek&gt; ::= mon|tue|wed|thu|fri|sat|sun
+&lt;Time&gt; ::=
+        &lt;Year&gt;-&lt;Month&gt;-&lt;Day&gt;(&lt;Space&gt;|T)&lt;Hour&gt;:&lt;Minute&gt;:&lt;Second&gt;[.&lt;MilliSeconds&gt;](Z|(+|-(&lt;Hour&gt;:&lt;Minute&gt;))) |
+        (+|-)&lt;Number&gt;(m|h|d|w|y) |
+        never|
+        now|today
+</code></pre>
+<h2 id="special-quoting">Special quoting</h2>
+<p>If you are going to use <code>config csv_output_row_filter</code> when printing reports,
+you'll need special quoting in the filter because of the <code>:</code> characters in the parameter names.</p>
+<p>See: https://github.com/GAM-team/GAM/wiki/CSV-Output-Filtering#quoting-rules</p>
+<p>For example:</p>
+<pre><code>config csv_output_row_filter &quot;'\&quot;accounts:used_quota_in_mb\&quot;:count&gt;15000'&quot;
+</code></pre>
+<h2 id="activity-reports">Activity reports</h2>
+<pre><code>&lt;ActivityApplicationName&gt; ::=
+        accesstransparency|access|
+        admin|
+        calendar|calendars|
+        chat|
+        chrome|
+        classroom|
+        contextawareaccess|
+        datastudio|
+        drive|doc|docs|
+        gcp|cloud|
+        geminiinworkspaceapps|gemini|geminiforworkspace|
+        gmail|
+        gplus|currents|google+|
+        groups|group|
+        groupsenterprise|enterprisegroups|
+        jamboard|
+        keep|
+        login|logins|
+        meet|hangoutsmeet|
+        mobile|devices|
+        rules|
+        saml|
+        token|tokens|oauthtoken|
+        useraccounts|
+        vault
+
+gam report &lt;ActivityApplicationName&gt; [todrive &lt;ToDriveAttribute&gt;*]
+        [(user all|&lt;UserItem&gt;)|(orgunit|org|ou &lt;OrgUnitPath&gt; [showorgunit])|(select &lt;UserTypeEntity&gt;)]
+        [([start &lt;Time&gt;] [end &lt;Time&gt;])|(range &lt;Time&gt; &lt;Time&gt;)|
+         yesterday|today|thismonth|(previousmonths &lt;Integer&gt;)]
+        [filter &lt;String&gt; (filtertime&lt;String&gt; &lt;Time&gt;)*]
+        [event|events &lt;EventNameList&gt;] [ip &lt;String&gt;]
+        [groupidfilter &lt;String&gt;]
+        [maxactivities &lt;Number&gt;] [maxevents &lt;Number&gt;] [maxresults &lt;Number&gt;]
+        [countsonly [bydate|summary] [eventrowfilter]]
+        (addcsvdata &lt;FieldName&gt; &lt;String&gt;)* [shownoactivities]
+</code></pre>
+<p>Select the application with <code>&lt;ActivityApplicationName&gt;</code>.</p>
+<p>For all <code>&lt;ActivityApplicationNames&gt;</code> other than <code>admin</code>, select the users for whom information is desired.
+* <code>user all</code> - All users, the default; there is one API call
+* <code>user &lt;UserItem&gt;</code> - An individual user; there is one API call
+* <code>orgunit|org|ou &lt;OrgUnitPath&gt;</code> - All users in the specified OU; there is one API call
+  * <code>showorgunit</code> - Add a column labelled <code>actor.orgUnitPath</code> to the output; an additional API call is made to get the email addresses of the users in <code>&lt;OrgUnitPath&gt;</code>
+* <code>select &lt;UserTypeEntity&gt;</code> - A selected collection of users, e.g., <code>select group staff@domain.com</code>; there is one API call per user</p>
+<p>For <code>&lt;ActivityApplicationName&gt;</code> <code>admin</code>, the users selected are the admins that executed the command, not the targeted user.
+Use <code>filter "USER_EMAIL==user@domain.com"</code> to select the targeted user.</p>
+<p>Limit the time period.
+* <code>start &lt;Time&gt;</code>
+* <code>end &lt;Time&gt;</code>
+* <code>range &lt;Time&gt; &lt;Time&gt;</code> - Equivalent to <code>start &lt;Time&gt; end &lt;Time&gt;</code>
+* <code>yesterday</code> - Yesterday
+* <code>today</code> - Today
+* <code>thismonth</code> - The current calendar month up to the current time
+* <code>previousmonths &lt;Integer&gt;</code> - A number in the range 1 to 6 indicating calendar months previous to the current month</p>
+<p>Apply API filters.
+* <code>filter|filters &lt;String&gt;</code> - <code>&lt;String&gt;</code> is a comma separated list of filter expressions.</p>
+<p>Use the <code>filtertime&lt;String&gt; &lt;Time&gt;</code> option to allow times, usually relative, to be substituted into the <code>filters</code> option.
+The <code>filtertime&lt;String&gt; &lt;Time&gt;</code> value replaces the string <code>#filtertime&lt;String&gt;#</code> in any filters..
+The characters following <code>filtertime</code> can be any combination of lowercase letters and numbers. This is most useful in scripts
+where you can specify a relative date without having to change the script.</p>
+<p>You can use <code>config csv_output_row_filter</code> to filter the events if the API filter can't produce the results you want.</p>
+<p>Limit to a list of specific events.
+* <code>event|events &lt;EventNameList&gt;</code></p>
+<p>Limit to a specific IP address.
+* <code>ip &lt;String&gt;</code></p>
+<p>Limit to those users that are a member of at least one of a list of groups.
+* <code>groupidfilter &lt;String&gt;</code> - Format: "id:abc123,id:xyz456"</p>
+<p>Limit the total number of activites.
+* <code>maxactivities &lt;Number&gt;</code></p>
+<p>Limit the  number of events per activity; this only applies when <code>countsonly</code> is False.
+* <code>maxevents &lt;Number&gt;</code></p>
+<p>Limit the number of activities downloaded per API call; infrequently used.
+* <code>maxresults &lt;Number&gt;</code></p>
+<p>Setting options <code>maxactivities 1 maxevents 1 maxresults 1</code> can be used to as efficiently as possible
+show the most recent activity/event; this can be useful when reporting drive activity for individual drive files.</p>
+<p>Add additional columns of data from the command line to the output.
+* <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code></p>
+<p>Display a row with a key value of <code>NoActivities</code> when there are no activities to report.
+* <code>shownoactivities</code></p>
+<p>By default, individual event details are displayed, these options modify what's displayed.
+* <code>countsonly</code> - Display a row per user across all dates with all event counts on one row
+* <code>countsonly bydate</code> - Display a row per user per date for all dates with any events with all events counts on the row
+* <code>countsonly summary</code> - Display a row per event with counts for each event summarized across users and dates
+* <code>countsonly [bydate|summary] eventrowfilter</code> - Apply <code>config csv_output_row_filter</code> to the event details rather than the event counts</p>
+<h3 id="example">Example</h3>
+<p>You're interested in files with extension <code>xyz</code> created yesterday.</p>
+<p>Details for each file</p>
+<pre><code>gam config csv_output_row_filter &quot;doc_title:regex:\.xyz&quot; report drive event create yesterday
+</code></pre>
+<p>Number of files by each user</p>
+<pre><code>gam config csv_output_row_filter &quot;doc_title:regex:\.xyz&quot; report drive event create yesterday countsonly eventrowfilter
+</code></pre>
+<p>Number of files summarized across all users</p>
+<pre><code>gam config csv_output_row_filter &quot;doc_title:regex:\.xyz&quot; report drive event create yesterday countsonly summary eventrowfilter
+</code></pre>
+<h2 id="find-shared-drives-with-no-activity">Find Shared Drives with no activity</h2>
+<p>Remember that activity events are only available for the past 180 days.</p>
+<p>Get Shared Drives ID and Name</p>
+<pre><code>gam redirect csv ./SharedDrives.csv print shareddrives fields id,name
+</code></pre>
+<p>Options for the <code>gam report drive</code> commands below:
+* <code>maxactivities 1</code> - Limits the number of activities displayed for Shared Drives with activity.
+* <code>shownoactivities</code> - Displays a row for Shared Drives with no activity.
+* <code>addcsvdata shared_drive_id "~id"</code> adds the Shared Drive ID to the output.
+* <code>addcsvdata shared_drive_name "~name"</code> adds the Shared Drive name to the output.</p>
+<p>Get activities with minimal activty data.</p>
+<pre><code>gam config csv_output_header_filter &quot;name,id.time,shared_drive_id,shared_drive_name&quot; redirect csv ./SharedDrivesActivity.csv multiprocess redirect stderr - multiprocess csv SharedDrives.csv gam report drive filter &quot;shared_drive_id==~~id~~&quot; maxactivities 1 shownoactivities addcsvdata shared_drive_id &quot;~id&quot; addcsvdata shared_drive_name &quot;~name&quot;
+
+Example output from SharedDrivesActivity.csv:
+
+name,id.time,shared_drive_id,shared_drive_name
+NoActivities,,0AERPpMc23znvUkPXYZ,Shared Drive 1
+view,2025-10-18T21:27:51-07:00,0AMhgLk82dhsuUkPXYZ,Shared Drive 2
+edit,2025-09-05T15:27:01-07:00,0AM8lpdkkJaKYUkPXYZ,Shared Drive 3
+</code></pre>
+<p>Get activities with full activty data.</p>
+<pre><code>gam redirect csv ./SharedDrivesActivity.csv multiprocess redirect stderr - multiprocess csv SharedDrives.csv gam report drive filter &quot;shared_drive_id==~~id~~&quot; maxactivities 1 shownoactivities addcsvdata shared_drive_id &quot;~id&quot; addcsvdata shared_drive_name &quot;~name&quot;
+
+Example output from SharedDrivesActivity.csv:
+
+name,actor.callerType,actor.email,actor.key,actor.profileId,actor_is_collaborator_account,added_role,billable,destination_folder_id,destination_folder_title,doc_id,doc_title,doc_type,id.applicationName,id.customerId,id.time,id.uniqueQualifier,ipAddress,is_encrypted,membership_change_type,new_settings_state,old_settings_state,originating_app_id,owner,owner_is_shared_drive,owner_is_team_drive,owner_team_drive_id,primary_event,removed_role,shared_drive_id,shared_drive_name,shared_drive_settings_change_type,target,team_drive_id,team_drive_settings_change_type,type,visibility
+NoActivities,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0AERPpMc23znvUkPXYZ,Shared Drive 1,,,,,,
+view,,user1@domain.com,,100016760394505151666,False,,True,,,1SDNu-yzDapqjdJq4y4xKDUATJlOPRIBodpGGeGt1n4I,Digital Poetry Journal,document,drive,C03kt1z99,2025-10-18T21:27:51-07:00,-2856812962461786835,2600:1700:9580:f4b0:2127:3b2:dd21:3806,False,,,,263492796725,Shared Drive 2,True,True,0AMhgLk82dhsuUkPXYZ,True,,0AMhgLk82dhsuUkPXYZ,Shared Drive 2,,,0AMhgLk82dhsuUkPXYZ,,access,people_with_link
+edit,,user2@domain.com,,104066776037911136666,False,,True,,,1ZwHi_v-JVXH8W6zwgb7QYoUHrZD6NzIshJEqoTCaDD0,High School Scavenger Hunt,form,drive,C03kt1z99,2025-09-05T15:27:01-07:00,-1272095408714453395,50.204.178.246,False,,,,,Shared Drive 3,True,True,0AM8lpdkkJaKYUkPXYZ,True,,0AM8lpdkkJaKYUkPXYZ,Shared Drive 3,,,0AM8lpdkkJaKYUkPXYZ,,access,shared_internally
+</code></pre>
+<h2 id="customer-and-user-reports-parameters">Customer and user reports parameters</h2>
+<p>Display the valid parameters for customer and user reports.</p>
+<pre><code>gam report usageparameters customer|user [todrive &lt;ToDriveAttribute&gt;*]
+</code></pre>
+<h2 id="customer-usage-reports">Customer usage reports</h2>
+<p>Display customer usage data over a date range.</p>
+<pre><code>gam report usage customer [todrive &lt;ToDriveAttribute&gt;*]
+        [([start|startdate &lt;Date&gt;] [end|enddate &lt;Date&gt;])|(range &lt;Date&gt; &lt;Date&gt;)|
+         thismonth|(previousmonths &lt;Integer&gt;)]
+        [skipdates &lt;Date&gt;[:&lt;Date&gt;](,&lt;Date&gt;[:&lt;Date&gt;])*] [skipdaysofweek &lt;DayOfWeek&gt;(,&lt;DayOfWeek&gt;)*]
+        [fields|parameters &lt;String&gt;]
+        [convertmbtogb]
+        (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*
+</code></pre>
+<p>Limit the time period.
+* <code>start &lt;Date&gt;</code> - Default value is 30 days prior to <code>end &lt;Date&gt;</code>
+* <code>end &lt;Date&gt;</code> - Default value is today
+* <code>range &lt;Date&gt; &lt;Date&gt;</code> - Equivalent to <code>start &lt;Date&gt; end &lt;Date&gt;</code>
+* <code>thismonth</code> - The current calendar month up to the current time
+* <code>previousmonths &lt;Integer&gt;</code> - A number in the range 1 to 6 indicating calendar months previous to the current month</p>
+<p>Option <code>convertmbtogb</code> causes GAM to convert parameters expressed in megabytes
+(name ends with _in_mb) to gigabytes (name converted to _in_gb) with two decimal places.</p>
+<p>Add additional columns of data from the command line to the output.
+* <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code></p>
+<h3 id="example_1">Example</h3>
+<pre><code>gam report usage customer parameters meet:total_call_minutes,meet:total_meeting_minutes start_date 2020-03-01 skipdaysofweek sat,sun todrive 
+</code></pre>
+<p>A bit about this command
+* call minutes = 1 device joined to a meeting
+  * 5 users on a 10 minute meeting = 50 call minutes
+  * 2 users on 5 minute call = 10 call minutes
+* meeting minutes = length of actual meeting
+  * 2 users on 10 minute meeting = 10 meeting minutes
+  * 10 users on 10 minute meeting = 10 meeting minutes.
+I excluded weekend days when the organization was closed to avoid dramatic "camel humps" in the data.</p>
+<p>Open the Sheet and click Insert &gt; Chart</p>
+<h2 id="customer-reports">Customer reports</h2>
+<p>Customer reports are generally available up to two days before the current date.</p>
+<pre><code>&lt;CustomerServiceName&gt; ::=
+        accounts|
+        app_maker|
+        apps_scripts|
+        calendar|
+        chat|
+        classroom|
+        cros|
+        device_management|
+        docs|
+        drive|
+        gmail|
+        gplus|
+        meet|
+        sites
+&lt;CustomerServiceNameList&gt; ::= &quot;&lt;CustomerServiceName&gt;(,&lt;CustomerServiceName&gt;)*&quot;
+
+gam report customers|customer|domain [todrive &lt;ToDriveAttribute&gt;*]
+        [(date &lt;Date&gt;)|(range &lt;Date&gt; &lt;Date&gt;)|
+         yesterday|today|thismonth|(previousmonths &lt;Integer&gt;)]
+        [(nodatechange | limitdatechanges &lt;Integer&gt;) | (fulldatarequired all|&lt;CustomerServiceNameList&gt;)]
+        [(fields|parameters &lt;String&gt;)|(services &lt;CustomerServiceNameList&gt;)]
+        [noauthorizedapps]
+        [convertmbtogb]
+        (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*
+</code></pre>
+<p>Specify the report date; the default is today's date.
+* <code>date &lt;Date&gt;</code> - A single date; there is one API call
+* <code>range &lt;Date&gt; &lt;Date&gt;</code> - A range of dates; there is an API call per date
+* <code>yesterday</code> - Yesterday; there is one API call
+* <code>today</code> - Today; there is one API call
+* <code>thismonth</code> - The current calendar month up to the current time; there is an API call per date
+* <code>previousmonths &lt;Integer&gt;</code> - A number in the range 1 to 6 indicating calendar months previous to the current month; there is an API call per date</p>
+<p>Option <code>convertmbtogb</code> causes GAM to convert parameters expressed in megabytes
+(name ends with _in_mb) to gigabytes (name converted to _in_gb) with two decimal places.</p>
+<p>Add additional columns of data from the command line to the output.
+* <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code></p>
+<p>If no report is available for the specified date, can an earlier date be used?
+* <code>limitdatechanges -1' - Back up to earlier dates to find report data; this is the default.
+*</code>limitdatechanges 0 | nodatechange' - Do not report on an earlier date if no report data is available for the specified date.
+* `limitdatechanges N' - Back up to earlier dates to find report data; do not back up more than N times.</p>
+<p>If only partial report data is available for the specified date and applications, can an earlier date be used?
+* <code>fulldatarequired all</code> - Back up to an earlier date to get complete data until all applications have full report data
+* <code>fulldatarequired &lt;UserServiceNameList&gt;</code> - Back up to an earlier date to get complete data until all applications in <code>&lt;UserServiceNameList&gt;</code> have full report data</p>
+<p>By default, all parameters for all services are displayed, you can select to display fewer parameters.
+* <code>fields|parameters &lt;String&gt;</code> - A list of service parameters separated by commas
+* <code>services &lt;CustomerServiceNameList&gt;</code> - All parameters for a list of services
+* <code>noauthorizedapps</code> - Do not display the <code>authorized_apps</code> parameter for the <code>accounts</code> service</p>
+<p>When no date is specified or <code>date &lt;Date&gt;</code> is specified, the data is output in three columns: <code>date,name,value</code>.
+<code>name</code> is the parameter name and <code>value</code> is its value. This format is useful for human reading but as useful for manipulating in a spreadsheet.</p>
+<p>When <code>range &lt;Date&gt; &lt;Date&gt;</code> is specified, the data is output in multiple columns: <code>date,name1,name2,name3...</code>.
+This format is useful for manipulating in a spreadsheet.</p>
+<h3 id="examples">Examples</h3>
+<p>Display Gmail traffic for a single day.</p>
+<pre><code>$ gam report customer parameters gmail:num_emails_sent,gmail:num_emails_received date -2d
+date,name,value
+2019-03-01,gmail:num_emails_received,4009
+2019-03-01,gmail:num_emails_sent,618
+$ gam report customer parameters gmail:num_emails_sent,gmail:num_emails_received range -2d -2d
+date,gmail:num_emails_received,gmail:num_emails_sent
+2019-03-01,4009,618
+</code></pre>
+<p>Display Gmail traffic for the last week.</p>
+<pre><code>$ gam report customer parameters gmail:num_emails_sent,gmail:num_emails_received range -8d -2d
+date,gmail:num_emails_received,gmail:num_emails_sent
+2019-02-23,772,92
+2019-02-24,1015,112
+2019-02-25,4544,800
+2019-02-26,5429,803
+2019-02-27,5232,951
+2019-02-28,4691,766
+2019-03-01,4009,618
+</code></pre>
+<h2 id="user-usage-reports">User usage reports</h2>
+<p>Display user usage data over a date range.</p>
+<pre><code>gam report usage user [todrive]
+        [(user all|&lt;UserItem&gt;)|(orgunit|org|ou &lt;OrgUnitPath&gt; [showorgunit])|(select &lt;UserTypeEntity&gt;)]
+        [([start|startdate &lt;Date&gt;] [end|enddate &lt;Date&gt;])|(range &lt;Date&gt; &lt;Date&gt;)|
+         thismonth|(previousmonths &lt;Integer&gt;)]
+        [skipdates &lt;Date&gt;[:&lt;Date&gt;](,&lt;Date&gt;[:&lt;Date&gt;])*] [skipdaysofweek &lt;DayOfWeek&gt;(,&lt;DayOfWeek&gt;)*]
+        [fields|parameters &lt;String&gt;]
+        [convertmbtogb]
+        (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*
+</code></pre>
+<p>Select the users for whom information is desired.
+* <code>user all</code> - All users, the default; there is one API call
+* <code>user &lt;UserItem&gt;</code> - An individual user; there is one API call
+* <code>orgunit|org|ou &lt;OrgUnitPath&gt;</code> - All users in the specified OU; there is one API call
+  * <code>showorgunit</code> - Add a column labelled <code>orgUnitPath</code> to the output; an additional API call is made to get the email addresses of the users in <code>&lt;OrgUnitPath&gt;</code>
+* <code>select &lt;UserTypeEntity&gt;</code> - A selected collection of users, e.g., <code>select group staff@domain.com</code>; there is one API call per user</p>
+<p>Limit the time period.
+* <code>start &lt;Date&gt;</code> - Default value is 30 days prior to <code>end &lt;Date&gt;</code>
+* <code>end &lt;Date&gt;</code> - Default value is today
+* <code>range &lt;Date&gt; &lt;Date&gt;</code> - Equivalent to <code>start &lt;Date&gt; end &lt;Date&gt;</code>
+* <code>thismonth</code> - The current calendar month up to the current time
+* <code>previousmonths &lt;Integer&gt;</code> - A number in the range 1 to 6 indicating calendar months previous to the current month</p>
+<p>Option <code>convertmbtogb</code> causes GAM to convert parameters expressed in megabytes
+(name ends with _in_mb) to gigabytes (name converted to _in_gb) with two decimal places.</p>
+<p>Add additional columns of data from the command line to the output.
+* <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code></p>
+<h2 id="user-reports">User reports</h2>
+<p>User reports are generally available up to four days before the current date.</p>
+<pre><code>&lt;UserServiceName&gt; ::=
+        accounts|
+        chat|
+        classroom|
+        docs|
+        drive|
+        gmail|
+        gplus
+&lt;UserServiceNameList&gt; ::= &quot;&lt;UserServiceName&gt;(,&lt;UserServiceName&gt;)*&quot;
+
+gam report users|user [todrive &lt;ToDriveAttribute&gt;*]
+        [(user all|&lt;UserItem&gt;)|(orgunit|org|ou &lt;OrgUnitPath&gt; [showorgunit])|(select &lt;UserTypeEntity&gt;)]
+        [allverifyuser &lt;UserItem&gt;]
+        [(date &lt;Date&gt;)|(range &lt;Date&gt; &lt;Date&gt;)|
+         yesterday|today|thismonth|(previousmonths &lt;Integer&gt;)]
+        [(nodatechange | limitdatechanges &lt;Integer&gt;) | (fulldatarequired all|&lt;UserServiceNameList&gt;)]
+        [filter &lt;String&gt; (filtertime&lt;String&gt; &lt;Time&gt;)*]
+        [(fields|parameters &lt;String&gt;)|(services &lt;UserServiceNameList&gt;)]
+        [aggregatebydate|aggregatebyuser [Boolean]]
+        [maxresults &lt;Number&gt;]
+        [convertmbtogb]
+        (addcsvdata &lt;FieldName&gt; &lt;String&gt;)*
+</code></pre>
+<p>Select the users for whom information is desired.
+* <code>user all</code> - All users, the default; there is one API call
+* <code>user &lt;UserItem&gt;</code> - An individual user; there is one API call
+* <code>orgunit|org|ou &lt;OrgUnitPath&gt;</code> - All users in the specified OU; there is one API call
+  * <code>showorgunit</code> - Add a column labelled <code>orgUnitPath</code> to the output; an additional API call is made to get the email addresses of the users in <code>&lt;OrgUnitPath&gt;</code>
+* <code>select &lt;UserTypeEntity&gt;</code> - A selected collection of users, e.g., <code>select group staff@domain.com</code>; there is one API call per user</p>
+<p>By default, when <code>user all</code> is specified (or no user specification in supplied), GAM backs up looking for data with a (basically) random user. If the random
+doesn't have any data, the command reports that no data was found. Use <code>allverifyuser &lt;UserItem&gt;</code> to specify a specific user to use to search for data.</p>
+<p>Specify the report date; the default is today's date.
+* <code>date &lt;Date&gt;</code> - A single date; there is one API call
+* <code>range &lt;Date&gt; &lt;Date&gt;</code> - A range of dates; there is an API call per date
+* <code>yesterday</code> - Yesterday; there is one API call
+* <code>today</code> - Today; there is one API call
+* <code>thismonth</code> - The current calendar month up to the current time; there is an API call per date
+* <code>previousmonths &lt;Integer&gt;</code> - A number in the range 1 to 6 indicating calendar months previous to the current month; there is an API call per date</p>
+<p>Option <code>convertmbtogb</code> causes GAM to convert parameters expressed in megabytes
+(name ends with _in_mb) to gigabytes (name converted to _in_gb) with two decimal places.</p>
+<p>Add additional columns of data from the command line to the output.
+* <code>addcsvdata &lt;FieldName&gt; &lt;String&gt;</code></p>
+<p>This will be most useful when reading a CSV of user information and you want to include some of the user information,
+e.g., orgUnitPath, in the output.</p>
+<pre><code>gam redirect csv ./Users.csv print users fields ou
+gam redirect csv ./UserStorageInfo.csv multiprocess csv Users.csv gam report users user &quot;~primaryEmail&quot; parameters accounts:drive_used_quota_in_mb,accounts:gmail_used_quota_in_mb,accounts:gplus_photos_used_quota_in_mb,accounts:total_quota_in_mb,accounts:used_quota_in_mb,accounts:used_quota_in_percentage addcsvdata orgUnitPath &quot;~orgUnitPath&quot;
+</code></pre>
+<p>If no report is available for the specified date, can an earlier date be used?
+* <code>limitdatechanges -1' - Back up to earlier dates to find report data; this is the default.
+*</code>limitdatechanges 0 | nodatechange' - Do not report on an earlier date if no report data is available for the specified date.
+* `limitdatechanges N' - Back up to earlier dates to find report data; do not back up more than N times.</p>
+<p>If only partial report data is available for the specified date and applications, can an earlier date be used?
+* <code>fulldatarequired all</code> - Back up to an earlier date to get complete data until all applications have full report data
+* <code>fulldatarequired &lt;UserServiceNameList&gt;</code> - Back up to an earlier date to get complete data until all applications in <code>&lt;UserServiceNameList&gt;</code> have full report data</p>
+<p>By default, when <code>user &lt;UserItem&gt;</code> is specified and no report data is available, there is no output.
+If <code>csv_output_users_audit = true</code> in <code>gam.cfg</code>, then a row with columns <code>email,date</code> will be displayed
+where <code>date</code> is the earliest date for which report data was requested.</p>
+<p>Apply filters.
+* <code>filter|filters &lt;String&gt;</code> - <code>&lt;String&gt;</code> is a comma separated list of filter expressions.</p>
+<p>Use the <code>filtertime&lt;String&gt; &lt;Time&gt;</code> option to allow times, usually relative, to be substituted into the <code>filters</code> option.
+The <code>filtertime&lt;String&gt; &lt;Time&gt;</code> value replaces the string <code>#filtertime&lt;String&gt;#</code> in any filters..
+The characters following <code>filtertime</code> can be any combination of lowercase letters and numbers. This is most useful in scripts
+where you can specify a relative date without having to change the script.</p>
+<p>For example, filter for last logins more that 60 days ago.</p>
+<pre><code>filters &quot;accounts:last_login_time&lt;#filtertime60d#&quot; filtertime60d -60d
+</code></pre>
+<p>Select the fields/parameters to display.
+* <code>fields|parameters &lt;String&gt;</code> - A list of parameters separated by commas
+* <code>services &lt;UserServiceNameList&gt;</code> - All parameters for a list of services</p>
+<p>Select data format.
+* <code>aggregatebydate|aggregatebyuser</code> is omitted or <Boolean> is False, there is one row of data per user per date.
+* <code>aggregatebydate</code> is present and <Boolean> is omitted or is True, the data is aggregated by date for all users so that there is one row per date.
+* <code>aggregatebyuser</code> is present and <Boolean> is omitted or is True, the data is aggregated by user for all dates so that there is one row per user.</p>
+<p>Limit the number of activities downloaded per API call; infrequently used.
+* <code>maxresults &lt;Number&gt;</code></p>
+<h3 id="examples_1">Examples</h3>
+<p>Report on the users that haven't logged in in the last 5 years.</p>
+<pre><code>gam report users parameters accounts:last_login_time filters &quot;accounts:last_login_time&lt;#filtertime5y#&quot; filtertime5y -5y
+</code></pre>
+<p>Report on the users that haven't ever logged in.</p>
+<pre><code>gam report users parameters accounts:last_login_time filters &quot;accounts:last_login_time==#filtertimenever#&quot; filtertimenever never
+</code></pre>
+<p>Report on users Google Drive usage.</p>
+<pre><code>gam report users parameters accounts:drive_used_quota_in_mb,accounts:total_quota_in_mb,accounts:used_quota_in_mb,accounts:used_quota_in_percentage
+</code></pre>
+<p>Report on users total storage usage.</p>
+<pre><code>gam report users parameters accounts:drive_used_quota_in_mb,accounts:gmail_used_quota_in_mb,accounts:gplus_photos_used_quota_in_mb,accounts:total_quota_in_mb,accounts:used_quota_in_mb,accounts:used_quota_in_percentage
+</code></pre>
+<p>Report on users total storage usage, include OrgUnitPath</p>
+<pre><code>gam redirect csv ./Users.csv print users fields ou
+gam redirect csv ./UserStorageInfo.csv multiprocess csv Users.csv gam report users user &quot;~primaryEmail&quot; parameters accounts:drive_used_quota_in_mb,accounts:gmail_used_quota_in_mb,accounts:gplus_photos_used_quota_in_mb,accounts:total_quota_in_mb,accounts:used_quota_in_mb,accounts:used_quota_in_percentage addcsvdata orgUnitPath &quot;~orgUnitPath&quot;
+</code></pre>
+<p>Report on email activity for individual users.</p>
+<pre><code>$ gam report users select users testuser1,testuser2,testuser3 fields gmail:num_emails_received,gmail:num_emails_sent range 2025-07-01 2025-07-07 
+Getting Reports for testuser1@rdschool.org (1/3)
+Got 1 Report for testuser1@domain.com on 2025-07-01...
+Got 1 Report for testuser1@domain.com on 2025-07-02...
+Got 1 Report for testuser1@domain.com on 2025-07-03...
+Got 1 Report for testuser1@domain.com on 2025-07-04...
+Got 1 Report for testuser1@domain.com on 2025-07-05...
+Got 1 Report for testuser1@domain.com on 2025-07-06...
+Got 1 Report for testuser1@domain.com on 2025-07-07...
+Getting Reports for testuser2@domain.com (2/3)
+Got 1 Report for testuser2@domain.com on 2025-07-01...
+Got 1 Report for testuser2@domain.com on 2025-07-02...
+Got 1 Report for testuser2@domain.com on 2025-07-03...
+Got 1 Report for testuser2@domain.com on 2025-07-04...
+Got 1 Report for testuser2@domain.com on 2025-07-05...
+Got 1 Report for testuser2@domain.com on 2025-07-06...
+Got 1 Report for testuser2@domain.com on 2025-07-07...
+Getting Reports for testuser3@domain.com (3/3)
+Got 1 Report for testuser3@domain.com on 2025-07-01...
+Got 1 Report for testuser3@domain.com on 2025-07-02...
+Got 1 Report for testuser3@domain.com on 2025-07-03...
+Got 1 Report for testuser3@domain.com on 2025-07-04...
+Got 1 Report for testuser3@domain.com on 2025-07-05...
+Got 1 Report for testuser3@domain.com on 2025-07-06...
+Got 1 Report for testuser3@domain.com on 2025-07-07...
+email,date,gmail:num_emails_received,gmail:num_emails_sent
+testuser1@domain.com,2025-07-01,10,1
+testuser1@domain.com,2025-07-02,5,1
+testuser1@domain.com,2025-07-03,14,3
+testuser1@domain.com,2025-07-04,3,0
+testuser1@domain.com,2025-07-05,35,4
+testuser1@domain.com,2025-07-06,30,2
+testuser1@domain.com,2025-07-07,20,0
+testuser2@domain.com,2025-07-01,3,1
+testuser2@domain.com,2025-07-02,1,0
+testuser2@domain.com,2025-07-03,4,0
+testuser2@domain.com,2025-07-04,1,0
+testuser2@domain.com,2025-07-05,15,0
+testuser2@domain.com,2025-07-06,14,0
+testuser2@domain.com,2025-07-07,9,1
+testuser3@domain.com,2025-07-01,14,0
+testuser3@domain.com,2025-07-02,14,0
+testuser3@domain.com,2025-07-03,20,0
+testuser3@domain.com,2025-07-04,12,0
+testuser3@domain.com,2025-07-05,37,2
+testuser3@domain.com,2025-07-06,42,0
+testuser3@domain.com,2025-07-07,20,0
+</code></pre>
+<p>Report on email activity for individual users, aggregate by date across users.</p>
+<pre><code>$ gam report users select users testuser1,testuser2,testuser3@domain.com fields gmail:num_emails_received,gmail:num_emails_sent range 2025-07-01 2025-07-07 aggregatebydate
+Getting Reports for testuser1@domain.com (1/3)
+Got 1 Report for testuser1@domain.com on 2025-07-01...
+Got 1 Report for testuser1@domain.com on 2025-07-02...
+Got 1 Report for testuser1@domain.com on 2025-07-03...
+Got 1 Report for testuser1@domain.com on 2025-07-04...
+Got 1 Report for testuser1@domain.com on 2025-07-05...
+Got 1 Report for testuser1@domain.com on 2025-07-06...
+Got 1 Report for testuser1@domain.com on 2025-07-07...
+Getting Reports for testuser2@domain.com (2/3)
+Got 1 Report for testuser2@domain.com on 2025-07-01...
+Got 1 Report for testuser2@domain.com on 2025-07-02...
+Got 1 Report for testuser2@domain.com on 2025-07-03...
+Got 1 Report for testuser2@domain.com on 2025-07-04...
+Got 1 Report for testuser2@domain.com on 2025-07-05...
+Got 1 Report for testuser2@domain.com on 2025-07-06...
+Got 1 Report for testuser2@domain.com on 2025-07-07...
+Getting Reports for testuser3@domain.com (3/3)
+Got 1 Report for testuser3@domain.com on 2025-07-01...
+Got 1 Report for testuser3@domain.com on 2025-07-02...
+Got 1 Report for testuser3@domain.com on 2025-07-03...
+Got 1 Report for testuser3@domain.com on 2025-07-04...
+Got 1 Report for testuser3@domain.com on 2025-07-05...
+Got 1 Report for testuser3@domain.com on 2025-07-06...
+Got 1 Report for testuser3@domain.com on 2025-07-07...
+date,gmail:num_emails_received,gmail:num_emails_sent
+2025-07-01,27,2
+2025-07-02,20,1
+2025-07-03,38,3
+2025-07-04,16,0
+2025-07-05,87,6
+2025-07-06,86,2
+2025-07-07,49,1
+</code></pre>
+<p>Report on email activity for individual users, aggregate by user across dates.</p>
+<pre><code>$ gam report users select users testuser1,testuser2,testuser3@domain.com fields gmail:num_emails_received,gmail:num_emails_sent range 2025-07-01 2025-07-07 aggregatebyuser
+Getting Reports for testuser1@domain.com (1/3)
+Got 1 Report for testuser1@domain.com on 2025-07-01...
+Got 1 Report for testuser1@domain.com on 2025-07-02...
+Got 1 Report for testuser1@domain.com on 2025-07-03...
+Got 1 Report for testuser1@domain.com on 2025-07-04...
+Got 1 Report for testuser1@domain.com on 2025-07-05...
+Got 1 Report for testuser1@domain.com on 2025-07-06...
+Got 1 Report for testuser1@domain.com on 2025-07-07...
+Getting Reports for testuser2@domain.com (2/3)
+Got 1 Report for testuser2@domain.com on 2025-07-01...
+Got 1 Report for testuser2@domain.com on 2025-07-02...
+Got 1 Report for testuser2@domain.com on 2025-07-03...
+Got 1 Report for testuser2@domain.com on 2025-07-04...
+Got 1 Report for testuser2@domain.com on 2025-07-05...
+Got 1 Report for testuser2@domain.com on 2025-07-06...
+Got 1 Report for testuser2@domain.com on 2025-07-07...
+Getting Reports for testuser3@domain.com (3/3)
+Got 1 Report for testuser3@domain.com on 2025-07-01...
+Got 1 Report for testuser3@domain.com on 2025-07-02...
+Got 1 Report for testuser3@domain.com on 2025-07-03...
+Got 1 Report for testuser3@domain.com on 2025-07-04...
+Got 1 Report for testuser3@domain.com on 2025-07-05...
+Got 1 Report for testuser3@domain.com on 2025-07-06...
+Got 1 Report for testuser3@domain.com on 2025-07-07...
+email,gmail:num_emails_received,gmail:num_emails_sent
+testuser1@domain.com,117,11
+testuser2@domain.com,47,2
+testuser3@domain.com,159,2
+</code></pre>
+<h2 id="monthly-report">Monthly Report</h2>
+<h3 id="an-example-running-this-on-3rd-december-2025">An example, running this on 3rd December 2025.</h3>
+<p>If combined with a scheduled task or cron job, this will produce an ongoing report with a new tab/sheet for each month.  </p>
+<pre><code>$ gam report usage customer parameters meet:total_call_minutes,meet:total_meeting_minutes skipdaysofweek sat,sun previousmonths 1 todrive tdfileid &lt;File ID&gt; tdtitle &quot;Meet Usage&quot; tdtimeformat %Y-%m-%d tdaddsheet tdsheet &quot;&quot; tdsheettimeformat &quot;%B %Y&quot; tdsheetdaysoffset 6
+</code></pre>
+<p><strong>Breakdown</strong>
+* <strong>gam report usage customer parameters meet:total_call_minutes,meet:total_meeting_minutes</strong> - The GAM command
+* <strong>skipdaysofweek sat,sun</strong> - exclude Sat &amp; Sun, so only working days
+* <strong>previousmonths 1</strong> - run against the previous months date range (regardless of how many days in the month, leap year etc)
+* <strong>todrive tdfileid <File ID> tdtitle "Meet Usage"  tdtimeformat %Y-%m-%d</strong> - write the data to an existing Google Sheet and append with current date, so it will be called "Meet Usage - 2025-12-03"
+* <strong>tdaddsheet tdsheet ""</strong> - Add a new tab/sheet with no name
+* <strong>tdsheettimeformat "%B %Y" tdsheetdaysoffset 6</strong> - give the new tab/sheet a time stamp backdated by 6 days of 'Month Year', so for this example "November 2025", which will become the name of the new tab/sheet. The offset number must take you back in time into the previous month.</p>
+<p><strong>Notes</strong>  </p>
+<p>You need to have already created the Google Sheet, to get the File ID. And tdtitle is not optional, although you should be able to specify "" (a blank name) if you just want the Google Sheet to show the updated date.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
