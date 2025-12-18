@@ -1,0 +1,5 @@
+site_name: GAM Docs
+site_description: GAM project documentation
+docs_dir: wiki
+theme:
+  name: mkdocs
